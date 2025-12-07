@@ -1,0 +1,225 @@
+WSxM file copyright UAM
+Histogram curve file
+Image header size: 4164
+
+[Axis Texts]
+
+    X title orientation: 0
+    X title position: (0.400621, 0.896825, 0.565217, 1.02381)
+    Y title orientation: 90
+    Y title position: (-0.0124224, 0.297619, 0.0869565, 0.698413)
+
+[Curve Settings]
+
+    Average color: rgb(0, 0, 255)
+    Average line style: 3
+    Average pen style: 0
+    Average pen width: 1
+    Axis color: rgb(0, 0, 0)
+    Background color: rgb(255, 255, 255)
+    Bottom scale, Increment for user scale mode: 0
+    Bottom scale, Log step for user scale mode: 1
+    Bottom scale, Maximum for user scale mode: 0
+    Bottom scale, Minimum for user scale mode: 0
+    Bottom scale, Notation: 3
+    Bottom scale, Number of minor ticks: 4
+    Bottom scale, Scale mode: 2
+    Bottom scale, Scale type: Linear
+    Bottom scale, Show axis: Yes
+    Bottom scale, Show magnitude: Yes
+    Bottom scale, Show ticks: Yes
+    Bottom scale, Show values: Yes
+    Bottom scale, Show zero marker: Yes
+    Bottom scale, Size of characters: 4
+    Bottom scale, Size of margin: 15
+    Bottom scale, Text orientation: 0
+    Bottom scale, Ticks placement: 1
+    Bottom scale, Values presicion: -1
+    Document title: Histogram from 50 18000 4000 500 Image 4.nid (10.0µm x 10.0µm) :converted :local plane :Flatten discarding regions :Remove Lines
+    Frame color: rgb(0, 0, 0)
+    Grid color: rgb(0, 0, 0)
+    Left scale, Increment for user scale mode: 0
+    Left scale, Log step for user scale mode: 1
+    Left scale, Maximum for user scale mode: 0
+    Left scale, Minimum for user scale mode: 0
+    Left scale, Notation: 3
+    Left scale, Number of minor ticks: 4
+    Left scale, Scale mode: 2
+    Left scale, Scale type: Linear
+    Left scale, Show axis: Yes
+    Left scale, Show magnitude: Yes
+    Left scale, Show ticks: Yes
+    Left scale, Show values: Yes
+    Left scale, Show zero marker: Yes
+    Left scale, Size of characters: 4
+    Left scale, Size of margin: 20
+    Left scale, Text orientation: 0
+    Left scale, Ticks placement: 1
+    Left scale, Values presicion: -1
+    Line 0, Line color: rgb(0, 128, 0)
+    Line 0, Line style: 3
+    Line 0, Pen style: 0
+    Line 0, Pen width: 1
+    Line 0, Show line: Yes
+    Numbers color: rgb(0, 0, 0)
+    Right scale, Increment for user scale mode: 0
+    Right scale, Log step for user scale mode: 1
+    Right scale, Maximum for user scale mode: 0
+    Right scale, Minimum for user scale mode: 0
+    Right scale, Notation: 3
+    Right scale, Number of minor ticks: 4
+    Right scale, Scale mode: 2
+    Right scale, Scale type: Linear
+    Right scale, Show axis: No
+    Right scale, Show magnitude: Yes
+    Right scale, Show ticks: No
+    Right scale, Show values: No
+    Right scale, Show zero marker: Yes
+    Right scale, Size of characters: 4
+    Right scale, Size of margin: 10
+    Right scale, Text orientation: 0
+    Right scale, Ticks placement: 1
+    Right scale, Values presicion: -1
+    Scales color: rgb(0, 0, 0)
+    Top scale, Increment for user scale mode: 0
+    Top scale, Log step for user scale mode: 1
+    Top scale, Maximum for user scale mode: 0
+    Top scale, Minimum for user scale mode: 0
+    Top scale, Notation: 3
+    Top scale, Number of minor ticks: 4
+    Top scale, Scale mode: 2
+    Top scale, Scale type: Linear
+    Top scale, Show axis: No
+    Top scale, Show magnitude: Yes
+    Top scale, Show ticks: No
+    Top scale, Show values: No
+    Top scale, Show zero marker: Yes
+    Top scale, Size of characters: 4
+    Top scale, Size of margin: 15
+    Top scale, Text orientation: 0
+    Top scale, Ticks placement: 1
+    Top scale, Values presicion: -1
+
+[General Info]
+
+    Number of lines: 1
+    Number of points: 100
+    X axis text: m [nm]
+    X axis unit: nm
+    Y axis text: Number of #y
+    Y axis unit: events
+
+[Miscellaneous]
+
+    Average height: 14.8249
+    First Forward: Yes
+    Plane offset: 2.84274e-007
+    RMS Roughness: 8.1449
+    Saved with version: 5.0 Develop 11.2
+    Version: 3.0 (July 2004)
+
+[Number of Points]
+
+    Number of Points 0000: 100
+
+[Header end]
+0 1 
+0.38765 0 
+0.7753 1 
+1.16295 1 
+1.5506 0 
+1.93825 1 
+2.3259 3 
+2.71355 3 
+3.1012 3 
+3.48885 9 
+3.8765 19 
+4.26415 14 
+4.6518 29 
+5.03945 48 
+5.4271 68 
+5.81475 110 
+6.2024 151 
+6.59005 221 
+6.9777 279 
+7.36535 397 
+7.753 460 
+8.14065 577 
+8.5283 687 
+8.91595 791 
+9.3036 883 
+9.69125 902 
+10.0789 911 
+10.46655 901 
+10.8542 854 
+11.24185 747 
+11.6295 703 
+12.01715 582 
+12.4048 477 
+12.79245 370 
+13.1801 272 
+13.56775 235 
+13.9554 166 
+14.34305 120 
+14.7307 98 
+15.11835 58 
+15.506 48 
+15.89365 26 
+16.2813 26 
+16.66895 19 
+17.0566 16 
+17.44425 25 
+17.8319 14 
+18.21955 12 
+18.6072 19 
+18.99485 17 
+19.3825 16 
+19.77015 9 
+20.1578 23 
+20.54545 14 
+20.9331 14 
+21.32075 15 
+21.7084 21 
+22.09605 16 
+22.4837 13 
+22.87135 25 
+23.259 26 
+23.64665 24 
+24.0343 26 
+24.42195 24 
+24.8096 34 
+25.19725 57 
+25.5849 79 
+25.97255 95 
+26.3602 147 
+26.74785 185 
+27.1355 207 
+27.52315 227 
+27.9108 288 
+28.29845 298 
+28.6861 302 
+29.07375 358 
+29.4614 291 
+29.84905 280 
+30.2367 249 
+30.62435 162 
+31.012 150 
+31.39965 106 
+31.7873 83 
+32.17495 51 
+32.5626 38 
+32.95025 21 
+33.3379 14 
+33.72555 3 
+34.1132 8 
+34.50085 2 
+34.8885 3 
+35.27615 2 
+35.6638 2 
+36.05145 1 
+36.4391 0 
+36.82675 0 
+37.2144 0 
+37.60205 0 
+37.9897 0 
+38.3773500000001 1 
