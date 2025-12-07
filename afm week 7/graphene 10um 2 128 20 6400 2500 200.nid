@@ -1,0 +1,873 @@
+[DataSet]
+Version=2
+GroupCount=2
+Gr0-Name=Scan forward
+Gr0-ID=0
+Gr0-Count=8
+Gr1-Name=Scan backward
+Gr1-ID=0
+Gr1-Count=8
+Gr0-Ch0=DataSet-0:0
+Gr0-Ch1=DataSet-0:1
+Gr1-Ch0=DataSet-1:0
+Gr1-Ch1=DataSet-1:1
+SetInfos=DataSet-Info
+InfoSetCount=3
+InfoSet0=DataSetInfos
+InfoSet1=Calibration
+InfoSet2=Parameters
+
+[DataSet-Info]
+-- Scan --=--------
+Image size=10¬µm
+Scan direction=Up
+Time/Line=2 s
+Points=128 
+Lines=128 
+X-Slope=0 ¬∞
+Y-Slope=0 ¬∞
+Rotation=0 ¬∞
+X-Pos=620nm
+Y-Pos=4.02¬µm
+Z-Plane=0 m
+Line mode=Standard
+Date=13-11-2025
+Time=14:17:17
+-- Feedback --=--------
+Setpoint=20nN
+P-Gain=6400 
+I-Gain=2500 
+D-Gain=200 
+P-Gain2=0 
+I-Gain2=0 
+D-Gain2=0 
+Tip voltage=0 V
+Feedback mode=Free
+Feedback algo.=Adaptive PID
+Error range=20 V
+Ampl. Ctrl. mode=Const. Drive
+-- Global --=--------
+Measurement environment=Air
+Op. mode=Static Force
+Cantilever type=ContAl-G
+Head type=AFM
+Scan head=60-16-171.hed
+Laser working point=0.0%
+Deflection offset=0.0%
+Software ver.=3.10.0.39
+Firmware ver.=3.8.1.0
+Controller S/N=060-16-171
+-- Module --=--------
+Controller Board=2
+AFM Basic Module=3
+AFM Dynamic Module=2
+AFM Extension Module=1
+USB Module=4
+
+[DataSet\DataSetInfos]
+SubSectionCount=4
+SubSection0=Scan
+SubSection1=Feedback
+SubSection2=Global
+SubSection3=Module
+
+[DataSet\DataSetInfos\Scan]
+SubSectionCount=0
+Image size=10¬µm
+Scan direction=Up
+Time/Line=2 s
+Points=128 
+Lines=128 
+X-Slope=0 ¬∞
+Y-Slope=0 ¬∞
+Rotation=0 ¬∞
+X-Pos=620nm
+Y-Pos=4.02¬µm
+Z-Plane=0 m
+Line mode=Standard
+Date=13-11-2025
+Time=14:17:17
+
+[DataSet\DataSetInfos\Feedback]
+SubSectionCount=0
+Setpoint=20nN
+P-Gain=6400 
+I-Gain=2500 
+D-Gain=200 
+P-Gain2=0 
+I-Gain2=0 
+D-Gain2=0 
+Tip voltage=0 V
+Feedback mode=Free
+Feedback algo.=Adaptive PID
+Error range=20 V
+Ampl. Ctrl. mode=Const. Drive
+
+[DataSet\DataSetInfos\Global]
+SubSectionCount=0
+Measurement environment=Air
+Op. mode=Static Force
+Cantilever type=ContAl-G
+Head type=AFM
+Scan head=60-16-171.hed
+Laser working point=0.0%
+Deflection offset=0.0%
+Software ver.=3.10.0.39
+Firmware ver.=3.8.1.0
+Controller S/N=060-16-171
+
+[DataSet\DataSetInfos\Module]
+SubSectionCount=0
+Controller Board=2
+AFM Basic Module=3
+AFM Dynamic Module=2
+AFM Extension Module=1
+USB Module=4
+
+[DataSet\Calibration]
+SubSectionCount=2
+SubSection0=Scanhead
+SubSection1=Cantilever
+
+[DataSet\Calibration\Scanhead]
+SubSectionCount=0
+Version=6
+HeadTyp=AFM
+SerialNo=uncal_70u
+RevisionNo=2
+ScanFit=Pomfit
+CtrlInPol=Positiv
+Main1InPol=Positiv
+Main2InPol=Positiv
+SignalUserADC0Pol=Positiv
+SignalUserADC1Pol=Positiv
+SignalUserADC2Pol=Positiv
+AnalogOut2Pol=Negativ
+AnalogOut3Pol=Negativ
+XAxisPol=Positiv
+YAxisPol=Positiv
+ZAxisPol=Negativ
+ZAxisAnalogOut2Pol=Negativ
+ZAxisAnalogOut3Pol=Negativ
+Ch0Corr=None
+SetPointCheck=None
+InCount=24
+In0=0,Channel0,Deflection,V,10,0
+In1=1,Channel1,Z-Axis,m,7.1e-06,0
+In2=2,Channel2,Amplitude,V,5,0
+In3=3,Channel3,Not defined 1,V,10,0
+In4=4,Channel4,Tip current,A,0.0001,0
+In5=5,TipSignalDC,Deflection,m,5.76e-06,0
+In6=6,TipSignalAC,Amplitude,V,10,0
+In7=7,TipPhase,Phase,¬∞,90,0
+In8=8,Lever Current,Tip current,A,0.0001,0
+In9=9,User Input0,User Signal,V,10,0
+In10=10,User Input1,User input 2,A,1e-07,0
+In11=11,HeadSig2,Not defined 1,V,10,0
+In12=12,Channel5,User Signal,V,10,0
+In13=13,Channel6,User input 2,A,1e-07,0
+In14=15,Dissipation,Dissipation,V,5,0
+In15=16,TipSignalDC1,Deflection,V,10,0
+In16=17,TipSignalDC2,Deflection,N,1,0
+In17=18,SensorSignal1,SensorSignal,W,0.005,0
+In18=19,SensorSignal2,SensorSignal,A,0.0005,0
+In19=20,Channel7,Z-Axis,m,7.1e-06,0
+In20=21,XAxisSensor,X-Axis Sensor,m,0.0001,0
+In21=22,YAxisSensor,Y-Axis Sensor,m,0.0001,0
+In22=23,ZAxisSensor,Z-Axis Sensor,m,1e-05,0
+In23=24,User Input2,User In A,V,10,0
+OutCount=9
+Out0=0,ScanAxis0,X-Axis,m,3.61e-05,0
+Out1=1,ScanAxis1,Y-Axis,m,3.6925e-05,0
+Out2=2,ScanAxis2,Z-Axis,m,7.1e-06,0
+Out3=4,AnalogOut0,Tip voltage,V,10,0
+Out4=5,AnalogOut1,Not defined,V,10,0
+Out5=6,AnalogOut2,User Output,V,10,0
+Out6=7,AnalogOut3,User Output 2,V,10,0
+Out7=8,DriveAmp,Drive Amplitude,V,5.3,0
+Out8=9,MixedOut4,User Output C,V,10,0
+ScanCorrCount=2
+ScanCorrA=-6.868e-07
+ScanCorrB=0
+ScanCorrC=0
+ScanCorrD=0
+ScanCorrE=-7.697e-06
+ScanCorrF=9.722e-07
+ScanCorrG=-7.082e-09
+ScanCorrH=-2.109e-08
+ScanCorrI=8.974e-09
+ScanCorrJ=7.435e-09
+ScanCorrK=4.005e-11
+ScanCorrL=1.523e-11
+ScanCorrM=1.321e-11
+ScanCorrN=-1.696e-11
+ScanCorrO=1.09e-11
+ScanCorrTableRot=0
+ScanCorrA1=-2.429e-06
+ScanCorrB1=0
+ScanCorrC1=0
+ScanCorrD1=0
+ScanCorrE1=-1.031e-05
+ScanCorrF1=7.746e-07
+ScanCorrG1=-6.563e-09
+ScanCorrH1=-6.258e-09
+ScanCorrI1=5.24e-09
+ScanCorrJ1=-2.666e-09
+ScanCorrK1=4.078e-11
+ScanCorrL1=3.559e-11
+ScanCorrM1=1.147e-10
+ScanCorrN1=3.558e-11
+ScanCorrO1=1.16e-10
+ScanCorrTableRot1=0.785398
+ScanCorrRotX=0.837758
+ScanCorrRotY=0.750492
+ScanScaleZ=3276
+ScanScaleXY=256
+ZRangeFit=None
+ZRangeCorrCount=1
+ZRangeCorrA=1
+ZRangeCorrB=0
+ZRangeCorrC=0
+ZRangeCorrD=0
+ApproachStartPos=0
+MaxApproachSpeed=1
+ManualMoveSpeed=1
+DefaultDynRefAmp=0.159856
+DefaultDynRefAmpLiquid=0.2
+DefaultDynRefAmpVacuum=0.005
+DefaultForceModRefAmp=1
+DetectorABGainAC=0.5
+CompDcSourceWithX=0
+CompDcWithX=0
+CompDcSourceWithY=0
+CompDcWithY=0
+CompDcSourceWithZ=0
+CompDcWithZ=0
+VideoSupport=1
+HasLaserOnOffCtrl=0
+XYCLPIDGainsX=1.000000;1.000000;1.000000
+XYCLPIDGainsY=1.000000;1.000000;1.000000
+XZeroVoltage=0
+YZeroVoltage=0
+ZZeroVoltage=0
+ScanAxis0FilterCoeff0=1.000000;0.000000;0.000000;0.000000;0.000000;1.000000
+ScanAxis0FilterCoeff1=1.000000;0.000000;0.000000;0.000000;0.000000;1.000000
+ScanAxis0FilterCoeff2=1.000000;0.000000;0.000000;0.000000;0.000000;1.000000
+ScanAxis0FilterCoeff3=1.000000;0.000000;0.000000;0.000000;0.000000;1.000000
+ScanAxis1FilterCoeff0=1.000000;0.000000;0.000000;0.000000;0.000000;1.000000
+ScanAxis1FilterCoeff1=1.000000;0.000000;0.000000;0.000000;0.000000;1.000000
+ScanAxis1FilterCoeff2=1.000000;0.000000;0.000000;0.000000;0.000000;1.000000
+ScanAxis1FilterCoeff3=1.000000;0.000000;0.000000;0.000000;0.000000;1.000000
+ScanAxis2FilterCoeff0=1.000000;0.000000;0.000000;0.000000;0.000000;1.000000
+ScanAxis2FilterCoeff1=1.000000;0.000000;0.000000;0.000000;0.000000;1.000000
+ScanAxis2FilterCoeff2=1.000000;0.000000;0.000000;0.000000;0.000000;1.000000
+ScanAxis2FilterCoeff3=1.000000;0.000000;0.000000;0.000000;0.000000;1.000000
+HasXPositionSensor=0
+XPositionSensorPol=Negativ
+HasYPositionSensor=0
+YPositionSensorPol=Negativ
+HasZPositionSensor=0
+ZPositionSensorPol=Negativ
+ApproachStatusMode=1
+ApproachStatusPol=Positiv
+ApproachStatusMeterRange=-1;-0.9;0.9;1
+SensorStatusMode=1
+SensorStatusPol=Negativ
+SensorStatusMeterRange=0.0866142;0.102362;0.102362;0.811024;0.811024;0.913386
+LaserWavelength=6.5e-07
+
+[DataSet\Calibration\Cantilever]
+SubSectionCount=0
+Version=2
+GUID={ED5A15E6-D3B0-4e64-8C50-809335D3E143}
+Name=ContAl-G
+Manufacturer=BudgetSensors
+PropCount=14
+Prop0=D[0.2]*[N/m]
+Prop1=D[13000]*[Hz]
+Prop2=D[0.00045]*[m]
+Prop3=D[5e-05]*[m]
+Prop4=D[50]*[]
+Prop5=D[4000]*[Hz]
+Prop6=D[5]*[]
+Prop7=D[0]*[]
+Prop8=D[10]*[¬∞]
+Prop9=D[1e-08]*[m]
+Prop10=D[50]*[]
+Prop11=D[13000]*[Hz]
+Prop12=D[0.3]*[]
+Prop13=D[1]*[]
+
+[DataSet\Parameters]
+SubSectionCount=8
+SubSection0=Approach
+SubSection1=ZFeedback
+SubSection2=Lithography
+SubSection3=Imaging
+SubSection4=SignalIO
+SubSection5=Spectroscopy
+SubSection6=SPMSystem
+SubSection7=Stage
+
+[DataSet\Parameters\Approach]
+SubSectionCount=0
+ApproachSteps=L[65000]*[]
+WithdrawSteps=L[1000]*[]
+AutoPeriode=D[0.02]*[s]
+MovePeriode=D[0.02]*[s]
+StepSlope=L[6]*[]
+AutoStartScan=B[0]*[]
+ApproachSpeed=D[0.0801099]*[%]
+AFMApproachMode=L[0]*[]
+AFMMotorSource=L[0]*[]
+AFMStepByStepSpeed=D[1]*[]
+AFMStepByStepSlope=D[5e-06]*[m/s]
+AFMStepByStepFineStepSizePercentage=D[5]*[%]
+AFMStepByStepCoarseStepSizePercentage=D[90]*[%]
+AFMStepByStepMode=D[0]*[]
+
+[DataSet\Parameters\ZFeedback]
+SubSectionCount=0
+PGain=L[6400]*[]
+IGain=L[2500]*[]
+DGain=L[200]*[]
+PGain2=L[0]*[]
+IGain2=L[0]*[]
+DGain2=L[0]*[]
+SetPoint=D[2.00045e-08]*[N]
+SetPointForce=D[2.00045e-08]*[N]
+SetPointDC=D[1e-09]*[m]
+SetPointAmp=D[56]*[%]
+SetPointPhase=D[1]*[¬∞]
+SetPointForceUnitMode=L[2]*[]
+SetPointForce_V=D[0.17365]*[]
+SetPointForce_m=D[1.00023e-07]*[]
+SetPointForce_N=D[2.00045e-08]*[]
+SetPointDeltaF_Hz=D[0]*[Hz]
+SetPointUserDefined=D[0]*[V]
+ChGainRegError=L[0]*[]
+FeedbackMode=L[0]*[]
+Algorithm=L[1]*[]
+RefFrq=D[14110.4]*[Hz]
+RefAmplitude=D[0.423942]*[V]
+RefPhase=D[206.769]*[¬∞]
+CoarseSweepStartFrq=D[9100]*[Hz]
+CoarseSweepEndFrq=D[16900]*[Hz]
+CoarseSweepStepFrq=D[22.7405]*[Hz]
+FineSweepStartFrq=D[13402.9]*[Hz]
+FineSweepEndFrq=D[14813.8]*[Hz]
+FineSweepStepFrq=D[4.11322]*[Hz]
+ManualSweepStartFrq=D[13333]*[Hz]
+ManualSweepEndFrq=D[14736.4]*[Hz]
+ManualSweepStepFrq=D[4.09175]*[Hz]
+AutoCalFrqPeak=B[1]*[]
+AutoCalPhase=B[1]*[]
+DynamicAmp=D[0.0209052]*[V]
+CalRefPlotGraph=B[0]*[]
+ForceModFrq=D[20000]*[Hz]
+ForceModAmp=D[4.00003]*[V]
+AutoFrqSweepRange=B[1]*[]
+AmpCtrlMode=L[0]*[]
+FrqPeakReduceAir=D[20]*[%]
+FrqPeakUpperSideAir=B[1]*[]
+FrqPeakReduceLiquid=D[5]*[%]
+FrqPeakUpperSideLiquid=B[0]*[]
+FrqPeakReduceVacuum=D[20]*[%]
+FrqPeakUpperSideVacuum=B[1]*[]
+RegMoveMode=L[0]*[]
+DynamicMeasureBW=L[9]*[]
+RegOutputSel=L[0]*[]
+FrequencyLockRange=L[1]*[]
+PhaseCtrlPGain=D[0.3]*[]
+PhaseCtrlIGain=D[2.5]*[]
+AmplCtrlPGain=D[2.5]*[]
+AmplCtrlIGain=D[20]*[]
+UserOpModeInputSel=L[3]*[]
+UserOpModeInputPol=L[0]*[]
+UserOpModePIDGainCorr=D[1]*[]
+UserOpModeDCOffsetMode=L[0]*[]
+UserOpModeDCOffsetAutoGain=D[10000]*[]
+CantileverExcitationMode=L[0]*[]
+
+[DataSet\Parameters\Lithography]
+SubSectionCount=0
+ModuleLevel=L[0]*[]
+OpMode=L[2]*[]
+InactivePenMode=L[0]*[]
+AutoChartSettings=B[1]*[]
+AutoCapture=B[1]*[]
+XYMoveSpeed=D[1e-05]*[m/s]
+ZMoveSpeed=D[1e-06]*[m/s]
+LiftTipAbsZPos=D[0]*[m]
+
+[DataSet\Parameters\Imaging]
+SubSectionCount=0
+ModuleLevel=L[1]*[]
+ScanRange=V[1e-05,1e-05,0]*[m,m,m]
+ScanOffset=V[6.20466e-07,4.02496e-06,0]*[m,m,m]
+ScanRotation=V[0,0,0]*[¬∞,¬∞,¬∞]
+ScanTime=V[2.00469,2.00469,0]*[s,s,s]
+Datapoints=V[128,128,0]*[,,]
+ScanMode=L[0]*[]
+OverScanSize=D[0]*[%]
+FirstScanlineRep=L[1]*[]
+SyncOutMode=L[0]*[]
+LineScanning=L[0]*[]
+RelTipPos=D[3.27949e-07]*[m]
+ContourEnabled=B[0]*[]
+AutoReadjustProbeEnabled=B[0]*[]
+ReadjustLiftHeight=D[0]*[m]
+SndScanDynamicAmplitude=D[0]*[V]
+SndScanDynamicAmplitudeEnabled=B[0]*[]
+SndScanForceModulationAmplitude=D[0]*[V]
+SndScanForceModulationAmplitudeEnabled=B[0]*[]
+SndScanEnableDarkMode=B[0]*[]
+SndScanEnableKPFM=B[0]*[]
+SndScanSndLockInExcitationAmplitude=D[0]*[]
+SndScanSndLockInExcitationAmplitudeEnabled=B[0]*[]
+XYMoveSpeed=D[5e-05]*[m/s]
+AutoSlopeCorrection=B[0]*[]
+AutoDeleteBuffer=B[1]*[]
+AutoChartSettings=B[1]*[]
+AutoCapture=B[1]*[]
+SpikeGuardEnable=B[0]*[]
+PrescanSpeedup=L[0]*[]
+
+[DataSet\Parameters\SignalIO]
+SubSectionCount=0
+UserDAC0=D[0]*[V]
+UserDAC1=D[0]*[V]
+EnableUserADC0=B[0]*[]
+EnableUserADC1=B[0]*[]
+EnableUserADC2=B[0]*[]
+TipSignalMode=L[0]*[]
+ExcitationMode=L[0]*[]
+MonitorOut0=L[0]*[]
+MonitorOut1=L[0]*[]
+EnableUserADC1ZSensor=B[0]*[]
+User0CtrlMode=L[0]*[]
+User0InputPol=L[0]*[]
+User0OutputFlag=L[0]*[]
+User0SetPoint=D[0]*[V]
+User0IGain=L[1000]*[]
+
+[DataSet\Parameters\Spectroscopy]
+SubSectionCount=0
+ModuleLevel=L[0]*[]
+OutputType=L[0]*[]
+Repetition=L[1]*[]
+RepetitionMode=L[0]*[]
+FwModTime=D[1]*[s]
+BwModTime=D[1]*[s]
+ModRelValue=B[1]*[]
+FwModDatapoints=L[1024]*[]
+BwModDatapoints=L[1024]*[]
+SyncOutMode=L[0]*[]
+FeedbackActive=B[0]*[]
+AutoChartSettings=B[1]*[]
+AutoCapture=B[1]*[]
+SpecEndMode=L[1]*[]
+FwModRange=D[6.455e-07]*[m]
+BwModRange=D[-6.455e-07]*[m]
+XYMoveSpeed=D[2e-05]*[m/s]
+StartOffset=D[-5.72715e-07]*[m]
+StartOffsetMoveSpeed=D[1e-05]*[m/s]
+FwModMode=L[0]*[]
+BwModMode=L[0]*[]
+FwModStopValue=D[0]*[V]
+BwModStopValue=D[0]*[V]
+FwModStopMode=L[1]*[]
+BwModStopMode=L[1]*[]
+FwPauseTime=D[0]*[s]
+BwPauseTime=D[0]*[s]
+FwPauseDatapoints=L[0]*[]
+BwPauseDatapoints=L[0]*[]
+FwPauseMode=L[0]*[]
+BwPauseMode=L[0]*[]
+AutoRecalibrateProbeInterval=L[0]*[]
+PressurePulseValue=D[0]*[bar]
+PressurePulseDuration=D[0]*[s]
+PressurePulseRelative=B[0]*[]
+PressurePulseActive=B[0]*[]
+PressureActionId=L[0]*[]
+ModulationStopValueBandwidth=L[0]*[]
+
+[DataSet\Parameters\SPMSystem]
+SubSectionCount=0
+AOut0=D[0]*[V]
+AOut1=D[0]*[V]
+SPMMode=L[2]*[]
+VideoFPSControlValueMin=D[1.5]*[]
+VideoFPSControlWindowSize=L[5]*[]
+VideoTopLight=D[100]*[%]
+VideoSideLight=D[100]*[%]
+VideoTopBrightness=D[80]*[]
+VideoSideBrightness=D[80]*[]
+VideoTopContrast=D[70]*[]
+VideoSideContrast=D[70]*[]
+FlexVideoTopExpTime=L[60]*[]
+FlexVideoSideExpTime=L[60]*[]
+FlexVideoTopGain=L[12]*[]
+FlexVideoSideGain=L[8]*[]
+FlexVideoTopADCLevel=L[2]*[]
+FlexVideoSideADCLevel=L[2]*[]
+FlexVideoTopRatioR=D[1]*[]
+FlexVideoSideRatioR=D[1]*[]
+FlexVideoTopRatioG=D[1]*[]
+FlexVideoSideRatioG=D[1]*[]
+FlexVideoTopRatioB=D[1]*[]
+FlexVideoSideRatioB=D[1]*[]
+FlexVideoTopRatioGamma=D[1]*[]
+FlexVideoSideRatioGamma=D[1]*[]
+FlexVideoTopAutoLevels=B[1]*[]
+FlexVideoSideAutoLevels=B[1]*[]
+FlexVideoTopPositionMarkerX=D[0]*[]
+FlexVideoSidePositionMarkerX=D[0]*[]
+FlexVideoTopPositionMarkerY=D[0]*[]
+FlexVideoSidePositionMarkerY=D[0]*[]
+HighResVideoTopExpTime=L[60]*[]
+HighResVideoSideExpTime=L[60]*[]
+HighResVideoTopGain=L[30]*[]
+HighResVideoSideGain=L[8]*[]
+HighResVideoSideADCLevel=L[2]*[]
+HighResVideoTopRatioR=D[1]*[]
+HighResVideoSideRatioR=D[1]*[]
+HighResVideoTopRatioG=D[0.8]*[]
+HighResVideoSideRatioG=D[1]*[]
+HighResVideoTopRatioB=D[0.8]*[]
+HighResVideoSideRatioB=D[1]*[]
+HighResVideoTopRatioGamma=D[0.9]*[]
+HighResVideoSideRatioGamma=D[1]*[]
+HighResVideoTopAutoLevels=B[1]*[]
+HighResVideoSideAutoLevels=B[1]*[]
+HighResVideoTopADCLevel=L[2]*[]
+HighResVideoTopPositionMarkerX=D[0]*[]
+HighResVideoSidePositionMarkerX=D[0]*[]
+HighResVideoTopPositionMarkerY=D[0]*[]
+HighResVideoSidePositionMarkerY=D[0]*[]
+ImSoVideoTVConfiguration=S[<device_state libver="3.4" filemajor="1" fileminor="0">    <device>        <vcdpropertyitems>            <item guid="{284C0E06-010B-45BF-8291-09D90A459B28}" name="Brightness">                <element guid="{B57D3000-0AC6-4819-A609-272A33140ACA}" name="Value">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E03}" value="0" />                </element>            </item>            <item guid="{284C0E07-010B-45BF-8291-09D90A459B28}" name="Contrast">                <element guid="{B57D3000-0AC6-4819-A609-272A33140ACA}" name="Value">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E03}" value="0" />                </element>            </item>            <item guid="{284C0E08-010B-45BF-8291-09D90A459B28}" name="Hue">                <element guid="{B57D3000-0AC6-4819-A609-272A33140ACA}" name="Value">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E03}" value="0" />                </element>            </item>            <item guid="{284C0E09-010B-45BF-8291-09D90A459B28}" name="Saturation">                <element guid="{B57D3000-0AC6-4819-A609-272A33140ACA}" name="Value">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E03}" value="43" />                </element>            </item>            <item guid="{284C0E0A-010B-45BF-8291-09D90A459B28}" name="Sharpness">                <element guid="{B57D3000-0AC6-4819-A609-272A33140ACA}" name="Value">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E03}" value="2" />                </element>            </item>            <item guid="{284C0E0B-010B-45BF-8291-09D90A459B28}" name="Gamma">                <element guid="{B57D3000-0AC6-4819-A609-272A33140ACA}" name="Value">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E03}" value="100" />                </element>            </item>            <item guid="{284C0E0D-010B-45BF-8291-09D90A459B28}" name="WhiteBalance">                <element guid="{B57D3001-0AC6-4819-A609-272A33140ACA}" name="Auto">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E04}" value="1" />                </element>                <element guid="{AB98F78D-18A6-4EB2-A556-C11010EC9DF7}" name="WhiteBalance Mode">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E06}" value="0" />                </element>            </item>            <item guid="{284C0E0F-010B-45BF-8291-09D90A459B28}" name="Gain">                <element guid="{B57D3001-0AC6-4819-A609-272A33140ACA}" name="Auto">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E04}" value="0" />                </element>                <element guid="{B57D3000-0AC6-4819-A609-272A33140ACA}" name="Value">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E03}" value="12" />                </element>            </item>            <item guid="{90D5702E-E43B-4366-AAEB-7A7A10B448B4}" name="Exposure">                <element guid="{B57D3001-0AC6-4819-A609-272A33140ACA}" name="Auto">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E04}" value="0" />                </element>                <element guid="{B57D3000-0AC6-4819-A609-272A33140ACA}" name="Value">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E08}" value="3.11999999999999985678122982335e-02" />                </element>                <element guid="{65190390-1AD8-4E91-9021-66D64090CC85}" name="Auto">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E04}" value="1" />                </element>                <element guid="{6519038C-1AD8-4E91-9021-66D64090CC85}" name="Auto Reference">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E03}" value="128" />                </element>            </item>            <item guid="{90D57031-E43B-4366-AAEB-7A7A10B448B4}" name="Trigger">                <element guid="{B57D3000-0AC6-4819-A609-272A33140ACA}" name="Enable">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E04}" value="0" />                </element>            </item>            <item guid="{C3C9944A-E6F6-4E25-A0BE-53C066AB65D8}" name="Denoise">                <element guid="{B57D3000-0AC6-4819-A609-272A33140ACA}" name="Value">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E03}" value="0" />                </element>            </item>            <item guid="{86D89D69-9880-4618-9BF6-DED5E8383449}" name="GPIO">                <element guid="{7D006621-761D-4B88-9C5F-8B906857A501}" name="GP Out">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E03}" value="0" />                </element>            </item>            <item guid="{3A3A8F77-6440-46CC-940A-8752B02E6C29}" name="Color Enhancement">                <element guid="{B57D3000-0AC6-4819-A609-272A33140ACA}" name="Enable">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E04}" value="1" />                </element>            </item>            <item guid="{546541AD-C815-4D82-AFA9-9D59AF9F399E}" name="Highlight reduction">                <element guid="{B57D3000-0AC6-4819-A609-272A33140ACA}" name="Enable">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E04}" value="1" />                </element>            </item>            <item guid="{2CED6FD6-AB4D-4C74-904C-D682E53B9CC5}" name="Partial scan">                <element guid="{36EAA683-3321-44BE-9D73-E1FD4C3FDB87}" name="Auto-center">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E04}" value="1" />                </element>            </item>            <item guid="{DC320EDE-DF2E-4A90-B926-71417C71C57C}" name="Strobe">                <element guid="{B57D3000-0AC6-4819-A609-272A33140ACA}" name="Enable">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E04}" value="0" />                </element>            </item>        </vcdpropertyitems>    </device></device_state>]*[]
+ImSoVideoSVConfiguration=S[]*[]
+ActiveSensorByGUID=S[{ED5A15E6-D3B0-4e64-8C50-809335D3E143}]*[]
+MeasEnv=L[0]*[]
+SystemStateIdleZAxisMode=L[0]*[]
+SystemStateIdleMixOut4Mode=L[3]*[]
+SystemStateIdleXYAxisMode=L[0]*[]
+SystemStateIdleZAxisValue=D[0]*[m]
+SndOpModeEnabled=B[0]*[]
+SndOpMode=L[0]*[]
+ZClosedLoopMode=L[0]*[]
+ZClosedLoopSpeed=D[1000]*[]
+XYClosedLoopEnabled=B[0]*[]
+XYClosedLoopSpeed=D[1000]*[]
+
+[DataSet\Parameters\Stage]
+SubSectionCount=0
+
+[DataSet-0:0]
+Version=2
+Points=128
+Lines=128
+Frame=Scan forward
+CurLine=127
+Dim0Name=X*
+Dim0Unit=m
+Dim0Range=1e-05
+Dim0Min=0
+Dim1Name=Y*
+Dim1Unit=m
+Dim1Range=1e-05
+Dim1Min=0
+Dim2Name=Deflection
+Dim2Unit=V
+Dim2Range=20
+Dim2Min=-10
+SaveMode=Binary
+SaveBits=16
+SaveSign=Signed
+SaveOrder=Intel
+
+[DataSet-0:1]
+Version=2
+Points=128
+Lines=128
+Frame=Scan forward
+CurLine=127
+Dim0Name=X*
+Dim0Unit=m
+Dim0Range=1e-05
+Dim0Min=0
+Dim1Name=Y*
+Dim1Unit=m
+Dim1Range=1e-05
+Dim1Min=0
+Dim2Name=Z-Axis
+Dim2Unit=m
+Dim2Range=1.42e-05
+Dim2Min=-7.1e-06
+SaveMode=Binary
+SaveBits=16
+SaveSign=Signed
+SaveOrder=Intel
+
+[DataSet-1:0]
+Version=2
+Points=128
+Lines=128
+Frame=Scan backward
+CurLine=127
+Dim0Unit=m
+Dim0Range=1e-05
+Dim0Min=0
+Dim1Unit=m
+Dim1Range=1e-05
+Dim1Min=0
+Dim2Name=Deflection
+Dim2Unit=V
+Dim2Range=20
+Dim2Min=-10
+SaveMode=Binary
+SaveBits=16
+SaveSign=Signed
+SaveOrder=Intel
+
+[DataSet-1:1]
+Version=2
+Points=128
+Lines=128
+Frame=Scan backward
+CurLine=127
+Dim0Unit=m
+Dim0Range=1e-05
+Dim0Min=0
+Dim1Unit=m
+Dim1Range=1e-05
+Dim1Min=0
+Dim2Name=Z-Axis
+Dim2Unit=m
+Dim2Range=1.42e-05
+Dim2Min=-7.1e-06
+SaveMode=Binary
+SaveBits=16
+SaveSign=Signed
+SaveOrder=Intel
+
+[SetView]
+ViewWidth=638
+ViewHeight=526
+ViewCount=4
+View0=SetView-View0
+View1=SetView-View1
+View2=SetView-View2
+View3=SetView-View3
+
+[SetView-View0]
+ViewTyp=1
+LineOp=4
+Channel=1
+Frame=0
+ViewSize=256
+ViewMode=0
+GraphMode=1
+AspectRatio=0
+AutoZRange=1
+ZRange=-33,46
+ParCount=6
+Par0=1,Shading,0
+Par1=1,DeltaGain,5
+Par2=1,Smooth,0
+Par3=1,DriverInstanceNo,0
+Par4=1,RangeMin,0
+Par5=1,RangeMax,95
+
+[SetView-View1]
+ViewTyp=0
+LineOp=4
+Channel=1
+Frame=0
+ViewSize=256
+ViewMode=0
+GraphMode=1
+AspectRatio=0
+AutoZRange=1
+ZRange=-39,46
+ParCount=3
+Par0=0,ReverseLine,1
+Par1=0,XAxisMin,0
+Par2=0,XAxisMax,1e-05
+
+[SetView-View2]
+ViewTyp=1
+LineOp=2
+Channel=0
+Frame=0
+ViewSize=256
+ViewMode=0
+GraphMode=1
+AspectRatio=0
+AutoZRange=1
+ZRange=-8,8
+ParCount=6
+Par0=1,Shading,0
+Par1=1,DeltaGain,5
+Par2=1,Smooth,0
+Par3=1,DriverInstanceNo,0
+Par4=1,RangeMin,0
+Par5=1,RangeMax,95
+
+[SetView-View3]
+ViewTyp=0
+LineOp=1
+Channel=0
+Frame=0
+ViewSize=256
+ViewMode=0
+GraphMode=1
+AspectRatio=0
+AutoZRange=1
+ZRange=-13,16
+ParCount=3
+Par0=0,ReverseLine,1
+Par1=0,XAxisMin,0
+Par2=0,XAxisMax,1e-05
+
+[ProcessorSet]
+ProcessorCount=0
+
+
+#!>:88;888<8:9886;98<68<;6999=8:957;96<:89:679:88:9;5868:967;9;6999:9999968:96;;4::899;88?89:97989::7797::75;:9987:;77;88::6;;6;:74:<;8;6::889996::9:799767=7::888:9::3:<969;6:;87=95<995::796899::69:;8::87::9997888;49:988=888:9:896879988999688:8::8999996898:95;;7:99;::6<:8;:4:;8::::;579<8=;9:;99<98<:7:;:9984=;<;<78=9:6::9888::<8:9;87<;9979:::6;999968;79:6::899:69;98:6988:889::;<;:8:;84>><768E08;999::;789;897;;68:9799768:7;96=38:79:979;:29::899;;4:879=85:796::4::6<=85;:69;69:66<:7:89;8:8878897898989;78:;8:;::;D2;?98899;7>77:;997;78;959::::97789=9785;88678:99::999=987899689<:87978898;97:;97:898:98:8898<998<9:77:868<:6:858:7:8948;46>:78:92<?9<9988<6:998788:;7::87:998::97::6::87;:78:99<:99976:68::5;979:996<869<898<89;>488;96:;8:9<96<<78984:989;999:98:9:8:<97:;8:;7>5?;5::8:8998:5:<777:69<95::977:=89<799:6;::88:7::88:7:66D46899:9:87;;99:;6:7:8:<:7:7;:56<986::8::7889:88:::86:;8;8699:6:;998<78<7<;<694;:8:68=67=>64:>69888887:;98:8989<59:88::6:785:>88:9;8::8699:88:97989<9:::68987;99;88::88;78<;659>68<:87:6977=;86=:55=<35D1:?:7;988:::998;7699:>757=97;;55<:39>53><36=B29<96::799:6;>66;:57;948<77;:6;<:79;68:9;;8877:;7:<996<7::999:8:;86;878:::78<;96><?5C;4;7::898:;9699:776:::76;869=97:89978:;59:82:<88B797:899:79<899789:96<:7;;:79?:25>957<76:;56:889::9996;=59<86<95;<87;<4:<37<957A:7866;;97<<74<89879::98:;9677:8:8;888<:99:889:<:89::6:887;67<89:;6696=:98:7999:7798:89:97::987:9:9;:9:89898899:789:;978879>79?2=>9699:49=37@758=76:9:9:;;96:<758<875:;887:9:5=875:;;8:<57=9869:978:;8799988989899:7899:9888877::94::76=98;::8:877<88:899894<<B6?A739<699998:78=3:987;;65<<27;879;7:886<9899;798<6899<699985:;8:999::9;999:6999::7=;:8:999;96:;3:>86;=87<:8:=:89:9:8:;89;;85<@D1;A:6;8779:8969>87:889:;75=958<96:9::8699:;87;:9698:7:<;87:77<;5:;798:6:;889=77979997796999898<7998::68:899:9:96:<::9:9879:777<=5>;:88<9:7;;>69<889:;787899:9:986889;9;889:958<69:9::8888;889;;:7;96<<88:6999:7::::7:>55::7:7::7899;5:<678978:88896:99;:7:9:9<7<8<:9>8688987966=9988>97;8979;98869998:95;767986:;99:79;988:78=68:9::<77:88:9;788;9877<8:95=98;:98:77<7:898:;7:988:;;::97::8;=6:95>;6:;6<6:7::4;96:8:78:::88:988=7;;:;99:899::;:69:;98;69:::9:999:98798:9<9999869=;6:8987::68;;58<99977:969:98<75::;;989;96:98<993<:<7;97:;78;7;847889795;:988;8:;:;8788:9:87:<89::89999:5:99999899:99;:9>:689:76;7:9987:899::9:69<;6:<49:999:6:<9:;9787:<6:D<147/?=:;39:7:<98:98;@27><899::998:69:9:7797:99::5::777:89889<96;=68878::89:49:89;::899:78899:9:96:89:69:69;988:68:88985>958;9=:78773?>7:9:=79=997:8879;997:75<;7:679938<98:=:99899:;99679;79977:6=;878=897999:5:9899999:;989:9:6998679799:8889998997699::998>:789873;;;9:989:8968;=58:79;8:9=;7:77=5798::9:9999<9::=69;888:8798:989:8888879<899:86;68;9789969986:=67:<87;69:68997:868;<878:8<689:<:4;>:78<8579:7;6:87::89:88<688=87::989988:9::7:9:69799:87>9798:969698;;97:99996;;9::9779:7:79;5::679<99<998;;9;98:94<:797::956;674;:6988889:9:>579;96:=84:>76:987886:75;;75::8:=679;5=88:;779<84;;69:8;8966>:869:89999:69>97:;6:=967;86:;;7<<45@979;:9:86?;44;<987?<9;3:<9;::58;:8<9<5<7::7:98::787688899977;55;999;9587=8969:799::76>:66;;77::7<:969879;8999797:<899:8897:9:9=95988D777;:8:92:?85=;;86:?99:9995::;79;77<8695:98:6:::68?949<56?:59>84:<86<978::8;7:9:;78>:5;<8:=84:;95:;857::8:;;65:=67<:;7:987<:69C438<9=2499:7;8:<98889:67999;;:8::8?7:98::<87:<88997:885:>6978:8997:78998:8:97;::9::7:995:978998698885;;87899;<97:98:8:9::::9:;997:9:94::86:;94@>;:8;89<:59997<98>676777999=757:97989<898;86;97::5:;9:99:8:96998:9:<976:<67899:>87<:99;:899989;87:9:6;8:88>96:<9889::9>85;7=:9/??79;::=79798798;;969:9;87::986869:965:;<7897:99;9989;8<8:9:979986:<89::87;:99<9;969<899:;559=58>874:;898;83;9>5379:7:=8@59:8995=:=86:;55:7;<:88=6:<74=879997988;88:96::48;:66:8:99;77::69<68;:78>:896::86E86B7989<7:5/:;89:<9:9:;94:78:91P:+=A556>51@77>47>:946:@:=:7<::6::?288:8=7:998:99:95:8688:6788:7<6996:787:=9799:9:;989:9:79;;68976::999;8:;96:<;77;68<<;:989987<=75<:9=@37<99;97;89;81B<56:<99;=898<</:;69;978:69889;=.<;1=68:8@77@57:9<:9;9:89;2:96<;87<:59>75:?65:957;=7::5=?59>74>;5;:4;:4<:89<728=7799A74?;553<984>@;:88:9>6::6:=:3:>77:868:7;8:7987<59<:69::::88:979<57;98:97:8:9:8:896;:6::89978:6::9979::97<>9599799:?9:5:;57<67:88;879;78=69:2=>;985?57:>979:669;68:9748=47:;85=;66::994;=778;:559;937@:2:>648;958=;64:;75::7:9:87;:88::6:<98:57=8><986<98::9;:76;89:;:;<76;>0<?;79<769;948;88::7:;9769:6;<68::79<>:3::95:@968;67;7:<779=39=87;;;985::799966:9:95:998:;9:6;7:;88:A<79;<6:9649<86<;75=;7879::?1;>98989;998<95:9889<:4:;:4;<76=79:::97:98:6;:99:::95;96:986::77;:69:8::7:7::<>49;879:87:::7;8978:<76;8998=64;;54><96;;6=89;97980<E869<:8:8:8:96:::87:888::859896:87:848::6989;859;68968:968:888;9<:7::7::89:;89::89:9:9;:6::989;;9:;:7:7=87:96:=:7:::8;9:889?277<=69<8669:<779888:8:=98<;79:88<99778997::79678;778:98:688:8589::8:996;98::999:7;679:79:99:78;9::;46:898;:5;::8::77;3787579?9::97=:7996678:79:989:79;978;7599:9<8599789::<89:7>98897:::999:7989=89999:::968::89:99::869:988::7<=48;<9899889::988:9>88>8288;8?4:77;::69889:67>868896;977<8::79876:999;89::9987:87?;88<97989::8::87:;979::769:57;:67>78;8;7968:99:>67;989886;::9;69;<:09C(7:6999:8=;::9898:4;;76;878:<:787998;7:8989:6:8889::77:7888979769<95:<68<:65<79;98:88867:9:98:9;9798?:7@9859969;<>4888::;4;::84:797?78:889<;89:668=679>87:88::99;<789;99:589::8;9;87:999:889;9::9999::97:888<::898:988::97<:98769;97<:048:::999=<:.9:<7:59>758;:7::95=58=8::9:99:;;8:896:97:7;87:998:97<:9878:=:79=89;98:7<77:8:8787978:8;:=95:9:99:;89:899897:<:=88<545:9975<27;:8;8::;898:88::<>4;98::99=9:987::9:99;6899:89989?BH?<3/38:9:<99;9:7678;89988:::8;:9:75;;89:489;78:7:<;:965<7:9<8:739;9;9999978=4:;;47:69;;6:<79:8:668;96;;8;977:778:967:889699899;::899:85<9898:5979898::68:8999969:988879:;89<87:8767;98::9@8;988887<89:;98898:8:7:=;5:;?7<<;;2895888799:769989898:8797<<799::7898855897789887:::8999799969::99:8;8989899898::5::8::9:768::<39=494897<:8;89?9778998:9:::@978888<<6=9:8:8:9;969958;<96::;69878:849:989;87:=848=:7:=47=:768:6=86;96<:7::76=964<64;;;6<;649?949797:<7979888==85::7<67:;98<56998;;888<9>;9:9<69;868;479:68<83:;:8<=68:878:46;97;>;5<:68=58<;88:98<859;8::67;<88<99998889857;8;8<799;8;6;=:68;66:9:78::9;::669:89:6<;9;4:9@39<:;8:969>948::88:;99888=:69;95;<57=687;:7:975;9::<;28<;39=839<;5@88;<75>969976:<879@55==5:?71;<54A88:;78=889:9949G,49>45?=1F=738;;;87:976:=57@94<=65::879:789985=87<:78?92:;73;<48;:8985<768<:7:<579;;89;<56=:/:<85;:7<85;?58A8658;;4:@82:@41@::>76<:48<879:89998<<6:=877<<57=:57A<45<:59=87=:47>94;>67;859>;7::88=:67:;7889887=<57=;16=94?=38;66;<64<>69<:6:;97:9;:87;;<76:96:;76<:8<978>75;=89>66:877=899::967<<38;85:<7:=86:967=<7:<66:;85<99969:968::58<978<989987=:89=9=:3;79?6:9<98:868=48;88:<=77;55=49<9::97997;<2579:::;:7:;799=948::75;;849:88::89:887;89@:89<87<8:979;879;68;:6;;58:;679:899<9;6<75?679;6778896<5<:668>:38:>39>76:=58=;97:D9959=62:?8?:49;979>87=88<959<77>65<;58<<8:79=:3;;84<<58;:77=9997:997998:58<879:;895:5879;9:;838>866>=548>85789:6<;88:<859:;5;69:99:87999:8<9:>56=:5:@93:8;8:89>58=948;978:;979=:88;78;<68998:7:;9398::8::878;58968:34;:6:?99=;88=69837<96::;88;877:;69;83<=87:B17:76:;:=88<:8:<;86=979;86:9::75<:87<;74:<787888:69:858959:998:989:;69:89:999998=;;16848A3.8;;9879L-1;<12A>09>=28;8<17?C00@;359C:58;957@:5:<7::799978:9::::68;=:99:67<:7:;669<47::7:::9:87;;7:<4;968:;89<938?87=;4:<:7;;:797896<86?8<68>A18=89;69;4:?942==47=;:6=;57>:85<>9;79<;;77=<78:<:69<868<94:::97999:99;<59:7:::9:;6797799<;98;778::7<>876:7899;96:;9998:>95;?:77>:7:E338>:4:;839:799;?47:99:89;=;666::6;85:;68:85:7779:58:7999898<98<8889;7:9:8:989;::;9:989::99:89?6<9487:9599:95<769;8897:78999;;9:8:<9886;A165;9:;89787>98:9988;978998997:587::89:99999889:98799;93:;88876:<::8879:8:7::6::988;=7984:;2896:8779;:7:;79::>48<8:9787:8:9899967;;6<<6::;899::98=879?;659::9;589:9678::78:878<:66;:899996;9979:9::::8:9758:69:897::579<9<688:9;77;:6;;:58:@:44:9:::@76:<<8989:98887D5898:7:998:9:6;9<98;:866669969977999:69:7;99788:9=7:8<:9;77:9;87:8:9::<975::;9;:687<798:87<9779<;686::=<:999<77:95=:788:966;;847;:69:8:878:9888898;99::9995889:6;:8779:9:7798878:;;7;:87:;8:9::7<:9;9:6;6::6889:7;88:898967:788786>9=5<689;;8;67;958:::9;789;6:6996:;896<8897777<:;88:987<:77899:889;7:7989:9::88<:69789999:976;78:7::688;88;:9:::;8:;86:9;78:98;::69789:9898>99:;9;7:986:99997<97::65:;75::6889:::968988:9;:668889::::896:79:9:<:687998:7976:988986=879:=7:85;9888?397:8997:9:99:692988;869:7:9;:99::88<6689:::::9:;89;79:79:8:9;77;<89=99:87:77<86::6<;:9986::57<97:9:8984:997>:7996:79;598;688<:=67:56;:89:8679A3;77;75;98;9;:9::888<:8::58<7::<8<::76::878<9=8::79::57<:56;98:67:8::968989::77;9<9<579:6;787::8;<;4:<498>678::7:=59<=:5>979<95:878:9856:;9::<57;:=>29::3?<37;=7:;8;78:8:9:96A:86788;9::79<;659978;::9698:8=;798;:78;99;;777889;;46=<99;;777<96:><9;985>37:9:::<;:9<7?965:<59:98:<98=8=8997;:59<:7:>8:7;89:78<9986:=68;;759<678997875:998;;:97:9:68;79<798:;98<<;558<:9799:8;:879;:38::D7567:79;89<:6:77<:8:<;88::58:9:8899:7:99;:;:99;859:97<;66>969987<86:=87<8:89:7888:9:89;98::5:;79:;88:9894<:;9:9;:79887:99:;5978A07<878::9::79:788899899999997:78;778<:97:98=;8::8:9:8>:;:579797887::78;8:<:897:9<86<::9986<69=9::87:99889:8<7:58:989;;7998:;<987999:986:9789:5:95::89;837;77::96:996697::9:9779;::776?98879998:;:88:8999<969:777;:89:9889:7788;:7?<737:45::6899:999=86:7:9798:97;9996:9::9:8=:<4:;:7:8:<58;?/7::798<77:;77:988::::9:9;89599:;98::88:986:;58;<87::57:99867=9:99;7;<88::688>6;7:98:969@297:<9;98:=98<9:>9789:88:;:7:699;68:<86;89979988:;8::97;789C788::89<98:;:766;89:<6;;78896;=55<8698;;79989=8:=78<<58=97?859:77:98;788:99:7:=9;9:6G25898799497;<89:867:8:79998;88896;:8;99999:9675<<58;;96868986=:<<86=967>9799<8476;99<8:9<79:8;977:<79898958:9=:669;88;<98:;7:99:9;597:?6;<:69=498><:::8::;778:78;8;<98:>76:;59::8889:9887777<8689:8:98>77;988:98:76:6;9;69;899:86:6:<::96;85>=57:7:;;9:@53;96:;489:<986;9:9872;88>97::3::78:96::88:8;:849;59:9:8;;87<;79798:79:89::58;77:988:965::789<43=969998<;6;;89;7899::867;:;7:;8;77;7<::7759978:::59:69898759:77:::6<959699777::<87?<8;89:9798=79::87;889887989999:79967<;599996::6:67:67;8:7;7888895;96=5998<887988;69;9:;9789:86;:99:99A8998<9:9699::;:89:::9:=969=;;8::879:9:58:::88;:868;9978;888<999;89C4488:6;7686:79<768;88:8=6;:;777:68::5<8=8::58<68:<88:7:79:998;:98;99:7:959:;45?56=88:969:67;;68:;6887;99;:96=;4:97<939;869><5=75:6:8795:;:5;;97;<:899699<859:7;:789;969;;;7:;87788:86;9599:=9798:88:59;79;:8898:9::<97=95<8<:7:7;9:889898:79<79:8998;9699@4;:98;66<99:;7::6:966<98=C);<;5=:789:C3:698=95::76<96=7:7:88;76;9687::86::778;9;898969<95:<9986::;;9:788898;<3;;88:;86;:5989::97977:8:8896979:9:::85;?59>@3897998:97998999:8>:878>9<9;67=7:899998:87886:988;97:7::9998:9899969<:7:<5?87789:4:969::79:89:987;:;7:7=:5>874<;:89786;8<57;889:86<899;89969;867<:9:96>987;88:=:7869:68:8:;87:888999::998898888:9959998A388::87<:8;<859:89=9:::77:79:6:7:;78:<68:9979:;:798969;898;88=8:;97:;8989::7;:8<7;78:889::::667<7:79:7:959;68:99::88::7<979=972@=8698:7:99<7986:98:78;993878;9979<7<97:69967:99:9988:9799:;798:899:9=589G1979999:?67::588:8989979;988;87:;:9949;8:;89:9:7787:99@<4:9987;87:::8578=78;<77;>855:7587:7;;99:;9:9876>7:6;96::<8:98<8996;7:;899986768;9:778;8:A:99:;898:88:989<898978;99887998:88865=8;997599869:998=;:;8:7::::997:868;86:98;:6:>;29;76;:9:99<9:9;9789;9;:7A7889:<:8998;989;57::67:8:599:896:98:9:9998739779;77:=864>9:8897:>96<8?38987:;:7:::87::69:;83:<93:C9-6A:2<?62=;799<967:978964<:48=866=889?889>976<?8<6;9:9:8778978=76:8;::689<799=79;>683<;:<78;<49;8889?:94;>77:7699576:79<76::::4=:98::8<766;:8:78;::;98799:7:9<<5989@:68:::997;78=8888;6896<88=9999788996;69:::99798;8<95;:87:::879:9998:9:4<;97:9778:;:9:=74;::998789;:7999:8:8978<999<;76:;9986688:7=::<59973:;49:99;998;98:6:;89<889:788<95;;:8<86:=:75:7<8?5887:A77<<87:>::;969:9:97:97898999;98>77;8J2;=::::66:99::::87:699<:8::78;86:;:::=987;967?457=;5<985::698<969::839;858:8=<:59;<78:87:68977<<67;859A:6:@54;:67:<78;958:;77;9689988;797:99;;98I36=959<:4;:7858::;7;99:<54:=6:::7999;69:;5:997:999:87;:::;7988869:969:9:<9::789:;7::88<8:99979;8:=789768998:879888::;88;:979<8:@77;=88::9:9:887:?5:78;:99:68<;36=:68:88:9:9879>75;:99<;9:85;>7:987:;88:9::8<:85976:<968<77::997;87;86:6995:;798;898;:9;E67:98::9:7<87:9;98889:>8867::97:<89::79;98::64:=67<9:6=:7<88;8:89;8?9:77:978::46<:76:899975;9678;879:6::889878:799986=;79:::78;B/87:98:997::7=379=;3:<88=<49<86::46:899;96::99:;8::;67;69;88:;6:<;3=B87:=5797:;78::9::9::69::2<96:86=35C887;<87;889:<8978@;77;;886?86:;:87=:8;6;<29;76:;799:78799<7::5;;89:67:8989;9::6969;88::8896A;56=:9:5:=58;<45;<79:;959:9989;:948::98:::9::9:9;89<76:797:87<89889:85;:67999::69;88<8;;:78:<4:;9979:;77::87;977:99799:95:79:92==9468869682;7868:<9;7794997998<:898:9897:998;E.:88:957:;7898589;<588::989866;<87A67::98897689:99898;:69<39::5:96;::6::989887:88=89988:M47:;::899:89::8;5788;59:>359:;39<;797:8<98:67897:98:73::67::79:77:86;7;9<:6:9949;988<9799;8:88;99::::9:9;:59978:799;99=1?<748;8:978:7:=879<6:7:69<6:797<53::88;:899;77;;:7;9778<967;799:;:6:896;:A4;<9:7<49;9789894;:78:9948:88<:89:977;:7:9<96:;96C:833<=:868::99::;88:898:789:9:879997996<I1;59:68897:7899;838<;:8::8:9:989:8:899679:<789:8::789977;;69;88=9759:97;:997:87989:98::5;:5=;8;887;7<899:8:898::8;:79877;7<;9798:89;:<67887::<9::8;:7899>398;58;9:899:89:9789:98:6999799:78:79979;77789:7:978::86<88988=8643=97::77<87<:89:779::879996::8:<48959<99=98989;;79<9:;:9799;6974:9;:96895:;79G.99988:8999:;978:986:8:9689=7888:7;:89<:79;:6;;;::@78987:;;97:<=76:7:::659=88;::::=887987;998;A68=98;9787=@29?<0997:8797:8:;>76;98<8798:989;78:89:99:86:99:6;8::9988:;8897899:::84::;29;987588:97;9:8A0=68=55:8:78;:889<97;::89;968;86:=6987:::87<87;:5989::8;8799<93;;:88;:9:;759:899<789::77<78::8:9;;787::;9:93;=::88:8:::86:78878:;79875987:7<:<:;6<6::86<7::>;7:8:8::899::87956:::9:::9689:6996997:898;79:989<97967;<7::88:98:;97997:7::87986<<;797:77:766;566;869<:977;999:<64<:59;979:898<69=8::8G/99;7:7;8;:98:89<67<899:79:78:;88<8<<9=89:879:8:;956:79;:6988;:78886:;892;?979:7<:69:97>84?9:68>:988:=97<:879697=:85::989:9::8:799;:9:99939897;:49;99:679;57;:779:979;:68::89999;97;988889:69;98::768=:85<;7999989868899;:69<:98;8796:9777:88;8587996<9989:88<999:99;:78<79:;8<99:8::8:8678:79<76:;899:7:8;986<:65:57<;89:78:=76:9>69:;96>:77888:<86:9;:599:79=88@829;6899;787:;58<958E0;<;77<7;=1:98:789897?::8=5976==4:<:68;87896:::67::779=57<899;;59=85:8:7;=68;68;;5::;;4:;:38>16>977=68;94;8879<59>:498:97=:67:;289;9A/:::979:7:9::5:>58>=49=85:>75:;96698:57;:87=96;:77988<;98;;897<=88:>885<;6:96;=957;<5:<878<99;99;<8:;49;:89;79;948;888;:7;9=89;::9;75::7886::78;:679<4:::879;86:<:77;:59<:68:949A85<967<93;=57;:7::969=767<=9>98::7999;:36<:58;798::8:8599;987=:<:699<919978;:8@358=;78@5598;9669:4988::989899:6:968887;;59::47=769=:47=97:>;87<:47;>3:>96::6>898996:>96:<:6<;5:;48<8:8;79>56;936>:7:=<A4;54;<87>967<;68<:8;;95:F04:;86>;3:<96<:89;76899:857988<88:<88::9899969:77=967:;8;986>:88966:9:/;:937;;66;8:9:87?89<96:;9=4:8<<C8;858::5989949;979=65=:6898<;8<>64;=56<<989:9;68=:79<959;789::98::7899;:59;:4:<699?89;::9;&=;56:869::6:997:788:::98;9998<96;;5::94;;7799::75;:97:849<7A6=829=84:=:69=57;;96;;48=968:=47=66<<36>;58=86::68:979:9859793DA36?<3:<989<?0958:995:;7;=64<;989;66:58::89:::6;8<:;5;8:5:;8:89>63>989<82?848;93<<88:9:79::59=:89=:69976879<977;:888;78978;7995=<>;87=<5:;899:4:;57@:8=8=398<<-<:59=77;97<:67=:7:98::989;::8<97>899989::;7:;9;8;97:;65;888:85;;7:;77;:3>>07A85>;39?75>64<:8:;95?:5:;58<;7:?859;87:98988:8;:89:867;:86<:8<;8<:749=97:@7<99:78::;69::88;9699;5:;69;:58:976;:9976:89998::;;858=879>66=867;;6;99886>66:97::;9;97766;9:78<73::87:79999:;7:88<8=;97::69<;99:9798;96@63=;58:7=986<>86::6898:::;38<95?84<=67=;9:8::;78<777=:88;877:=392@>;5<;7959;997<:39:8:99796;;;93;;69;998::7;58=57@868:69:99<<C09:83=97;:89988:87<:89:9989:97;:57<94=;499999:99:9<98:<76=8894<9492?D:0:<<.;<2;95:957?72;;6;G0;:47:8::9::98D199;97=48;:9:99<97;::98:96;79999;8:=97:<8:=72:69:96:;7=9899:7=89;986>8799:88:8:99::8:=2A?666<886:>879949965898:@68;9959=557;:59;:57@969=:0<?91=B04:@37<<88A:36>=35B81:?929?41>A54;@64;:96;<46;;57:8:75<986:<68:<5<;8895?;:896?869896999<<85<;49C16:9696=:7:9:669<89=879:99<:5;88998999::9:8978;:9688=97;968;989959=76>977::;69:::998:9699:9:63?:6:;87:5;L5777:89=897:G.<:8:759789888:897698:779:86<898;:9;6:999::;8:869898<;59;59<9799;8::::8:9::877<:;869998:78:;9979:688<85:97989;:95=99878968<:9;999887::8797998;99=;9:7::8=:99::8:69::;6>E0:987:94;:879;889999::8:989999;9:7997:99:9798::89:::7:8::9578788;:7:88757;7:;9@-9:869;998?;8:9:899:8:9A076:9G09;:98:7:::988987?78989:5:;9:6:869;69:::86<<88;:36:<78<97;:89:;:86=:998:;>88<699:95:<9899<<5<::=9;6986:79:9:8898:88:;:8::87<<79;<78;69=68:;;9:<7=0:<47>;58:56;:68<:8<98::969:8:;69=:69;9679:99;899::79:7:75>76:87989;8:78;86?<;;996::89979:999F04<;89:<5:<797;8989::888:<6=68:6@8699:99999599:79<:74::68><4:>:3;=85;:78<<758=83>=44=@23>A03@;27?:38>:9:9;:614>=:B?54<82293(+,1A#)+ #
+  ˇ¯˙˝¯Ù¯¸˜ÛÈÔ¸˜ÒÂÂÈÏËÈÁŸ„Ë‘Ÿ„ﬁÿ÷·ÿ—›‘–‘“œ—Ã¬…‘Ã¬≈∆ÀÕƒºøƒ√øøºº¡∑±∫ø¥µ∑∞∞∂∞ÆÆ3;>;>>E?=:633=@.****)*-#) 
+ ˚¯˙ˇÚ˜˝ˆÒÛˆÒÒ¯ÂÏÊÂÌÍ·ÊÁﬂ‚‚‹Ÿ€ﬂ›ŸÿŸ‹÷—‹€œ»Õ‘–∆ÀÕ»…»» √¡«∆øΩø¡º∫ª∫∑∏∏∏π≥±µ±≤37C@>?A?>=;384133*+.'*-$$*#"
+
+
+  ˝	¯¸ˇ˝ÚÔ˜˝ÚÒÚÌÌÔÎÈÎÍËË‚·‚‰ﬁﬂ‰€ÿﬂ‹’ÿ›÷Õ”’œ—œÕŒÕÕ Œ»√  ƒ∆¬ø¬ƒøΩøΩππ∫∫π∂Ø≥º;>BABEA:_G78;;:4/64**30#-/ ' *		
+	¸¯˜¸ˇı˘˝ÓÎˆ˜ÓÙÔ„Ô˜‚‰Óﬂ·ÏÊﬁ„Â›⁄‡‹⁄⁄Ÿ—◊◊”’–—’œÕ—– …ÕÕ∆≈…∆¬¡ø≈¬ºø¿¿πªæ∫ø>ABKIIHDFJFIB<;C;3290+37,''(-+(""% "
+ˇ˘˜˜˛¯ˆ˜˜Òı¯ÏÏıÓÂÎÎÊÊËÊÊËË‚ﬁ›ﬂ‚ﬁ‘◊ﬁﬂ÷—◊‘—Œ’’∆Õ◊…∆Ã«∆»Õ¡øÕ√∂ƒ≈Ωæ¿AJNONQPLHLQI>AGE@<7:>4453+(.+(+/& ')!&"˝
+
+˝ ˝˙ ˜ ˘Ó˜ÁÌ˚Ô‰ËÚÛ‚‚¯Ô›‡ÏÈÿ·Î‹€‰‹“ﬁ„””€◊œ–€– Àœ”»¬ŒŒ¡≈À¡«ŒøOHZWMPTQOKHGNP??PDHE?408=.,272&,2)'&"&" "&
+	˛˙˙˜˜˚˘ÙÛˆ˜ÓÏÙ¯ÏÂÔıÎ‰ÊÏ„‚Á„‡‡„‡›⁄Ÿ€ﬁ‹‘÷€÷ÿ◊œœ‘“Ã…—“≈≈œ“ÀMPRTZVVSQOLPMIRI6CRC1:H;8946;5*06-%/+&#&- &!!! "˝ˇ ˝ˆˇ ˜Ù¸˘ÙÙÛÚÙÓÙÈÁÙÍ‡ÏÛÁÿ‡Ô‰ÿﬂÈ‡‘€ﬂﬂ”Œ⁄·–«÷·–¿–ﬂÃ¬SYSYZVX[YSPSWPILRJAEH;KN;-AC/5@/&8C#!C1,;-'C'&&""%ˇ˛˚˛˙ ˘˘¸¯¯˜˜ˆÚÙˆÔÓˆÓÎÌÔÏÈÏÏﬂÂÍ·‰È„›‡·€€ÿŸ‹‘œ◊›”À€ﬁWZgbZe`^g\XURTVQMMPOHADJNA6FG65;:87223/033"!11 -#0) #  	 ˘	¯ÙıÛÌÛ˜Ô˜ÙÔÛˆÎÌıÚ„Ë˜Á‹ÌÎ⁄ÂÏ€ÿË‰—‹ÈŒ“Í◊…Â‚[[jc]ikenjcUZg_QYWPVOIHNK?CID?@=>=>7@;61891.1...(-7*-.')%*!!
+	˝˛˙˛ˇ˘¯¸ˇˆÚ¯¯ÚıÓÛÒÔÔÎÎÏ‡‚ÍÁ‡ÈÈŸ‹Ï›”`ehmveotm_^vfPsrXJ_^LKRQMGHQID?MO>:FD@77<=63:<9-=<1&*33&!1,",'#%	
+ ¸˛ Ò˘¸Ô˘˛ÙÒ˜ıÍÔˆÒÈÏÌÈÌÌÊÂÔÓ›„Ûgqj{xdgvqfahf`aaaj^[]^MQ^YISiWDMOGKRIJID<?D=3:A92393.-32/,%-.&)#"$  	˚¸˜	ı˚¸ı˝ÚÛ˘¯ÛÙÙÚÒÌÚÛÌÂÈÙÌ◊‚	cnk{tkrxqilljldckf``_^Z]a\XeiZQ_YTUJEPRG=?HOK:;FF87;=639:26=.!.9(%-+$0"(#(#	
+˛˛ ˙ı˝Ûı¯˘˜ÒÒııˆÌ˜muwy{yv|zwpnmykepmjcdmg]_\Z]VR[[QLSWQKIPI@FXK;BND?C;<A@<56;<6/-3/-.1*,.$',%!#%$  "& 		ˇ˛ ˝˝˛˙˚¸ı¯˘ˆÚÙ˘{ÄÖÅ}äÜyz}}yu|rkwuphgvpbafjaY_dc]YWXXUXSE]ePJQQGJVF@JGBEHCAC88D=24758</*54()+/-(&%)+$"%!   
+
+
+ˇ˙¯˙ Å{èçàëçâáõ¢|Öt}uy}zwolnpicggcbe_ed`]a`\ZVSUSWUMPPNHIRKDIFGEA>A@;;==<67796.175-*-1*+,'%"&,##(# 
+˛áéçéëåääÇçèÇÅÅ~ÇÇ{xz{|vhmuphgrhdig`cjhbecb^OYgZQWUQTSPPROPLILNGAAFG=:D>9??75:=8496.17/)//*)+('-( '*#( 
+	GmD&èéêèñ§ëâëèêéÇÅàèÑàöÅsáå|tvuqwslrlllszqjhdmh_dc]^abYU]\YVPOYTDKVLFHFGHB@EG><C>:><::89:6110/010,*--)*%'*  '"  "%åïòúùõëó£íêóëïîáäãÖÄäã|~äÇrvÅyqpn}Ålozvfltlfgfbcc]]c\V]eVU\SS_VKUUHJTOHJMHHLACIADGC>:>?;:64::20960-10*(0/(%$(* "&%!,-õõü†û†¢ùóòôïôïèíùèãêáÜäãÑ|ÑÑx{x{äxzzyzvrunmmnkedka_id\`a^\\YVXWWTPPVUPMOQKKJJIDHFADGF;:C@9B?18E=03<637.*52,,))-,&!&+##()52&!†©†£®¢°ß™†óòùûóíñòìäîìëúëáäãÅåÜ~~Å{Ä|vzysvvomolgmnddl_]kfZ^a`ZX\Z[WT[[SPRPUSIPSJHNMCBHFCB?AG=:EA98?<5:83561031,12#(0,;98;; )$õ≠™ß°≤∞¢û¶¶•ùù≥¢öô°†èåûõÖåôìåäêçÜÑÑÇäâr}äÄqyÇskzuiryjmqfjnhabifZag[Y_\]Y^^LT`YRNQTSKKUPDBOQCEL=>MF97CK:4=<07H47C,)2+*9@.=C/#)81´Æ±Ø∂ø™Æ∏≠™∞≠ùõ¶´öô¶¢òüñóõúòíèìîéâÖàèçÜÉÖÜ~|áÉstÅ}sw}vllwtkcgqm^aklcZhl^VajbV\`XY^ZOUXPQTMORPMLFHMHCEGEH@6BG<7DA5776TP@8==5@;#)>¥±±µºª©±ƒ≤∞¨´∞™••™≠¢†™§öß•ö†ùöóïùíãñùãÅóö}Äõänàõwsåàtxáym{~rmttmrsoknviaqq`coeZgjXXjdWW`bYT\[USUYPHPYNCJPJAENA;HF5Dy^??NUcI:;=90∂ ≈∫øπΩæºø∑≥ø∑©±Ω∞¢™™§≥±¨••¶®≠£ñú•°óõûóíöõééóêâäãäÜàÜ}ÉÑ||}}}zzxsz{tqxvkkqtkkrjefjjdbc_b^_f^Xa^XVWYTUWUOJPTPMKMHM[\WKHFKJ@>ED17GÀ¿À»»∆«À√Ω∆…ªπø¿±∑∑∞ƒ∑∞±≥∞≠ØØ§®≤§†¨©û¢†ôû°òìõöïîíëôöÑ~èèÇÇåÜzÑãÇx~ÖÅyxÖÇsqrqzxinzqhjrodhmfddea`ff[VaaVU^`SK[_PWd^ULPPLAHMCCDEG√√œﬁÀÕ“œ∆» À¬√øºøƒœ∆¬ºΩº∑æº∞≤≥±≠≠≤≠¶ß¨¶°£§§ûúùôöóîñïêéçìíãââàçãÉÜâÜ~ÄçÑt~âÉvx}yss|zkkxvghuvj`huf]hmdYZbibV\d^mjàãkg]]]R^^woSNIG”Õ–Ã‘‘Œ‘›Õ¬ŒÀ« ∆≈ƒ∆øøÃø≤¿øªπ∫∑±¥¥≥µ≠©¥Ø†§±•ù¶ßúùûü†îîûúèîõíåîêÜêîåàèçââÜäèÖqùákäÖÇyt~tÄÑkvrqnuxoidrwdilbkiIêßIVâmeVjhEe^UoVEU_[Ãﬂ⁄ÿ‹„‡“÷›⁄œœ÷Ó◊Õ —’À√ – ¬¬¡∏ªª≥ª∫∞µ≤±≥≠•™¨¶™¶§¢ù¢£ùöòûúîóôòìíëííèèêêãäííÜÜåáÉáãÑ}É{|ÑÅvxÅtrzkkvypknmkohnwk_llci}jWafaae\UTR^⁄—ÊÁ’‹‚Ê‡‹‹ÍË›—⁄‡…Œÿ“ÀÃ“Õ∆«¿∆∆Ω∫¡›®™≈¥¡≥≠≤£∫∑§∂´¶®¢Æ©ü¢û•°ü©úóúòüßöâô§êä¢ûÑÜûñ~îñ{ÜìÑÑârízuÑÅkxátxzksyouä}crÉokuf]ikéánçôãybgaÁ‚·ÍÎÍÁ‡‡‡Ì‚ﬂÂŸ”ÊÈœŒ‚Ÿ —ÿ’Œ«∆ÀÃ»ƒ«ƒ¿«ø∏¿ƒ≥µø∂≤∫¥´≤∂´©µ™¢´Æ†°¶§£°°•¢õúüüôõüññöìëóëçêêèâçëâÖÜââ}ãäzÄá|zÅÅöíëy~áxwàÄsytmqrklrheic^·„ÈÎÓˆÚÎ˘ÎÂÌÎﬁ‚ÌÂ’‹Ê›“”‚ﬁƒ«›”¿ ⁄ ∏∆–≈πΩ¬«√∞µ…¬∞±∫øµß≠º∫üüæ∫ñù∏≥ùò¨≤üñ¢Æ•ëô´¢íó°õëëúúâçõïÜåïãÜéåáçÖ|ÜÜçû£ôÖäáz}{|Äyu|xrzyrzÇvjmËÈÏ ˘ˆ˘ˆÔˆ˝Ï‰ÈÓÎÓÌﬂ›Ê‰‚‡ﬁﬂ”◊·‘…’‡‘Ω¬◊”¡ƒŒÃµ∫Ÿ“µª…ªπƒ∂Æ¿π•¥»Ø°¥∂¨≠™¨≤≠ù¶≠©•°®§òõ°¶¢ñïùûõóïöóèîìèêéâáûßìáåèÜïé}ãÑyÑä|pzÑwqqyÇıÙ˜˘ˆ	¯Û˛ÈÍ¸˚ÏÁÌÔËﬁÈÛ‰›ÂÈ◊◊Á‡“‹Ÿ÷ÿ‘◊◊œ Œ“Ã≈ …ƒƒ∆≈≈√ºΩ∫∑æ√∫≠¥º¥ØªºÆØ∂∞ØÆ´∞∞§†∞∑£ú®©û£®ûõ†üûôõùöíìîûïèóúïééúîâöäsÜõé|Éç}ÇÉÄÖÇàé˝˜˚˛˙˘ıÛ˜¯ÌÊÛ˜ÍÊÈÈÊÁ‚ﬁÂ‰ÿŸﬂ€“ÿ◊”◊⁄œÕ”ÀÀ“À√ÀÀ¡æ∆∆øΩΩæ¬¿∏Ω¿¥∑¡¥Øπ∫¥±±±≤Æ≠Æ™®™Ø®£´¶õ†Æ∑±±´©§®ú†òìòõéäôòåèíìçââèäÑÜòç
+¸˚˚Ô˜¯ÔÙıÎÊÎÏÎÊ‰·ÁÁ‹‹·ﬁ‡›÷Ÿ‡⁄—”◊—Œ’”»À“Ã«»À «¿√…∆ø√¬ªæ≈æ∏ª∫∏ø∫Ø≥∑≤≥∂≠Ø±Æ®Ø±≥æ≈∞£®≠¨ü©≠ûöõùô†ûôù∏¶úöôñèéñêêì
+˝˜˘ˇıÛ˙¯ÓÒÚÎÈÎËËÍ„Â‚‹„‚›·›Ÿ‹€÷÷⁄‹”œ“’”Õ«À“»»Ã«¡≈ «≈¡Ωø≈¡πæø∏∏æºµ±∏ª∂±≥≤ØøÕ∑¨≤∂±®¶¶ß•°ßÆ∑∏•¶•∞©´Ω¡ßôîúò≠ïì		ˇ˛˚˜¸ı˜˜ÛÙÚÒÚÓÁÎÏÈÊ‰Á‚⁄ÂË‹◊‡·€€ÿ”Ÿ›—”⁄’ —ÿ“»À–’…¿ —≈º«À¬ø…¬∫¬Ω∫Ωªµ∂√≈∏π√ª∑∏∏¥∞∞≥Æµ∑©•≤¨™ªÕ‘Ω∫‡±®©†úûòí# #$ #!"
+
+ˇ  ˘˙¸˜Ûˆ¯ÛÒÒÓÔÏÈËËÎÁÊÊﬂﬁÍ„‘›ËŸœ‡Â’Œ›€–”ÿ‘—–Œ––ŒÃÀÕÕ«∆ƒ««√√¡…Õ»››≈º¡¡≥¥ºŒÃ≥±≠≠Æ∏±¨≠∞±£®´¶û¨´¶™ß''--*./#",)*!
+
+
+
+   ˇ˛ˇ ¸¸˚˙˚ÒÛ˙ÚÍÙÏÎÍÏÔÍÁÁÁÂ„‚„››„‡›‹€⁄⁄›‘“⁄ÿ”””’—Œ »œ›‡ÎÒŸ≈ƒ«»ƒƒÀÀŸËÚƒæππ≈⁄æ¥∆¬≥Æ¥≤Æ¥µ©¶µØ†&/*/651*(.-)&%&!!! ˛˙ ˚¯ˆ˙ˆˆÙÓÛıÔÓÌÓÓÎÍÍÁÊÁÁ„‚‰Â„›ﬂ‚€⁄‡€◊◊ÿŸ’––“Â‚“‹”Õ ŒŒÀ∆ “¬æ∆«¬«¡ƒ–Ã¬∫∏æºº∏∂Ω“µµ∑∂∑¥27:66>=996121-24.%&(!"&#&"$	
+˛˝
+¸˝˙˙¯˝¸˜¸˜ÎÚ˘ÙÚÙÏÌÏÏÌÙÛÁ·„ËÓı‰€·››Ó˝
+˙‹÷ﬁ‹Ÿ◊‘“⁄◊ÕÕ⁄»¬÷‚œÃœ√º¡‘Õ≈ƒ∂æ√¿¡¿≥¥¡¬@HB>KNC>AA;9>=516546-)+-('&$%&!	 ˛ ˛ˇ˚ˆ˜˛˙ˆ˜ıÒ˜ıÒÓÔÙÔÍÌÔÔˇ˝ÙÈÊ‚Ô„ﬁﬁÏÊ›Ÿ◊—÷›€œÕ“ÿ“… ÷—‚Ôı˚ﬁ‘’“œ…»∆EHNMKKMHGIJEC@??:>A61465.01--,)(('# " 	
+	˝ˇ˚¯¸˙ıˆ˚˜¯ˆÚÛÒÛıÓÏﬁ‚Í‡‡ﬁ›ı„·€€Ÿ‹Ÿ›‡›⁄›˘˜‰€ÿ”«ÃÕ»—Œ»≈INKORQNMPMCDJFB>BH<6=52?<*,<8%(60!$0/-*2#	
+
+
+ˇÚ¸˝Û
+˛˙¸ÙÛ¯ÔÔÛÒ˜ÔÏ˚ÍÚÏ„ÔÎ‰„ÈÁ‚ˆ‡‡ﬂÿ·Á‹—‘€ÿﬂ‚◊V]g^VehYZh`QYbOI]_IEOMEJQE<HK;<H<1;>54<6&4?+'4,!*6( ($,-#'!˚˘ ÙÙ¯ÚÎˆÒÔÓÎÒÏÎÔÒÂﬂÁÔ‰ÂÌ‡‡Ê‰Âﬁ·‡˛YYbb_Z_i^RbdPLU[TMMNGHHBALH86EE/6F6(6;0,42&+/+(,0''3&1%'&" ˝$$˝˘ÛÔ„ÔÁ˚ˆÈ¯˚ıÛÙÒÚ˜ÛÊÌ!˜€È˙›Ã˙—ÛVaa^fj`aieY[hYI_dKHXSELRHDIIBACGA5=A38C4(=B&(B:"+:+#.+$*#**(&, $ 6	
+˙Û¯ıˇÒÍËÔ·˚Ù˛Ô›Ù „ÿÓÒ‚˝
+fkcmreeqviTbrdWdiPD[lXCQ[KGUO@PW<6NQ18N?2?D51=?04>/";B-!+8.*-(((!/8%0,!2%*&0
+	˚ıÚ¸ˆÈˆ¸Ò˜˚ÒËÓÛ jnvkiwzlhtngfejnaU_jYReaKRaTKVSEMSI=OP<>PH7=LB3;A>858<6//88-+47(%21('))#$'"-+8= (!"	˝ ˛˝Ù˘˝˙˝˘˚˛¯lnuvnxÇ}ojstonmngXaqiZV^^XX\TQRTSPRJDOOGDNG<FG?CD<C@5=C74==-4A1+961/.0+**(3:2O;)B.#$  #	"$  ˘˝	˙¯&Û˘umÅÖvvÇmsÇypsnhrn_gsaTjkU\fVL^dUUPK\]DF]R:HXG=HMB@FCAD>8?B866;?2.;>1*183..76521.&*7:)./$!+%(*A,	
+	wàÇyÜóÖuÜêysâÜsuyurrnmuk_nwcZgld[YffTRa`SP[WNSXKLQILPGFJLB>DIH>?FE7;C95?ALa>%;F)#:@5;?&$0$,2"#( !"0F4.# %	$6
+áÖåêåàçìäÑçéâÖ|zv{ÑzfsÅwejzs]auq``gcbg`[c`UYaYTZ\PN[YNOQVNKOJHMMIEABLZj}dVOAAx[3%-;>9$0vF-R-
+-O'.:#%2>˛#IÙ 92+#%' çîíáñõåáïñáâêàÉÖÜÉ}}Ä~uv|nmÄzegwpaktf_ji^dia^daUadWZ_OWcRKZ]KG^[=@^XI\fURQSEQg\BFAB>6<A6B??-)Ab;/<+.6#.B'4?!
+&=
+2.(8*1 ñûüëíò†•òáí®ôÅÉìïÅ}ëì~rÖçzyÉuvzwuxqmsxhhtohkgdlj^^ji_\_ba[V\bVQ\[PbÅvmcXOOQOSVBEILIC==NK6:GF72AF35h\8+;?13==..6+(.2D2..,)/,'(/-ë°ú•™¶™™£†ß£úúôîöõñéñóçäåâåéááÖÄÖÅÇ}{~vz{ustrournqmkpkmnkgegeef]Yspssea_bh]RQSQJTZNNSJJPJKGCEKKA@GB<=B>AC49VD7<>94:6324+75,+//.™≠¥±≠Ø≤≤≥´§≠©ûû£•öùûöôóôîññìììèçäàéçÄÄãÑÅÇ~||Å}z|yvwvuurvwomstkdrÖglpgq|h_\U^cYOU]TMR[VOPO`LETOCDHMLMEAGD@EI:5AF=NUECGH?=AB?;;HF™©≥ø∑≠±∑¥¥∂´•§™¨®¶°ú†ûúõúòíóüìàêêäçëéâÉÖãêÖ|Å}ÉÉzw|~Ä{vxtsttvtyáÅzkglukie]ZgbZ`bUZbbWYWeucGQ]bYXgUGMPOJEGKFAFFB=dWIA?GF@>?@D>@=≠∑ø∏±ºøªππ≥™Ø¥≠≠∞¨§§§†¶¢û¢õóõ†ôéíïîñìçéëççíçÖÄÇçãÇÉÅÇÉ}|Ä}yyzzÄçåÉomztmjuk]iqmg`hmdfb`enomrtcm^V]`Xhdb^TX_\OIRYMFRUKLOKJGDIORNFª¡√¬…»√≈Àæ∫¿π∫∏∂¥≠≤π∞Ø©ß≠¨¨≠£úû¶ßüû°üîö†ùíãîôìëìéÜèìåäãããâàãñííìèåzÄÖÇ}x|wniqtonpqngw|Ç{Öre^djegecdiaZa\RSYTQVXTUTX\ULQTOJTSLQRQºƒ∆» ÀÕœÃ¬ø¿ƒøøƒ∫±∑ª≥≤¥¥≤≠¨™®©©©©°üßßüüûôôöööõòççöòîîãáíéåçòîáçàááÇÅÜÖÉÉ~vuuwsq{{uuu}qsonooqkmiluwrjhmhgjeY_galn]ag`_fbTVdbTZ`ZX…‘“œ–ÿ’ŒœÃ»«¬¿… ¿æø∫Ω¿ª∫π∂¥¥¥¨©±≠©≠´§•™ß¢•§üûüüüüòõûòîöôîú£¥∂±®éççäìì§îÜÑÉ}}~|zyzxâ{}wwurvtnlnnmjriihjrpbhcbbhiecdcce_`daX^g]Y_”’‘‡ﬁœ◊‰ÿŒ’’Œ—Ã∆œœ≈«≈º√…¡æ¬º∏¿æ∞∂¡¥™∫∫©¨Ø®´≤Æ¢§´£†™¶ü£•ù¶¢®∏¶õîñòèãéçöéáçÖ}ÜÜ}ÜÇyyÖôáyvxÉÅt|zntrssrsoloovugpÉnoslemrhgjmiacnhbb·Ÿ„◊€Ó„Õ’‡—Ãﬁ‡Õø»œ“—«≈√¡≈Œ≈ª∏πªµ∫«º≠≠≤∂∑ªØ¶Ø¨¢™±®†•§†ßπ¬§ù±®†ü§•ôéóõíòùéÇÇñè{âãz}äêÉÅâÜyyÜâ~z{yuwÄãtntt}ánt}woÄâuitymnuwvfatsjmsŸÃ‹„‡‹€€€·Á›ÀÃŸ◊Œ“‘Õƒ«‘◊Àƒ¡¡≈¿¬¬ª∑¥º¡º∑∏¥≠≥∫µ¨´±Æ©πÀπ¢®Æ≠ß™®•§û£≠ôìû£ïúúñô≠óìôñåëêõ¢óççÖòöîãóìÉêìÅÑà|yÉ~ÇÉÅzwÖvvÇ}ooÇ{moszw·ÊÈÒ¯ˆÈÂÚÔ·ÁıÁ◊‹ËÊŸ÷⁄⁄›‹””’œŒŒŒœŒ ∆≈…«¡ø≈¬º¡¬Ω∫∫¡æ¥¬Ã…∑ØÆ∂π±™¶Ø¨°¶©©§£≤π¢ôüµÓÕõôóùòèíñìòòäëêÜåìäÖäìêâëäÅÅè•âÉâäÇ~àâÇ{}Å}xzÅ~svÅ‰ÍÏ˙ÛÍÛˆÓÌÏÏËÔÌ›‚Îﬁ÷„‚⁄ÿ⁄Ÿ÷◊’“—’— Ãœ»≈ÕÀ√¡»¬Ω√√ª√∆…√≈æπ∏¡π≤≥∞∞≠≥≥ÆßØÆ•´æ¨ûù°¡§ö¶üöú°£ñóüòñòïïññùóëêîêãåçàÇîìäåçáÑèîâÉçã}ÑçÜ~ÄÉáÑÚÛ¯˜¯˚˘ˆÙÛÛÒÏÎÌÌ‰‰Ï‰·‰‡ﬂ‡‡ﬂ⁄ﬁ‹ÿ€⁄‘“◊—Õ‘œ…Õ … ≈ƒ÷Ÿ‘«∆∆æº¡ø¡∏¥ºæ≤≤π¥Æ≥∏∞©¥∫≥Ø´≠≠ß©™••¶™¶¢¶®úÆ∞ùü¢ôï††óîùõòü£ùêìõòèêóïèèéëëçååëóñé˜¯ˇ¸˚¯¸˝˘ÚÔÚÓÎÛÔ‚ÂÔÎ‚ﬂÈÏ›€„‰›÷‘›⁄’‘“’’ŒÁ¯Ùﬂ⁄‰’¡√Õ»º¿»»¡º∫¿¡Ωπ∂∫∑≤≤∞≥µ≠¨¨©Æ©©¨´§•©®©ß´¢û•®§£ùù≠†ôûª©üû°¢†üûöóó†ùïôòìïóñïîä˛	ˇ¸¸¸˝ˆˆ¸˜ÓÓ˜ıÎÏÛÓÎÎËËÈ‚‡Á·‹‡·ﬁŸ‰Ì€Œ“€€◊“·÷ÃÃœ ¬¬À…æﬁ—øª»…ªø¡πµ¡Ω∞ø√µªπ∞≤≤……µ±Øµ¥¡≠¨¨∞®¢®Øß°Æ≠¶¶£®´£¢®®¢†••††°û°œÀø˙˚˚ˇ˜¸˛ÚÛ ÛÈ˜ˆÌÌÈÎÏÊ‰ËÎ›ÏÏ„Í·›„ÈŸ”‰⁄ƒŸ‡…»€ÂÕ‘À∆—Œ√»…√≈À√ø¬¡¿≈¡πÈÃ∫ππªπ∏√øπµ∂ºµØ¥µ¥∞π«πØ≥∫∞™µµÆ≠´¶Ø¨©≠Æ¶†©´∂Ω¥(!!¯ Ó	˚ˆ˘¯Ù˘ÚˆÛÓˆÌÌˆÓÚÛÂÁÎÏ·‚Î„ﬂﬁﬂﬁÁ›€›‘“÷Ÿ— ⁄◊«Ã⁄Œ√…“»»Õœ∆≈»» √∆÷¡øƒƒªºƒø∫≥¡…Ã∑¡¡∂µΩ¡∑≥∫∏¥∑±∞ø∫´´∫µ¶≠µ®"$&" &% 
+
+
+	ˇ¸ ˘ ¯ı˘¸Ù˜ÛÌÙ˘ÒÓÚÎÎËÊ‰ÏÎ”›Ôﬁ“ﬁﬂ⁄ﬁ‹Õ‘Îÿ¿‘ﬁ  Ÿœ —Ã””Õƒ –À≈œ…¡…∆«◊Ÿæ≈–¿¡Ã≈æ««∏æ∆∏º∆ª±¿ƒ≤≤º¥∞µ$8'&<5#-3-**'%!!%	
+
+/˚˚˛¸˘Ìı˝ıÍÛÍÎÔÂÊÓË‰ËÊ‚‡ËÔ˘ÙÈË€‹‡‰‡€÷⁄ﬁ‹œ”ﬁﬂ–“€—ÃÕ—’–ÀÕ◊Œ∆À‘Œ…œÀ≈ »∆À∆√∆ƒ√∆¬πŒ’»07<8:;89<5(08-).-)%#$$" ˛¸˘˙ˆÛ¯˜Û˘ˆÔÙÚ˘	ı˘ÚÎˆÙÒÔÁ‚ÓÓ‰ÂÊ‹‡„ﬁ››ﬁﬂ›◊Ÿ⁄ÿ’’÷ÈŸ◊÷“‘”‘◊–Œ÷–»Õ“Ã∆Ã–—√øÕ ¬¿ﬂÍ/>=9;>>75<75625-&01)!#(&"!"B9¸˙¸˝
+˙˚˝˝¯ıÔˆÌÎ¯ıÈıÒÒÈÔÙ‡‡ÔÈ›‚Ë‰ﬂﬁﬂ‚ﬂ€··Ê‰‰‰›‹·›‚„’÷ﬂ€œ–›’À›—√’ÿÕÕŒ≈ Ã4;<ID:CNB?<1>B4298+47'02!)5"&+!,0" 	˝¸ ¸˝¯˙˙¯˙ˆıˆˆÔı˘ÙÚÚ˘˚ÓÎËÌÎÂËÎÁ‰‰ÁÚÎ‰ÂÁÁÊÈÌﬁﬁÊ„›‚„‹ﬂﬁﬂﬂ›ŸŸ›ÿ“‹›ÕADLOJNLGEJLA=@=@B6:@4.4550)15+#.L+"-$!+%"?˛	
+ ˛ˇˆ¯¸Ô ˙Û¯ı˘ÚÛˆˆË˙ÓÓÓÌÒÚÈÊÒËÈÁÂÈÊÂÊÎ‰ﬁÈÍ‹ﬂ‰€€ﬂÿKQQUVVSQTUQGGTG?KLB>BE89A99953:>264.---))+"&%%% ##!7*G!		˛˝˝¸Ù˝  ˘˚˘˜ˇ˝˘ÙÙ˙˚Ùˆ˜ÙÙ˜ÚÌÚÒÌÔÏÈÏÓÁ‰ËÍ‡‚ÓRYX``zz_`^ZbUUXOGMUKFKDAHH>8<DDC?2@;*7>5%*31%$-1.-*.%,!!	ˇ	 
+ ˝ˇ ˝ ˜˝˘ ¸ı¯˙ˆÙˆ˜ˆˆÛˆˆııÌÈÏÌÔÌÌÓ`bznf^\]\V\cZWaiWXVLMTNKOOFHQ@<@<<:39854835134/-(-0-(++ %,#$#!  
+			
+
+˛ ˚¸˜ˇÚ˘ˆ˚¸gjmmkdb]_`^\\][dcV]]VVOOWY\JNI>DEGA>A<>C;<88;8465/.-1.+,--+&&.+#!*.#)<!H*1	
+		 	˝ˇ  }hvxnjijhchib_cgdXYY^\ORcUINTQKEMLEDHJECIJEBA@EF>77A@=3;93622/56/-.34.1')+'##&&(!!##88 nzxuzuxsipvqkikqk`ac_c_]^YXUVWYRTVPIQQHKNLPRB@Z^@BPI>=DGBB=>?43<701:7*163E1-.-.5-,)+(/-!$0'#/'"%'!"% ÑxäÑ|~Çxr|Åpqyáhcnngekjcbcfe\\f`Y[kcMMemSNkoD>dh>@bS7CTM@AGOC?FC:<B7-@H-&>B,$><*)85-,962%*;2.,13*&-4*"*+!&-"%$!""#!åà}~ìézÇóàÅÅwqtxxfuëiappc_cidru^[baa]ZdgXadYTTZUc\UINPNOICKEEIHKF?AJA9=EM=><3G?015:<565M><A:349;225+,.,0-(.4/'$-+(+%%'" & éêñåÖéóìÑÑçåÅ}ÑÅx}ÇypxÅqqxtlrxskeqoicfmd]`fc\cf_VZb[VVU[[RQQSSJRXIDLOIDHODDHFF?>GF@:@G:4AE;>A::@>8<;947741037/.8.&051)$/0$(/+#,)óúú§§öòòöôúéääâÑîÜÅÖÖÅt{Ñzv||wqqpqsmltpenrlchnd]li^a`Ñj]_^\[ZURY^TRVTVTRXNMPVI@HUE@LM>CKNDBMKC=GO>6NL10KK.+EK-/E>,0;;/+3;4#+?9#%úòö¶¶öô†£öñóìéññèåà~äêÅ{Üç}räçnmãÉjqÑxiuÅokrulgntibjrf^dhfcg_]_`Z\]bZOÉjOU^OJZ\HNWTHPRNQTKWWEJZPBKVIBJKGHCCKD=DH>>B?<<A<59758:;>®¨¶û©≤•ö£•õõûööñìñòñêâéìàäëäÑáÜÜÖÑÑ~ÉÅwzÑ{zysu|vs{xqqunjmppgfihpnhl`[lcX^a]Y\^YVY[YYRUmZT\XZYPT]RHP]L<RZHDPOLIDGNJ@AMH;DJB;>DC;£≤Ø≠¨±µ¥®•™£†¶§¢¨ûüûûîõôíîõïéãîíÖáåéàÇàäÄáâÇ}{ÖãyxÄ{z{{wtossprîwoppmlpnmdrsdbbefda_c`ghf`bacf_^b[\c[VT[]SS]XIQ_PHSYMIWNEOJHSHFKJΩº∆≤πæ∂µ∫Ø©Øπ©ö´±•ü°†õù¶ùëìüöêîùíâèóçâèèàéçÖáçàÇãÇvÇéÖ}ÄvuÄ©vruwoxzulkttísg_qyc`roeoxc_smYgt`YgeY\gaY\a]X\^ZTY`RP[QLTSPQSLPU∂∫≥¬»ª∫ƒΩ¥µ∞≤ª∞ß©Æ∞¶ÆÆß§ü°´®ñ©•õ°§û¥•ç£•ùâô™îÜçåçêáàèíÅÇõï}uÇãÅxvâáuvÄÇzrwxxovÑsmwwo{xtomnrtlglqhekebkf`ggccdfacaZ]`\^\X^^WUY][æ∂ÀÕª∫Àƒøƒ∏∑«¡≤±ƒª¶¨ª¨®´∞¨•¢•¶§üù§£§úôõüõîïúûííïöñêíêåïêáéçåÖâäÅÑÜÑÇÉÖÇÄzyÇ}x}}Å~z|äÅ|Ä|wÄvs{ypqupqokpxmgptjajog^fhbadd`_[_^be¬≈”ÂÿÕŒÃ≈≈Ã»À≈ ø∫øΩ∑Ωπ∏≥≤Ω≤ÆØÆ≤≤¶≠≥ß¢©©†£§†ùû§¢üπúõûóôß¢òîïïñìûüñççíåéêèäàÜáçà~Éêä}ìëáÇáâÉÉÑÑ~Ä}z|~yr{~pr~xovznrtmmrqgksmcklhim“’Ÿ◊€›÷◊ﬂ5ŒœœŒÕ«À» ¬¬»¿π√øºµª¬∏≥∏ ∏¨™∑π´≠≤∞´™®¨ß®£•≠®£§¢°°õû§¶üû†òíöúóú§îóúíãìïèâù∞§ù¶¶ööüûñìôòéëîìéçãåçãääàÖäâÇ~Ñá~É}ÄÄ{|ëùî’’ﬂËÊ⁄Ÿﬁ⁄€ÿ—ÿ‹–—ﬁ◊–Õ⁄Œ…ÃÕ¡√Œ¡ø¬æ∫¬¿∑∂¡º∞∏º±√∆ªµ®Ø∏≥§™Ω∂¢†≤¥§†¶®§ü°ß¶úü£†ú°°∂ûûûúñï£üñú†òïõûòéïùîåêìñääìêäåéãáäéÖÄäãÉÅÑâä|}àá±Œπ„‰ËÍÔÌÍÁ„›‰‰€‹ﬁŸ◊⁄€’”’”–—“◊ÃƒÀœŒ∆ŒÀƒƒÏ“≈æø¿ππΩ¡Ωºπ≥≤∑¡œ¥≤¥∫≤≠∞±©™Æ≠≠ßß™ß¨ß•Æß¢ü¢≠ß†•®°†®§úü¶ûô†°ìíûöêòôñêìôóèíñëåèìéäåååéçáééäçÏÛ˙ÒıˆÎÈËÎ·‰Á‰ﬁ‡·ﬁŸﬁ‹›€–’Ÿ”œ’ÃÀ–’ÃÃÕÃ … √»«¿∆≈æΩ¿∆ªææ∫ªªπ∫∫∂»ª∏µ ¡≤≤≠≤¥∞®≠±Æ©∞≥¨¨≤¨™±™¶©™©¶•©®†°ü¢§ûù•ûõõöõûîñúóíïöïêôïêìîéòõÒ˛˛˙˚ˇ˜Ú˙ÙÂÏˆÍÍıÎ‡ﬁÊÁÈÁÊÙﬂ⁄ﬁ‡Ÿ’Á‚ŸŸ—”⁄Œ»“”Ã» œ À«¡ÕÀ¡√…≈ƒ¿Ω¿¬ƒø∑π∫∂πº≤µ≥¨≤∂∞∞€æµ≥µ¥≤∞≤∂≥ß®µ≤¶§´´®¶ß£•©°ù°¶†°úùûöû¢úïú¢ïë†¢òòõó$¯˚
+ˆˆˇ¯˙¸˘ˆÌÙÛÊÎˆÒ„·ÔÓ‡‚„Áﬁﬂ·„ﬂÿŸ‹ÿ‰‰ÿ‘◊Ê‘—÷œÃ—’–…ƒŒÁÕƒ–Û»√ƒ≈∆√¡∫ª¿Ωæºæºø¬Ω∫æ¬∑∂∫∫ª≥≤∏∂≥∂≥≤≤∞∞≤∞¨™≠Æ®¶∞Æ§£¨∞©ü£¨•°ß£¢†¢•§• 
+˛  ˚ı˚ˇı˜ÙˆÔÓ˝ÙÈÏÏÔÏ‰ÁÈÈ„ﬂÈÈﬁ◊‹‰◊÷€⁄◊Ÿ‰‡œÿ‚—÷’…Œ‘—Œ»œ—… À…«¬≈»ƒ∫Œ‘Õ∆¿ ÕΩ¿ ≈æ∫ƒ≈∂ª»øµπΩæπ∑ºπ≤≤∑∏≥Ø∂∏ØØ≤≤∞Æ∞±¨±Ø™¨Ø¨≠		ˇ˙˚ˇ˚˚¯ı¯ıÙıÎÙÙıÍÌÊ·ÏÏﬂÎÍ‡‡Â‚€·ﬁ€⁄€⁄◊ÿ÷◊⁄“ÿ€—Ãœ“”—……——÷—–“ÕÕŒÀœÃƒ Àƒ≈À»√∆«¬¡∆ææ…¿∑¡√∂π¿¿∑πøπµππ∂π∑≥∑≤∂Ω≥≠±$   ˘Ù¸ ¸ÙÙ˝ÊÚ ÒÌÛ˘ÈÈÈÊÓ¯„ËÚÊ„È‰ˆÍ‚‡‡‰›ﬁ›ﬂﬁŸ⁄ﬁ◊Ÿﬂ““›€”’⁄‘œ’Ÿ–—”œÕ”œŒ– —Õ∆ÀÀÀÃ«∆ƒ«∆¿√ ≈¿ƒ∆¬¡√æ√√Ωººø∑πø∏#$%##&"! "
+
+¸ˇ˛˝˙˜Ùˇ˘ÔÓıˆÓÏÔÌÔÎÁÔÊÊÎÈÍÊ‰ËÛÁ·Ë‰ÿﬁË‹Ó¸‚ﬁ‚›€·Â€’⁄ﬂ‡’—⁄ﬁÿŒ”€“œŸ’Ã‘ÿŒÕ÷œƒœ‘∆…“Õ«ÃÀ« À¡¬ÕÕ√º¡»'.?8-,'#',,/(""	
+
+
+˛ˇ˝ ˛˘˙˘˜Òı˙Ûˆ¯
+ıÏÌ˜ÛÌÎ˜ÓıÓÈÂ‰ÈÌ„„ÂÂ·‚ÊﬂﬁÁ‰ÿﬂÍﬂŸ··‹‹⁄⁄·›—‹„’Œ·‹∆’‡–Õ◊ŸÃŒ◊— …–ŸÀ¡ÃŸ12/05851//2/-*$'+%!!$( "(-$	˚7ˇ˛ ¯ ˘˛˚˘˚ÛÓ˜ÁÛÙÛÌ¯˙Û‚Ì˝ÎﬁÛ¯‡·Ò‰ÈÈ‡ÊÍÏ‰€·ÈÂ››Î·–‡È›“ÿÈ◊—‰ﬁ‘‹ﬁ◊ÃÿÊŒ ﬁ÷…—@C>)@J2%8H,+`F2:)*((.(%(	$* !	
+˝ ¯ ˝˝ıÔÓÌ˛ÒÙ¯ÒÒÙÚıÔÊ¯ÓÁÙÛ‹Ê˜Ï‹„ÔÊ·ÈÁ··ÂÍË◊€ÓÁ÷÷ÁÊ’’ÂÂ‘ÿ?L=7B@5>K33EC65<0+1+',-!(4,('$&!	 	
+
+˙˚˝Ù
+ˆı˜ı˛ıÒ  ÛÛ˙˛ÓÁ˘˚ËÁ˚ÙÂÔ˘ÈﬂÛ¯ﬂ·˘Ô€ÁÛÂ›Í‚ﬂÍÈ·›„OFPIDJLIFFBDM?1>H8-A>3.4:4.065*+.'',%#%)5 $!+) ")	˝ˇ¸ˆ˛˝Û˚ıÓ È˝ÁÏÎ¸Ó„ı˛Ó‚ÙˇÂ‡ıˆ·ÈLT[ORLV[LGRRCBOI6=I96F<1?<89@3-;7*2<(22"/38 6,$/!"//9			
+ 	˝  ¸¸˘˛ˇˇ¯¯˛ˆ˚˛ıÛ˙˜ı¯QZ[VY\\XR\aoWMQTK@GRGTVHB>FA>I:4A=05@;R6>104F2<E1034*,)(,%"-,-$' #"*!(
+		¸¸Û¯¸ˆ˙\cb`dyöalkY]kdTQZ^ONROLLKHDGJFFBADD>>@<6?E05OK-.A?41,?@5/27+%5952@.7503*'/"+ &#!$ˇ*˛
+
+
+	 	_XmÖoWsÇg]qq__e`bYWZ]YNRXP]XSIOYNCHPF?LKFECC?=>?<@8>DP@;;=2.964.0>4&8=+&<3 07# 2.*3)"#&-"#/&( #
+cmrpxyqjw}ljuh_liUcq[TkeWY_hZSTsâEP[LHWOARRAFQG@KJDED@@EB?>>:;:<7;I=:>>>23;;1275.)38,,7/&.0('/-#(,  +)&0=
+6)0*$rwÅÉ{{äÇv|á{y}tmrvmfnklkc^fc\_aW]e\TXaUMXVOX[KPXWIKWNAK]GIHHI>AJJJBCDGE:?G=7AH53C<4<;758<7-5755/00.01/-*.-/+#(4,(4$*1!'&"$&ÅíßãâãåÑÜããÅÄ}souÄÖooááZixobddgidaej_`ZUdbh_`QU\VNVVQRQSOLJWPFcT;M_RGLDIWP<FSC;JQC@FEB>BJ><D81IG-5I?,4?;95.7:-/>7*)49.)43%$5;ê|áôüçëíèèÑÑååÇ}áÖxw{uuyv{rjmyeo}jalpplcddpa]q\WlfX[j`V_dXZfà^Wf_JYbWUYWSUSRYSIOUIIPKKKMNHBGSG5NP7>LA>DA?=>BD;4?D57B:3=8583>=+çàä•§âí¨±Åêüàïî{Éïâ}çåxÇâyÄ®à}Äwy}ur}wuvmkìymjmplkhcfgfhf^hleqoia_hi\ec_^Z`cWXf\QYaVNYZNTTSTOKVWHMQMPPKEUOALUJBNLEEHIFDDCEGACHA;îíü∞Æ•üß≠§ìïß£êòûÜçõïÑâìáÇóéuÄîçuyãã{tÇé{nwàwaÄákiàÑ[då}QcèvUkãuXlÄl[qkUf{cStvPMqxTQtb@d}^ARtgOUaZRYgXAYjQLWXUMOZ\RDObSBSWGPSQN†¨©™≠∞Æ•¥∞§°ß®ùùúîù°óêìñçå≥ùåäëëèÑäëãÑÜçáÄ|ÜÇzáÅux~yÅq|~y|zz{vstu{yttmiovunceolglqd\dlidea[gc`kcX\_bdZW_`]YZ\[[]WT[Z^WF[dLN_ZL™∫≥Ÿ«∫∂±∂¥∞∏±¨©©“≤¨§ú£•òòü¢õïîïöíëóîëêëéàéíêàîêçéåÇÜèÜÇÇÖÖÜÖÖÉÖÉ}~ÇÅ}~z~ÇtwÉÅrr{yos|uousmswuojpqpqljlhiomhegegggjhbbki]beab^Z`c√ª√πº¬¿∫ª∂∑√¥Æ≥≥Ø´´™ß§ß•†°§§ùû°öôùõñùòññó¶õìêòóò•îäÑåíÖä´ëçèããääÖÖãâÇÑÖÉÖÑÇÉÇ|{}||yyxx{vuxvtvsuytqqrunlmoqpkjopjkjlgfjgcdhicd¿…Œøº…‘‰∫æ ƒ≥¥øæ±¨∑∑™´∞∞©§ßØ´§§¡±ßû§§»±úõ©£ôúúòñôùõìóõêüññòêíòãåñîäáêëÇÑïçÄÇåéÖáãÄxÜç{uàãurÉÉzt{Ç{xz~{uxwuvyot}omyvooyuikrupmnt∆‡“« ’“‹ÀÃ√øƒ¡Ωæª∏∂≤∑∏≥≥≤±∏≥≠≠±¨•ß≥™ù™¨ùü©¢†µ§ùö†£óñ§§´ñù©óç†£íêüôåëõìèöïâêñåàëêÜãèâáéàÄäêÇ~äçÇ~Üä}~ÜÉ|xÅÑux~zÅzp~~vxx{~rrzyyssz›—÷÷÷‘‘÷œ“‘–À»ƒ»……π∏Á√Øø∆¬»≈«∞Øª∑´≠∂≠©≤Æ™®±∞¢¶∂¨ß£©£û∂Æ†°®•§†üß°õöû£öíù¶ñäõ®íÜù•áÉ£§ÑÑöñÉäöéáìéz~õên¢çpÇúÖeÉ£~^ÜùxeàúwdÇã|vv~É8<77:938?777<;797::795998:9998=97::7:98889:6<88;9:;8997;898=<966?7:=96;786;95::7<:99:899988=;6:<65<;8:898997;:6;988:;6;977=:2<:,998:8<8::8:89:99:;997::<:9899;96::;:;:9;;;9:96;9<8:98;9:86:9;::6:99:999;9:88:6;979;78:998<:7<;:;97:799:78<96:;::987<99998899959;;:9;86997;79999;98:7:=68:;8:97:996;8799::8776C88:79A799:8:9::9<5<99;:8:96<:88::8<:4;:49;96::9:8689:8:;89::::89;9::88;:8=98:<7899:7998<2>;799;88=;99;=89;88;88<9:=85:9:991C9989:69@9::98;;:8;:9:::897::9<;869;:8:=877996:<59:89998;7989:896::89<;79:9:79::75>969@99<:89=988>88;9:77::75;<78<:7>7;::6:<85B88;<858;97:=788965@9<88:;9899859<98:779:768:::9:8779::89:969<:6;96:::99;:99;9869:8<98::9;9<89;;957:;899::97:98:93;:978;8:967<8:9:979:977:=:5;:98:94:<;89;6;;888=96<::8<97::9::<69:86:=:8=;959969;:9;88<:87:9798;::7?:19B988:8899:::::::95@:9798:9:?888=:898::987978<98888::7::97?:6=:899=7::8997;;7:;98<8:;:7:;:7:96<;8:9;76;=96:<93:=69=976;:8;:88>65::8;8:9:<8::7;:7898>:8:79<97:@64<=52@;28=95;898:978;9:7;:7;799;98:::7:78;:9=969<86=;88<<8:98<999::6::97<:6:8<=8::969:9:7;9:99;94<D7;;99;889:99::7;876;57::;8:99;7;=77:=9:997;7:889979:=8:<98;8:::7;;69::98:7::7<;:77:98:;8997::;;69;688:9:8878:79988:<8998649<957@<978;;9::;79:999:99<:88=:<9:;;7:995:;78:978=;5:<87<;948:86::;688<7;:::8:;89:87;:6:::7897=<78<96;86::<89:9:99:<99:9;7<95;;3:>60?=8;989958=8859;::;:67:7==77:9:6<858?9:;8<97;9959:9:98889=;6:;9999887:9:;9797:;9<86:69::;;9757<99;<859::9::8768:<<9<<649:57@84;;6:8:::9;:8<9<:5=::5;;7;:79:;97=85;:8:9:76:;887;88::8887:879=95;;:7:9<:78:8:7::7::997;9;69;89:97:899999::77:;999:9:99<98:>969>97:<:88;:59=:7:;778;7;7:87::49:86;>18<978<;78<=888;98:8;:79<989::96=97;78<:9:<86:969:99>:899;859>98:<88:798;6::8;8:<89;;:5:;86==55<::;;9::::=9999:89:78:99;9;:88<;98:79896:::;;9=;8<99;:99988::::9889899:;76<:4:9:8:;=84=:88:<9889798:9::89:968:::969>;89::79:76::=6.:86>67<9:7;89:9<96:8:9:;:8789;7:;;96;:79:;:::9:9689;99::85;:::9:99:994;::78:6<97:<879988::6;:889;9:79879:9:99::99;96:<69<:89;659@69998<78::997977=979<:98;8:<968;98:;688;7::7;999:989<:99:::99;88;9<878997;979<=5:95:<8::8988;988:979;77;:68:;69>879:9::88;9593<7>:-=>:69D69:8789<9:9:789:999969:9:97:;:87:;::9:9:::88:99:9;87<8:;::88=88:98:;778;79:::;:9;97;7:=8999:77:7<96;=97<:5;<7:59:;9886::9987;88::998;:989;8;9798968;<:;798998;99::68=75996:;9:978;;97;8597967;:85:9;:;<999<:5:<:;998<5:99:8:97::78:889::7::9889;;2:;5799:9=8;7::;7;:;55>86:89899;:7:7;86?9:94<:88;87;=8;;58;89:;::;9599:::;;88<;78;99:98:;98=9:9797:99;969:99:99998;;86:<97;76??;4575=7:;:::7:99<99967:98<89:69:9::899<:9;<::997;::9:9:96589:::::89:9::87;;99998:9:7;7:979:998<968:77;:99966::99=5587::9<78;9888=<99958<89:9;:79::7;8::9:999988<88:76:::97;77;:897:8::::<89::579:;7:::88<:9;;79<::<878;;98899<:979;98::::988;:99;98::9:75<@:425=>:309@87::799;:76:;:9=979;98:;:99:9:77:975<=88<:7:;85<<79::8::99;:89976:79979::7:;7<8:<96:;::6:96:8>7:<:<9::9:86899;;:::8976;;=7:<859;=;7;;79;98<90<9;97<:8:9759>98;<9::49:89:;98::97:=949>;59997;=669:77>:79959;:7;::6=9:<>78<899898:989::788<<;9:<:6;:57:97;=85:<8998:8:<9;95<;:68:;78<;86;:969=;38==37><47=:7=889:;868:<::9;968<:69>94:>85:<=3;9;98;56?56::69=859=:988<968=84>:5<;6:89=>9868?>:25>C89:99<6:36>6:;56<9:1;;89=<9799;978;<;78;96:>65<<67<869:<79<<78;97:;86<<79=;66;:88;:89;:858:>86:<;4;:9:8978;8999<76::79:4?:99;988;86::698;<9=;;:89:76:=79:8:8::899;996?:4=;668?96:;989;88::9958:8;99::989897=:6:;8:899988:7;<:88?::8:87:8:98:6<;4<:5:;;97;:;9:<:37:;;:9;87:97=9:888<97::99<;89;87:79;8:9=::99898:<:99;89:9898::9:6:789:897;;89:;8:9;7;;86:>9:<:969:78;;79:8878896:9::9;<94:79;7989877=58<:5;:67998:7;6::;77;;6998;9:898:<999;:7:99:6::937;9:8:<::8996<979:8:98:9:8;<969<69;7:7:;979<97::98;:94A9;=::<;:;578@98=888:;75@9::8<:88/@;7;=8>=799:689::95:78:;:<;9;;=7986<3=>-?8691H7&M4:;68;89;7:79:9999;9:79:5999:76;8><3<;6::@20@67<689:69::49;::597;;4;<7<77>5:7>?0:;998:;;5<>869=45;;5:;58:649<48?:7:<:989>:7998:699898::879:9:9<:8:<:8:=:8<97=57:69:?::97787:9:79:9=:9<:97<:5;<75;95:959:>5:>7999:;5>>96;;779::;:4:>4<<987?77;::998;93;:89<;88=85<=6899;97::98<9;:;95<96::989988::68>89;8;9;;:998;>987;<:2??;7=9;7:7::98:7<9:877::9;799989:98;;:8<=89999::89869:88;;8:9:9::89789:9;;7<97:9899;;9:8;69:;:8;;79:88;:788:68<9999>6;;889=83;;:;;78787:8::<:0C88:869:9;97::898:9:79978:886::9;8:887<:47::7==669<:6;>;5:<;77879;9<;699;898:9799<:6=:88;999:666@:98:<988;:99:97=;6:;8:95;:987<:5;:8:8::6:;;88:=54<8998:9:98<77;987::79::6:<75:976=:76;989979;;9:899989999::9;:9;:;9<;:5<<975<28<89:99<85>;8::97<:;9:76;@;<76>89:88::78;96<:68;97::89:99:66:;::999:9;99;:9;686;86:>96:<77;;86::94<=87=78::869>96:;88;9:6;97<59;898:98>899988<;5:88:<993D85:>9699:89868>798>;58>968=76;<7:>:8:8;77<:79:789;99:799789:7=:97;<:7;88;9:::::89<89:77898:<97::5>9999::<98:<:9:8::999:85884;86<7:;98::7999669;;9;8;9798:77:87:::7:79::87:7:989:::;:69<:8::8:86:9:9998:989:978<8;>78<97::97::791;6>9::8:8;=598:9:77:?:88;79988:<=99>;67::;8:98999;99:6:89:89:79:<5:98;<::9;8689<9:979;::996:997=:79::5;:859:587999=8=;8;9989:89?9;::9;;9999996;;5:9;64<>8=6;5A75678999:8:;<:6=;9::;8:7:;77;<799:59:85:87877;:6;:998;7888::6;:897:=<7;;:88:99;79:96::989;:8673899::88:797:78;<;4;;96>772A:9979999797<87;8989=88::::;<8<9;9:<7:9:89;9989;99:<969<75::999:98;967<:8<:77;869<9:89:;9;::89:9:;8779;9<::<;:<766G:<76:<99:8:::;8;:889:8;9:;:98;9;:;778::77:;:7;;769;78::99988:99::898;;8<;9=9:98:9:=:86:68<:7999:8788:;87:798:7898:?=;:;;84<84;=;7:<9;?;9;88=678:966?<999;:79;999:9;99;77898:99::9;;:7:;8;9;98<::6:9::89;;96;97;<88:999:9;<::<8896;97::9<:<:9;:599:9668:;98>99=86::7:<99<9:9;956?788:;<99858998::87;8:99;8;89889::8879;:997:8:<::::;;:88::7=;79;7:::9:<8:::88;:7::998:98;<:9:888?67;879::8;:99;88::;8897::8<9<68;9:<847:;89;:999699::899<749;88897898:9:99:9:7889:9:9:98:7:;885;=69:9968::9869879:87;88;7:88::95?:9:7:8:;89;888999>::85:878898:8<:9;69::;<9;;;:9:989:7998:98:<:99899:87:97::889988:98988<:9879;79=9999:9899:798:7<:8:89;9799369::<9:9879997=7:7;:888<85;9;8<<7;9::77:9:79:88;89;:::6:;798:8989::78:9699996>:78>;6:;965;:889:8699:::7::57:<87;96::9:999:867=99;:8::899<8:89:;::97:86::5:;98<969:9879:<9547:<87::48>=68;73;>:3=>74<B74>?879A69<:44::58;768:99:<:8:9<996::;:8::8<;9:;:6;77:99;;;6>988:69;97<978<889:7989899;6;9:9989:<878<4:79:96=;66::68=97;::7:;:=85;=88=97<<68?:/<>22C?1=A:47;88;9:7::87=;58?:1;A45==28=66;=95::7::777=459=0@;889=6:=59::2B>6::::99=36=<9;8;:995<:8;;57@;47@:0;A60=B43==68?:49>95<=:38>75<:56;<48;699;666;@75;?43=@10DA25:>2<;6:=64:B24A<23B=54;>72;=797989:69;85::0?977::8::6<:978=78<;69;6:<989:94:;896;8:9;;99899:978>>6:::95:;56;:67>:89:99986<8=9:;>968:98:?9897;65;<88;;5:7<9>79=;78<:7:;89:898:=78:;899::7;:68;;875997:9997;>78:9:<99:679<:59;8:978;98>:78:;9:9967<=979::;7687:<:;79:5:<:79896:;<88:<74:=8;78@;78:879:8985:79978><:;:;:8899948:88:98:7:99;;::4:<:67=:68<>56;;48;777==79::98:98;988<;:7:<64=5=74>999:=79989:4<<=959:8:;96:888;9<99:96:=86:>739::4;8:>85>:68@:2<@65<=58<9989988<::89697:79;<:969;;89<9:9;;899?:8<:78<96;99<<38?88:86<>9;<69;989:8989;:7;<:7:879;899::989;7:<;79:9::9:989:59=968::88::69=:46<<77:9769::4<?34;?74?;57=::79:998::7::6:;97=;476<97:77989:9=766:5996>798;86796;;::=88::79>657=<:79<929>89=8:967999?78<6:;769=89>:88<9987::769:96:<87;9::95:=:4<;9:787;:68<;588+8A>50>?3<F52<>957=4<=58=49>;1=A/5C</;A62:=75;;:5;::99;8::7=:9:799:4;=97<?:4=>95::8788<9799:::98::6;=879<75<=:8;<58@85;=76=;63:>46>;73:?87:=95:>86=956<4C77<:69:B25>=46?;48A=/:C=24@>38>7387;99<98;86::8998;8:79997;79878::7998::89::9;:7::99:989899;79995:56>9>9:6;=8::;8779::7:8::98998785A99889::89:;989:5>9=6<:;:6:9;7:77:<898:9988;889899;97;:68;9::;57995:;::99;87:<76999;859:::99:7;89;79879<;6:7;95<;9;89:8969:99:8699<:6=;;8=:;9:96;<97<99:<9894;<88::78=9988=66;<:89<899:7:9898:87;:898887796;99;87:;;:9<799;87<7;:8;:<:95;;8:7978:8;7:6:98;78>96:::6:;9;:9:99;;9<;88:7::6::8976;789:;8::<9<;:6;;98::7;:98:;89:::998<;:88::;87:99;896:<779:488=:9:89;8=:<:8788;78:;8:;74D;58<97:9;999=797:8;:7;4>89;78<789899897:::9::79:99:98:9:=:7:9:98;5::;=79:;8<;5:<899987:7::97=77:<94:;79;7<::<:68::9:886;:8882@8:9=59:;78996;9:7:9<898898;<6788::9988887998:87879:::8998<;769;:8:<84;;<85>87;98799:::8:::9:;999;<:9:8:888:7:::5::988:9939?8;95C7;9:7995=98:677889;:7:9:8;9:::;99:9::9788<8:88:<::::98::8<869;:6:97;89<9:9:99:98::::879;<99;:988<88::99<79;9:<;::;8:8:69;:968<6997:9;:9:995:?=89::899789;:998::::95;:::997;<8:<69;87::8:86:<::<95;69;9::9:;;6698;9;7:89::8886::968:<8=;898846E99:69::7::73@96<:9;999:9798:95::;8:997:9:6:::69<97<::9898:;><97;::<:9:999:86:9:<9:97::;8:;96::79:579;99:89;89986887?8<:999:9798=89999:;;:8<79;;2997::<;78:98;8:7689=<89::7<:98:;:9;6799698:95:<965:<79<7797:;99;79:7;:9:8;87:<69>53;?73;98:=99:6?<:8::7;8:8=559=88>928>75;:34=:88;:6<>69>95=>87=;6:9:6>99:9<7:9;=79<79;99:8779995;96:::8:<8:;977;869;78<:99;9::9:;;97:99968:84=?3:<76:;779;:975=;8:939=87;9>=9;:859:;;::9<:78:69=9:97:89;=:78;<899;85:;85=9;7::9;79998:769;89:;797::5:9::7:9:97:899:;989::88:<;7;95:8:99:;>67:95>:8937E:74>::989979:9:7::7<;88=;8;:38;:98;7899<99;8;9:=69:=::76978998:6;9898989:;9:<7?7::98869::89968::77<5<:9::88:;;<::979:;7:;9:;;64@788:9:987:9;7::896:899:76=<99:96999<8::965;889::68;=<:8;7::98:989;8:978889;9997:9998:997:79;989:9:89::9<:5<;;6997:9:96;;:78;::7::799;98:<57<:.A;<879;9:999;;86=9897=668;976;898<799;9:999::6:95:7:9:89:78::89:6999::87::9:58:9:67<9967;9:9@869:;699:94:9:9999;979896::;9:998<:<7:<78<86=::5?=82:::9999::69:6<;99;:86=978;6::6999;99:;8:;:8;:9:9::8::8:77:97:=95::97:97=<6:898:;7:997=:;888>:67@:64?:6;<8:-B:9:8;867;98:9:5<98:797;:7799:8997:;87;;6:;67999:95:9859::85::88;;6:=;78<:79<;78;966:727?9::8<6;<79<8:5<=59:?549:>9937@9998C<::7:94;<97:;8:=9;676:89:779=:89::6::8;79;96886::6:<8:;:97;95<;68:95;<99:879<8:;79;:90<9;8:::::;69;87:939<7:<;8:;6::59:7;::9;67<67:=87=:79:9887<8898::9<68<:<:;:>57;878::88:698997>;2:=888<:58:98:887:<79=:69:88<8998788:9>9899;5<;96:7:96;<<898:89:88:8:8:8977:<<75;96989;9;75>9;9:;87;:7:::69>79::69>76:968686::979;4:899:;89::999789;<5:::9999;89<:88=97997;7:::;6>:57;9;9698::887:669<=:=9:<9:::5::889<88:;9:::968<67::9:9;;:89=97:<5;;7:;89996:<899:679;978:6::89;:9;9:997;;96<:7998:65:;=98;49=9988=9895=789<679=:48<999<:89;5:<8:939;<59;:87;:;98<99:9=69989;999;6;98;778;79::8989<;99<97988::<94=879;85::62?88<6;?87;97:;998:8:9<6D=:97;789?86:67::<899;8<6:=:;5<;::?78;8::7;98>996::87;79:9989:9:66:9779:89:8<9::8:958<968::999:9:995<=779=6;::6999;7:<<7:>78;:79<5797:989:7;;89<99;=;4@9:<99::6:;88<78;988;98:9:898>;99<978;789:95=?88:859:789:78::88:77<:959?:5::;>9:77;;;98:9:7:9<::;:9:65=<987;:88@57<988::<859<96997989:;999992A;6:<887=:69::6;:::9<;88;>67::37<:59<86899:8::97:;9999::6::9899;::959997::78:7::=8:9:9<:3:<78:986:9:8898:89:89;:979:96::;75<57;<93;>888<897::89<97:;899798:96:9;6;:83:D8876?88>:67987;<7?:79:87:8:;:8:85<<86::::;:<:<:;>7:98::4:;:798:858;;8:7;7:=89;8789:9:958;8::9:9:=9898;9:::7<<89:<:6:899<6:8;7>8::88::599;;99:;:9999:;98=87:96;;98<7998:6::8;87;859:9:89<889;58;:6;;79<58;<9=:97<:9:9998?::::9889787::877:;::89:;9<99:685:9<87;6;<868:989979;69;;86<8::89;:6;99<9:88989<96;:6<978999978<:65B98:7:9879<:8>89:79::::;9989;;<89;:7;::<:9:8999;:88;99;;:796::<87:;;6;97:57969:9<979<89:6<97;8:97:988:<87868:;99:89889;8::<985=775A7989:7:;:86<9695:9::;892F;79=97:<8=:89:::88::::;7:9:8689977<9;95>:699?95885;:::89=:7;888;9=>98;;97987:6:95<99;::876<5:99877988;78:67=967;79:;:89:=?:9;8;587:957::7999;79<::6;8989;69;;88:;97979:979::8:<6;::8:897:;8989:8587>:8:;69:99:=879==:61><66?:75C878=7:6:;7;6:974<:7999;6;;:779<9999999;9;:79997::8989;89<979;778;:8:88:989;97<=:5;89999:;968=8888:6@788779;85:;788;:7<:<<58<78;<:6;956;888<;92;987::;7:877<4=:895:998::88:;77<:8:99:;<:98;9989;6;998<;:8:98778<<8;:;8987<::=;96<<9:=:6;9:8;678:998;978<68<999;76;:;;6;<95:;8::;979;89:::8:;699:8797:<9;9:9997:889:98977::74:887:8979;86::988;>6<77;:86=:9:::8<::;;:99;99988::8;:;58;7677E7:9978:55=:5:9::8<:5;96;5979;79::9=9:6:=98;89<;6::8::9<688;:4;;798;;:9;<9978837998::79:86::9:8:8::::9;:869:;6<<8688:7698;;799;99:94::68:77;9;<::;79;9:7;<79899889:::97=86<;779=789=:68;>67<<88:<779::7:789>:87:;99:87<986::89<87:98799:799;;6<;78:9:74:988:9::889:99:89979;9879987:8:;59;888;97<;::;::99<9898:799;69:78<7:79::969:879:894569;96;8:8::9:<9;;:899869;76<:86::::67>:68<99987895855;98<:741=97:898::;:6?:9:;=64::77:A95:;:798<898;:7::798>:4=6998:88;77;9698<99996;<97;;97;<6:78998;<97=:7::67;:6;;37:95::;77:<;88;998;:983=;7;:56;:4:<80?88:;96=:4=;94<?56@;79=<58=:2:@47?77:879;99::8=78;63>C;79:=6:;:9996898:97<;7:85<:2::75;6>::8996:;:8;87:87;<6:;=97<::6:;9;8<97:99:;:6;:896A89:<978;969<79;8;:96;:899>78:9:<:7;9:8888<:;9::::98<;68:7:9<8:89::8:<:8;9;::769:8;<8:889;9:9<:79<989;879:79:5979<8:975:8<99:7:9779:9::979;<8;:5:;;899:;9;:;;6869:9<769;877:;6/@98989A;;<;98;97995;98=:<96:<:<58;97;:979997:<88:;3B;<8::8,E:7;::77=::79;9?;9:788:7<:8798:889:999:9588;84=98;;959:9:7;::8687:68:98:;8?8:<9:79:7:8<9999998:4A70;:88;59;=:8:989<:76:;3::8:86;69:7:89786::8;;<877?7;:78:::97;:69::::959:89=87=968<899<:69:;:3:::7:<;5;::>87786:3;<5<867:8:9::7:::98;:89:9+@9997;8:89:8>5<9=39:998:8=:989598::98:<757;;7;9987998::::8::7<:8:8<9:7;::99<;7::86979:::9::::88889;87::968:87:::7:9=49<76;5G69789798:97?978>:;;::999:;63<98:<<:8:977;78::88;:78995;;:9<;:99;:88;9589::9;897::96<;6:95:9;9:8::89:98::97:::5<;898:6::68;:8887;99<:7:;88;:68:88;76<:986:9;4<;:9<88:;;7;:7:88<:8:899<<58:87:78<9:98=78;;685978997;8:989699=9979899;6;9>97;:;5;97:9;9:98994;<99::9;9;99:7:;9685;79;99;:89;;7<989::9:6:99:=97:8877;9::69998888::89:978:9<;879:998::6:899:86=::9999;899956:<8::88899;9:68777:<99:97:9:9<9:<:89=578<:49<93<:5:949;:6<98:988;89;97698::=:979:89::897:888:;99:779;;699:;989<99:8?88:6:798=;8779::9<5;:<:698;::7:86789;997:898=:679>79>888<899::9797:8889:696<98::<:9<8998;98999::878;<:9::9999::789:88:99987:9797<89<86;:79=:7::7999598=:89<75;9;56<9:;9<599:899::;979<5:=59:977::78::598:3;<::;89:8:9<8;8:7::98:96;8899;:::9<97<;:9:;9::99798687:8:9:89:89;:6<:98;;;87<97;:9:9997;98::97<98;998:;9<:87<5;:76:8889;8:7:;97;;8978:9699:89:99;:9:79;99::::99:9:78:88::89;79<:9:99==4:9:89>96:=77:8;599?949?939<5::8:769;968:7;7:79:888<86:;68;84:4:9:<:769+B8;99<85<:99999::5:<7;;99:=86>:7<89:<86;9999:9;78=97:;86?38>;77<79>;8998<9688=:79=7::;5:;989;6;:89:9<:>85:958;88:,D799:89:=8::;989:7::8::79:<87:=:3<:7:;<79<87:;89:<<688;89:89;99996;:::<49;78:97899:889;89;998880;6?;67:98985=;9:<:;89:68::969899<:6<85<769@:49?:8::8:;78=<63>979=96;;64::9:88:::::::<79:;5:;89987<;34:;54?<29?9-<D52=<6::68>89:=:48::72A889:997899869=83;978;78::;5;898>88:?89:74<<6=;86:78<:87<;69;8;79?96:=969<96;=978<:5899:9888876:95::959=76;:9<9:::9<76<:57B;56=928<:99<9:6:86::76;;4::88?92:=949?83;:77;:78:97;:85:97:::;:7<:98;89?76:<89<:86:;:<6;;;48=76;<56:998898?75>:99;98::7>7;=:7;978<;:89::548?45:?76<756:97:<;5:799:9:978::88:968;68;:78>:4;?87;::5:?:37<;62><37>;77;75::5:=69;:68@738;9<997::8::88<9979=978985:9:6::7;9:;999;86:9:89:6<;;:<899;887;79:59>98:86:>989;89:;997>:68=989;78;777=:56<=77;96;;78:;69:8:9;:<:<89;:8983A::699:8:0C8788:67;:88:888::96:6993A898:6::57;:69@979<::9;:<89:97:=87<:7::988<89<;949;8:<<979:869;88::<739?969957<8:77:67;/F67=979><54@:66=859=94;<68=<77;:87<:2>=:68<8792=<;88;:5;:59<:?7;;69;::6:<:7:9:7989;777::897:86999::<9:8;8:99;778;:85:;:8;:598::7::9:68<9-F=:79:66:6;?6869;998:7::69<<7:957;96;82C;699:998=:8==:7:;6<:7:;87;:689<9:7:99::79:68=8:9:8:<98989::7999<78:;899969689;889984<=29<:4<<9878:6798:3?96:;:7:<93<:56;;58=88:=97<;5:@:54A8:99:::;::88;8889;79:49;:989:;;3<:68<878:<:96:@3:;9;8;9<99;76::;89:9<786:65<887=;17?:979;;78<;77<6:<95><0:=86:=779;968:98:::5=79;889;86;86:;68;77:::;65:;8:<86<;89:7;59;87:=77::99?97:989<689:90D699:8;:789>88A57=9>7:78;79;758:;88:?85:9@96;<64D<78=:4;>64>99;88;;85999:86:96:95;66;:9;:59<959C:6<;67;=<88>969;:67=;86;<75@<39=95@<77987::9::75:;75:959=<4<;9:=78<:4;:;9;:<96:98:88=::79:58<::99::89;96::76;>79;75;869?54@;19?96;:5:;:;66995::68<;76=8898<:95::79;96.A;69;76>97787?9:973E;99;899;:44;=9:9:89>:66?98::<97899:798:;<87;<:69<8:97:88;:::99<77;677998:999<87<78<9::::::5;:7;88679B95<959996:9999;9989:96:8:9:=8:777:;78987:;:87<8;6::<978<:8:;:79;79?:76::7;88;:5;::79789;889;88;::8;999:;:9788;76;;869=878<8599::8:9:799:9899::89:998:8;=+H;988:9;8868<;9:7:::;76<;89:9899;8<86878:98;69;:887:87:99959::97:;57=857<897:9799:8:7;;79?968::79:7898;;:8::;::9896;:(D69<;999:::97799769;9:::9:859:69:99688;7899;7:79778<99;969<;79<7::49;<88:88:858:9;98;979::98:87;<::9<977;9799978;:=967==98<897:<87::95;7;97:>96::6898959>97:=9.?<85:8:99:98::689<;5:;:87;:96:<889::8;;97998:<68988879;9;<9;598:7:=69;;99989<:887;:96990A:988;86799;8994;;79988/D88:82>6;:;9:8:8::7<59:67::8:;:7:<98;96:;77<868:988;8:::9:::76:98:9:8:86:9:89::;9988;;87=97;<86=>7<<:8<974><68>;878>687;=7=;=966::88989:7;;97:>67>@75?6:986;:78;<68::8<:9:89:8::::::9:=:5;;8898;:8769;998;97:;48<68;;99977;:98::?4<=98=9899<87:8978:/==;46A82::79:99897::7:;8;>:99::7::;9::::<96:97:9778;:9:;7987:88::::;998;757;998:::8;839::<<:5<:67<8:8:9<799<9936=-(:8)/47*%)'75!"		
+¸ˇÙ˚ˇ¸Ò˝Ì˜ı„‰ÌÍÊÈÁ‹ﬁË·‹‡ﬁÿ€‡›ÿ÷’œ”€À√”—¿≈–…ø»»øæ∆√æΩ≤µƒ∫™±ª≤¨±≠®≤∂üö¥¥•Ø2=92944520+76*))#&*!%( # 
+	
+	˛˛˛˜ ˙˚˙˜¯˛ÔÔÛÔÏÓÏÊÁÈÊ‚‰·ﬂ·‹◊€‡€÷ÿ⁄—Õ÷“ÕŒ»…–∆»Àƒ¿«…¿ª¡ø∑∫∂≥∫πØ±≥∞¨ØØ™®¨∞Ø≤64;42450--2--+&"&(")(!!-
+ 	ˇˇˇ˜˝ÓÒ¯ÓÚ˜ÍÊÚÌÊÌÍ›‚ÏÂ‡È·ŸË„÷⁄‡‘—’–œÿ“ÃÃ–Ã«Ã ƒƒ¡¿∆æªæΩππª∑∂≥∞≤µ±©∞∑µπ>@;9=>X:4895/5:.,/1+'*,'')!" !%1
+	
+˙˜ ˛˚˘ıˆ˚ˆÒÔÚÚÌÏÛÔÁÊÌÓÊﬂÈÊŸ„‰ÿ⁄⁄Ÿ⁄⁄◊——◊“ŒŒÕœÕ»…»¬¬ƒ¡¡¿æ¿¡ºπø¡∂∑√ÿ‚EC=BFA7=HD28@91026,%1:*18& /+*#!#%/  !%ˇ˛ ¸˙¸˝ˆ˜¸ÙÒ¯˜ÔÒÚÈÊÒËÈËÁ‚‰Ê‡ﬂﬁŸ‡·÷’›ÿÕ–⁄ÕÀ”œ«» …√¡¡√√ªº¬ªππ≥µΩªΩ¡GFACIC<@ED;;>@=56<7/6:,%74%"41""#"&(!!##!	
+˘	ıˆÛıˇ˚Ù˘¯ÒÛÚÔÔÛÔÓËÎË‰ËÁﬁ‹ÁÂÿÿ‡‹◊⁄Ÿ‘”‘”–“Œ»Ã—»ƒ«∆∆ø∏¬…∫∂Ã’«HOQHJECFC@CEG?<?W<519:504<(-:7+&)(*/(#&(&*)!&#!!,%
+ˇ˝˜ˇ˙˚˚ÚÙ¸Ï˙˘ËÎ˜ÔÎÁÂÌÎ‚⁄·Ô‰œ”Ë‰Õ”Ê÷∆ÿÂÃΩÕ’Õ «¬¡ÕÃø¬Œ–ŒSHNQNIHJKILDFIA<D>A98B=07H51H37E!=9!6,#'.$', -!	¸˙ı¸	¸Û˘ ˜Ò˜ÚÙˆÏÌÙÔÈ‰ÓÌ‚ËÎ·⁄„‰‡€ÿ››‘‘⁄ÿ“Õœ“Œ–»∆” ¿“Âﬂ\QISVNLOPLOM@IUC>KJ>CCD<<;6<=66549:51:5./47;.0,&%%,.!"
+	¯¸˝ı˝¸˜Û¯˘ÚÓÔÎÎÌÌÍ‰ÈË‰‰Â‚·‰ﬁ◊ﬁﬂ◊Œ“‹œ«”€…≈◊‹€‚SW[[V^`QROQSONNLINMEDHI?CB>;<;?=68D8/7?0,7:($92#4?,! (( %
+˛˛Ù˚ıÛ˝ÒÍıÛÎÌÌÊÁÁÁÈ‡‹Â„‹›€ﬁŒ◊„œ»‡⁄¬–Ë‘»a\\`__jcYQRX[OQSSMLGHRK<GOB;EM:7FK9B<:=4;>621;9/--+,'-.!'&$# 
+		˛˘¯˙Òı ˘ÌÚ¯ÚÌÓÔËÂÍÈÊÌ„÷‚Î÷ŒËË ”Â⁄“ÎÏgghenb^cZe_`iVRU]PKWRJOOKINO@EPGBJJD=BLE8?BD=C?204463'(71!&4++$!""
+˛˛˙˚ı˝ˆÔ¯ÛÌÏÓË‰ËÔÎ€›ÏËŸ›ÓÎÁqvhbnm]_fbY_db_bccWYaXL`cONdT;S]OLVUH@LMEAIMHC><>C<1?G729>5/28--4'.1$#2-&0##&"%	
+
+ ˇˇ˛Û˝ ¯ÛÛ˘ˆÈÌˇÎ‹Ú˛Ù1nrljlqlcfhih`afea]`hb\e`aijVR^dUOUYQPKPTMLQHED>?CB@??;;>;7741070-/4) 07$'-%$/!".		˙˝˚˘˛ˆÍ˜¸ıÓÒÌÓÎÌÏxyylnyrmkpippikkghjg_ihYR\d\TV]\VQXWMOTSROKLLICAKIBCBE@:A@9;5289641.-61(*.+),(&+%$'	ˇ˝ ÙÚ˙Áı˛ÛÈÒˆÔ˚uÅ|w{vltxqptqomqqimnlibbg_fl^XegWXh^U`ecWbVLURNSTMGNRHINJFEBED;>@<>74=<5176,17+)4)&.*!#&"!! ˇ	˙¸˛ˆ˚ˆÚ˛é|{ñàwy¢ùp{zstvy|rovukmookjlggnhfjfhpkg]Za_YVWXXWYRLSUQRKKMDHIBEC@@?FE7:C95?904;5-13.*.-(&"&*$) !   ˇ˝˙åäâÑââ}ÄãÉz{ÖÉzxw~Åwtstvutmnussmlotvoijcde_^faT\e]W^XR\XQWXNJQUIEKLHBHNF?@CC@;B@76<=3.94*20*/0&),+% &"&(îìêòèãâäà~ãàÉÉàçÄáÇzÄ~wyz|utwrrwÜrooooffpl[\lcZf^Wb`[YZZUV\UMPSPLKPKDNPD>HF@A@B<>;3=@453382/-15+(.*%(%%%" $ #!"ùîîíëèôíâèêéâáäàÄÜåÄÇá}{z~ywywÄ}vstsxqmopidekkgabffdaa]`\Z\YZZSNTZUNQPLNOLGJIGJFBCD==@A84==04=5-36+(21),,#.' '!""ùôõöòîêîïìíéïíìêçâààâäÖÜÑ~ÅàÄÖáÉ{y~xx~xswsmkrtkjlhklgfjedd[_e_U[^X\`XPWYQTXNJOPKHLJDEHA@?BD:<B<<848861/10,11%%(&)(#%"#%û°ùúöôôôîòùñêóôèíñóêìòïãàäéèãÄÖäÑ{|äÉuÑávvÅynuÄsivyhmzlclqjfeedffbfa]ddYZb]UXVVVROSWOFNPGELIDAGH@@C?:<?84:946105-)/)*0*& *'& °°≠•û•°ôü™úôØ°úñö•ñëôìåé§ûÜâóãÜçâáçãÅÑâÑÄÄ|pxàÄmmÄhl{sglwj_mrc^lq`_hd]ieVZfYP[^PQ_XFOXMLOKMMHHEEJG@>@A=9=><3/?6(37),91"3%-.$∏™¢≥∞´ü§ªØúñ°¨†ï£±†íù®¢óíû£àÅ†ßâyì¢åÅëëÑÜâÄ~ÖàÉxzÄÄrr|jhz{cawybdÄuY`uwaVihd`_aVddN]fRRc`HLcYDMPTR@CTO6BQ?=KB7@B>PT?77-77-/.&&1∏µ≠¥µ•Ø¥∏•òØ±õû≠≠ß°Æßù®™£óó¢üöòôù¢üéé§ûÜãüìÅèüã|ãòâ|ÜêÑv~ãÅuÑyyÜÅoyáth~ÄoktwpfoviflnfadehdVXmePQc^WYSQTSQLMNNKEVWB=JGH\C:367422∫∫ƒ∂¥∫∑∂¥¥∂Ø≠µ¥¥Øß≠∑Æ¢©≠£¢©•°†¢ß§öò•©êí§ôéíûüÖâôìäâééÉÇàÜÖÉÄÅÄÇÑ~zÇÇxy{wx{yrrwsnnkplejoebkk_^dh_ZZ_^XTVZSRQOUQOWKLONI<>FA87;=86EÃÃ√ƒ…ƒ∫¡«Ωº¬Ωøµ≥æƒ∂≤ΩØ™≥∂¨•∞≤™©™ß≠®û°®¶ùú§üòõúúòîîñíëìèåèçäãäââãäáäáÅÜÖ~ÖÅz~}xuyyqq|thozqhlplcdnk\bkfY\e\UYZXaZZZVLJQO=CL>=ACH?;À ÀŒº∆ ªΩ»æªæ¿ª∆À¬º∏Ω√ª∞∏ƒµ¨ºΩµ≥≥∑µ´©Ø≤®£Æ∞£ü™ß£†ù°•õó°ûòñòùöîîîóíèôîäêìéãàåäÜÖÖäÖ{{âÄyÅÄzy{zpqxvnkttiktnfoávyh^^UVWTR]qfDNOEJL——»◊⁄¿»≈Õ⁄»≈πº›ø∑¡¿∫¿∫∑ºøª≤µ¡º¥¥±∑±∞±®±©°¨®¨™ü©úü•ò¥ñÅ¥ìëù£∫`}’ÖïóäìôçåéééáäéÅÉÑÖ{u~Ñv|}vqoy{r{hd{iivskHnçcim^ajcUV_ZM]\TMLZVK À·€œ÷»“œæ€‹·ÀÆ‘ŒΩ¡«À¡∑øŒæ≤æƒπ≤¬«¥Øø¥´∏∑°©º¨û∞π†ï≠±°öü¨®òó°†õöôûôìôòïîíîòëãäãëçÜãà}ää}Ç}|}w||opyvsrooppqyqceomgmb^`VVb_QOXVMZd◊◊Á€“◊‹€ŒÛ„À—Õ—◊»ƒ’œΩ¡ŸÀºƒ…«¬¬¿¬Àæ∂«¿∞≥¡¬≠µæÆ±∑±∞∞¶¶µ≠°™≠°ù©´õ°≠°ö£°°†ñò•öêóöêéïïãäîâàíàÉÉáàÉÖxyÉÉwy|rxztslmyrb[eri^kÖaNhvc_[ÂÂÊ·ﬂ‚‡ﬁÈŸŸﬁ◊”›ÿ—“”“ÕÃ–‘’…»”Œ¬Ã‘»¡ ∆¡¡¿ªø¬∑∂ƒΩ≠º≈≥´¥∑¥≤Æ¨ØØß®∞™®´°§≠°ü™§úùùüùòóöõïíôöëêòìàéìéäããÑÑâââîûéÉÜw~|tr{sahuiflc^ed`ifÂÒËÊÙÊ„È„„Â·ﬂ‰‡€‚›’÷ﬁ·Ÿ“ÿ›◊–÷‹‘ÕÕ—ŒŒŒ…∆≈«Œ–¡π«—¿Ω…º´∫Õ≈±¨∫ΩØ∞¿¬Æ°≠µ∞Æ®®≤®ù•¨™††£¢ûõû¢úëõ•ôñúôèîòö°§ûüäáçäÑÜ{{Étu~vqynkvqikkmyÚÒÓ¯˝ÎËÙÎÊÎÈÂ‰ÁÏÈﬁ÷„Ï·÷‡Èﬁ‹ﬁﬂ‡◊”ÿﬂ‹ Ãÿ–»”ŸŒ«—“ƒ¬‘–ø√»øΩ¬«º∏øƒ∏≥πµ∏æ∏∞Æ∑≤¨≥≤´≠Ø™®´™••§§•†ûü¢¢îó£õòù†°ñ¢ôàçâáöîÑÉãÉ|Öá}wyxtyuip|äì˛¯ Ú˙˙Ô˝ˆÍÛ˜ÁÁ˜ÁﬂÏÓ‚ÊÍÊÂÁ‡·ËÂ⁄⁄‚ﬂŸ◊ÿŸ‘’⁄’Ã”◊—–Œ»Õ‘Œ¿¿“Ãπ√ÃƒªæÀƒ±º«Ω≤∑√∂´ª¿¨≤ª≥•Ø∫±†™µ™•®®¶§§•†ß≠õ§ßùó°†ëçôëêééåçéÑÅãÜÉÜÇ|{ãùÇÖˇ˝˙˛˛ˆÙ˚ ÚÈ˙¸Ì˘ÊÚ˛ÓÂıÙ‰ÁÏËÊ„ÊÍﬂ›ËËﬂ›„‡◊‹‹◊€⁄”’ÿ”œ◊‘ÃÃ—Ã»Œœ »∆≈∆∆ƒ≈∆¡√√ø√ø∏πΩºπªª¥µª¥±ø∑±©©©ßßüõ§£êãñïóëäåíêÜäçáÖçÖÖìá|
+
+ ¯˝˙¯¯˚˙¯˜Ô˜ ÛÓ¯ˆÎıÎÍÓÎÎÎÈÊËÁ·‰Â‡‚‚◊€Ëﬂ–Ÿﬁ⁄’’‘‘€‘…–’ÀŒ÷ √ÕÕ≈∆œ…¡«≈∫∆Àπ∂√ƒº∫¡πæ¿øœ∆¿Æº∫¥∂∞Æ©õ°•°úõñú¶ØóìõöçèéÜéèèåç
+ 	˝˙˚ˇ˛¸¯¯˛˛¯ı˜ÙÚ˜ÛÍÛıÌÎÒı‰ÊÒÎÊÂÂ‰·Â‰‹‚„ÿ⁄‚Ÿ‘⁄‹“œ◊◊ŒÀ”‘À…“Õ»ÀÕ…∆…√¬ ¡∫√¬æΩΩºªƒÀªæ¡Ωπº≤¨∞≠©™≠¥¬Ø£´ß£ù´∆≥úúëóô©ìêêê
+	˙¸˙ı¸ı˚ÙÛˆÚÛÙÓÒ˜ÓÈËÏÌÎÈÁÁÏ„ﬂÈ‰ﬁﬂ€ﬂ·÷÷›ﬂ÷–÷⁄”–”‘÷”ÀÕ‘–««ÃÃƒƒ Ã…–œ“Àø»Ã∆øº∫∫µ¥∏µ™ß∑≥∞∏Õª≠¥÷¨°ôóùòìñôñ !	˛ ˛Û 	ˇÙ˚ ¸ÚÙ¸ˆÔÔÙÙÔÔÛÈËÛÒ‰ÂÎÊ‚ÍÏ⁄÷ÊË·‹ÿﬁ‰€“◊ﬂ›’“÷◊◊‘–‘÷··€⁄ŒœŒ≈≈∆∆«Â¯Ω∂±±∂∫±±Ø§≠±©£•´§¢™™ß°û¢((# &&"!$!"	
+
+ ˇˇ¸˙ ˚˘¸Ùˆ˙ıÙÙÙÛÏÒÁÌÔ·ÂÎËÊ„‰‰·‰‰‡›·Â€⁄ﬁÿ÷··Ï¸Ùﬁ◊’‘Õ≈œ◊À◊Â‡Ãøøø∫—“π¡æ∂Ω∫¶¨≥≤¨®¨¨°£™°)+00*%((%%#$(!!# 
+ ˇ˛¸¸ˇ¯˙˝˘¯˜Ûı˘ÒÌÚÚÍÌÒÍÍÍËÎÁ„Â‚‰ﬁ‚Áÿ€Í·‹›◊’⁄ﬂ”ÿ÷ﬁÀÀ–∆≈Õ∆¡Œ”≈¿ªπ∫ææµ∏√œ≥∂¥Æµ∑∞Æ<6:<:222,3321)(10*%&+.-(&#)(%$ #" #
+
+¸ ˚˙˝ ˙˘ËÏÌ‡·ÎÂÿ⁄€◊⁄‹⁄”’ﬂﬁœÃÀÃÃ«………«¿∑∫æº¡º±µº∫µAC@:<<76::611343-.3/+/20),,)&"&'! &!$!
+		˛˝˛˛¯˚˛˝ ˜¯ÛÔÓÎÌÊÈÈ‚‹ﬂ·›€ﬁﬁ◊œ◊÷ÿ“◊‹‡Ÿ„€≈¬ƒ¬æΩƒ≈øƒHBCC@@A@9:A:3:67900=8-36212-)+,%(*$#'! $  	˛   ˝ı˚ ˙¯ÛÔÓÓÔËÊÔ˝È‡‰„·››Â‚œ÷Ë·Â·›”Ã“œ– √«À««Ã…TTTROQQJIMJKFCFGHEACFB??DG<6?<649D4+:?-)=9'(03-)*-*%')'&'-(%'!".!	 ˛˝ 
+˜¯ ˘ÔÏÒÏÎ‰ÁÌÂ„ÓÁ·‰‰⁄ÿ‡›‘◊“œÿŸŒ”‹ÿ]QGX\FDY[A:SX<>ZO0;]K-@ZE);SC.0B?,:A2'1B5(1/&.6.%(.-!".*# """""	˝˛˜Ù˙˝ÙÚ˜Ó¯ÔÓÌÎÏÏÔÈ„„·ﬂﬂ‰„Œ‘Á¯ÊÍTYWQOXSLPWMFQQKKLLMEELMF:@RB-EJ24H<)AI(*N4<R"D>!=3$1,#"'#!)(('-)ˇ#. (1%	
+˝Ú˛˛¸Ò˘ ¸ˆ˝˙Ó˘˘Ô¸!˘ÂÍÚÚÏÂÏ‰¯
+Âf_\[[Z]cUQcVG_hKB`g@Bo^,FoQ-HgI,L[<8QP25RK/1PI*7K8+<H2$:;*2:6*$.A5&A,/O$ˇ0\Ù2*˘*¯*È$¸Ê¸Ï¯ÔÙ¯˚ÚÓÓÎÚÈ‹ÈÔ‚Ï˜Ûcfja`keY\hcUXa_V\[T\_TSZTKLZQFNMKMNJIFGIFGFA=@GF9:B?:49E6&;D-(88*(2/+-'$)/&)'%#! $$!	!˛
+	ˆˇıÙ ˙ı˜ˆ¯ÚÚÓÙÚÁÛlfcmojgejcXfoeXV`f_]b^ZX_h\GPVPQVROLFLSSC?KIBKGBHB:AH?88=98@;5/5?9,-83.//7<>L;**$-%*&$  1	 
+¯˚˛ÓÚ˝ ˜ıÙÒÙ˛˚nkptjbkxm_`kmcffdddacb\\b_MPebMPc_II``H?W_H?SYC>PWG:AKI>;@=>C>68A>56A<-9WGU>EU.,31+"*((.""/-!˚˝ÛÙÒÙ~{muÑqe}É`cÄyal}k_nsggeje_dh`^_ac`\][W[\ZTQXZMMZVLIOUHBHOK:CRB8JH8>E=AI<4FG38=25D:7A7(31(+,)++"$-#)$#"E6		˜ 	~xÅÖzz{sx~xswzyqkzÅk_wh^pulbcmr_\tkL[wfJ^r]K\eXUWY[TJSWKNXMAQSHJRICfqcMJJD:>?ABCE3/<8-6510&$-)#(4H6.'!!)˛ ãÜÉ~àÑwÖát|ÖÄzs{Ö{pw~rjyxmnortnelqm^asj\fm`_a\ZibPXhWNYXRVWNJW[EDci`îïZ2OmGcQ 3YH-;gS,F>+:=1>6$E,<IA:;$
+-óäàåéçâÄáîäxÇïås~öàrzãÇxz|z}ztvxyuttqrjl|q_lsl]bsi_`kbVhjKTocCRqYFhàg?[iTJUkdHPYQ>CSO<FYA:BNT`<@?57DB8$=J$4=57
+7<¸(= #%1öüïñôóñëéñòìãêëëêêèâãçâàÑÄäâÇÖâÄàÇy~ÉxtÄÄww{wyzvntzsmouqljrnelroáñ}j^]\ba`_YUNTVURJPVIMMFGLFBCJWgJG<9GA<>>:3-1334:0/"%-)  $&%%'õõ±•òü††úùû†ôëù°ôñúôèëóëéîîéçëèåéèááçàÜÖÜàÉÜáÇ{~ÉÄÄww}zyxyyu~|utpqpkkla`aZ^_\a]ZWP[[YQIOWQLLLGFKMDBKE?BMA<8;66?5,390-/2*$)050§™≥´ü¢®£ù¢©°ïù´£ôö£öíöùòëëííîôôçãîêàêìëàÉÜãâäÜàä~yÜàÇ{~Ñ}~~ÄÄÑu|É~àztpiltkbdcc`bgb[Tagj[USV^YNQVSKJRQLFHHCDNK9@RC6:C@=559749;;<©Æ±≤™¶´ß§§¨¨üõ™≠¢üß¢ùüùöõ†ùôñïôõîèíîìèåéïìçÜäçàäåÇÄáãÉ}ÅÖyÅàìá~ts|{stsomqmjnmdgkh`lidi]^gjfeg]YZXTVPSTLHRLELOiJDF=>I?8875467ACæ∏∫æ±©∏∑≤µ∞´Æ≤≤∏≥¢¢≤≠¶ß´§õ®´ß£ù§§úü•ôì†£ôöôîìóöññêáîòäçëäÖä°ñíèÑÇéÜ}xvvz{volqxzpoonpè{vuÇjrrodahtffc`Z[]]SKMZ[PPLCDSSH<:::EHECBπ¿¡∫∏∏∂ª∫≥±∂∑¥∑æ∞®≥µ¨ß©ÆÆ¢•≥±•ùßØ£¢£ú†¢ü°°ôôòùöôúöîíóîòïéîööùëììéâçãÅÄÉÄxx|{zxÑÄtszÉíwtpnhpvvqckqfdgc]Z]\[YX[WSQQSTSOJGCFJEGNOP∆∆ƒ¿≈¡ºææªΩ¬¡µ∂ª∏∫ºπÆØ≤≤¥∑±∞≠ßØ¥±¶ß©®ß©©©£õú®©°ûü†òó¢§óíü®üùüôçèêêóïäàÑÅÇÉÑÖ~àà~{ÉâÇwÜy|xuzrwrvnuxi`jpkdga\rob^YW^b\[SNPRUURSVZ—»Ã”«¿ŒŒæ∆”«Ω≈«≈ ≈ΩΩæª¡¡ΩΩ∑∂∫ªª∏∑≥≠≤∫µµ¥≠™ÆÆ≥Ø´®ßß™≠¨©•≠¥≤©∞£ôòôõù¨ÆååãÉåéÜÜÜáÑÖ¢âáåÄ{ÜÉy{{uruzyqkrrppsohghjebeeb^fdW]aOOSRYX\\\—∆œ—ÃŒ—œ»«Ã—–»««¬¡À«øæππƒ ºµºπ±º«∫¨∂∑∞µ¿∫¨©≠≤¥±´´ßßØ∞∂ªΩ´™≠®ü¢¢îó†°§çåìíëëëäÖèíáó†í}çäÉèåÉ~|ÇÑ}yyvuty{{wkjã~koqf`mrlea_\bbZ^b^ghÕﬂ‚Œ«⁄‰“ —‘Œ”÷“œÀ Õ»ƒ—Œ«∆≈«√∆ Ωæ…¡µ≈∆∞∫œΩ•µÀ¥®¬æ©´≤∫ ∑Ø¨±ß§ªΩØ™ßö°±¨ñûúÜç¶†åèõçÅô©ïáêëÜê§åxäåtÇ£ámxáyzä~zx{pwy{pfqstpdkj[fjcnj^lﬁÍ‰÷ﬂËﬁ⁄ﬂ‰ﬁ€ﬁ‹◊⁄ﬂ”Ãÿ‹“–Ÿ÷À‘ŸœŒ“œÀ œ–ŒÀ…«ŒÃ∆……√Ã«∫Õ·ƒ≥¬ª©Æø∫®©µ≤•§™≠≥¶û§££æ≥°üúö¶¶¶•úîñòúûìéüû†îåñêÜíêÄ~ÜàÖ|ÑÑ|wuÜ}ioxrcixm]iyro·ÁÂ‰Ê‡Â‚›‰Ê›Ÿ‚„ÿ⁄‹ÿ”ÿÿŸ’œ€ÿŒÕ“’œ«… ÕÕ»≈ À∆≈∆ÕÀ∫¡’’…¬…π≥≈√æª∂∫π¥©∞∏¥∑¡©ß±±‚ÔØ£§≤≠¶ü¢ßüú°†òíïùñèïïéìöåãïíÑñúãÇÇÑÅÖÇÄ~vwwmovvnszu|ÌÌÌÔÔÓÏÏÎÍÏË‰ËË‚··‚‰ﬁ‡‡·‰››ﬁ⁄‹‹◊’’’÷”—œŒ‘—ÕœŒœ€œ œ»æ«À¬ææ¬ª∫∑æªµµªπΩæ¥¨¶¥æ£≠Ø™¶©Æß¢™™üü™£úü™£ïúûïèóúéÑîöççëéåâàççÑ~ÄÖxwÅ~us~}ÄÚ˜¯ˆ˚˜Úˆ˘ÙÌÔˆÒÏÎÊÓÌÍÎÈ‰ÂÎÍÂÂÊ‰‚‚‡›‡ﬁ’€ﬁÿ’€÷÷◊ÍÎ›‘””À«“—«…œ«¡√«ƒ∫∫∆¡∏∏¿√æπ√«µ≠∂Ω∂©∞ø±§Ø∂≠®ÃÆ¶°¶™°†¶£ûú•®óõ†ïëîôúäåòñÑÄéê~~áÜ}Ñëèãˇ¸ˇ˛˛ˇ¯¸˝ıÛ˜Òˆ¯ÓÌˆÛÍÒÛÏÔÍ‰ÏÚÍÊ„‰ÈÁÊÂ·ÈÈ‡‡‹ﬁ‡”œ’◊ŒÀ‘◊ŒƒÕ‘…¬…Ã√¬∆ƒ¿Ωººø¿π∂∫æµ≤∑∑Ø≤¥µØ≠∞≥Ø©™≠®™∞™°§ª®úõ¢£úùùõòóìëîçâèãÖäåãêìç ˇ˛¸¸˚¸ˇ˘Ú˙˝˙˘ˆÙˆ¯ÚÒ˜ÊÔˆË„ÙÓ‡Ï˚ÛÈÎÔÈÂÏ‰·Î‡‘◊‡⁄‘€Ÿ”ﬁË◊À ”€”º¡÷’æªÕŸ¬¿À…¿ø¿Âƒ∫πæ¬¡Ω√√Ø©∑∑™Æ∑ÆØ≠™≠Æ≥¨®¨©¶§£®£üß™£ß≠™´µ∑
+
+	ˇ˚˛ˆıÚ  Ûı˚˘ÛÎÙ˘ÌÈÍË˘¸„Ì¸Í·€ÌÒ‹ﬂ„ﬂÛÈÍÿÿ‰‡ŸŒ€ﬂ“’”’À”ﬁ »”‰Ô–Õ√»Ã¡æ◊“ææ»ø∏∆¬∂æªÃ¡∑≥∏≥¨∂æ∑¨¨∞¨¨®¶£§¢ú°•°ü´Ø´!	 ¯˜ˆ˘˙˝¯ı˜˜˜˜ÚÍÔÈÈ¯Ô·ÈÓ‚·Á·‡ÍﬁŸ‰·⁄‹⁄€ﬂ‹◊ﬁ‡”ŸÎ”»›‹»ƒÕœ…√¬∆…æ¬”…Ωø¡Ω∑ø¿ππ∑∂∑≤ß¨µ™£¶©®¢§™©¨•-&"+-*&"!!	
+	
+	  ˛¸ ˜Ú˘˛ÙÚÓÌÛÒÏÏÌÍÍÈÁÂÁÔÓÂ‰›ﬂ„„‹⁄„ÁŸ”„Á‘œÿ‹’—Õ”––ﬂÃ⁄◊Œ«ƒ…À√ƒ…«º∫¬æ≤∏ø¥™∏∂ßØ∏Ø´∞¥∏-10+02)*1/++&#&('"#'$%#') %#!$$##+2	
+¸	˛¸˜ı˚Ò˙¸ˆˆ¯¯˜ı¯ˇ˛˙ÓÌıÓÏÓ‰ÏÔÊ⁄‰Ê·ﬂ‚‹”◊›ÿ◊‘Ÿ⁄“Ã’ÿÃœŸ“«…ÕÕ ¬Ω«»π∫∆¿º»æº…–À93)+3/-,,***+(#&)" )$"  $ ˛˛ˇˇ ˝Ù	Ù˘˚ÒÚıÙÏÎÎÏÊÚÍ„ÒÁ◊‰Í€—Â˜ÈŸﬁ‹ﬁ›÷ﬂÁÿ–›⁄—Œ”Õ«——√»”Ã∆Õ»À”›È?=4;>65:9465,15-.3*+21+ )4"/,"1/*ET2.,")"ˇ¸
+˝˛˝¯ÛÒ˝˘ÚÌÌ¯ıÍËÔıÂ‚ÒÛﬂÈÔ„‡ﬁ‡Êﬁ‚‰Ÿ◊◊ﬁ⁄Œ÷÷» –À…»≈… √¬»À∆«DD@A@>C=7=<:9108902;7,-70(*1.'%=5 )5'!/*!"#"$(˛ ¸˘ˇÙ˘˝ˆ˙ÙÚ˜ÛÓˆÓÊÚıËÎÔË·ËÚËÊÊ‰‡‡›‰Á’‘⁄⁄”“◊÷ÀÃ”’  ⁄ÿœKKJIKGCEGG@>B>=DA;<>:99==24=7CG652.53,)*+'&(($&"&##C4(!˝ˇ˙˘¸Ù˚ˆ¯ÙÔÚÛ˜ÎÎÒÔÍÂËË‚›‚Á‡”ÿÊﬂŒ⁄„œÃ„„◊LXYNQQPNLOPMFERPFIGEHGDDECCBEGF808@:01;2+/.+2-'%-+(02& =9#!	
+¸	
+˘˝Î¯Ô¯˝˜Ù¯˚ÔÔÚÓÍÏÏÈÊ„‚ËÍÂ‡›ﬁÁÁ·ﬁÏYR_x^[]cjSSVLJSRNOQILRBERJFNLCCB>@C:6><06;767:43,//4/(.1,+'%-)%#"#'!!#!
+
+ ˇ˛¸˝˚¯˜˜ÒÚˆÍÈÌÔÁÁÎ‰„ÏËÊÔÓplb][VT^`\T^di`UQSNPYSKOVUDIQA?JCAHA?F@9AC97:924>855235330(,,))0&*-  -%&%($*&$ 
+ ˝¸˚ÙÚ˘ıÓÛÚÔÌÓÔÔˆˆınimafaY^g_V\gd^bg^b`TX`kSY[IOULGSQKOKHHFHIKD9GI7;H?::A=;868@5-<D/332A6,3F@-30 ,082&$!"%!	
+˚˝˛ˇ ˛Ûı¸ı˜˝˙˜vsidmjegbcfegje``de_[b^Z[TY\TQVUWTRRPXXNMPSTJFLMKIGFMF;CEA:?FG7AGN7BEB0-595,2:1*0,./-+)&,0L$#$!
+		 ˚ ¸¸ˇ nuçses|shltrpthmgamr`aibab_cg]Y\aYU\[V[YZ^USj^PWXPJLTUGKIGFCADDH@:EF<?N@:<A8:=9333561.1.,4)+,*'$,0  *&!
+		ÄÄxwÅ{qvxo{qonpmnqhilomijih|lhth\fjkmmg`[agdXJXnMFa`BB\fADUPCBHMIADCIF<?F?<AA==:MC95:C9,2830-250*))+)''&#  
+ãÑÄÇàä|Éèä{ÉvzÉ|uzèÅov{onqrnm~lmliejmjlloedfkd]vofXVc]OXf[JPd_HSbQHT[TLScTJKVRF@IEDNJA`K?99@=6:=86462(38,,/+'%##"!"" #èÑãîáÖàÜÜÑÄÖãÅzÄà~yÄ}|ÄytyÜynzqqwpjnsjjokhmkjigjh`gk`]eaUZf]XUW`XNR`YIPZTNKTUMIIMLCCNGDEAACA=BD<7;<;8405404.(-*!(-&( &#$)#!ó°•óïíûùëäëâãîìàåéÇÅÉÖÉãá~áÉtzÇÅxxxuy|uttnot}yiixåâcptebnm\bmb`ge_\ahYW[`]`SZXURNVVLMVNHJROAFRFCG@>BC>:;==3457((;6$",6)).+&&04†ö†üöúûòñòöïîïíêëççââäâááâáÇÉãà|àá|yÑÑzq|Äwzvv}yvmuzmkÄraqtfhpjhhlÄzie\^`bb_^\[]^[VV]]XNU\QO^WEI]T=BRRB<GLA4?G7/<C7.8;954:7439;ü°Æßöù¢ó°®ñîü•úìúüèïõìîíìïíåçîïÖÖñçÄÑâéâ{ÅÜÇ~ÅäÑÇÉ{~||~{vtz~v}ármvvplqngmneijdblf\ekrcad]Y]baXT\\UQRVQKVPFLNDCBAGB9>C=9:CB94=CB9∑¶¢≤¨°°ßß†§®£ß™¢°¢ûññ£ùèï¢öêîúñëìçñõÖáóèáçèçáêêçãÑãñÅàÅ|~ÜÆä|ÉuwÄ{yvtÖvlq|qbpobmzt``vp`ciocY`ciYObbYRV_LHWMOMNNIHHEHKDCBFJCEJπ∂º∂´≠µØß≠∑®£Ø±≠•°ß¨®ù•ßùú®£î£¶óì§úåù†ìåòõëéóóóååîíëãåíäÖãê•ëÖëáuÄíá~âÅwÇ®Åt~~rw{qoÖs`mÇqZoÉhVjxaQnuOPwlH\dPR`XPSRMOSPPM@HYOGLUZÆæ∆∫≤ª∫≥∂π¥Ø≥∫∞ÆÆÆ∫∞ß¨ß®∏Æ£µ≠§©∏±Ø§®®¢õû≠¶òì†ôîõóóûñçû¢îÇéõèÜçóçáâéãÉÜåáÜÖÄ~áåÄwÄÑéyy~wou~zppuqiqrijkfgkf_ag^VcbUV^XVXXVSRTUUUYVƒ¬¡ªª¬ƒΩ∏¡≈øΩº¿∑≥≥∏ª∞±ª≤≠Ø±¨Ø¨´™´Ø´ß´§§©£ß¶†•££™•†ùüûù¢†îïúóêïóíñïìëèèëäçãåëãçåãìêÑÉâÑ~ÄÑÄ|ÑÉwv}yp{{utrrrnkfjmfcgfdedb[^g^T[aa^dÿﬂÕ“Œ Œ“… ‘À≈…ÃΩΩ∆ƒª√¿ª ºπ∏ªøπ¥∑≤∑æØÆ∑≤≠∞µµ≤Æ¡æ¶Æ≤´™æ´£¢´§ù∞À††£üö°ß•öñïö¢óûöñîò°öçãêèåèçãêÜÇâáÑÑÑÖ{{ÇÉyqv}pozwjlrnlihljfhhhhjnlÿ”◊⁄”—È9Ò”÷–Œœ–—Œ…À“À «ƒƒ«√¡≈”∑æ’æ∂¬¬∂æ√¬¥∑Ω∂∂ø∫≥≤∏π±Ø∑∞¨∞¨™≥ßßß¶´†£≠±§¶§§¢¢üû†°≠¢¶úö§¢ûüúùùïîòòòóïëéìéâíäáèÇÅåÖyÄâà~|ÅÇÉ|{âååì„‰ﬂ÷„⁄Ÿ›’⁄ﬂŸ◊ﬁ‘‡Ÿ“‹–“ÿ”À‘””Õ»–Õ»…»Õ…¬≈√≈ÀÂ«√æ¬¬¿√πΩ√ºª±¿¡Ω´∏¿∂≤ªΩ≥¥∑≤∑∑¥øª∑Ø¨≠∞≤¨Øµ≤•®∏Ø®™≠Æ¢ß´†°¢¢§ûõ°õóòòõùñîôóëêôöîåìóñóñù•ûõÊ‚ÏÁ‰ÂÁ‚·Â‚€ﬁÁ›◊Ÿ‰›—÷‰›‘”⁄ﬂ‘Àﬁ‚–ÀÿË¯À… Õ—««—œ∆»–√æ≈›Ã¬¡≈∆¿ªø¡∑µ¡Àπ∂∂∫∑¥∫Ω∂≥≥∏Ø´±Æß±±•©ÆÆß§¨ß¢£¢ûûõûùôìñöëèóöîåçíççãèêÑÜêÖÉçäàéêıÏÓÍÎÓÍÏËÌÍ„·ÍÎ·ﬁÎÁﬂ‚Êﬂ‹‚‚ﬁÿ€Ÿ⁄⁄ÿ⁄⁄——›ÿÕ“‘Õ—”œÃœŒ Õœ¡∆”»¡«œœ«»»”≈√ø¿ª¿¬∏µ¡≈ªπ∏µ∏π≥Ø≤∂Æ∞πØ¶∞±®™©ßßß¶¢üüûóù§ñìòôïëôôèìñëììèçîõîîÙˆ˚Û¯¸ˆÎÔıÚÎÍÒÒÈËÌÍËıÓ¸ÎÈ‰‚Á‚‹ÔÂ·€ﬂ€⁄ﬂ⁄ÿÿ⁄◊‘Ÿ‹’“◊÷◊◊⁄◊œ—“œŒ–Ã«»Õ»∆…≈√¡¡ø≈¿Ωﬁ€Ωº¬øª∑ºæ∫ºµ±∂µ≥¥±ÆÆ≠Æ´´™•ü†¶••úô†üûúúúôìñöóîúóêö¢õ˝ˇˇˇˇ˙˛˛˚˘ˇ˘Ù˚¯Ò˝˙ÛÚÙÒÒÓÛÔÁÍÛÚÈÏÍÂÁÎÁÒÌ‰‡Ï€„Á‰⁄◊ÂÊ‘“Ò◊÷‰œﬁ’œ›› …’œÕ  √»Õ∆Ã…æ¡«»¿¡æ¿ø∫∫Ωæ∫π∑π∏≥¥±≠≠´™´¨™®¶•ß™®ù°•†°°ü¢¢†°£§¢
+
+
+¸ˇˇ˘¸ı˘˛˚˘ˆ˘˙ÙÙ˘ÚÚÚÓÚıÚÎÌÏÎÈÂÂÎÂ‡Î„·ÛÊ›ﬁ„⁄⁄ﬂ„›ŸŸŸ’ﬁﬁ”÷’—’”⁄ﬂÕ––Õ—œŒÃ…ÀÕ »√≈ ∆ø¬√øø√¡ª¥∏π∂∂µÆµ∏∞≠≤∞≠©¨∞¨´©®ß™©≠Æ∞
+ ˚ ˝	˝˙Û˘ˆ˛˜ˆÙ¯¯Ó˘˚ÌıÔÓÚÓËÎÒÎ„ÎËﬂÂÓ‰„„„ﬂ€„Âﬂ⁄›·‚ﬂÂ⁄÷‘‘—◊⁄Œ ——ŒÕŒÃ…Õ»…À«ø√Õƒ¿¬øΩæº∫∫∏Æ≤æ∏≠∞µ≥Ø∞±≤¨©∞ØØ≤≤!˝ˇ˝˙ ı¯˚˚˛˜Û˝ˆÛ˙˜ÏÒÎÌÎÓÎÁÊ‰ÒÌ›‡Ì„›·‚·‚ﬁ‹‚ﬂŸÿ⁄‹÷’÷÷”“Õ–÷ŒŒ–Õ »Ã»¬…»√∆≈ø¿¡ºª¿∫≥ªΩπ¥∑ππ∫∑"( (&& &˚		˛ˇ¸ÙÒˆ˝Ì˝ıÓ¯Ì¯˘ÌÍˆ˙ÛıÏ‚ÓÛÂËÏ„‚ÈÁ„„ﬂ›‡Á⁄‘‚‡–—ﬁﬁœ“ﬁ“Œ÷œ»”“≈»“À√≈≈«ƒΩæÀ»∂ΩÕæ∂«269!)2%4"""! 
+˙ ¸
+ * ˛˚ 
+˘¸ıÒÙÚÙÒÒÚÌÂÛ˘Í‡·Ì‡·Ì‰⁄·‰·‡‚‡◊⁄‚€–’⁄◊œ ÷‹“≈Õ’œŒ ……Ã»√—Œ…”0%59++3+*)&#($%0.!,' ""#J./"#")˛
+¸ ˙˘
+˜ˆı¸ˇı˙˜Ò˜˛ÙÈˆˇÓÂˆı„ÈˆÏ›ÁÔ‰ÂÈ‚ﬂ·ﬂ·›÷ﬂÂÿÕ‹·’Õÿ÷Œ“”Œ–ÿÃ√€‰7#>O(AJuO&F+2,(2%"01.*'B$%$ ˙ı˙˛˘ÙˇÔ˛˝ÔÏ˘˘ÓÔÈ˘È·ıÛ‹‡Ù⁄⁄ÌË‹ﬁﬂÊ›‘ﬂﬁ⁄€’€‹ÿ◊‹‚I<7DE48IC(3I:37457156+2;+&9>9:0.!"+.$ %"('*$'	$#$ˇ* ˇ¸¯˛˛¸˙˛ˇ¯Ú˙˜Ò˛˙ÁÏˇˆÈÏ˜ÒÁÍÌÊ·‚ÎÍ››È„◊ﬁÌ‚“ÂÓCHPI>EH6?K>7BC8;H?883BA64C;.4E5)5540*+53#6>-/5!31"#))"2$ ˛ı
+˝˚ÚÙ
+˙Î˙¯Â˝ÛÁ˘ˇÓÍˆÓÍÙÏﬂÓÛ‡ÿÛ˙€·˘ZTPKOTKBGPI@HPD=AHK:8EG?AHF=7DE;><;887=;/MS:424-.4-&/4(,46%$,(*.'78'	
+ 
+¸¯˝ˆ˛˝˜˛˙Ù˘˙ÒÏıÙÒÚÔÚÙÒÛXU^[STWWWrVMLUOJKIKsMCKSK@OSD?EH=AHhSA@@:BA>W>>?@5=72;>2*:9)+3///-33)$-+#'2(!0$"!"
+	˜˘ÒˆˇÛ¸˝˝ WdluçWeiXTelVJbrIF[dFDb`DFaZCKaT;H[O?ERF;YXB?HD=EF@SI@9F?6;D7->KKM9</,7:1,-5/(-0**$%*)!#'#!
+ˇ 	otfamgb`_gfXeädW\b\V]^U]sYY\_^XXXPOWQLZVFEUN?NR?EKEPcG@EGCC?AC<?MB28E85A71:5-292,/26,'+.*(+)%)$ )%!&  
+	svrgosh`p|g_xsX^ul\^hjf`dhe_]êqX`^\\`]QTeTK]dOC_\CM[WHSUCARRBCS]AAGGD<AIE;9>D<9988682181,/4/-2)%4)0+ &'%$(-
+#&{zzvyvsy~yzytyrvleu}kfkqsj\mpf`lpbbe[du\QztSUpfP[caRT_^NOWVMPXTURINUNDLREFPJ>FJA@CBD>5=D<7@=/6A316412-99!$:-(2%&-#&!#  $ßÖéäÜÜÖ|}ÑâÜ}ÅÉuåÉ~å~zptwlk|yrjvyvciwqqcoxgWg~bXhmXSlhO[l^a`VV_]RU\[UQPWYMNVMIRHHRLGJCDKJ7:RE*<Q?1>B8-.:;%$<>.&/:."'3.)6!&;"Éç•åèíÇÅåâÉâàÜáåÉuÑìuáäywÖ{}Ñ~kÉnnÅ{omszssxwhkvnl|okjmppëÄbbbgg^VgkXVb`QYgZN]\QW[MK^X:PhF2UZEBVE?QPH=7AE:8F?/?J2,><,35261.5@0åöüöíï≠çÖóóâëõÜÉíùïñáåëãñ¨åÜäç}ÄàìÄoëááäÜÇ{ÄÑxoÄÅjs}|rjuÅàvonmlrvjcmsl^^qp^adcic^f_Zb`_ZOY`VVZYSX[TQTPGJNBKRHGGEICBBE75C==A::KGß´°ö®†óõ†üüôúúïñòõôãï†òìåììéêçéççâáäåÖåêâ|äéÜÇzÅáÅ}Ç~sxâÉro|zm|Åpkyzrpskttieqthdogdnhaehe`cicaac_[^XYXPRT[XKO\XKEUWEDTU@@TOHMPÆÆ´§ß®®¶¶¢£®ûù§¶°ùüûú†ûùæöïööòöúìñïòõñíèéììëèãêôåàçèãåéëëàà}|áÉ}|ÅÑxy|||yy|uwzwwoowzrkrugbqyd`qpgjfbb^a]]`_[^ZT]^RQYTJPYLMVMO]Qπ…ƒ¥±¨Æ´≤µ©≠™±ﬁØ¨¨°•´ß•£§£°†°ûúü¢ùúüúñôõõ†•òñõöôñîïëóéäòîãàãåäàÖäéÉÜäÖÄÄàÉ{ÉÇ~zuÉ|vz}zvwut{xqvxpolkmjc`djfji``dfdc\^`XWa`YW[bb π´∏ƒ≥®∑¿∫≠¥æµß¨π±ß•≥Æ•ü¢ÆØúû≠§ù§Ø™ù†Ø≥õù™®òô¡®ïíùõóò™¨êéñïééñòãàïîäàèèàÖâçäÄÅåé~~çÜyÄÜ~y~~w{Ä|{{z~tmtqokluogkqlcghfcbdcdd_ababiƒΩ¿øø›¡∏ºøº∫∏ªΩæ∑¥º∂∞º∑ß∞π±™∂‘´®µØµ»´≥±™ØÆ£§™ß£§ßü¶¶®£°ùòõ°ñîûõëïùíçùïäïõåãïìåèëçàåçââãâäÄÜåáÄÖáÑÉÖ|yx||xyy{zssuqsqkrrgjwpehxkky—∆…‘ ¡«ÿΩ∞Õ–ªπ¿»≈∏∫¿…æÆŒ…∫≠∞ππ∞≤∑¥≤¥¥≠µ≥¶π¿≥û§º∂ù´π∞∞®†°¨£ô°≠†î£ßöô•õõõñùöëõïèõõèéúõÄâ¢éÇéñèàãåääåâÇ{ÇÑzÄÑ|yÇ}tv~xqvsrxwpnsrruqv‘≈Ã“«∆ Œœ ≈ÃÃ»ƒÀ»∆‡“¿∑Ãﬁøø»æªΩ¿ºΩæ∫∑æΩ∂π∫∑∑Ω∑±∂π∞™∆∫∞®®ØÆ≠©ß™Æ®§´•°¢•ß¢ü¢üû°õù£ùöôúúòòõòïñîìñòìèëëçáÜãâääÑÑáÖ{{Ö~tÄÅ|yw}vnv|ov

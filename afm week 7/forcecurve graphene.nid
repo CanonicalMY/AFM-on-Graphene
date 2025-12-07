@@ -1,0 +1,4905 @@
+[DataSet]
+Version=2
+GroupCount=18
+Gr0-Name=Spec forward
+Gr0-ID=1
+Gr0-Count=8
+Gr1-Name=Spec backward
+Gr1-ID=1
+Gr1-Count=8
+Gr2-Name=IndentationZSensorFwd0
+Gr2-ID=256
+Gr2-Count=1
+Gr3-Name=IndentationZSensorBwd0
+Gr3-ID=257
+Gr3-Count=1
+Gr4-Name=IndentationDeflFwd0
+Gr4-ID=258
+Gr4-Count=1
+Gr5-Name=IndentationDeflBwd0
+Gr5-ID=259
+Gr5-Count=1
+Gr6-Name=SlopeOut00
+Gr6-ID=260
+Gr6-Count=1
+Gr7-Name=SlopeOut10
+Gr7-ID=261
+Gr7-Count=1
+Gr8-Name=SlopeOut20
+Gr8-ID=262
+Gr8-Count=1
+Gr9-Name=MaxAdhesionOut00
+Gr9-ID=263
+Gr9-Count=1
+Gr10-Name=MaxAdhesionOut10
+Gr10-ID=264
+Gr10-Count=1
+Gr11-Name=SlopeOut01
+Gr11-ID=265
+Gr11-Count=1
+Gr12-Name=SlopeOut11
+Gr12-ID=266
+Gr12-Count=1
+Gr13-Name=SlopeOut21
+Gr13-ID=267
+Gr13-Count=1
+Gr14-Name=SnapInOut00
+Gr14-ID=268
+Gr14-Count=1
+Gr15-Name=SnapInOut10
+Gr15-ID=269
+Gr15-Count=1
+Gr16-Name=Scan forward
+Gr16-ID=0
+Gr16-Count=8
+Gr17-Name=Scan backward
+Gr17-ID=0
+Gr17-Count=8
+Gr0-Ch0=DataSet-0:0
+Gr0-Ch7=DataSet-0:7
+Gr1-Ch0=DataSet-1:0
+Gr1-Ch7=DataSet-1:7
+Gr2-Ch0=DataSet-2:0
+Gr3-Ch0=DataSet-3:0
+Gr4-Ch0=DataSet-4:0
+Gr5-Ch0=DataSet-5:0
+Gr6-Ch0=DataSet-6:0
+Gr7-Ch0=DataSet-7:0
+Gr8-Ch0=DataSet-8:0
+Gr9-Ch0=DataSet-9:0
+Gr10-Ch0=DataSet-10:0
+Gr11-Ch0=DataSet-11:0
+Gr12-Ch0=DataSet-12:0
+Gr13-Ch0=DataSet-13:0
+Gr14-Ch0=DataSet-14:0
+Gr15-Ch0=DataSet-15:0
+Gr16-Ch0=DataSet-16:0
+Gr16-Ch1=DataSet-16:1
+Gr17-Ch0=DataSet-17:0
+Gr17-Ch1=DataSet-17:1
+SetInfos=DataSet-Info
+InfoSetCount=4
+InfoSet0=DataSetInfos
+InfoSet1=Calibration
+InfoSet2=Parameters
+InfoSet3=SpecInfos
+
+[DataSet-Info]
+-- Spec --=--------
+Mod. output=Z-Axis
+Modulation time=1 s
+Relative=true
+Z-Controller=Disabled
+Data points=1024
+Repetition=1
+Repetition Mode=Repeat position list
+Date=13-11-2025
+Time=15:59:40
+-- Tool --=--------
+Width=244nm
+Height=265.2mV
+-- Scan --=--------
+Image size=3Βµm
+Scan direction=Up
+Time/Line=1.99 s
+Points=128 
+Lines=128 
+X-Slope=0 Β°
+Y-Slope=0 Β°
+Rotation=45 Β°
+X-Pos=-2.33Βµm
+Y-Pos=10.2Βµm
+Z-Plane=0 m
+Line mode=Standard
+-- Feedback --=--------
+Setpoint=18.4nN
+P-Gain=6000 
+I-Gain=1900 
+D-Gain=200 
+P-Gain2=0 
+I-Gain2=0 
+D-Gain2=0 
+Tip voltage=0 V
+Feedback mode=Free
+Feedback algo.=Adaptive PID
+Error range=20 V
+Ampl. Ctrl. mode=Const. Drive
+-- Module --=--------
+Controller Board=2
+AFM Basic Module=3
+AFM Dynamic Module=2
+AFM Extension Module=1
+USB Module=4
+-- Global --=--------
+Measurement environment=Air
+Op. mode=Static Force
+Cantilever type=ContAl-G
+Head type=AFM
+Scan head=60-16-171.hed
+Laser working point=0.0%
+Deflection offset=0.0%
+Software ver.=3.10.0.39
+Firmware ver.=3.8.1.0
+Controller S/N=060-16-171
+
+[DataSet\DataSetInfos]
+SubSectionCount=6
+SubSection0=Spec
+SubSection1=Tool
+SubSection2=Scan
+SubSection3=Feedback
+SubSection4=Module
+SubSection5=Global
+
+[DataSet\DataSetInfos\Spec]
+SubSectionCount=0
+Mod. output=Z-Axis
+Modulation time=1 s
+Relative=true
+Z-Controller=Disabled
+Data points=1024
+Repetition=1
+Repetition Mode=Repeat position list
+Date=13-11-2025
+Time=15:59:40
+
+[DataSet\DataSetInfos\Tool]
+SubSectionCount=0
+Width=244nm
+Height=265.2mV
+
+[DataSet\DataSetInfos\Scan]
+SubSectionCount=0
+Image size=3Βµm
+Scan direction=Up
+Time/Line=1.99 s
+Points=128 
+Lines=128 
+X-Slope=0 Β°
+Y-Slope=0 Β°
+Rotation=45 Β°
+X-Pos=-2.33Βµm
+Y-Pos=10.2Βµm
+Z-Plane=0 m
+Line mode=Standard
+
+[DataSet\DataSetInfos\Feedback]
+SubSectionCount=0
+Setpoint=18.4nN
+P-Gain=6000 
+I-Gain=1900 
+D-Gain=200 
+P-Gain2=0 
+I-Gain2=0 
+D-Gain2=0 
+Tip voltage=0 V
+Feedback mode=Free
+Feedback algo.=Adaptive PID
+Error range=20 V
+Ampl. Ctrl. mode=Const. Drive
+
+[DataSet\DataSetInfos\Module]
+SubSectionCount=0
+Controller Board=2
+AFM Basic Module=3
+AFM Dynamic Module=2
+AFM Extension Module=1
+USB Module=4
+
+[DataSet\DataSetInfos\Global]
+SubSectionCount=0
+Measurement environment=Air
+Op. mode=Static Force
+Cantilever type=ContAl-G
+Head type=AFM
+Scan head=60-16-171.hed
+Laser working point=0.0%
+Deflection offset=0.0%
+Software ver.=3.10.0.39
+Firmware ver.=3.8.1.0
+Controller S/N=060-16-171
+
+[DataSet\Calibration]
+SubSectionCount=2
+SubSection0=Scanhead
+SubSection1=Cantilever
+
+[DataSet\Calibration\Scanhead]
+SubSectionCount=0
+Version=6
+HeadTyp=AFM
+SerialNo=uncal_70u
+RevisionNo=2
+ScanFit=Pomfit
+CtrlInPol=Positiv
+Main1InPol=Positiv
+Main2InPol=Positiv
+SignalUserADC0Pol=Positiv
+SignalUserADC1Pol=Positiv
+SignalUserADC2Pol=Positiv
+AnalogOut2Pol=Negativ
+AnalogOut3Pol=Negativ
+XAxisPol=Positiv
+YAxisPol=Positiv
+ZAxisPol=Negativ
+ZAxisAnalogOut2Pol=Negativ
+ZAxisAnalogOut3Pol=Negativ
+Ch0Corr=None
+SetPointCheck=None
+InCount=24
+In0=0,Channel0,Deflection,V,10,0
+In1=1,Channel1,Z-Axis,m,7.1e-06,0
+In2=2,Channel2,Amplitude,V,5,0
+In3=3,Channel3,Not defined 1,V,10,0
+In4=4,Channel4,Tip current,A,0.0001,0
+In5=5,TipSignalDC,Deflection,m,5.76e-06,0
+In6=6,TipSignalAC,Amplitude,V,10,0
+In7=7,TipPhase,Phase,Β°,90,0
+In8=8,Lever Current,Tip current,A,0.0001,0
+In9=9,User Input0,User Signal,V,10,0
+In10=10,User Input1,User input 2,A,1e-07,0
+In11=11,HeadSig2,Not defined 1,V,10,0
+In12=12,Channel5,User Signal,V,10,0
+In13=13,Channel6,User input 2,A,1e-07,0
+In14=15,Dissipation,Dissipation,V,5,0
+In15=16,TipSignalDC1,Deflection,V,10,0
+In16=17,TipSignalDC2,Deflection,N,1,0
+In17=18,SensorSignal1,SensorSignal,W,0.005,0
+In18=19,SensorSignal2,SensorSignal,A,0.0005,0
+In19=20,Channel7,Z-Axis,m,7.1e-06,0
+In20=21,XAxisSensor,X-Axis Sensor,m,0.0001,0
+In21=22,YAxisSensor,Y-Axis Sensor,m,0.0001,0
+In22=23,ZAxisSensor,Z-Axis Sensor,m,1e-05,0
+In23=24,User Input2,User In A,V,10,0
+OutCount=9
+Out0=0,ScanAxis0,X-Axis,m,3.61e-05,0
+Out1=1,ScanAxis1,Y-Axis,m,3.6925e-05,0
+Out2=2,ScanAxis2,Z-Axis,m,7.1e-06,0
+Out3=4,AnalogOut0,Tip voltage,V,10,0
+Out4=5,AnalogOut1,Not defined,V,10,0
+Out5=6,AnalogOut2,User Output,V,10,0
+Out6=7,AnalogOut3,User Output 2,V,10,0
+Out7=8,DriveAmp,Drive Amplitude,V,5.3,0
+Out8=9,MixedOut4,User Output C,V,10,0
+ScanCorrCount=2
+ScanCorrA=-6.868e-07
+ScanCorrB=0
+ScanCorrC=0
+ScanCorrD=0
+ScanCorrE=-7.697e-06
+ScanCorrF=9.722e-07
+ScanCorrG=-7.082e-09
+ScanCorrH=-2.109e-08
+ScanCorrI=8.974e-09
+ScanCorrJ=7.435e-09
+ScanCorrK=4.005e-11
+ScanCorrL=1.523e-11
+ScanCorrM=1.321e-11
+ScanCorrN=-1.696e-11
+ScanCorrO=1.09e-11
+ScanCorrTableRot=0
+ScanCorrA1=-2.429e-06
+ScanCorrB1=0
+ScanCorrC1=0
+ScanCorrD1=0
+ScanCorrE1=-1.031e-05
+ScanCorrF1=7.746e-07
+ScanCorrG1=-6.563e-09
+ScanCorrH1=-6.258e-09
+ScanCorrI1=5.24e-09
+ScanCorrJ1=-2.666e-09
+ScanCorrK1=4.078e-11
+ScanCorrL1=3.559e-11
+ScanCorrM1=1.147e-10
+ScanCorrN1=3.558e-11
+ScanCorrO1=1.16e-10
+ScanCorrTableRot1=0.785398
+ScanCorrRotX=0.837758
+ScanCorrRotY=0.750492
+ScanScaleZ=3276
+ScanScaleXY=256
+ZRangeFit=None
+ZRangeCorrCount=1
+ZRangeCorrA=1
+ZRangeCorrB=0
+ZRangeCorrC=0
+ZRangeCorrD=0
+ApproachStartPos=0
+MaxApproachSpeed=1
+ManualMoveSpeed=1
+DefaultDynRefAmp=0.159856
+DefaultDynRefAmpLiquid=0.2
+DefaultDynRefAmpVacuum=0.005
+DefaultForceModRefAmp=1
+DetectorABGainAC=0.5
+CompDcSourceWithX=0
+CompDcWithX=0
+CompDcSourceWithY=0
+CompDcWithY=0
+CompDcSourceWithZ=0
+CompDcWithZ=0
+VideoSupport=1
+HasLaserOnOffCtrl=0
+XYCLPIDGainsX=1.000000;1.000000;1.000000
+XYCLPIDGainsY=1.000000;1.000000;1.000000
+XZeroVoltage=0
+YZeroVoltage=0
+ZZeroVoltage=0
+ScanAxis0FilterCoeff0=1.000000;0.000000;0.000000;0.000000;0.000000;1.000000
+ScanAxis0FilterCoeff1=1.000000;0.000000;0.000000;0.000000;0.000000;1.000000
+ScanAxis0FilterCoeff2=1.000000;0.000000;0.000000;0.000000;0.000000;1.000000
+ScanAxis0FilterCoeff3=1.000000;0.000000;0.000000;0.000000;0.000000;1.000000
+ScanAxis1FilterCoeff0=1.000000;0.000000;0.000000;0.000000;0.000000;1.000000
+ScanAxis1FilterCoeff1=1.000000;0.000000;0.000000;0.000000;0.000000;1.000000
+ScanAxis1FilterCoeff2=1.000000;0.000000;0.000000;0.000000;0.000000;1.000000
+ScanAxis1FilterCoeff3=1.000000;0.000000;0.000000;0.000000;0.000000;1.000000
+ScanAxis2FilterCoeff0=1.000000;0.000000;0.000000;0.000000;0.000000;1.000000
+ScanAxis2FilterCoeff1=1.000000;0.000000;0.000000;0.000000;0.000000;1.000000
+ScanAxis2FilterCoeff2=1.000000;0.000000;0.000000;0.000000;0.000000;1.000000
+ScanAxis2FilterCoeff3=1.000000;0.000000;0.000000;0.000000;0.000000;1.000000
+HasXPositionSensor=0
+XPositionSensorPol=Negativ
+HasYPositionSensor=0
+YPositionSensorPol=Negativ
+HasZPositionSensor=0
+ZPositionSensorPol=Negativ
+ApproachStatusMode=1
+ApproachStatusPol=Positiv
+ApproachStatusMeterRange=-1;-0.9;0.9;1
+SensorStatusMode=1
+SensorStatusPol=Negativ
+SensorStatusMeterRange=0.0866142;0.102362;0.102362;0.811024;0.811024;0.913386
+LaserWavelength=6.5e-07
+
+[DataSet\Calibration\Cantilever]
+SubSectionCount=0
+Version=2
+GUID={ED5A15E6-D3B0-4e64-8C50-809335D3E143}
+Name=ContAl-G
+Manufacturer=BudgetSensors
+PropCount=14
+Prop0=D[0.2]*[N/m]
+Prop1=D[13000]*[Hz]
+Prop2=D[0.00045]*[m]
+Prop3=D[5e-05]*[m]
+Prop4=D[50]*[]
+Prop5=D[4000]*[Hz]
+Prop6=D[5]*[]
+Prop7=D[0]*[]
+Prop8=D[10]*[Β°]
+Prop9=D[1e-08]*[m]
+Prop10=D[50]*[]
+Prop11=D[13000]*[Hz]
+Prop12=D[0.3]*[]
+Prop13=D[1]*[]
+
+[DataSet\Parameters]
+SubSectionCount=8
+SubSection0=Approach
+SubSection1=ZFeedback
+SubSection2=Lithography
+SubSection3=Imaging
+SubSection4=SignalIO
+SubSection5=Spectroscopy
+SubSection6=SPMSystem
+SubSection7=Stage
+
+[DataSet\Parameters\Approach]
+SubSectionCount=0
+ApproachSteps=L[65000]*[]
+WithdrawSteps=L[1000]*[]
+AutoPeriode=D[0.02]*[s]
+MovePeriode=D[0.02]*[s]
+StepSlope=L[6]*[]
+AutoStartScan=B[0]*[]
+ApproachSpeed=D[0.0801099]*[%]
+AFMApproachMode=L[0]*[]
+AFMMotorSource=L[0]*[]
+AFMStepByStepSpeed=D[1]*[]
+AFMStepByStepSlope=D[5e-06]*[m/s]
+AFMStepByStepFineStepSizePercentage=D[5]*[%]
+AFMStepByStepCoarseStepSizePercentage=D[90]*[%]
+AFMStepByStepMode=D[0]*[]
+
+[DataSet\Parameters\ZFeedback]
+SubSectionCount=0
+PGain=L[6000]*[]
+IGain=L[1900]*[]
+DGain=L[200]*[]
+PGain2=L[0]*[]
+IGain2=L[0]*[]
+DGain2=L[0]*[]
+SetPoint=D[1.84224e-08]*[N]
+SetPointForce=D[1.84224e-08]*[N]
+SetPointDC=D[1e-09]*[m]
+SetPointAmp=D[56]*[%]
+SetPointPhase=D[1]*[Β°]
+SetPointForceUnitMode=L[2]*[]
+SetPointForce_V=D[0.17365]*[]
+SetPointForce_m=D[1.00023e-07]*[]
+SetPointForce_N=D[1.84224e-08]*[]
+SetPointDeltaF_Hz=D[0]*[Hz]
+SetPointUserDefined=D[0]*[V]
+ChGainRegError=L[0]*[]
+FeedbackMode=L[0]*[]
+Algorithm=L[1]*[]
+RefFrq=D[14110.4]*[Hz]
+RefAmplitude=D[0.423942]*[V]
+RefPhase=D[206.769]*[Β°]
+CoarseSweepStartFrq=D[9100]*[Hz]
+CoarseSweepEndFrq=D[16900]*[Hz]
+CoarseSweepStepFrq=D[22.7405]*[Hz]
+FineSweepStartFrq=D[13402.9]*[Hz]
+FineSweepEndFrq=D[14813.8]*[Hz]
+FineSweepStepFrq=D[4.11322]*[Hz]
+ManualSweepStartFrq=D[13333]*[Hz]
+ManualSweepEndFrq=D[14736.4]*[Hz]
+ManualSweepStepFrq=D[4.09175]*[Hz]
+AutoCalFrqPeak=B[1]*[]
+AutoCalPhase=B[1]*[]
+DynamicAmp=D[0.0209052]*[V]
+CalRefPlotGraph=B[0]*[]
+ForceModFrq=D[20000]*[Hz]
+ForceModAmp=D[4.00003]*[V]
+AutoFrqSweepRange=B[1]*[]
+AmpCtrlMode=L[0]*[]
+FrqPeakReduceAir=D[20]*[%]
+FrqPeakUpperSideAir=B[1]*[]
+FrqPeakReduceLiquid=D[5]*[%]
+FrqPeakUpperSideLiquid=B[0]*[]
+FrqPeakReduceVacuum=D[20]*[%]
+FrqPeakUpperSideVacuum=B[1]*[]
+RegMoveMode=L[0]*[]
+DynamicMeasureBW=L[9]*[]
+RegOutputSel=L[0]*[]
+FrequencyLockRange=L[1]*[]
+PhaseCtrlPGain=D[0.3]*[]
+PhaseCtrlIGain=D[2.5]*[]
+AmplCtrlPGain=D[2.5]*[]
+AmplCtrlIGain=D[20]*[]
+UserOpModeInputSel=L[3]*[]
+UserOpModeInputPol=L[0]*[]
+UserOpModePIDGainCorr=D[1]*[]
+UserOpModeDCOffsetMode=L[0]*[]
+UserOpModeDCOffsetAutoGain=D[10000]*[]
+CantileverExcitationMode=L[0]*[]
+
+[DataSet\Parameters\Lithography]
+SubSectionCount=0
+ModuleLevel=L[0]*[]
+OpMode=L[2]*[]
+InactivePenMode=L[0]*[]
+AutoChartSettings=B[1]*[]
+AutoCapture=B[1]*[]
+XYMoveSpeed=D[1e-05]*[m/s]
+ZMoveSpeed=D[1e-06]*[m/s]
+LiftTipAbsZPos=D[0]*[m]
+
+[DataSet\Parameters\Imaging]
+SubSectionCount=0
+ModuleLevel=L[1]*[]
+ScanRange=V[3e-06,3e-06,0]*[m,m,m]
+ScanOffset=V[-2.32759e-06,1.01641e-05,0]*[m,m,m]
+ScanRotation=V[0,0,45]*[Β°,Β°,Β°]
+ScanTime=V[1.99492,1.99492,0]*[s,s,s]
+Datapoints=V[128,128,0]*[,,]
+ScanMode=L[0]*[]
+OverScanSize=D[0]*[%]
+FirstScanlineRep=L[1]*[]
+SyncOutMode=L[0]*[]
+LineScanning=L[0]*[]
+RelTipPos=D[3.27949e-07]*[m]
+ContourEnabled=B[0]*[]
+AutoReadjustProbeEnabled=B[0]*[]
+ReadjustLiftHeight=D[0]*[m]
+SndScanDynamicAmplitude=D[0]*[V]
+SndScanDynamicAmplitudeEnabled=B[0]*[]
+SndScanForceModulationAmplitude=D[0]*[V]
+SndScanForceModulationAmplitudeEnabled=B[0]*[]
+SndScanEnableDarkMode=B[0]*[]
+SndScanEnableKPFM=B[0]*[]
+SndScanSndLockInExcitationAmplitude=D[0]*[]
+SndScanSndLockInExcitationAmplitudeEnabled=B[0]*[]
+XYMoveSpeed=D[5e-05]*[m/s]
+AutoSlopeCorrection=B[0]*[]
+AutoDeleteBuffer=B[1]*[]
+AutoChartSettings=B[1]*[]
+AutoCapture=B[1]*[]
+SpikeGuardEnable=B[0]*[]
+PrescanSpeedup=L[0]*[]
+
+[DataSet\Parameters\SignalIO]
+SubSectionCount=0
+UserDAC0=D[0]*[V]
+UserDAC1=D[0]*[V]
+EnableUserADC0=B[0]*[]
+EnableUserADC1=B[0]*[]
+EnableUserADC2=B[0]*[]
+TipSignalMode=L[0]*[]
+ExcitationMode=L[0]*[]
+MonitorOut0=L[0]*[]
+MonitorOut1=L[0]*[]
+EnableUserADC1ZSensor=B[0]*[]
+User0CtrlMode=L[0]*[]
+User0InputPol=L[0]*[]
+User0OutputFlag=L[0]*[]
+User0SetPoint=D[0]*[V]
+User0IGain=L[1000]*[]
+
+[DataSet\Parameters\Spectroscopy]
+SubSectionCount=0
+ModuleLevel=L[0]*[]
+OutputType=L[0]*[]
+Repetition=L[1]*[]
+RepetitionMode=L[0]*[]
+FwModTime=D[1]*[s]
+BwModTime=D[1]*[s]
+ModRelValue=B[1]*[]
+FwModDatapoints=L[1024]*[]
+BwModDatapoints=L[1024]*[]
+SyncOutMode=L[0]*[]
+FeedbackActive=B[0]*[]
+AutoChartSettings=B[1]*[]
+AutoCapture=B[1]*[]
+SpecEndMode=L[1]*[]
+FwModRange=D[2.905e-07]*[m]
+BwModRange=D[-2.905e-07]*[m]
+XYMoveSpeed=D[2e-05]*[m/s]
+StartOffset=D[-2.827e-07]*[m]
+StartOffsetMoveSpeed=D[1e-05]*[m/s]
+FwModMode=L[0]*[]
+BwModMode=L[0]*[]
+FwModStopValue=D[0]*[V]
+BwModStopValue=D[0]*[V]
+FwModStopMode=L[1]*[]
+BwModStopMode=L[1]*[]
+FwPauseTime=D[0]*[s]
+BwPauseTime=D[0]*[s]
+FwPauseDatapoints=L[0]*[]
+BwPauseDatapoints=L[0]*[]
+FwPauseMode=L[0]*[]
+BwPauseMode=L[0]*[]
+AutoRecalibrateProbeInterval=L[0]*[]
+PressurePulseValue=D[0]*[bar]
+PressurePulseDuration=D[0]*[s]
+PressurePulseRelative=B[0]*[]
+PressurePulseActive=B[0]*[]
+PressureActionId=L[0]*[]
+ModulationStopValueBandwidth=L[0]*[]
+
+[DataSet\Parameters\SPMSystem]
+SubSectionCount=0
+AOut0=D[0]*[V]
+AOut1=D[0]*[V]
+SPMMode=L[2]*[]
+VideoFPSControlValueMin=D[1.5]*[]
+VideoFPSControlWindowSize=L[5]*[]
+VideoTopLight=D[100]*[%]
+VideoSideLight=D[100]*[%]
+VideoTopBrightness=D[80]*[]
+VideoSideBrightness=D[80]*[]
+VideoTopContrast=D[70]*[]
+VideoSideContrast=D[70]*[]
+FlexVideoTopExpTime=L[60]*[]
+FlexVideoSideExpTime=L[60]*[]
+FlexVideoTopGain=L[12]*[]
+FlexVideoSideGain=L[8]*[]
+FlexVideoTopADCLevel=L[2]*[]
+FlexVideoSideADCLevel=L[2]*[]
+FlexVideoTopRatioR=D[1]*[]
+FlexVideoSideRatioR=D[1]*[]
+FlexVideoTopRatioG=D[1]*[]
+FlexVideoSideRatioG=D[1]*[]
+FlexVideoTopRatioB=D[1]*[]
+FlexVideoSideRatioB=D[1]*[]
+FlexVideoTopRatioGamma=D[1]*[]
+FlexVideoSideRatioGamma=D[1]*[]
+FlexVideoTopAutoLevels=B[1]*[]
+FlexVideoSideAutoLevels=B[1]*[]
+FlexVideoTopPositionMarkerX=D[0]*[]
+FlexVideoSidePositionMarkerX=D[0]*[]
+FlexVideoTopPositionMarkerY=D[0]*[]
+FlexVideoSidePositionMarkerY=D[0]*[]
+HighResVideoTopExpTime=L[60]*[]
+HighResVideoSideExpTime=L[60]*[]
+HighResVideoTopGain=L[30]*[]
+HighResVideoSideGain=L[8]*[]
+HighResVideoSideADCLevel=L[2]*[]
+HighResVideoTopRatioR=D[1]*[]
+HighResVideoSideRatioR=D[1]*[]
+HighResVideoTopRatioG=D[0.8]*[]
+HighResVideoSideRatioG=D[1]*[]
+HighResVideoTopRatioB=D[0.8]*[]
+HighResVideoSideRatioB=D[1]*[]
+HighResVideoTopRatioGamma=D[0.9]*[]
+HighResVideoSideRatioGamma=D[1]*[]
+HighResVideoTopAutoLevels=B[1]*[]
+HighResVideoSideAutoLevels=B[1]*[]
+HighResVideoTopADCLevel=L[2]*[]
+HighResVideoTopPositionMarkerX=D[0]*[]
+HighResVideoSidePositionMarkerX=D[0]*[]
+HighResVideoTopPositionMarkerY=D[0]*[]
+HighResVideoSidePositionMarkerY=D[0]*[]
+ImSoVideoTVConfiguration=S[<device_state libver="3.4" filemajor="1" fileminor="0">    <device>        <vcdpropertyitems>            <item guid="{284C0E06-010B-45BF-8291-09D90A459B28}" name="Brightness">                <element guid="{B57D3000-0AC6-4819-A609-272A33140ACA}" name="Value">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E03}" value="0" />                </element>            </item>            <item guid="{284C0E07-010B-45BF-8291-09D90A459B28}" name="Contrast">                <element guid="{B57D3000-0AC6-4819-A609-272A33140ACA}" name="Value">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E03}" value="0" />                </element>            </item>            <item guid="{284C0E08-010B-45BF-8291-09D90A459B28}" name="Hue">                <element guid="{B57D3000-0AC6-4819-A609-272A33140ACA}" name="Value">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E03}" value="0" />                </element>            </item>            <item guid="{284C0E09-010B-45BF-8291-09D90A459B28}" name="Saturation">                <element guid="{B57D3000-0AC6-4819-A609-272A33140ACA}" name="Value">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E03}" value="43" />                </element>            </item>            <item guid="{284C0E0A-010B-45BF-8291-09D90A459B28}" name="Sharpness">                <element guid="{B57D3000-0AC6-4819-A609-272A33140ACA}" name="Value">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E03}" value="2" />                </element>            </item>            <item guid="{284C0E0B-010B-45BF-8291-09D90A459B28}" name="Gamma">                <element guid="{B57D3000-0AC6-4819-A609-272A33140ACA}" name="Value">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E03}" value="100" />                </element>            </item>            <item guid="{284C0E0D-010B-45BF-8291-09D90A459B28}" name="WhiteBalance">                <element guid="{B57D3001-0AC6-4819-A609-272A33140ACA}" name="Auto">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E04}" value="1" />                </element>                <element guid="{AB98F78D-18A6-4EB2-A556-C11010EC9DF7}" name="WhiteBalance Mode">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E06}" value="0" />                </element>            </item>            <item guid="{284C0E0F-010B-45BF-8291-09D90A459B28}" name="Gain">                <element guid="{B57D3001-0AC6-4819-A609-272A33140ACA}" name="Auto">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E04}" value="0" />                </element>                <element guid="{B57D3000-0AC6-4819-A609-272A33140ACA}" name="Value">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E03}" value="12" />                </element>            </item>            <item guid="{90D5702E-E43B-4366-AAEB-7A7A10B448B4}" name="Exposure">                <element guid="{B57D3001-0AC6-4819-A609-272A33140ACA}" name="Auto">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E04}" value="0" />                </element>                <element guid="{B57D3000-0AC6-4819-A609-272A33140ACA}" name="Value">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E08}" value="3.11999999999999985678122982335e-02" />                </element>                <element guid="{65190390-1AD8-4E91-9021-66D64090CC85}" name="Auto">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E04}" value="1" />                </element>                <element guid="{6519038C-1AD8-4E91-9021-66D64090CC85}" name="Auto Reference">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E03}" value="128" />                </element>            </item>            <item guid="{90D57031-E43B-4366-AAEB-7A7A10B448B4}" name="Trigger">                <element guid="{B57D3000-0AC6-4819-A609-272A33140ACA}" name="Enable">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E04}" value="0" />                </element>            </item>            <item guid="{C3C9944A-E6F6-4E25-A0BE-53C066AB65D8}" name="Denoise">                <element guid="{B57D3000-0AC6-4819-A609-272A33140ACA}" name="Value">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E03}" value="0" />                </element>            </item>            <item guid="{86D89D69-9880-4618-9BF6-DED5E8383449}" name="GPIO">                <element guid="{7D006621-761D-4B88-9C5F-8B906857A501}" name="GP Out">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E03}" value="0" />                </element>            </item>            <item guid="{3A3A8F77-6440-46CC-940A-8752B02E6C29}" name="Color Enhancement">                <element guid="{B57D3000-0AC6-4819-A609-272A33140ACA}" name="Enable">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E04}" value="1" />                </element>            </item>            <item guid="{546541AD-C815-4D82-AFA9-9D59AF9F399E}" name="Highlight reduction">                <element guid="{B57D3000-0AC6-4819-A609-272A33140ACA}" name="Enable">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E04}" value="1" />                </element>            </item>            <item guid="{2CED6FD6-AB4D-4C74-904C-D682E53B9CC5}" name="Partial scan">                <element guid="{36EAA683-3321-44BE-9D73-E1FD4C3FDB87}" name="Auto-center">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E04}" value="1" />                </element>            </item>            <item guid="{DC320EDE-DF2E-4A90-B926-71417C71C57C}" name="Strobe">                <element guid="{B57D3000-0AC6-4819-A609-272A33140ACA}" name="Enable">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E04}" value="0" />                </element>            </item>        </vcdpropertyitems>    </device></device_state>]*[]
+ImSoVideoSVConfiguration=S[]*[]
+ActiveSensorByGUID=S[{ED5A15E6-D3B0-4e64-8C50-809335D3E143}]*[]
+MeasEnv=L[0]*[]
+SystemStateIdleZAxisMode=L[0]*[]
+SystemStateIdleMixOut4Mode=L[3]*[]
+SystemStateIdleXYAxisMode=L[0]*[]
+SystemStateIdleZAxisValue=D[0]*[m]
+SndOpModeEnabled=B[0]*[]
+SndOpMode=L[0]*[]
+ZClosedLoopMode=L[0]*[]
+ZClosedLoopSpeed=D[1000]*[]
+XYClosedLoopEnabled=B[0]*[]
+XYClosedLoopSpeed=D[1000]*[]
+
+[DataSet\Parameters\Stage]
+SubSectionCount=0
+
+[DataSet\SpecInfos]
+SubSectionCount=2
+SubSection0=SpecHeader
+SubSection1=SpecPosTable
+
+[DataSet\SpecInfos\SpecHeader]
+SubSectionCount=0
+SpecMode=Position
+
+[DataSet\SpecInfos\SpecPosTable]
+SubSectionCount=0
+Count=1
+PosAxis=X;Y;Z
+PosUnit=m;m;m
+Pos0=-1.89911e-06;1.08463e-05;-1.11564e-09
+
+[DataSet-0:0]
+Version=2
+Points=1024
+Lines=1
+Frame=Spec forward
+CurLine=0
+Dim0Name=Z-Axis
+Dim0Unit=m
+Dim0Range=2.905e-07
+Dim0Min=-2.05683e-06
+Dim1Name=SpecPoint
+Dim1Range=0
+Dim1Min=1
+Dim2Name=Deflection
+Dim2Unit=V
+Dim2Range=20
+Dim2Min=-10
+SaveMode=Binary
+SaveBits=16
+SaveSign=Signed
+SaveOrder=Intel
+
+[DataSet-0:7]
+Version=2
+Points=1024
+Lines=1
+Frame=Spec forward
+CurLine=0
+Dim0Name=Z-Axis
+Dim0Unit=m
+Dim0Range=2.905e-07
+Dim0Min=-2.05683e-06
+Dim1Name=SpecPoint
+Dim1Range=0
+Dim1Min=1
+Dim2Name=Z-Axis
+Dim2Unit=m
+Dim2Range=1.42e-05
+Dim2Min=-7.1e-06
+SaveMode=Binary
+SaveBits=16
+SaveSign=Signed
+SaveOrder=Intel
+
+[DataSet-1:0]
+Version=2
+Points=1024
+Lines=1
+Frame=Spec backward
+CurLine=0
+Dim0Name=Z-Axis
+Dim0Unit=m
+Dim0Range=2.905e-07
+Dim0Min=-2.05683e-06
+Dim1Name=SpecPoint
+Dim1Range=0
+Dim1Min=1
+Dim2Name=Deflection
+Dim2Unit=V
+Dim2Range=20
+Dim2Min=-10
+SaveMode=Binary
+SaveBits=16
+SaveSign=Signed
+SaveOrder=Intel
+
+[DataSet-1:7]
+Version=2
+Points=1024
+Lines=1
+Frame=Spec backward
+CurLine=0
+Dim0Name=Z-Axis
+Dim0Unit=m
+Dim0Range=2.905e-07
+Dim0Min=-2.05683e-06
+Dim1Name=SpecPoint
+Dim1Range=0
+Dim1Min=1
+Dim2Name=Z-Axis
+Dim2Unit=m
+Dim2Range=1.42e-05
+Dim2Min=-7.1e-06
+SaveMode=Binary
+SaveBits=16
+SaveSign=Signed
+SaveOrder=Intel
+
+[DataSet-2:0]
+Version=2
+Points=1024
+Lines=1
+Frame=IndentationZSensorFwd0
+CurLine=0
+Dim0Name=NameX0
+Dim0Unit=Unit0
+Dim0Range=0
+Dim0Min=0
+Dim1Range=1
+Dim1Min=0
+Dim2Name=Tip-Sample Separation
+Dim2Unit=m
+Dim2Range=0
+Dim2Min=0
+SaveMode=Binary
+SaveBits=16
+SaveSign=Signed
+SaveOrder=Intel
+
+[DataSet-3:0]
+Version=2
+Points=1024
+Lines=1
+Frame=IndentationZSensorBwd0
+CurLine=0
+Dim0Name=NameX1
+Dim0Unit=Unit1
+Dim0Range=0
+Dim0Min=0
+Dim1Range=1
+Dim1Min=0
+Dim2Name=Tip-Sample Separation
+Dim2Unit=m
+Dim2Range=0
+Dim2Min=0
+SaveMode=Binary
+SaveBits=16
+SaveSign=Signed
+SaveOrder=Intel
+
+[DataSet-4:0]
+Version=2
+Points=1024
+Lines=1
+Frame=IndentationDeflFwd0
+CurLine=0
+Dim0Name=NameX2
+Dim0Unit=Unit2
+Dim0Range=0
+Dim0Min=0
+Dim1Range=1
+Dim1Min=0
+Dim2Name=Deflection
+Dim2Unit=V
+Dim2Range=0
+Dim2Min=0
+SaveMode=Binary
+SaveBits=16
+SaveSign=Signed
+SaveOrder=Intel
+
+[DataSet-5:0]
+Version=2
+Points=1024
+Lines=1
+Frame=IndentationDeflBwd0
+CurLine=0
+Dim0Name=NameX3
+Dim0Unit=Unit3
+Dim0Range=0
+Dim0Min=0
+Dim1Range=1
+Dim1Min=0
+Dim2Name=Deflection
+Dim2Unit=V
+Dim2Range=0
+Dim2Min=0
+SaveMode=Binary
+SaveBits=16
+SaveSign=Signed
+SaveOrder=Intel
+
+[DataSet-6:0]
+Version=2
+Points=2
+Lines=1
+Frame=SlopeOut00
+CurLine=0
+Dim0Name=NameX4
+Dim0Unit=Unit4
+Dim0Range=0
+Dim0Min=0
+Dim1Range=1
+Dim1Min=0
+Dim2Name=NameZ4
+Dim2Unit=Unit4
+Dim2Range=0
+Dim2Min=0
+SaveMode=Binary
+SaveBits=16
+SaveSign=Signed
+SaveOrder=Intel
+
+[DataSet-7:0]
+Version=2
+Points=3
+Lines=1
+Frame=SlopeOut10
+CurLine=0
+Dim0Name=NameX5
+Dim0Unit=Unit5
+Dim0Range=0
+Dim0Min=0
+Dim1Range=1
+Dim1Min=0
+Dim2Name=NameZ5
+Dim2Unit=Unit5
+Dim2Range=0
+Dim2Min=0
+SaveMode=Binary
+SaveBits=16
+SaveSign=Signed
+SaveOrder=Intel
+
+[DataSet-8:0]
+Version=2
+Points=1
+Lines=1
+Frame=SlopeOut20
+CurLine=0
+Dim0Name=NameX6
+Dim0Unit=Unit6
+Dim0Range=0
+Dim0Min=0
+Dim1Range=1
+Dim1Min=0
+Dim2Name=NameZ6
+Dim2Unit=Unit6
+Dim2Range=0
+Dim2Min=0
+SaveMode=Binary
+SaveBits=16
+SaveSign=Signed
+SaveOrder=Intel
+
+[DataSet-9:0]
+Version=2
+Points=3
+Lines=1
+Frame=MaxAdhesionOut00
+CurLine=0
+Dim0Name=NameX7
+Dim0Unit=Unit7
+Dim0Range=0
+Dim0Min=0
+Dim1Range=1
+Dim1Min=0
+Dim2Name=NameZ7
+Dim2Unit=Unit7
+Dim2Range=0
+Dim2Min=0
+SaveMode=Binary
+SaveBits=16
+SaveSign=Signed
+SaveOrder=Intel
+
+[DataSet-10:0]
+Version=2
+Points=1
+Lines=1
+Frame=MaxAdhesionOut10
+CurLine=0
+Dim0Name=NameX8
+Dim0Unit=Unit8
+Dim0Range=0
+Dim0Min=0
+Dim1Range=1
+Dim1Min=0
+Dim2Name=NameZ8
+Dim2Unit=Unit8
+Dim2Range=0
+Dim2Min=0
+SaveMode=Binary
+SaveBits=16
+SaveSign=Signed
+SaveOrder=Intel
+
+[DataSet-11:0]
+Version=2
+Points=2
+Lines=1
+Frame=SlopeOut01
+CurLine=0
+Dim0Name=NameX9
+Dim0Unit=Unit9
+Dim0Range=0
+Dim0Min=0
+Dim1Range=1
+Dim1Min=0
+Dim2Name=NameZ9
+Dim2Unit=Unit9
+Dim2Range=0
+Dim2Min=0
+SaveMode=Binary
+SaveBits=16
+SaveSign=Signed
+SaveOrder=Intel
+
+[DataSet-12:0]
+Version=2
+Points=3
+Lines=1
+Frame=SlopeOut11
+CurLine=0
+Dim0Name=NameX10
+Dim0Unit=Unit10
+Dim0Range=0
+Dim0Min=0
+Dim1Range=1
+Dim1Min=0
+Dim2Name=NameZ10
+Dim2Unit=Unit10
+Dim2Range=0
+Dim2Min=0
+SaveMode=Binary
+SaveBits=16
+SaveSign=Signed
+SaveOrder=Intel
+
+[DataSet-13:0]
+Version=2
+Points=1
+Lines=1
+Frame=SlopeOut21
+CurLine=0
+Dim0Name=NameX11
+Dim0Unit=Unit11
+Dim0Range=0
+Dim0Min=0
+Dim1Range=1
+Dim1Min=0
+Dim2Name=NameZ11
+Dim2Unit=Unit11
+Dim2Range=0
+Dim2Min=0
+SaveMode=Binary
+SaveBits=16
+SaveSign=Signed
+SaveOrder=Intel
+
+[DataSet-14:0]
+Version=2
+Points=3
+Lines=1
+Frame=SnapInOut00
+CurLine=0
+Dim0Name=NameX12
+Dim0Unit=Unit12
+Dim0Range=0
+Dim0Min=0
+Dim1Range=1
+Dim1Min=0
+Dim2Name=NameZ12
+Dim2Unit=Unit12
+Dim2Range=0
+Dim2Min=0
+SaveMode=Binary
+SaveBits=16
+SaveSign=Signed
+SaveOrder=Intel
+
+[DataSet-15:0]
+Version=2
+Points=1
+Lines=1
+Frame=SnapInOut10
+CurLine=0
+Dim0Name=NameX13
+Dim0Unit=Unit13
+Dim0Range=0
+Dim0Min=0
+Dim1Range=1
+Dim1Min=0
+Dim2Name=NameZ13
+Dim2Unit=Unit13
+Dim2Range=0
+Dim2Min=0
+SaveMode=Binary
+SaveBits=16
+SaveSign=Signed
+SaveOrder=Intel
+
+[DataSet-16:0]
+Version=2
+Points=128
+Lines=128
+Frame=Scan forward
+CurLine=124
+Dim0Name=X*
+Dim0Unit=m
+Dim0Range=3e-06
+Dim0Min=0
+Dim1Name=Y*
+Dim1Unit=m
+Dim1Range=3e-06
+Dim1Min=0
+Dim2Name=Deflection
+Dim2Unit=V
+Dim2Range=20
+Dim2Min=-10
+SaveMode=Binary
+SaveBits=16
+SaveSign=Signed
+SaveOrder=Intel
+
+[DataSet-16:1]
+Version=2
+Points=128
+Lines=128
+Frame=Scan forward
+CurLine=124
+Dim0Name=X*
+Dim0Unit=m
+Dim0Range=3e-06
+Dim0Min=0
+Dim1Name=Y*
+Dim1Unit=m
+Dim1Range=3e-06
+Dim1Min=0
+Dim2Name=Z-Axis
+Dim2Unit=m
+Dim2Range=1.42e-05
+Dim2Min=-7.1e-06
+SaveMode=Binary
+SaveBits=16
+SaveSign=Signed
+SaveOrder=Intel
+
+[DataSet-17:0]
+Version=2
+Points=128
+Lines=128
+Frame=Scan backward
+CurLine=124
+Dim0Unit=m
+Dim0Range=3e-06
+Dim0Min=0
+Dim1Unit=m
+Dim1Range=3e-06
+Dim1Min=0
+Dim2Name=Deflection
+Dim2Unit=V
+Dim2Range=20
+Dim2Min=-10
+SaveMode=Binary
+SaveBits=16
+SaveSign=Signed
+SaveOrder=Intel
+
+[DataSet-17:1]
+Version=2
+Points=128
+Lines=128
+Frame=Scan backward
+CurLine=124
+Dim0Unit=m
+Dim0Range=3e-06
+Dim0Min=0
+Dim1Unit=m
+Dim1Range=3e-06
+Dim1Min=0
+Dim2Name=Z-Axis
+Dim2Unit=m
+Dim2Range=1.42e-05
+Dim2Min=-7.1e-06
+SaveMode=Binary
+SaveBits=16
+SaveSign=Signed
+SaveOrder=Intel
+
+[SetView]
+ViewWidth=638
+ViewHeight=611
+ViewCount=4
+View0=SetView-View0
+View1=SetView-View1
+View2=SetView-View2
+View3=SetView-View3
+
+[SetView-View0]
+ViewTyp=1
+LineOp=2
+Channel=1
+Frame=16
+ViewSize=256
+ViewMode=0
+GraphMode=1
+AspectRatio=0
+AutoZRange=1
+ZRange=-27,40
+ParCount=6
+Par0=1,Shading,0
+Par1=1,DeltaGain,5
+Par2=1,Smooth,0
+Par3=1,DriverInstanceNo,0
+Par4=1,RangeMin,0
+Par5=1,RangeMax,95
+
+[SetView-View1]
+ViewTyp=1
+LineOp=0
+Channel=0
+Frame=0
+ViewSize=256
+ViewMode=0
+GraphMode=1
+AspectRatio=0
+AutoZRange=1
+ZRange=12,99
+ParCount=6
+Par0=1,Shading,0
+Par1=1,DeltaGain,5
+Par2=1,Smooth,0
+Par3=1,DriverInstanceNo,0
+Par4=1,RangeMin,0
+Par5=1,RangeMax,95
+
+[SetView-View2]
+ViewTyp=0
+LineOp=0
+Channel=0
+Frame=0
+ViewSize=256
+ViewMode=0
+GraphMode=1
+AspectRatio=0
+AutoZRange=1
+ZRange=-334,535
+ParCount=3
+Par0=0,ReverseLine,1
+Par1=0,XAxisMin,-2.05683e-06
+Par2=0,XAxisMax,-1.76633e-06
+
+[SetView-View3]
+ViewTyp=0
+LineOp=0
+Channel=7
+Frame=0
+ViewSize=256
+ViewMode=0
+GraphMode=1
+AspectRatio=0
+AutoZRange=1
+ZRange=-9487,-8170
+ParCount=3
+Par0=0,ReverseLine,1
+Par1=0,XAxisMin,-2.05683e-06
+Par2=0,XAxisMax,-1.76633e-06
+
+[ProcessorSet]
+ProcessorCount=5
+Processor0=ProcessorSet-{138707ED-FD93-4E28-B2B0-C5DA628CB815}:0
+Processor1=ProcessorSet-{AB0B4062-81AF-464B-A7F7-75B11891ACF8}:0
+Processor2=ProcessorSet-{AB0B4062-81AF-464B-A7F7-75B11891ACF8}:1
+Processor3=ProcessorSet-{1220F4A8-053A-494D-B28C-3635059D1530}:0
+Processor4=ProcessorSet-{1220F4A8-053A-494D-B28C-3635059D1530}:1
+
+[ProcessorSet-{138707ED-FD93-4E28-B2B0-C5DA628CB815}:0]
+Name=Indentation
+GUID={138707ED-FD93-4E28-B2B0-C5DA628CB815}
+DisplayName=Indentation
+InstanceNo=0
+Enabled=B[0]*[]
+InputCount=4
+Input0Group=0
+Input0Channel=0
+Input1Group=1
+Input1Channel=0
+Input2Group=0
+Input2Channel=7
+Input3Group=1
+Input3Channel=7
+OutputCount=4
+Output0Group=4
+Output0Channel=0
+Output1Group=5
+Output1Channel=0
+Output2Group=2
+Output2Channel=0
+Output3Group=3
+Output3Channel=0
+
+[ProcessorSet-{AB0B4062-81AF-464B-A7F7-75B11891ACF8}:0]
+Name=Slope
+GUID={AB0B4062-81AF-464B-A7F7-75B11891ACF8}
+DisplayName=Slope Forward
+InstanceNo=0
+Enabled=B[0]*[]
+RangeMin=D[50]*[%]
+RangeMax=D[90]*[%]
+InputCount=2
+Input0Group=4
+Input0Channel=0
+Input1Group=2
+Input1Channel=0
+OutputCount=3
+Output0Group=6
+Output0Channel=0
+Output1Group=7
+Output1Channel=0
+Output2Group=8
+Output2Channel=0
+
+[ProcessorSet-{AB0B4062-81AF-464B-A7F7-75B11891ACF8}:1]
+Name=Slope
+GUID={AB0B4062-81AF-464B-A7F7-75B11891ACF8}
+DisplayName=Slope Backward
+InstanceNo=1
+Enabled=B[0]*[]
+RangeMin=D[50]*[%]
+RangeMax=D[90]*[%]
+InputCount=2
+Input0Group=5
+Input0Channel=0
+Input1Group=3
+Input1Channel=0
+OutputCount=3
+Output0Group=11
+Output0Channel=0
+Output1Group=12
+Output1Channel=0
+Output2Group=13
+Output2Channel=0
+
+[ProcessorSet-{1220F4A8-053A-494D-B28C-3635059D1530}:0]
+Name=MaxAdhesion
+GUID={1220F4A8-053A-494D-B28C-3635059D1530}
+DisplayName=Max Adhesion
+InstanceNo=0
+Enabled=B[0]*[]
+InputCount=2
+Input0Group=5
+Input0Channel=0
+Input1Group=3
+Input1Channel=0
+OutputCount=2
+Output0Group=9
+Output0Channel=0
+Output1Group=10
+Output1Channel=0
+
+[ProcessorSet-{1220F4A8-053A-494D-B28C-3635059D1530}:1]
+Name=MaxAdhesion
+GUID={1220F4A8-053A-494D-B28C-3635059D1530}
+DisplayName=Snap-In
+InstanceNo=1
+Enabled=B[0]*[]
+InputCount=2
+Input0Group=4
+Input0Channel=0
+Input1Group=2
+Input1Channel=0
+OutputCount=2
+Output0Group=14
+Output0Channel=0
+Output1Group=15
+Output1Channel=0
+
+
+#!                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ύÿόÿύÿ  ώÿ     	    
+                 "   " $   # # $ % % $ $ ( & ' ( * * - , - - . 0 / 4 7 8 6 ; ; ; = > B A D E I J L H M O R T T V T W Z \ [ \ ] ^ ^ _ c b ` c c b c c ` c e d _ c f c f g i g g j i j k k o m n q v v x w x { y ~  „ ‡ … ‰   ‹     ’ “ ‘ “ ” • — ™   ›         Ά   £ ¥ ΅ ¤ § § § ¥ ¨ « © ¬ ¬ ­ ® ² ² ³ ΄ ΄ · Ή Ή » ½ ΐ Ύ Ώ Ύ Β Β Γ Ε Ε Η Θ Ι Κ Κ Κ Ξ Π Ξ Ο Ò Π Ο Ρ Ρ Σ Τ Υ Ψ Ψ Ω Ω Ω Ϊ έ ΰ ί α γ δ ε ζ η ν κ λ λ ν ς π υ χ υ σ φ υ ψ ω ϋ ω ψ ϊ ϊ ϊ ϊ ύ ϋ  ώ ÿ  ÿ ÿ  	 #'&$'+(.-//033544657778989;<:;9:<??>?@?CDEFHHKIKMKPQSWYYZZ\]^`dcbedghhijmolnooorstuvwwxx{wz|~~‚€€ƒ…ƒ‡…†‡‰‹‹‹“’“–›™ ΅¤¥¦¤¨ªªª―®±―°±²²΄¶΄·¶··ΈΌΉΉΈΌ½Α½ΒΐΓΕΕΔΖΛΛΝΝΞΞΞΟΟΣΦΦΧΦΨΪέέΪήήγδγαδδδηθεθηλκιλκμοςσυττψψψϊύύÿ	
+,ΫμΪνΪοΪπΪρΪσΪτΪυΪχΪψΪωΪϋΪόΪύΪώΪ ΫΫΫΫΫΫΫ	Ϋ
+ΫΫΫΫΫΫΫΫΫΫΫΫΫΫΫΫΫ!Ϋ"Ϋ#Ϋ$Ϋ&Ϋ'Ϋ(Ϋ*Ϋ+Ϋ,Ϋ.Ϋ/Ϋ0Ϋ2Ϋ3Ϋ4Ϋ5Ϋ7Ϋ8Ϋ9Ϋ;Ϋ<Ϋ=Ϋ?Ϋ@ΫAΫCΫDΫEΫGΫHΫIΫJΫLΫMΫNΫPΫQΫRΫTΫUΫVΫXΫYΫZΫ[Ϋ]Ϋ^Ϋ_ΫaΫbΫcΫeΫfΫgΫiΫjΫkΫmΫnΫoΫpΫrΫsΫtΫvΫwΫxΫzΫ{Ϋ|Ϋ~ΫΫ€ΫΫƒΫ„Ϋ…Ϋ‡ΫΫ‰Ϋ‹ΫΫΫΫΫ‘Ϋ“Ϋ”Ϋ•Ϋ–ΫΫ™ΫΫΫΫΫ Ϋ΅ΫΆΫ¤Ϋ¥Ϋ¦Ϋ¨Ϋ©ΫªΫ«Ϋ­Ϋ®Ϋ―Ϋ±Ϋ²Ϋ³ΫµΫ¶Ϋ·ΫΉΫΊΫ»ΫΌΫΎΫΏΫΐΫΒΫΓΫΔΫΖΫΗΫΘΫΚΫΛΫΜΫΞΫΟΫΠΫΡΫΣΫΤΫΥΫΧΫΨΫΩΫΫΫάΫέΫίΫΰΫαΫβΫδΫεΫζΫθΫιΫκΫμΫνΫξΫπΫρΫςΫτΫυΫφΫχΫωΫϊΫϋΫύΫώΫÿΫάάάάάάά
+άάάάάάάάάάάάάάάάά ά!ά#ά$ά%ά'ά(ά)ά+ά,ά-ά.ά0ά1ά2ά4ά5ά6ά8ά9ά:ά<ά=ά>ά@άAάBάCάEάFάGάIάJάKάMάNάOάQάRάSάTάVάWάXάZά[ά\ά^ά_ά`άbάcάdάfάgάhάiάkάlάmάoάpάqάsάtάuάwάxάyά{ά|ά}ά~ά€άά‚ά„ά…ά†άά‰άάάάάά‘ά’ά“ά•ά–ά—ά™άά›άάάά΅άΆά£ά¤ά¦ά§ά¨άªά«ά¬ά®ά―ά°ά²ά³ά΄άµά·άΈάΉά»άΌά½άΏάΐάΑάΓάΔάΕάΗάΘάΙάΚάΜάΝάΞάΠάΡάÒάΤάΥάΦάΨάΩάΪάΫάέάήάίάαάβάγάεάζάηάιάκάλάνάξάοάπάςάσάτάφάχάψάϊάϋάόάώάÿά έέέέέέέ	έέέέέέέέέέέέέέέέέ έ!έ"έ$έ%έ&έ(έ)έ*έ+έ-έ.έ/έ1έ2έ3έ5έ6έ7έ9έ:έ;έ<έ>έ?έ@έBέCέDέFέGέHέJέKέLέNέOέPέQέSέTέUέWέXέYέ[έ\έ]έ_έ`έaέbέdέeέfέhέiέjέlέmέnέpέqέrέtέuέvέwέyέzέ{έ}έ~έέέ‚έƒέ…έ†έ‡έέέ‹έέέέέ’έ“έ”έ–έ—έέέ›έέέέ έ΅έ£έ¤έ¥έ§έ¨έ©έ«έ¬έ­έ®έ°έ±έ²έ΄έµέ¶έΈέΉέΊέΌέ½έΎέΐέΑέΒέΓέΕέΖέΗέΙέΚέΛέΝέΞέΟέΡέÒέΣέΤέΦέΧέΨέΪέΫέάέήέίέΰέβέγέδέζέηέθέιέλέμένέοέπέρέσέτέυέχέψέωέϋέόέύέώέ ήήήήήήή	ή
+ήήήήήήήήήήήήήήήήή!ή"ή#ή$ή&ή'ή(ή*ή+ή,ή.ή/ή0ή2ή3ή4ή5ή7ή8ή9ή;ή<ή=ή?ή@ήAήCήDήEήGήHήIήJήLήMήNήPήQήRήTήUήVήXήYήZή[ή]ή^ή_ήaήbήcήeήfήgήiήjήkήmήnήoήpήrήsήtήvήwήxήzή{ή|ή~ήή€ήήƒή„ή…ή‡ήή‰ή‹ήήήήή‘ή“ή”ή•ή–ήή™ήήήήή ή΅ήΆή¤ή¥ή¦ή¨ή©ήªή«ή­ή®ή―ή±ή²ή³ήµή¶ή·ήΉήΊή»ήΌήΎήΏήΐήΒήΓήΔήΖήΗήΘήΚήΛήΜήΞήΟήΠήΡήΣήΤήΥήΧήΨήΩήΫήάήέήίήΰήαήβήδήεήζήθήιήκήμήνήξήπήρήςήτήυήφήχήωήϊήϋήύήώήÿήίίίίίίί
+ίίίίίίίίίίίίίίίίί ί!ί#ί$ί%ί'ί(ί)ί+ί,ί-ί.ί0ί1ί2ί4ί5ί6ί8ί9ί:ί<ί=ί>ί@ίAίBίCίEίFίGίIίJίKίMίNίOίQίRίSίTίVίWίXίZί[ί\ί^ί_ί`ίbίcίdίfίgίhίiίkίlίmίoίpίqίsίtίuίwίxίyί{ί|ί}ί~ί€ίί‚ί„ί…ί†ίί‰ίίίίίί‘ί’ί“ί•ί–ί—ί™ίί›ίίίί΅ίΆί£ί¤ί¦ί§ί¨ίªί«ί¬ί®ί―ί°ί²ί³ί΄ίµί·ίΈίΉί»ίΌί½ίΏίΐίΑίΓίΔίΕίΗίΘίΙίΚίΜίΝίΞίΠίΡίÒίΤίΥίΦίΨίΩίΪίΫίέίήίίίαίβίγίείζίηίιίκίλίνίξίοίπίςίσίτίφίχίψίϊίϋίόίώίÿί ΰΰΰΰΰΰΰ	ΰΰΰΰΰΰΰΰΰΰΰΰΰΰΰΰΰ ΰ!ΰ"ΰ$ΰ%ΰ&ΰ(ΰ                                                                                                                                                             ·ώ²ώ³ώ³ώµώ΄ώ²ώ·ώµώ΄ώ΄ώ΄ώµώ΄ώ¶ώΉώΈώ¶ώΈώΈώΈώΌώ»ώΌώΌώΎώΏώΒώΎώΏώΓώΒώΓώΔώΗώΖώΚώΙώΛώΛώΟώΣώΡώΣώΥώΦώΦώΩώέώΫώΫώάώάώΰώαώβώεώζώδώζώκώηώθώθώλώμώκώπώξώοώοώνώξώρώσώρώρώφώτώτώχώχώωώωώωώόώώώÿώ ÿÿÿÿÿÿ	ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ ÿ#ÿ ÿ#ÿ%ÿ"ÿ ÿ%ÿ'ÿ(ÿ'ÿ(ÿ*ÿ+ÿ.ÿ0ÿ2ÿ2ÿ4ÿ5ÿ9ÿ9ÿ9ÿ;ÿ<ÿ>ÿ?ÿBÿCÿDÿFÿHÿGÿKÿIÿKÿLÿOÿOÿMÿPÿOÿOÿSÿSÿTÿVÿTÿWÿUÿYÿWÿYÿYÿXÿ\ÿ]ÿ\ÿ\ÿcÿbÿaÿdÿbÿcÿgÿeÿfÿjÿhÿlÿkÿmÿlÿoÿpÿoÿuÿtÿtÿuÿwÿwÿyÿzÿxÿ{ÿ|ÿ}ÿÿ~ÿÿÿÿ‚ÿ„ÿÿ‡ÿ‰ÿÿ‰ÿ‹ÿÿÿÿÿÿ“ÿ”ÿ–ÿ•ÿÿÿÿÿ›ÿÿ ÿ ÿ£ÿ¥ÿ¤ÿ¤ÿ¦ÿ¦ÿ¦ÿ©ÿ¬ÿ«ÿ¬ÿ«ÿ¬ÿ―ÿ­ÿ¬ÿ®ÿ°ÿ±ÿ²ÿ΄ÿ΄ÿµÿ΄ÿ²ÿΈÿ·ÿΉÿΉÿΉÿΎÿ½ÿ½ÿΏÿΐÿΐÿΒÿΓÿΕÿΔÿΘÿΗÿΕÿΛÿΙÿΜÿΜÿΞÿΝÿÒÿΡÿΥÿΨÿΦÿΩÿΨÿΪÿάÿΫÿέÿάÿγÿβÿγÿγÿεÿδÿδÿηÿθÿθÿθÿιÿιÿιÿλÿκÿνÿοÿοÿπÿσÿσÿσÿσÿχÿυÿχÿωÿϋÿϋÿϋÿωÿÿÿ ÿÿ       	 	                          ! " # $ & & & & ( * * + / 0 0 1 2 6 6 4 8 : ; < ? @ C @ @ A D D H H K K N N M M N O S O R Q S Q R R S S T U T V W X X Z [ [ [ ^ ^ ^ _ a f f h h h k m o t t u v v y } ~ ~ € „ „ ‡ „ †  ‡ ‰  ‹   ‹   ’         ‘  ‘ ‘ ‘ ” “ ” ‘ ” – ” — –    ›     ¤ ¥ § ª ª « ® ® ° ³ µ · Ί Ό Ώ ΐ ΐ Δ Γ Ε Ζ Ζ Ε Ζ Ι Ν Μ Μ Λ Λ Κ Λ Ν Λ Ξ Π Ν Ξ Ξ Ο Ξ Ξ Ξ Ξ Ο Σ Υ Σ Σ Υ Τ Φ Ω Χ Ω έ έ ί ί β δ ε η η ι μ λ μ ο π ς τ φ σ υ ω ό ϋ ώ  ÿ 				
+   "$#$'$**-+*--2/1456888::<?BB@BGDGGIKNNMPPPSTUVTYXZ[]][^]]`b``cdccgeffjjjkkkonptsuuuvzwxz{|~ƒ…‡†‹’”•–—–™› ¥¤££¤¦¤¥¦§¦¨ª©¨©ªª¬®―®®®΄΄¶¶·ΈΉ»½Ό½ΎΒΐΒΔΓΖΘΚΛΛΛΝΝΞΡΤΤΥΥΦΥΨΪΫΪΪάέήίήίΰαΰζδεδζηθλλμμρροπρπτωφχχχωχύώÿύ  		
+λΪμΪνΪοΪπΪρΪσΪτΪυΪχΪψΪωΪϋΪόΪύΪώΪ ΫΫΫΫΫΫΫ	Ϋ
+ΫΫΫΫΫΫΫΫΫΫΫΫΫΫΫΫΫ!Ϋ"Ϋ#Ϋ$Ϋ&Ϋ'Ϋ(Ϋ*Ϋ+Ϋ,Ϋ.Ϋ/Ϋ0Ϋ2Ϋ3Ϋ4Ϋ5Ϋ7Ϋ8Ϋ9Ϋ;Ϋ<Ϋ=Ϋ?Ϋ@ΫAΫCΫDΫEΫGΫHΫIΫJΫLΫMΫNΫPΫQΫRΫTΫUΫVΫXΫYΫZΫ[Ϋ]Ϋ^Ϋ_ΫaΫbΫcΫeΫfΫgΫiΫjΫkΫmΫnΫoΫpΫrΫsΫtΫvΫwΫxΫzΫ{Ϋ|Ϋ~ΫΫ€ΫΫƒΫ„Ϋ…Ϋ‡ΫΫ‰Ϋ‹ΫΫΫΫΫ‘Ϋ“Ϋ”Ϋ•Ϋ–ΫΫ™ΫΫΫΫΫ Ϋ΅ΫΆΫ¤Ϋ¥Ϋ¦Ϋ¨Ϋ©ΫªΫ«Ϋ­Ϋ®Ϋ―Ϋ±Ϋ²Ϋ³ΫµΫ¶Ϋ·ΫΉΫΊΫ»ΫΌΫΎΫΏΫΐΫΒΫΓΫΔΫΖΫΗΫΘΫΚΫΛΫΜΫΞΫΟΫΠΫΡΫΣΫΤΫΥΫΧΫΨΫΩΫΫΫάΫέΫίΫΰΫαΫβΫδΫεΫζΫθΫιΫκΫμΫνΫξΫπΫρΫςΫτΫυΫφΫχΫωΫϊΫϋΫύΫώΫÿΫάάάάάάά
+άάάάάάάάάάάάάάάάά ά!ά#ά$ά%ά'ά(ά)ά+ά,ά-ά.ά0ά1ά2ά4ά5ά6ά8ά9ά:ά<ά=ά>ά@άAάBάCάEάFάGάIάJάKάMάNάOάQάRάSάTάVάWάXάZά[ά\ά^ά_ά`άbάcάdάfάgάhάiάkάlάmάoάpάqάsάtάuάwάxάyά{ά|ά}ά~ά€άά‚ά„ά…ά†άά‰άάάάάά‘ά’ά“ά•ά–ά—ά™άά›άάάά΅άΆά£ά¤ά¦ά§ά¨άªά«ά¬ά®ά―ά°ά²ά³ά΄άµά·άΈάΉά»άΌά½άΏάΐάΑάΓάΔάΕάΗάΘάΙάΚάΜάΝάΞάΠάΡάÒάΤάΥάΦάΨάΩάΪάΫάέάήάίάαάβάγάεάζάηάιάκάλάνάξάοάπάςάσάτάφάχάψάϊάϋάόάώάÿά έέέέέέέ	έέέέέέέέέέέέέέέέέ έ!έ"έ$έ%έ&έ(έ)έ*έ+έ-έ.έ/έ1έ2έ3έ5έ6έ7έ9έ:έ;έ<έ>έ?έ@έBέCέDέFέGέHέJέKέLέNέOέPέQέSέTέUέWέXέYέ[έ\έ]έ_έ`έaέbέdέeέfέhέiέjέlέmέnέpέqέrέtέuέvέwέyέzέ{έ}έ~έέέ‚έƒέ…έ†έ‡έέέ‹έέέέέ’έ“έ”έ–έ—έέέ›έέέέ έ΅έ£έ¤έ¥έ§έ¨έ©έ«έ¬έ­έ®έ°έ±έ²έ΄έµέ¶έΈέΉέΊέΌέ½έΎέΐέΑέΒέΓέΕέΖέΗέΙέΚέΛέΝέΞέΟέΡέÒέΣέΤέΦέΧέΨέΪέΫέάέήέίέΰέβέγέδέζέηέθέιέλέμένέοέπέρέσέτέυέχέψέωέϋέόέύέώέ ήήήήήήή	ή
+ήήήήήήήήήήήήήήήήή!ή"ή#ή$ή&ή'ή(ή*ή+ή,ή.ή/ή0ή2ή3ή4ή5ή7ή8ή9ή;ή<ή=ή?ή@ήAήCήDήEήGήHήIήJήLήMήNήPήQήRήTήUήVήXήYήZή[ή]ή^ή_ήaήbήcήeήfήgήiήjήkήmήnήoήpήrήsήtήvήwήxήzή{ή|ή~ήή€ήήƒή„ή…ή‡ήή‰ή‹ήήήήή‘ή“ή”ή•ή–ήή™ήήήήή ή΅ήΆή¤ή¥ή¦ή¨ή©ήªή«ή­ή®ή―ή±ή²ή³ήµή¶ή·ήΉήΊή»ήΌήΎήΏήΐήΒήΓήΔήΖήΗήΘήΚήΛήΜήΞήΟήΠήΡήΣήΤήΥήΧήΨήΩήΫήάήέήίήΰήαήβήδήεήζήθήιήκήμήνήξήπήρήςήτήυήφήχήωήϊήϋήύήώήÿήίίίίίίί
+ίίίίίίίίίίίίίίίίί ί!ί#ί$ί%ί'ί(ί)ί+ί,ί-ί.ί0ί1ί2ί4ί5ί6ί8ί9ί:ί<ί=ί>ί@ίAίBίCίEίFίGίIίJίKίMίNίOίQίRίSίTίVίWίXίZί[ί\ί^ί_ί`ίbίcίdίfίgίhίiίkίlίmίoίpίqίsίtίuίwίxίyί{ί|ί}ί~ί€ίί‚ί„ί…ί†ίί‰ίίίίίί‘ί’ί“ί•ί–ί—ί™ίί›ίίίί΅ίΆί£ί¤ί¦ί§ί¨ίªί«ί¬ί®ί―ί°ί²ί³ί΄ίµί·ίΈίΉί»ίΌί½ίΏίΐίΑίΓίΔίΕίΗίΘίΙίΚίΜίΝίΞίΠίΡίÒίΤίΥίΦίΨίΩίΪίΫίέίήίίίαίβίγίείζίηίιίκίλίνίξίοίπίςίσίτίφίχίψίϊίϋίόίώίÿί ΰΰΰΰΰΰΰ	ΰΰΰΰΰΰΰΰΰΰΰΰΰΰΰΰΰ ΰ!ΰ"ΰ$ΰ%ΰ&ΰ(ΰÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ                                        
+
+	
+
+	
+	
+		
+
+	
+			
+
+	
+
+	
+
+
+		
+
+
+
+
+
+
+
+
+	
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+	
+		
+
+
+
+
+	
+
+
+	
+
+	
+
+
+
+	
+	
+
+	
+
+
+
+
+	
+
+
+
+
+			
+
+
+				
+
+			
+
+	
+			
+
+
+
+
+
+
+
+
+
+
+					
+
+
+	
+		
+	
+
+
+
+	
+		
+
+
+		
+
+	
+
+	
+	
+
+	
+	
+
+	
+
+
+
+
+
+
+
+
+
+		
+
+		
+	
+
+		
+
+
+
+
+
+
+
+
+	
+
+
+	
+
+	
+	
+	
+
+
+	
+
+
+
+		
+
+	
+
+	
+			
+
+
+	
+
+	
+
+
+
+
+
+
+
+	
+
+	
+
+
+
+	
+
+	
+	
+
+
+
+
+
+	
+
+
+	
+
+	
+
+
+
+
+
+			
+		
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+		
+
+
+	
+	
+	
+		
+	
+	
+
+
+
+
+	
+	
+		
+
+
+
+	
+
+
+	
+
+
+		
+			
+			
+	
+					
+
+		
+
+	
+		
+
+	
+	
+
+
+
+
+
+	
+		
+
+
+
+
+			
+		
+	
+
+		
+
+
+	
+	
+	
+
+
+
+
+
+		
+
+
+σÿ		
+	
+	
+
+
+
+
+			
+
+
+
+
+
+		
+
+
+	
+
+		
+
+
+		
+	
+
+
+	
+	
+
+	
+
+	
+
+
+	
+
+
+	ϊ
+
+	
+
+
+	
+
+	
+
+
+	
+	
+	
+
+
+
+	
+
+
+
+
+				
+
+			
+
+		
+
+
+
+		
+
+
+
+
+			
+	
+
+	
+	
+
+	
+
+						
+
+	
+
+
+		
+		
+
+		
+
+
+		
+				
+
+
+
+
+
+
+
+	
+
+
+
+	
+
+	
+
+	
+		
+
+
+	
+					
+	
+
+
+					
+
+
+
+	
+
+
+	
+	
+
+
+
+
+
+	
+
+		
+
+
+
+
+
+	
+		
+	
+		
+
+		
+
+
+		
+
+
+
+
+	
+
+
+
+
+	
+	
+	
+	
+	
+
+
+
+	
+		
+
+
+
+	
+
+
+
+	
+	
+	
+	
+
+
+ώ
+
+	
+
+
+
+
+		
+	
+	
+	
+	
+
+
+
+	
+
+		
+	
+
+
+
+
+		
+			
+
+
+
+
+
+		
+
+	
+
+
+
+
+	
+	
+
+
+
+
+				
+	
+
+
+
+	
+
+
+	
+
+	
+	
+
+	
+
+			
+	
+		
+	
+
+
+
+	
+
+	
+
+
+
+	
+			
+
+
+
+
+
+
+	
+
+
+
+	
+
+	
+
+
+
+	
+		
+	
+		
+
+
+
+			
+
+	
+
+
+
+	
+
+
+	
+
+
+		
+		
+
+	
+
+
+		
+
+
+
+
+
+	
+			
+	
+		
+
+
+
+
+		
+
+
+		
+
+	
+
+
+	
+		
+		
+
+
+			
+
+
+
+
+
+
+
+	
+
+	
+
+
+	
+	
+
+
+
+	
+
+
+
+
+
+	
+				
+
+	
+	
+	
+
+
+	
+	
+
+
+
+
+
+			
+	
+
+
+
+	
+	
+
+
+
+
+
+
+
+				
+
+
+
+
+	
+
+
+
+	
+	
+	
+
+	
+
+		
+
+	
+
+
+
+
+
+
+
+		
+		
+
+
+
+	
+	
+			
+	
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+	
+
+
+
+	
+	
+
+
+
+
+	
+		
+
+
+	
+
+
+		
+
+
+
+		
+
+	
+
+
+
+
+
+
+
+		
+
+
+
+
+
+
+
+
+	
+
+		
+
+	
+
+
+
+	
+
+
+
+
+	
+		
+	
+	
+	
+	
+
+			
+
+	
+
+
+
+	
+
+
+
+
+
+
+
+
+
+	 
+		
+	
+
+
+
+	
+
+	
+
+		
+
+		
+				
+			
+
+		
+
+
+
+
+	
+
+
+
+
+	
+	
+	
+
+
+
+
+			
+
+
+
+	
+	
+
+	
+
+
+	
+
+
+
+	
+	
+		
+
+
+
+
+
+
+
+	
+
+
+	
+	
+
+
+
+
+
+		
+		
+
+
+
+	
+
+
+
+	
+			
+					
+
+	
+
+
+		
+
+				
+	
+
+	
+
+
+				
+
+	
+
+	
+
+	
+
+
+
+	
+
+
+
+		
+		
+	
+
+
+
+	
+
+	
+
+
+
+
+		
+
+	
+
+	
+
+
+	
+
+
+					
+
+
+	
+
+
+	
+
+	
+
+
+
+	
+			
+	
+
+	
+		
+	
+		
+	
+
+
+
+
+
+
+
+
+
+
+
+		
+	
+	
+			
+		
+
+
+
+	
+		
+		
+			
+	
+	
+
+
+
+	
+
+	
+	
+	
+
+	
+
+
+	
+
+	
+
+	
+	
+	
+
+	
+	
+	
+
+	
+
+
+
+
+
+
+
+
+		
+	
+	
+	
+
+				
+
+			
+
+		
+
+
+
+
+	
+
+			
+
+
+	
+
+
+
+				
+
+
+	
+
+	
+
+
+
+	
+	
+
+	
+		
+
+		
+ÿ	
+	
+
+
+			
+
+	
+	
+
+	
+	
+
+	
+			
+
+
+
+
+
+
+
+		
+
+
+				
+
+		
+	
+
+
+	
+	
+		
+	
+		
+
+
+ψρς 	
+	
+		
+			
+	
+
+	
+		
+
+
+		
+
+	
+
+
+	
+
+
+				
+		
+
+	
+		
+
+			
+
+	
+	
+
+
+	
+
+
+
+
+
+
+
+	
+
+
+	
+	
+	
+		
+	
+	
+
+	
+
+	
+	
+		
+	
+
+
+	
+
+
+		
+
+					
+
+
+
+
+
+
+
+	
+
+	
+
+	
+	
+
+	
+		
+
+
+
+	
+
+	
+		
+		
+
+	
+
+	
+
+
+
+		
+	
+	
+
+
+
+
+	
+
+
+		
+	
+
+				
+
+
+	
+
+
+		
+
+
+
+	
+
+
+	
+		
+
+		
+
+
+	
+
+
+
+	
+
+	
+
+
+
+	
+			
+
+
+		
+	
+	
+
+	
+
+		
+
+		
+				
+			
+	
+
+	
+
+
+
+
+
+			
+	
+
+
+
+
+
+
+
+		
+
+
+
+	
+
+		
+
+
+		
+
+
+	
+			
+
+		
+
+
+
+	
+
+
+		
+
+	
+	
+
+	
+
+
+	
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+
+
+
+
+		
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+			
+
+
+
+	
+
+
+
+
+
+
+
+	
+
+	
+
+	
+	
+
+
+	
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+		
+		
+	
+		
+
+
+	
+
+	
+
+
+	
+			
+
+
+			
+
+ 	
+			
+
+
+	
+
+
+
+
+
+	
+	
+		
+
+
+	
+
+	
+
+		
+
+
+	
+
+
+
+
+
+
+	
+	
+
+	
+
+
+
+
+	
+
+
+
+							
+
+				
+
+
+		
+
+	
+
+
+
+			
+		
+	
+
+
+
+			
+	
+	
+
+
+
+
+
+	
+	
+
+		
+	
+		
+	
+	
+	
+
+		
+
+
+	
+
+
+
+
+	
+	
+
+	
+
+
+	
+		
+
+
+
+
+
+
+		
+	
+	
+
+
+
+
+	
+
+		
+
+
+
+
+
+	
+
+
+
+
+		
+
+			
+		
+
+
+				
+
+
+		
+		
+
+
+	
+
+	
+	
+
+
+
+				
+
+	
+
+		
+
+
+	
+	
+	
+	
+
+
+
+
+	
+
+
+		
+
+		
+
+
+
+
+
+
+	
+
+	
+	
+	
+		
+
+
+
+
+	
+
+
+	
+
+	
+
+
+
+
+	
+
+	
+
+
+	
+
+	
+
+
+	
+	
+
+
+
+	
+
+
+
+
+		
+
+	
+	
+
+
+
+
+			
+
+
+		
+
+
+	
+
+
+					
+
+
+
+
+
+
+	
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                όπξϋωφόÿό		
+!!$$(''&%),+,.3.-85,9C97@E@9@A<BIHFDGHISXLO\WTZ^\[_`bifcjkffpmlsmmtzrs{~sy‚|‹v‰{”–‹›•“—Ά™”ψτφστό& &"$$#.&-/#&3/&0<=9874><4;;6<DB:BGAGIDKOGNXYVV^_Y]a_]bih_enmckrinsuqmv|yx}‚|€…„…„‰„””›Ά‘›Άξνοψωχό"($+&$$'/2-*26--/-2864769<<?B>ABBGGCFGFJMNHJZXTXZY]`c__dgeehhlmklptrluztvz{|z{ƒ‚~†‰„‹‡‘—’•–‘•›ÿτσςϊÿόό
+% $',)$/82*.3.,350674799;86<>==CC>EKBAHEGQSPUVTW^ZV_d\[chfacopghtskoxtqxyuxyz€}{„†€„‹…†‹”–’’τσρυϊύ #"%'(=8-11),76-075<C?:?==CCC=@CCFIGJJFLY\Z\XX\[[_abbbdfihenphkrostttxzww}{y€}‚†‚†‰‘’•–‘——›™ρρρτϊϊϊώÿ
+0)  !',-)->:48966:96865CNF:?<5?B=?B?>FIGHOMNY^_]V[_[Zbe_ahidgliknmossrrwyww|}z{„}}…‰†‰†‰”“‘•–”’•΅σϋσμϊ ώ&1, "%#!$'+,),1132*0;>:8769CFC@<7<A;9AFDB?DJMSSHJY\]`^TXge\ek^cliinnjhmpstsswtv}}vy€„…„††‹‰•‘“““–“’”›•μϋδυϋπ"15$ ($ ),*0-(15+&0668=709B><:?A?>@FE@EHDMSIJSONXX[\X\de]_ge`injimnmnrsrq{zpy‚zv„|y…‚ƒ…‰†”’‘”“”’’›•™›όυψχόϊ 	#"# '#&-('..*00+.7606<:69;:9;<@@@FBCIMGEKMINSQUVX]\[`bcdaekijhjtmgs|sms|xwzxy{€‡}‚‘‡‰‘“‘—–™“ϊύτφ
+		! %!%&''(+0-/0.26406B<6<:;?ACA>DHECHLFJVMEVYJT]\^_W_ja^kjdmrddyueqznn|zutz~€~z~‡„‚‹‹†„‡‘‘•’™—™Άόξϊόύ&("$%*)$'-/*)35*/6/067:=57BA?AC@:CH>HPBDQMFMWQM\[TZ___\_e_aeejmmjgtrhqyqp{}tu|~||†€€„‡……“‹”–“‘•› ςψό	#"#**,.'*22(+3-5:5324:@B:9DD>EMD:?LKCBMLFKSPGQ\XSZ]Z]gb]bhgakqgkrrtpnwzutyzzƒ€y‡ƒƒ‡”•—•–•”—››™›¥ύύώÿ 
+  !"$+2--<C:4<=02>7.?:(:K40IM66OH4DTCDPPIKLNRUQKYaVU_b^adc`imccppkouspx{vw€€w|‚€‚…„ƒ‰†’‘‰–’–‘™”—“££›σξϋύ
+%&(%/.%"2HHB=6:8/5;4/5>@;:DIHDCDCBDJEGOLJPMGKTTSWZW\b[\d``hkg_mxgax~je}hv‰tn‡l}“€u€„”†”‘–—”—–›§¤ύυς
+ *)$&)04.7IG527:97;:<=67==B>>FD@JRIBO_VLSVTQS[caW[c`]ad`eofclrmkosmmz~uqz„{o‚zv…‡ƒ†‰†‹•‹—‹–‘”£™’ ¤«¦ύψώ
+&# &&-3..0+.95-:JNOTSLD@<?D9>HABJKFDJJAKUSMLU\S[zza[hd]djfdghlplmvoiwyos~|t}x€‰€‚†‰‘’•”“—”£–ΆΆ¤§ς	ϋύ ')%&/<7-/31377<C<KhhUNJA<FB59FFCCCIHEJJIMQULI_cez~gacddegcinlknlqurpwxy|{|z}…‚|ƒ‡‚‡‡‹”•—”‘—› ›§¤¨ÿ	!$##,,,-.33231123548PcgaH=JNBCF@AFLKGGIHPQGPTMPWZ\^osccfdefimgjqnnsvssuux}x‡|z„††‰‰…‡’–“–“—››Ά››¤§΅«ώύϋ((%"'&#+/##110/+-9854<LPQF9>D=@FD@GOIAGPPJJTZMMY[TYbjjgddgeflngiqqopnpwvtwzuv€€z~‚‚‡…‰‘•›–’™™£›¤¨  ©ª©ϋ"&!',!.*$/7,)2861388==7@H?<@HGDGGGIIHLNLNOTNM[YTV]jl``kjbcnqgjulpvoruu|xvzw}‡€…‹†“”Ά’΅™£΅΅΅¤ª¨Ά«®©ÿω"!$%"".&(8/!+91.64217=86?B89GF=>DA>HIDFJGELUOIS\YVWcg[Ymj]kmdimqoovmnzxz||y{†…~‰‚€‰‡†‘‡’—”™‘–£–΅΅¦¤§§¤©©¬ÿύ
++*!'.'.=1$5:,-=;2:>07OC,?O31SR06WL7PZAAUVIM]VKXbXWac__fjeeopjhn{sgt„ziz~q‰w~”|‡”‡”“—‘–›——›§£›Ά§Ά¤¬¨¨±―
+#.!"$ #,((,./,68.1746878;E>7CGBEFGJKHMRNJUWNOfY8bj^[N^f`jfgjbktqnmttou}zy~}„‰€v±R²~•…¤„‹«¤΅§­›©ª§ªªª»²›·¶	8D.)& $,(&#)/*13,684<:888:@?>>BFD?FGIH8KZKIKPOMPSSXUQ\`WYif^fkfaltdoodu}lw{pz}ƒu„{…”“‰•’ª›®Ά΅§³¥£¬ª­¬²µ°ύ".57+$/-(.''0/)*)+1605?.8J91APL6?V<=\QHKKSPUVQPNV\XXUNYe^Tw~^pmjrslpytyts}~~z‚†~„‡ƒ•••‘——¦§£¬°«©©ª°²²¶·―
+#*#$%"-.)-3377(+;=748=PfcVRFAGBIPDBJNMRXROSRQX^WV_a`_`__d}„ogmrpkgy•S[ws}u†z‘„tƒ’–ƒƒ›…“—’–—΅΅£¤££®¨¤®­ªª²²¶"(-)*,)*5:95/3779<@IYel`KCHKBBKGHOHBNWRKQVNQ[\Y[Z_b`^afwznqpjnvwrqw|{xy„{|ƒ‚†…‰‰–”‡ –—Ά”¤—¤¨Ά©¦΅¥«©¦°±ª®¶µ―·
+"#+33/,.402?@23?<>?8=[maRWTGPUKOTOLMQUPPTUWWVY`^ZYcc^fjalvumnvtrvxvy}~€{z‰‹y†„’‹‘’–’ΆΆ¤©£¥­«§«¶µ¨­Έµ΄ΊΉ²¶	
+!	-%*:++<*E6&95@@155KH0GSBESWDAXSINSYRNXUSiUOldaX^vcYchicl‚n^uƒol†wj‚†x{‰‡y€‚‘†„΅„΅‘΅’΅¥©£« ¨±¥£°³ªªΈΉ²±±·Ώΐ­­Μ$&"46(*53596::>>?H?6HK<?MOFHSTJLTWYVUYVWa\U]c_XZjhV^tmYa{yddz€qfv~f”u}‹…‰‘|Ά—‚΅¤©”¤­ ”°¨ ¬¶§²Α¬£¶½±¬³ΌΌ¶Ή  (/&,8/.9>;9:=AFEABFBEOPKNTTNMWZSSY^`YW^_Z_fg]Zgkabgmjditvvutxy{{zz€~ƒ‰‰…‰“”’“–›—›Ά ¤©¤ ¦®©¦­­¬®±±΄¶®µΎ²µΔΌ±»ΓΌ$%,(-1)/<;=DECBC?DKB=KQLGIV^\PQ]^T]hYWoi]`a`giedijfhmnmlgspo~szƒ{„„‰ƒ…‹’†”— ™“—•Ά££§¨£¨±¨΅―ΏªΆΊ·«ΈΈ΄ΎΎ³΄ΕΑ³½ΖΎ'(*-"&54.4;4Je]KJLIFKLKGDKTNITWSW][[\Y]`_\cgb`hggqkjqrljpskn|qswy€w}†„‚€†‡‡†“‹‹“››™——™Ά¤£΅©«©ª«­®­΄µ―΄¶°ΈΑΌ΄½Ζ·΄ΙΜΈΊ#&'!%+,0213?[\WMGJMHENQIJORPOTZYYZ^__ef^ankeqtklpjcmrjmsmorov}}wx€…‰‹…‡‡‹‘’‹––£¨΅§©«¬««©―µ―°·Έ²³ΊΈΎΔΊΊΑΒ½ΏΘΒΊΗ (%')'-79<@ALVVIHFD@FLLPUMNVSQXWPP\a^W\ghabmngcagmhdkof_p}tls||wy…„w|‡‡„‚„†…’‹• ¤ £«£―³©ª―°²³³±΄ΏΈ―ΊΕΏ½ΑΔ½½ΙΖ½Η&&**&11-377>=>DEDFILIILLYZOOZ[SQU\a^XajYUkmacoi^glifhjlokkxwnv}x~|~ƒ……‚…‹‰‰‹’”—™™›Ά›™¨© ¬«©°®«°°―³·³―³ΊΊΊΈΉΑΑ·ΎΔΎΓΙΔ !"""(0523;70CIBDFEKNLJQWNHVXUXVW][\he_dihddjikjfqpdktlnsqnwyn|‚|†‚‚ƒ„†”‹‰‘“’‘–£΅¤Ά§¨©®¨­±°¬®··Ήµ°ΉΌΈΑΑΊΌΓΘΓΑΙΕΖΛΛΙ'#$'*(*2719;6:KO29VLJNKQJQ[TQQNS^bZZe`akhecgkkkkjrke}vcq|{wst„x‰‹‡–—’‘“— ¦ –¤­΄Έ…µ±ΆΎ­­«¨ΐµ·»°Ή¶ΉΘΒΎΐΌΓΕΘΛΖΙΙΚÒ$$.&%54/673<B;@E>EMJJLPMPVPW\MS^XW_eb_bbcpfSovellimkoy}{vusv~z‚†’‘”••—Ά΅—­΅¬ª›£®°®©¨³Έ®®Ώ»±¶»·ΐΒΊΐΔΏΖΝΗΒΝΟΘΡΣΟΣ*&6F@>@>@C?@JMJMSQNORYWLSbWPZ[Zaabfa_ksh`joiprottmsysw}ws|{s~}‰…„‰‹—‘–¥΅¤«§¥¦§°°¤«Έ―§ΊΒ¬«ΖΑ°ΎΕ·ΎΙΎΎΗΛΗΕΝΟΙΚΝΤΤΟÒΧΧ;4<WXNMK@@IOQXSJ]^JQd[P_cT[iccshZkwjl€€wprwult{ur||y‚„z~}x‹‹{‚’––‘–Ά› ΅£¤¥¨§§«±ª¬±®°·²²ΉµΉ½Ή½ΓΎ»ΓΗΒΎΛΞΖΙΝΟÒΜΘΥήΟΟάΨΦή?9A_\PRLCHQRSYTR\WM\bZ]c^bbamk_gzynsƒz‚ƒsn|xt€~tz€zy~€†‚}ƒ’™™”™™™£™΅¬©ª³¥£³²―°®³ΌΉ°΄ΏΌ·½ΌΎΖΓΑΕΓΑΚΜΗΗΟΞΚΠΣΟΥΨÒΧΪΩέέ?48PMHSMFOQOPRRQSWWXZ`efdrpakldenwwpw‚wns{vpx}~{vzz~‚‡‰”‘—•”™™™΅££ΆΆ¦±ªΆ®¶¬¨³µ³°΄Ό»·ΈΎ½ΉΓΘΎΎΕΖΔΗΖΘΟΡΙΚΟΞΡΦÒΡΥΨΪήήA8=;;EG?FMINTLP^VS\\`ea_hmdbklhoojqtpswtosyqq{|xyw}‡€{†y…‹‡“”›΅”—¨ΆΆ΅Ά¥¥ΆΆ¬®©®®ª³³°ΈΈ±ΊΎΌΊΑΎ½ΔΔΐΕΛΘΕΚΜΜΡΛΛΤΣΣΥΦΥΪέΪΫήέΫβγ<67;AB=AMLKWXKR\Z[aWWdf`afdjvoeopepsjv}ss{{z{xv†€‰„…„‘’΅•™΅£©΅«¦£¬©§³³¬―·±²Ή±―ΐΒΉ»ΑΎΒΘΖΔΔΗΕΘΝΝΟΣΚΚΩΥΟΧΠΝεεΜΣζαΫαγ<A:5EH@FNIHSTRYWYbbZbke^hqmllmmrtttklƒƒy‚yy}€ƒ}w…‹…~’—™›£ ¬ª¥±¦§±«©―±³·¶«²Α»¶ΏΎΊΑΐ½ΜΝΐΓΝΛΗΙΝΟΟΟΡΨΪΠΤΰΧΥαΰήγαήδζβFB6=NOEGSVSW[\aa]ahddikjkljklprqpuzts{z‘}„…|‡‹‚…†”‘— ™›΅¥¦¬«§­«©±°§®Ή³°Ί¶³ΎΏ¶»Θ»µΘΖΎΛΜΏΘΣΝΛΠΛΠΩΠΡήΫΞΫιΨΣζδάζεακλήAG<<JJFOUPNZ`]]efgdirlelsjguutyyvrz~{x~’”“z|‰|‡„…‹•†‘”›§™¦°©Ά«―®±¬ªΊΈ¬±½Ή·ΌΎ»ΐΓΏΓΙΑΎΞΟΘΝΚΜΪΣΛΫήΟÒαΫÒαβΧάιγήιληιηιMFEBKQNSSTY]\_dc`orgnxm_rz{•{}y|zw€„Ά›ƒ}‹ƒ†‹‘–”•—›•—©©“—°©¦«¦¬―¥ªΊ²Ά­Ί΄±·Έ»½ΉΐΕΌΊΔΙΔΒΘΞΜΙΘΟΨΠΙΧΨΟΧήÒΨεΫΦδζήΰηγδνιηρμηQDNFIPNVYPWhaU_phdtyqstqsk…¥ ’„|{z}|y€ƒ‘‰„‡‹‹–’–••§®ª©©Ά§©£¨®¬ª­――±°°΄µ°¶ΐ»·ΎΏΓΗ»ΊΙΜΔΒΛΚΕΝÒΝΟΤΤΣΡÒάέΥΨβήΩΰδζεζαηλλξσξγHOJAMRMVZTY`cgnedtwoz‚wlvtz–›ƒ|||z}…‰„„…†‰–‡’‹”“―΄°¬¨£±°ªΊª¦Έ¶¨µΓ±­ΐΒµΊΔΒΎΐΒΗΔΑΔΚΞΜΖΛΡÒΡΞÒΨΦΦάάΩΩΪααήήίδγΰδκηελππνξRMCPXINb[QciYftejuiiwvhs€sx‹y†~…u}„‡‘‰’‘“‘‘“›–¶­£¬°¥«³«ªª³·΄΄²µ»»»ΉΊΓΏµΒΥΓΈΛΠΐΕΧÒΗΛΥΠΤΩΡÒΧΤΧαΰΪΨάβιηάΫλπαβσνηξσορςXQMLQRS\^\ih[doedroflqsswy{~„ƒ{{†…€›†”•‘™”–•™ª©΅¤¤£―°£§―°²³®³¶΄¶Έ»½»»½ΓΒ½ΖΜΒΑÒΜ½ΚΩΠΛΝΟÒΪΫΡΦάΨάδέάδδέεκζιλθκξξπυρλTJDGTVNV`^acbdjddsvrqvzvsyvw~~w}‰ytw‰„•”‘”“‘”–™Ά“—¨§§¬ª¥¥®«ª¶°¨µΊ³΄··»ΌΈΎΔΎΌΕΙΑΑΝΘΑΝΡΚΜΝΝΠΧΧΣΩΥΤίΰΧΫγάήδδζκβδπνγνυμοτςπMMEFV\RP`_Yemkgfkoszvttqxƒyy€ƒ~‚‰‚z„‡’–‰’“›’“›£’¥Έ±¦¬®£§³³¬®―³ΊΊ³²ΌΎΈΌΗΒ·ΐΜΗΓΕΜΜΖΡÒΝΟΞΠΩΥÒέάΦΧίαάαδίβλγδξλιξμνυφρτόχυVSPJTZUYb^cmifmnqyvs{~wuz|~‚}z†„y„‘…••‘”’’›Ά““ ΅—¥£©¶²§―΄©®Ή²®Έ¶¶ΎΉΉΙΏ·ΗΕΐΚΛΖΖΠΚΔΧΨΖΜήΤΛΪέΦΪέΫααΨέιηΰβηηικμτσκμρψχοχ  ψςϊRSKQYUY_aaejdktgh}vmvvu{}y†}z‚„}‰”‰““–“‘•””™–™Ά™¤™§«¤§°ª§―²®±Ή΄µΏΉΊΒΌΏΖΑΏΔΘΔΖΞΜΖΠΞΕΤαΠΝΧΦΣΨζαΨΩΫίδζηεθζθζνόπζρψοφÿψτÿώσRONUXU[ac]bgkllpwzvyƒym€‰}y‚†‘“‘’”‹“™”“–›™›Ά£¤Ά©¨ª―ªªµ΄―µ·±·ΐ·µΐΐΌΎΑΑΗΔΓΚΙΔΚΥΜΕΣΪΝΠΩΦΧΰΨΦβήΨΰθααιζδμνινμθτψξσϋχσύÿψXUSXYX\``ceihlvoq|wn}‚{t|„}}‡†—–‰’‘”“—£«•¦«¦¥§§ª¶¶ª®»΄®»½µ½Β»ΏΘΔ½ΚΕΒΟÒΖΕΡΡΝΠΥΤΤΠΤγέΟέιΨΧκηήεθεθνικυοθσςοϊϋτώώφό ω WUSWa\\feahlmqmnu‚wn~ƒs~‰~‘’›Ά—…™•™›Ά¤ ΅¦ª¨©―®¬²²°·Έ²µΑΐΉ»ΖΒΏΕΗΕΛΛΗΜΟΚΞΤΡΞÒΩΨΦΩΦάΰΪάδΰΰηεγζλλλλννρσρχψτχψφ  ψϋW]QQkpa]jlflpv|zwz}{|€‡‚}†‡†‰•››–£¦›ª¥¥¬© §³¬£©«¬³΄µµ²µΌ»»ΐΑ½½ΓΖΗΙΗΖΞΞΙΝΟΡΤÒΠΪΩΦίήΥΨεηίήζβζοζερξκνπτχχννόÿτφÿÿϋύ    ό e\`emljmiitsmv{wx†…|……{“‡”‰”‘›‘“–¤£¥§¬³¨¦®«¦¬³¨³Ό»ΉΑΉΊΠÒ½»ΕΘΡΡΞΗΚΟÒÒÒΡΤΦΤΪέΪέάΧέιβΫεκββπρημροσςςψφςχώώϋόύύ  ÿ       Z\Xjl^focgxtsyzx|ƒ…‡…—“‡”“”—”’•§£΅¥ §«¥¥ª©ª΄­¨¬«ª±³¶¶¶Ή»Ό»½ΓΎΌΔΓΔΠΚΓΛΠΞΞΡΚΞΧΡΥΫΣΡΩήΧΦγέΧγηζδηξνμνρτππφςπωωυώώυό  ώ     fYcbbknjgqvos~}€‚‹‘‹‡†‹’›’‹”••›Ά¨΅ ΅©°―¨©¨©°―ª―³±µ½Ή·½½ΌΔΓΊΑΚΑΕΡΜΕΙΤΤΜΜΡΣΦΨΦΪάΦέεέΪαζζεεεηοροοκλυόφςρχύϋόϊύ           ]^b^apslpvrosvw‚ƒ~†‡†‰†“’”–‘–”’›΅££΅¦©¨«°§©²°²ΘΠΚΐ½Ό½ΓΑ»ΑΗΑΔΝΛΕΜΣΠΝΤΥΠΤΩΤΥάάέάΫαγήαθιβεκμμξρρςπρωϊσωύόύώύώ          a^]_dimptosxx~ƒ„ƒ‚‰‡‘‹–•“—•• ΅£¤¥ª¨¨ª­¦©µ²ΊΦάΞΏΗΔΉ½ΖΖΔΘΘΗΚΛΙΞΠΠÒΤΧΡΟΪέΨΩΩάΰΪαθζήάζρηζρνιρωυοοωϊχψϊωόÿÿ    
+  ÿ	     `cc^amnhnz{|›«§…†„ƒ–”’••–΅£¤§°§Ά««©±΄¨¥±Ί®²ΠΤΗΔΓΔΒΐΜΟΓΕΞΛΙÒΡΞΣΦΠΤΰΨΞΫδΤΪγΫΪδθδβημμκθμπππσςωϋρυ ύψύόώ     
+        a^acahqtpnx‰®½Ή¥„†’…›‘†Ά’‘΅΅¦•£©¤£§§¨®©§®®ª®°±­―ΊΒΌΌ½Ή½ΖΕΌ½ΝΝΊΔΦΜΕΝΨΠΖΡΫΣΡΦΪΧΩαήΧΫεδΰδικεεξοιλυσκσÿωοχ όφώ   ό         gadigchoqqsƒ¬Ή»±“€‡‡‹‚–”‹”–—Ά¤›“¦®« ¤¬±¬§­΄³¬©ΊΒµΈΑΑΑΌΉΐΙΜΖΓΜΡΘΜΣΣÒΦΣΠΥΫΪΪήίάΰαέηκγθλζισχμλυτυώψρωώÿώψÿ ύϋ 
+   
+ 
+    
+ aflvler|}zy~Ύ»Ά’†–‘’“’•••™–›£΅¨­£΅§¨ª«ª®­­°¶΄±²µµΉΑΏΎΌ½ΗΛΓΗΜΗΙΟΞΚΞΤÒΜΤάΧΧΧΫαίέέβηβδζημμμοοξρωψξτόωςψ  ψχ   ό   ύ       kefswpk{‰~s„’›΅’“–—”‹”–“  ΅¤©££¶°›µΊ§§·Έ¨«Ό»΄ΉΏΌΌΒΔΑΐΗΖΑΞΟΓΛΨΜΓΣάΟÒήΥΜΰηÒΨκλΰΩδννβζςμεσωξςϋτςϊόϊϋώ    
+ 
+    
+            xlknqty|~}…†•”‘—›™—Ά”« ¬® ±³¦§·΄­³Έ³³·»ΉΉΉ»ΑΔΒΐΚΖΒΗΝΟΗΗΣΤΟΨΨΜΠίέΨΧήέαθαέλογγρςγλωφμσωττφόÿχτό   ϋ   ώ            {jtnjt{w|{‹”’’¤Ά—Ά£¨΅¨§Ά©©ª±³²―°±―®²·µ¬°Β½¬·ΝΎªΐΤΑ¶ΚΠΐΓΡΝΕΟΦΡΞΠΨΥΟΨαάΧέζαέβζελμμμλλσψφςπχϋωωψτϊÿώύώ    	               rjswjk~†yx…‹……——”΅«”΅¤–›®Έ­¤³©§·²¥²Ύ®©µΈ·΄®±½Ύ²®ΐΘΉ¶ΓΖΔΒΐΛΞΔΖΠΟΘÒΪΞΜΩΩΡΪίΦΪδΰΫδζδβηνηζμμιρσρμςÿψλψÿχψ ÿτώ  ϊ               rpknsvxw}‡|‹†–“––• ¨«£ ¤Ά¥©©¨――­²Έ²¬µ·―·»²΄»ΊΉ»ΐΔΖΕΓΖΙΔΙΤΞΖΣΦΘΟέΫΞΥΰάΨβαάγγβηθδψβθοφηκςτφωςξώωτό ϊό                     xqqnrwww}ƒ…ƒ‚†”‹™‘Ά ™›΅΅΅¦ªΆ¤®¬­²«©΄Ύ¶±ΈΎΌΊΎΎΎΒΑΘΖΐΗΙΟΝΛΜΟΠΣΡÒΨΥΣΪέΤΩδίΥΰθαΰδκθζηρτκμυψττχόύφχ  ύφϋ  ώ 
+   	                ! rivysr}‚‚‡““– ™¨¨ §©¥΅¤²±Ά©΄¬¨«±°――³Έ·΄ΈΌ»·ΌΐΐΘΗΒΚΡΗΕÒΤΝΝΡΟΡΨΤΤίΨΠΪαίίγαάίιλγηλλομλρςυυςωύχψώ  ϋύ  ώ  
+    	                ! vyznpz€‡‡„’›“Ά’©¥ª°©¤§―®§«³―¬¬²¶²±ΉΊµΈΐΏΌ½ΎΏΓΘΘΞΣΜΘΟΠΜΝΠÒΦΤΥΨΥΦάΰίΪΰηΰίεθεθιθλςξλξρτϋωκυ ϊψÿϋÿ      	                   u|sr{y{‚‚‡‹”›™ΆΆ ΅Ά¬­¥¥°²±°°²΄®°½Ό°²ΎΒΎΎΒΓΔΒ½ΓΗΐΛΧΦΙΑΠΥΝΞΣΣÒΦΪέΪΨΩέδγήβεζεβηολζθνρομχϊορώÿχω  όύ ώό                     &  }{wz|}w~†…ƒ€‡’–—΅΅Ά£¦©§§¨®ΎΗΎΊΊ³±¶Ήµ·ΊΎ»ΈΎΏΑΓΒΏΑΚΜΔΙΣΙΖΤΥΘΖΪέΜΞΰίΤΦάάεδΦίξζάγρνβμςπνλςχοςϊύϋχό   ϊύ                       " |vuto{‚~€„†‰‰‘–”’£›§§§¦¦¦©¬ΑήϊΗ™Ζ½ªµΎΎµΞΉΐ½±µ½ΝΗΌΑΑΔΝΞΟΜΛΞΛΞΨάΡΟΩΧΨγαΪΩέαφβΥζκςεβπθςρζψÿμηό	 ϊσόϊÿ ό       	                  ysuyz€€‡‡‰‡™”™–• § Ά¨¨§²ΡίΪΜΐ·³΄¶³Έ±­»Ύ΄·ΐΎ»ΎΔΔΘΙΓΝΤΙΕΣΥΟΠΧΪΧΨΩΪήβίΰγδηιδηνκνςοξξρχφτχωωτύ
+ ÿω      
+                  "   " xs€€‚|‡•‘•–• ¥¥΅§ª¦§―ª§­΄·ΕΨΨΑ·ΎΉ¶¶·Ή»ΕΉ½ΞΒ·ΏΟΠΖΞΞΗΟΦΩΥΝÒΣΨίάΪέΩήιγέίλξιζκονλωξρύλτυσ ύσϊϊ 	   ό                  !   "  , &     xwx}€‰›¤¨™°¨¤«©©¬³΄­®·Ί³«³Ό΄―Έ²µΎΊ³·ΎΑΖΘΑΎΕΛΕΗΝΠΞΧΤΡΧΨΡΧΪίέΫΫήδβΰζηζζκσρεζχφκμχωσυύωρύ ÿ       	     	   	         "       * $   ) ' zyw€~””›¦¥Ά®¦©²®«―ΊΈ΄·ΈΈ»¶΄½»³³ΉΌΑΓΎΎΓΖΑΔΝΖΕΟΞΝΨΦÒΨΦΣάΰήΥέεήΰεαθηδισοκξνπυχψχςυ  ÿόό ώό 
+                        "      & & # ' , ' ~|‚†x~’’“•›£ΆΆ§§§«¨ª―±°³µ²ΉΏΓΕΙΚΙΝÒΒΒΟΙΒΖΗΓΘΜΗΙÒΥΥÒΥΧΪΩΧΰήΣαξήΥεμγβικξπλισρξψυνφϋωωωώύώ ÿ      
+               # $    % ) $ ! ' + + - ‰|‚…‰‘­ §±«ª²²®―µΈΐ¶®ΓΚΠÒΩήΙ½ΏΉΎΓΐΐΗΖΔΕΗΝΦΠΟΨΦΥΩΰάΤΦδβήήαγθαάηννμλμννοφχρνω ϋυωÿ ϋό       	               ( &    % - ' " + / * ( y‡–‘“Ά ›£΅ ­­¬±¥¤ΈΊ©©¶»¶¶ΫπγΪΨΙ³ΗΜΎΎΕΗΐΕΡΘΚΪΩήαάάΩΫίΩΩηδέέθηΫΰππζακφςζθόόμοώÿπχ	 ώπό                       ' "   , &   ) ) ' % * 0 . vzz’~…™†°¤–Ί³‹¤Γ§–¶ΙΊ―®²ΗΘ«©ΨκΦÒΦΙΒΗΙΝΟΛΓΛΣΠΘΣέηδΰκΰΥάήγδααΫζσξίδτριοσρσππφχψυχύϋω  ϋω  
+    
+   	         & %   # $  ! # ( (   ) . ( ) , ) |“’‘¥…΅΄™°¶ £΄Έª£½Δ΅ΆΕΏ¦®ΘΒ½ΏΐΐΒΉΉΠΞ½ΔΛΒΘΤΝΞέγέΫβΫΤγγΨβηεθεγκμοπμοτςςτφφχφρψ  τσ  ϋό                    %   . *  # -   % / ) $ . 0 ) u‘–„„—‘£”“¤©›®²¦£΄·¬¨··―Δΐ¬ΐΜ³®Φά²―ΣΟΎΕΠΜΓΗΗΜΠΜΠΦΩέΥΩγέΤίιηάήκαδϊξΤη ψΪλ
+ ωάυ πλ ϊό ό    	  
+  
+              ' 4   # < '  ) 5 )  , : * ( 1 . 2 }„}‡””¥“·¶§§―²©¥«΄µ°±ΈΖΏ²ΉΏΒΓ¶»ΟΗΎΐΞΡΖΗΡΠΙΚΙΛΤΣΚΤηβΡΦνζΣήσιΡί  νΥοωθδχϋζιϋύςψÿυρύ ύφύ
+   
+     
+    	 
+  (     > & 	 '   # 2 <   + ) - * - : . , 2 „„‹”‹‚”Ά¥΅Ά¶Έ²»²¬―­―®µ¶·ΈΈΉΑΔΒΑΕΔΓΡΜΞΛΏΗΞΙΚΣΪÒΜΟΡΧΩΧΫήάέεεήγβΪθριδημποξτχχντ χσ  ψφÿ                         $ $  $ , & % / 0 * ) / 0 - / 5 5 : ”“s“­™““΅΄―ΑΒ²΄µΊΎ°®²°»½Ί³·ΑΏΎΒΗΘΎΗΡΛΑΓΥΞΝΨΖΕΫΪΧΩÒΠΦθμέΰκήΰξξθικκκοτφπτφχυ  ρυ                       $ $   " $ $ $ ' ( & , + * 3 3 . 3 2 . 2 7 7 7 6 7 ‘’–“—Ά§¦­΄°®΄·ΈΉ¶¶µ»ΐ½ΔΖΎΐΓΑΒΒΘΙΒΛΤÒΚΝΦΟΛΤΩΤΦΫΨΣΰεέίΰγηεηλθννξρμμρσχωυϊόωύÿ  ÿϋ 
+     	                  ! $  # & & ( % ) 2 / - 1 / / 1 6 0 4 6 5 9 > 9 “”››¥¨Ά®°±ΊΉ³¶·Ό½·ΊΎΓΎΑÒΜ¶ΎΚΔΖΛΛΜΟΧΣΟΥΩΦÒΡΩέΩΪΪΫίιηέθλίθσοζρϋκκώωςχϊϊÿ  ϊω    ϋ 	      	       #     %   # ! !  ( ) & . ( , < , & 2 5 4 1 5 5 1 A @ 5 –•–ª¬­®―¶°®ΈΒΖΎ»Ό»ΌΑΌ³ΟΚ«ΛΦΛΜΖΗΔΙΣΘΜΡΘΤΫΥΧÒΨγάΪήγζΰΰσάοόίαοόϋμσξξ ύχόώϋφ  ώÿώ             
+  "        & . #    * 1 '   / ; - % 5 > 5 . 2 : 9 4 7 D H 5 1 ›”››©±°®§«΄®­µ»Ί¶Ύΐ»ΒΗΑΓΙΗΗΚΞÒΜΘΝΡΟΝΟΣΤΣΥΩΫΫΧΪδγΨίνονιοττνμφωτρψÿφόύψ ÿ     ώ
+                    #   "   ( * * ( # ) , - - / 4 4 0 7 8 4 - ; H @ / 8 @ ; = D I ””™¦Ά§¬¨¦¬²΄³·ΊΌΏΏΎΔΖΓΓΓΕΛΞΚΙΞΟΡΤΤΣΡΟΦΥΤΤΧΪΪΪΪάδδήετξνπμμφφςξυϋφϊώυψ         	   	       
+       !    % #   ( , " & 0 . , - 0 1 4 6 0 1 < < 2 8 > : 9 ? C @ B –΅§¬¬¦¨®°µ΄΄½ΐΉΊΎΒΕΓΐΔΜΡΛΟΤΝΚÒΥΠΠΟΡάΫÒΨγίΨίηαδζδντξοξλνρπςψτπωώυρό ώ    ψ 	      
+                 " $ $ % * % & - - , 0 ( , ; 3 3 : 5 3 7 ; 8 < C 8 0 A I ?  ›—™Ά©¤£―²°―ΈΉµΈΊ»ΒΒΐΓΔΒΕΙΗΕΛΠΠΟΟΝΜΤΥΡΨΤΧγήΥΫζβΩβοληοστπνςχποχφσχϊϋώώόώ  ÿ 	    	                  # %  ' * ( ' % . 2 * - 5 8 3 , 9 C 2 / D B 8 : ? E ? > A D –££¨¥«°«―³·³³½ΎΈΐΓΎ½ΐΔΖΛΛΙΖΝΠΝΛΝΤΣΡΤΧΩήΫΧΫβέήδεθθηνξξρρορστϊψψφφ  ÿύ      	   
+        
+         ! #   ( & # $ * - ( * / / 0 1 4 7 4 7 ; 7 9 = ; ; @ B B ? ? E C  ¤¤¤¬­ª²¶―±Ή³±Έ»Ί¶ΎΗΔΏΓΑΓΗΜΟΙΘΟΜΚΡΧΧΥÒΦΩΧΧΪέάΫβζβήθππρρσστυφψϊυψύωÿ όύ    
+                    ! # ! " $ & , + ( , - + . 2 3 1 3 : ? 7 9 ; : > > < A A > G G F I ΅Ά £¤¨¬¬°­°½Ύ½ΕΔ»ΊΐΒΕΓΑΘΜΘΘΡΧΚΖΣΣΚΞΧΨΦΟΠΪάΧΩΰΰάΰγΰγνωύωμξχτςτφφχϊωω   ϊ     	   
+ 
+               $   # ( $ $ ' ( $ * 0 * ) / - 0 7 2 3 8 : : < ; 9 = @ 8 9 B E @ E I ¤¤§¬¤°Ώ»ΉΈΐΝΓ»ΓΗΒ½ΗÒΛΝΦÒΗΚΤΪΥΡΟΟΣΣΡΥΫΧΡΣήγΩΧεζΪγμζιώ ώοσϊχχϊόόϊόό        	                    # ! # ( # $ . / ( & / 4 , + 7 4 , 2 = = 7 5 < D ? < > B C ; < H H E H ³£΅£«²ΖΕΎΐΑΙΕΊΒΚΑΉΐΤΥΜΠΣΥΦΦΠΠΧΠΖΧήΣΥάΨΥΧάέΪΫήημγίξςισύφτρχψφϊωύ  χϋ        ÿ  	               ! #   & ( # ' , # ( 2 * * 2 2 / / 8 : 0 5 > < 8 < > @ > > @ > ? F E B L £©¨¬ΖΞΓΐΓΈΉΞΞΌΒΟΖ½ΥΫΙΐΣΰΤΗΟΰΡΚΥΩΫήΪΫδαίθλάΪνκέεμηηνξνρςςφφπχ ύξτ
+  ωϊ    υ #  π ,   ρ# . ώω" -    .    3 /   2 . ' + % . ; , ( 4 A < ) * A I : $ : a E  6 j D  D n I ―”¶³›¥ΒΕΊΊµΉΗΔ»ΖΠΚΒΗÒΝΐΐΦΤΒΖΨΨΙΟγίΩΰάίζβΪδνεδκξπνζηυτγτ λμώ υν  πϊ
+  ÿ 	  
+   ÿ '         #   ( *   ( * " ' , ' ) 1 - # - : 6 . / < < 3 ; D : 3 > E D D D G B > E N M B D Q ―¤§¦°³―µ½»µΊΗΒΌΕΙΖΛΙΜΡΝΝΝΞΫάΞΙήτηΣΧκήÒήιβΰθνηβΰξϊγαβρύπρντ ωϊωϋ ύψ	                  !      % #  & 5 $  - 3 & ' 8 9 # $ C @ + 1 D = 5 > D ; 7 J L 7 : O O B 7 G Y M @  £¨®³¶µ±½Ε·ΉΞΞΖΗÒΞΐΓΩΪΘΛάάΜΝελΩΨβηΰΰεθζλρυχςπÿώιηρσρουόψωωϊ  όό  ύ     
+                ! !   ' #  ) 3 %  - 7 , # 5 A 1 % 2 D A . 0 F C 3 ; H F = > K J = C O M F D L ªΐ΄®½ΐ―΄Ζ½·ΗΙΐΔΙΛΗΕΚΡΣΛΕΤαΣÒγζήάΰγάΩαεδδαδκθικρυςχ  ÿϋώ                
+            !   0 %  $ 1 '   * 0 , * - 0 5 1 0 : : / ; C : : ? I A 4 I X 9 > P O M G Q R A H U X R ¥ ΆΌΐ±―Ή»½ΏΏΐΗΛΜΝΔΚΣΜΕΜÒΞΛΡΤΦΩβαααέδΰΧακίακβίνοΰζϋ    ψύϋύψό   τ  ώχ      
+           $ '   % % # ! # ) ) $ , 8 , % 4 ; 5 . 4 = < 8 8 = D @ 6 E K > B M H E I M F F O I K ­¨®ª―ΉΉΉ»ΎΑΔΘΟΞΚΖΙΠΡΠΟΟΠΡΝΡήΫΦίΰίδήάδεήΫηνμγενμιθξ      φ    ϋ  ÿ   	 
+              '   ' " " & & & % ) - ) + , * 4 8 2 2 8 7 ? > : < B E : > L G A G H J P L E N V M I S Q O V ¦ª­¨«ΉΈ·½Ύ·ΎΞΞΔΜΜΗΙΟΝΜΟΝΟΦΦΥΧÒΧίάίγζαΫΰγδμξμολιτμο    ύ  ÿ  ό       	               !   & & ! & ' ( * ( . + ) 3 7 3 / 2 : 8 5 @ ? 8 < C G A : G O G B G O R N K N L Q W S M T Z ±¨°«©³·΄ΎΎ·½ΕΞΟΝΛΑΚάΦÒΧΡΠΩΦΨήΦΩβΰάβεΰήδμλλκεμσπτψσσςψ  χϋ ύψ     ό                #   $   , , ! ) 2 $  , 7 1 3 4 ' . : 8 ; ? < 8 : C E D C B I K E H N K I S L C W [ P O U «®§®³²µΉΐΒΑ»ΎΞΟΕΝΣΜΜÒΦΤÒΡΦΦΦΪήήήΰδδγιθερριξρθκτψξμχψϊόϊϊώϋώ
+ 	                       $ $ " " % ' $ + - $ ) / + / 3 0 . 2 ; ? 9 > = 5 @ C E C : B L H G H L O K M S R P Q R U T V ―®©²±΄½Ό½ΏΒΗΝΞΚΛΠΜΡΦΡΟΨάÒΧβίΫΪάδκηβζθηνρληρτνπχχυσϋ ώψÿ  ϊ                       $ % " & & $ & . 0 & $ 0 4 / . 1 5 8 9 7 9 > = = C A B ? B H M G F L R L H S W R S N O Y [ Q S ³°±ΎΌ·ΉΐΙΗΔΙΙΘΠΧΡΜΣΥΡΣέΫΥέήέγζαβηεηηιεθσσκλρυσμξωωςχύόύ      	 
+              $     % + $ % ) , + . / - , 4 2 , 6 : 5 4 8 : @ = ; @ E B ? F I F D L L N J O X S H K d [ I S \ T V Ύ¶¶¶΄·Ύΐ½ΐΙΘΕΝΞΠΦΩΟΣΰΫΥαεβήίβζαβμθαεμξνπνθπσοτυτυςχ   ω   ÿ 
+       
+      %    %     % % % % ' ( / / ( - 9 / & 7 < 1 3 = > 9 8 ? D A @ C I F A E M J F P R L R W S P U \ U S Y Z \ ^ ½···ΈΌΖΚΗΚΟΡΛΛΨΨΣΪΫΩΰςϋύϊτγίπιΫεξθηιμοξρνντσσυψφτύώύ    	         
+      #   '   $ ! & + & ) 1 + & 1 7 , . = 6 2 = < 5 : ? > C ? ; E H > @ S O < J ^ J A Y ^ L N ] a U R Z Z U X ^ ^ \ »±²½½»ΟΧΚΞΨΤΟΣΪέΩΫέΧάφ   ρκδεδαηοονννξξτυκσϋμςÿϊυύ  ϋώ 	 ό  ÿ  
+     
+             #  " ' & ' - ( ( , 1 . + 6 ; / / 8 : > 9 6 = @ ? ? A F F D G H H N P J K Q U Q K V ] U Q T [ ] \ [ Z ΔΈ»½ΒΙάέΪΩÒΤαάÒΨέΩΫδζς  ώψσεΰσ  χφυνσϋστχτυώ  ÿϊϊ   ÿ   
+                $   ' )  ! ) ( ( ( - / * . 8 2 - ; ; 3 : > 7 5 D D 7 = N F @ F G G J J K J K R O M T W V T [ _ [ T Y ` _ _ ^ c h ΐΌ»ΑΚΪζηήΧΣΠΫήΧάαάάίβγιζζιλθιÿ
+ 
+ ÿρφυμουχτφϊψφψϊÿÿϊω                    $ #    ( % % + ) # * 0 / . 3 3 1 9 8 5 < @ 8 6 > B < A H C @ F F I N F I O O K O W [ S S \ Z Z ^ [ \ ^ \ ` ` ^ k ΓΓΗΔΔΙήεΧΣΞΡάΩΪθίΧαζζλθδηικκςψ  ϋοςφτυτσϊ  ϋωό  ψύ  ύ 	                 !    ( # # ) ' ' . - , 1 4 3 0 4 9 3 6 < ; < = : > @ > A H G B A F L L K J K O Q P U V O W \ W _ f ] X ] b b a f h ` ^ ΛΕΐΑΙΜΞΥÒΜΤΫΧάΰβήάεζαδηινκιξλνχφρυψόττϊόϊύÿÿώό   ώ                      # & % & & ' , , * / 3 , , 2 5 2 8 7 6 < < : @ B > ; F J C E J G H K K N O M O N Q U S Y [ W ^ ^ \ c ] X b i a ^ f o                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+
+
+	
+
+	
+
+
+
+
+
+
+
+
+		
+
+
+
+
+		
+	
+
+			
+
+	
+
+
+		
+				
+	
+
+
+	
+
+		
+
+	
+
+
+	
+	
+
+	
+	
+	
+
+		
+				
+
+		
+
+
+	
+
+		
+
+	
+	
+	
+
+	
+
+	
+
+
+	
+
+
+
+
+
+
+
+						
+
+	
+
+
+
+			
+
+				
+
+	
+			
+
+	
+		
+			
+
+			
+	
+
+	
+
+
+
+	
+
+
+
+
+
+	
+	
+	
+	
+	
+
+
+
+
+
+
+
+	
+
+
+
+
+
+		
+	
+
+
+
+
+	
+
+
+		
+			
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+	
+
+		
+
+	
+
+
+
+
+
+
+
+
+
+	
+	
+
+
+		
+
+	
+
+	
+
+
+
+		
+		
+
+	
+
+		
+
+
+
+
+
+
+		
+
+
+
+	
+					
+
+
+
+	
+	
+
+
+
+
+
+			
+
+
+
+			
+	
+	
+
+		
+	
+	
+	
+	
+	
+	
+
+
+			
+			
+
+
+
+
+
+
+
+	
+	
+
+
+		
+
+
+
+			
+
+
+	
+
+
+
+
+	
+
+
+
+	
+
+
+
+
+
+
+
+	
+
+		
+
+
+	
+
+		
+
+		
+	
+
+		
+			
+	
+
+
+		
+
+	
+			
+
+	
+
+	
+
+
+	
+
+
+
+
+
+
+	
+
+
+	
+
+
+
+	
+
+		
+
+
+		
+		
+
+	
+	
+		
+	
+
+
+	
+	
+
+
+		
+
+	
+
+
+	
+
+	
+
+
+	
+	
+	
+
+	
+	
+		
+		
+
+
+	
+
+
+
+		
+	
+	
+
+
+		
+	
+
+
+	
+		
+	
+
+		
+	
+	
+	
+	
+	
+		
+
+	
+
+	
+
+
+	
+	
+
+		
+
+	
+
+
+	
+	
+	
+
+
+
+
+	
+		
+	
+			
+
+
+
+					
+
+
+	
+
+
+
+
+
+		
+
+
+
+	
+
+
+	
+
+
+
+	
+	
+
+
+
+
+
+
+	
+
+	
+
+		
+
+
+
+
+
+
+	
+	
+
+
+
+
+					
+
+
+
+
+	
+
+
+
+	
+			
+
+
+	
+
+	
+
+
+			
+
+	
+	
+
+	
+	
+
+			
+
+	
+		
+
+
+			
+	
+
+			
+
+
+
+		
+
+	
+
+
+
+
+	
+
+	
+				
+
+	
+
+
+	
+	
+
+	
+
+
+
+
+			
+
+
+	
+
+
+
+
+
+	
+
+
+
+		
+	
+
+
+		
+		
+		
+
+
+	
+	
+
+
+
+
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+		
+				
+
+		
+
+
+		
+		
+
+	
+
+	
+
+	
+
+
+
+		
+
+			
+
+
+
+
+		
+
+	
+		
+
+
+
+
+	
+		
+	
+
+
+
+	
+
+
+
+
+		
+
+
+	
+
+
+	
+
+
+
+
+	
+	
+
+
+
+
+
+
+	
+	
+
+
+
+
+			
+				
+
+
+		
+
+
+
+		
+
+
+
+	
+				
+	
+				
+
+	
+		
+	
+
+
+
+	
+		
+	
+
+
+
+
+
+
+	
+		
+	
+
+
+
+
+
+	
+
+					
+		
+
+
+	
+	
+	
+		
+	
+
+
+
+
+
+		
+
+							
+
+
+
+
+
+
+	
+
+		
+
+	
+	
+
+		
+
+
+
+		
+
+
+
+
+	
+
+	
+	
+
+
+
+		
+	
+
+		
+
+
+	
+
+
+	
+
+
+
+
+
+	
+		
+
+
+					
+
+
+
+			
+	
+
+
+	
+
+
+
+
+
+
+	
+				
+	
+	
+				
+		
+
+
+
+		
+	
+
+	
+
+
+			
+
+
+
+	
+
+	
+
+		
+		
+
+
+
+
+						
+
+
+			
+
+
+	
+
+
+		
+
+		
+		
+
+			
+
+
+
+
+
+
+
+
+	
+
+		
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+
+
+			
+
+		
+			
+
+	
+
+
+	
+
+
+				
+	
+	
+		
+	
+		
+	
+	
+
+		
+		
+			
+
+
+
+
+	
+		
+	
+
+	
+
+			
+	
+	
+
+
+
+	
+
+
+		
+
+
+	
+
+
+		
+
+
+
+	
+		
+
+
+
+		
+	
+	
+	
+
+				
+
+					
+
+	
+
+	
+	
+
+	
+
+	
+	
+
+
+
+	
+	
+
+		
+	
+	
+	
+
+
+
+
+
+
+
+			
+		
+
+	
+
+		
+	
+
+
+
+	
+
+						
+	
+		
+
+	
+
+	
+
+
+
+
+	
+	
+
+	
+	
+		
+
+	
+
+	
+
+
+
+	
+	
+	
+
+
+
+	
+	
+	
+	
+
+
+
+
+	
+
+
+			
+
+
+	
+	
+
+	
+
+	
+	
+			
+	
+
+		
+	
+	
+
+	
+	
+
+
+
+
+
+	
+	
+	
+	
+
+	
+
+			
+
+
+
+	
+		
+
+
+
+
+			
+
+
+
+
+
+
+
+	
+		
+
+			
+	
+
+		
+
+	
+
+
+
+
+
+
+
+			
+	
+
+
+
+		
+	
+
+
+		
+
+
+			
+		
+		
+			
+
+						
+	
+
+		
+	
+	
+
+
+
+	
+
+
+	
+
+
+
+
+
+
+	
+			
+
+	
+
+
+			
+
+
+
+	
+
+
+	
+	
+	
+
+	
+
+								
+
+
+
+
+	
+
+	
+		
+
+		
+
+
+	
+
+
+
+	
+
+	
+	
+
+	
+
+
+
+
+
+	
+			
+			
+
+	
+	
+
+		
+	
+
+
+
+
+			
+
+	
+	
+
+
+		
+
+
+
+	
+	
+	
+
+
+		
+
+
+
+
+
+
+
+	
+
+
+
+
+	
+
+
+
+
+	
+
+
+
+	
+
+
+	
+
+
+	
+			
+	
+		
+	
+
+
+
+		
+
+
+
+		
+	
+		
+
+
+
+
+
+
+	
+
+	
+	
+	
+
+
+
+
+
+	
+
+
+
+
+
+	
+
+		
+			
+	
+			
+		
+
+
+
+
+
+		
+		
+	
+
+
+
+		
+	
+
+
+
+
+	
+
+
+
+
+
+
+
+	
+
+
+						
+	
+
+	
+
+
+
+		
+		
+
+	
+	
+		
+
+
+
+
+	
+
+
+
+	
+
+
+
+
+
+	
+
+
+	
+	
+		
+	
+
+			
+	
+	
+
+	
+
+
+
+
+
+
+
+
+	
+
+
+
+	
+
+	
+
+	
+
+
+		
+
+
+
+	
+		
+	
+			
+
+
+			
+	
+
+				
+									
+	
+			
+
+
+
+	
+
+
+			
+				
+
+
+
+			
+	
+
+
+	
+
+
+
+
+
+			
+
+
+
+
+	
+
+
+	
+
+				
+
+
+	
+
+		
+
+
+
+
+			 
+ό 
+
+
+	
+	
+
+			
+		
+		
+	
+
+
+
+	
+				
+
+
+
+
+	
+			
+
+	
+
+
+	
+
+
+	
+
+ψ
+
+
+
+	ό
+
+	
+		
+
+
+
+			
+	
+			
+
+	
+
+	
+
+			
+	
+
+
+		
+
+		
+	
+	
+		
+		
+	
+	
+
+	
+		
+
+
+	
+
+
+	
+	
+	
+
+
+
+
+
+ώ 
+
+
+		
+	
+
+		
+	
+
+		
+
+
+
+
+	
+
+
+
+	
+
+	
+
+
+	
+	
+	
+
+
+	
+
+	
+		
+	
+
+
+	
+	
+		
+	
+
+
+
+
+		
+		
+
+
+	
+		
+
+
+
+
+
+
+
+
+
+	
+
+
+		
+
+						
+
+
+	
+
+
+	
+
+	
+			
+
+	
+
+
+					
+
+
+	
+
+
+
+	
+
+
+
+
+
+	
+
+	
+	
+
+					
+
+
+
+
+
+
+
+
+
+
+		
+
+
+	
+
+	
+	
+
+		
+
+	
+
+
+
+	
+
+
+
+
+
+
+
+
+		
+	
+			
+	
+
+
+	
+	
+
+
+
+		
+		
+	
+		
+
+		
+
+
+
+	
+
+
+
+
+
+	
+
+
+	
+		
+
+			
+	
+
+
+
+	
+
+
+		
+
+
+	
+
+	
+		
+	
+
+	
+
+	
+
+		
+	
+
+
+	
+
+
+
+
+
+	
+
+
+
+	
+	
+	
+
+
+	
+		
+
+
+		
+		
+
+
+		
+
+	
+	
+		
+	
+
+	
+
+		
+	
+		
+
+	
+	
+
+	
+	
+
+	
+	
+
+		
+	
+
+
+
+	
+	
+
+
+	
+	
+
+
+
+
+	
+
+
+						
+
+	
+
+
+
+	
+
+
+			
+
+	
+
+	
+	
+
+	
+	
+	
+	
+	
+
+	
+
+
+
+
+
+	
+
+
+		
+
+	
+
+
+			
+	
+
+
+
+	
+		
+
+	
+
+
+	
+
+
+		
+
+
+
+
+
+
+
+	
+	
+			
+
+
+
+
+
+
+		
+	
+
+
+	
+	
+
+	
+			
+
+
+
+
+				
+
+		
+
+
+
+
+			
+
+
+
+			
+
+
+
+	
+
+	
+		
+	
+			
+
+
+
+		
+	
+
+
+		
+
+		
+
+
+
+	
+
+
+
+
+
+	
+	
+	
+
+
+
+
+		
+
+	
+
+
+	
+
+
+
+	
+	
+
+
+
+		
+
+		
+
+		
+	
+
+		
+
+
+
+	
+
+	
+
+	
+
+	
+
+
+	
+
+
+
+
+
+	
+	
+	
+
+	
+
+
+		
+
+
+		
+
+
+
+
+	
+
+
+		
+
+		
+
+	
+
+		
+
+
+
+					
+
+
+
+				                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ψϋόύώω 	*)(%**($*0-...298;>848;A>8@ECBFIGEMQJFJRRNNUXUS[b[Wad^\afdadkkgjquliu{rs~|vzƒ…‚„‘’‘’” υός 		'!$&) ,-$0-.00241668833;959@E@>DEEBCSUC?LRLLSUPRZXXZ`^Y\ec]dgbgohjpnntvqs}zv}z{†€{‡‡†’™”–§¤™ότωώ		 '#%' (/)$-5/*./-2437738;8<B<7BJD<EMCDMHHLTSEMVLKY[QO\^V]d\[abbdddekrkitsmrxyst|u€{‡‚ƒ‹‡‰’‘—–™¥¦ϋόό %# %**)'-2,)).2,+46/3<78=<<=A?:=?CE@AHJKMLLJJMRTSQV\WW`^\c`Yejb`jigmmkoqlqwru{z}{~ƒ€„‡†„‰•™Ά¥φ ύϋ
+		#'''-2+'+..1/0522=;3578;?=;BB=@JEBGDFOQQVRKMVTOW\WY[[a`Z_ge`difhpmjosnqqovzqt~}{|€‚‡…‡‹–’—΅Ά¦ τώϋ 	!"%-690(-4352.5:9@B<968<>?>;ACAGHFLMMMU\VOMLSTPW\US^c]\`ff_bliegorklsuqovzsw}{}}z„€‹’’’™¤ ΅¥ϋώϊώ	
+ÿ"0#+($+483/357<825:FICD@54;?>:=DA;@HIGMPOU[ULTPLUWUW[`]Zacca_djbcnmklkpromr{unyux†ƒ…†ƒ‘‹„•†’–‘›§¤£ωτό  $3%")$"-.)'13)-C>)0=<9>C;-7DA:7CI=7DRG:K[LCWZJKUUTYZTZe]Sajc_aig^hpihnnisuoqzypr}{u|‚ƒ~„„•‘‘›  ¤ÿϋ(1*! #"(  ,/$ 22"+<.+:639<49@98@?:BA<@GDHHDHKMROFISWNL\ZQX[[___db`ckg`jsgdppmrrosuxvz{z€{ƒƒ’…‡‘’‘“• ¥  	"(&!*)!)+$10'27300;46=99=;=D@ACFHEEFNPIMWLJVTP[[SU^_^^bafe`gkdhomjopmtvquzxt|…zx•„€”•‰•’¦ Ά¨¤ωό$&% #,0++-/22.290/:814=B<<;7EE4>JJ>AILLGMQMJLTUPQVVVTW]^^\\aje_gkfilnkqrlmvxxwxzz}†„x}‹‹†‡…“““΅Ά ¥(&#!"#-/!!99 (G8+F6.;>5?HB?CB>BKK?=KPD@PSGMUOLPQQV[UQ[_WX]ac_cgehnlfktokqspswvwxx…y‚‡€~…’•“”΅¥΅£ª %.'$+/)'+.*)/21/.8829?4:GB8@M@8MR?BKNMHJNNKNTOHMWVTTU\`SUiaUgn\_sl`quhk|rgx€qq€‚xw†ƒ~‚†…‚‡†“—••΅£¥­£	 #$'+/2:B7.-+,.,59./:=8:B>;A>=F>7GOEAJMHHJNQNLMRQKUYSSXZ^^T]k_Whra[ongqqknttstx{stƒ†wy†y…’…€‹”’’—ª¬ÿ
+$!"('")5CF;23+*65//9=7779IG4=RH4@VP=Ba^=<^bGIgeKKXYXUVac[X_ic`jhbemrnjnsqqyyrs~}y€ƒ||‰ƒ‡‡‘‘’ —¨£ª©ÿ*,'./),2<@;;=?<<ED<<>;:?@BCAIOGDIJEJVWNMSVUWbndRTXUTW[\[[bcZ[km\_ohdpqlqpkr{yty~x{ƒ~}†…ƒ‰‡„…—”¤£ ª¬¥¦	$!,)+2*$(/-1<<:BW_ZMABC<:@>;ADGH@AIICFQSKMNO[doun[Z\WUV[Z^f^Vdjbclmdhrspqoryuvzzz~|~‚}~††‚„ƒ‰“”¥¥¥¥©―΄ÿ	%"#&#,433+(-1)&6;2:\ifYD@JH=>DB;BND?HHFFKPOKMTZZ^nxmYXZVX]^\]dd`ciighjnpqppuvtvwv‚ƒx{€ƒ„‚„†‹„‰’…„’•”™—΅΅§­­¬   ##'((('))&)+)-14J[aR98AB>67GC=HJDDKNPQTROPS[`]ak_X]VV^]\`bcff_grj^lsgrxopwut~w}„|v„ƒ‹‰“’‘——™¤ª£¨―®¬¬
+#'&2%'0'''/5.)2=?;:;69DA:=BDABFEFIHJPOQURUY\bha\_UWbc][fg^infggjrrourns{zuw|~„…„‘‹‚““–•’’™΅¨ª¦¦²Έ―© & #&$ '+*&,31&,93*3B8/>G74CF=?ABFFBAEHKPHDRUJOX[]a^\ZSZd_WYjg\fjbfjhowqlsymx€{w|€ƒ€‚†ƒ†‘“——£¤¤©®¬®±®!# #&&'-(&-2,)230595;@B@<BG@>CEIFDHMNIJQQLRTRV[ZZ\^\QV`b_]_caekgfjnnmqvsswxy|xv‚ƒy|~~‹–‰„’ª΅±—²°£°½±¨
+!!)!"""")+'-3+-32.29:319@:8?GD>CHFGJKNKGMUQNQUNQ[SP[^VVccOTjlTXpgZhsoafvqrspusu|x}‚|}x‡†z†ƒ‰‹‘’„„”—§§–Ά°«ª©ΈΈ©½Ί8J,,&,'62%+,+1D81D3<>@<@A6BSC<>QQCOIMQJTVPPQ\\W_V\cVca]cG`{bi^^opyeV~€iuzwv|~vw‡„€‡†‚ƒ••‹”–•„® —§΄¬¥­½΄°²1=A4  %$")'')"-6)%36143466>:>B19FCCAEKKHJKNOOTRPVUW\VS_gilma\bg``hfeonjnlltustruz|€vw„€~‹{“‘’’‘•–“™’£¥¥¬¬¨―΄³µΏΐ³"24&'&%'&44"-6-%1B/&><:LNIKC7=FIGDBEIINTTPGRXLZ]SUPZ^]fRSx}wf\_hc^hjflnjhmtqpsqtywy~}z}€‚ƒ„„‡‡„’‰”•–’™Άª£¤¨©¬ΈΏ­©½$(&(+#&0+%,65136/,1;@>C]e\QH>;FHEEIHHQLH[[LMWUSYbYW_a[]cbq€yefffcfnllnoptusw{zuy…w‡…||‹†…‘‹–™‘–•“› ›Ά©¤Ά¦¬°¬―½»΄ΉΎ!$+52-'-)(::40(;:8>-BJ^kdUHCDKQF?QTIIPQYSGR_SK]cTTegYZhlntumbakihpojoxyqrxz{|z€}†…~„‘‹™€‘‘›™—΅›΅ª¤§³§Ά°µ±°¶ΏΌ¶ΎΑ" %% )8--:4(2:6,3A32=96>=G[VD=HMDFRNIJOXXPLU[YWWV\c^Uaf^]ikemocempigkntvt|tl}€z|~„ty‘v—‰”—•’›‘›¥—¥§ ¨©§®¶«¥ΉΉ¶Α»µ¶Θ"! #'((+15,.:1*6<43>?7>>8BG<ESHARSKPQPTTOT`WMUa^YZ`e`Y`k[Znoaerjalognsppyztuzwz„~y‚………†‡‰‡‘’’’—“™™ ¦£Ά¦ª§©±΄¬¬³ΉΐΊ²ΎΖ½!& $1)#/3+/6136=?55HF9=HD<CKILOJLQRPQSXWYYW[[]b`\`dcdc`dheahqpilpkjnqsqqxzwzx{~ƒ‹……‹‹•“‰–¥Ά΅΅±°Ά­©§³Ν―‰»ΥµµΑΛΑµ!",.+*,012733?@88DD8:HF>CHHHHMVULIW[PYbXYc]Z`c]aeecijdeiiiknqoprqiqrouyqvwwƒ‚zƒ†„‡†‹‰›““——Ά§›¥¬¤Ά«¬¥­΄®°Έ²²ΎΓΎ·ΐΜΕΌ"%/.-,*+120<B>HPA;BC<>FGDABGMNMSTPX\TRZ\Y^^ZZ^dbbikghjnhdpqgkrnmsqikwwr|}tz€€†‡†‰‘™—“™—΅¥›¦©΅©¥¥°°¥¬·¬®ΎΈ³·ΊΐΕΕΑΖΛ0($0*)0.,*3FWSRMCBEB?CDAJRFAMTTTMPZWSZaYUdh^gjbhnecrqehoplorpwxoq|wqv€€|}y…€ƒ‡…’‘–”•™™›¥¤£¦¦¦£ª±ª§®³µ®®ΈΉ΄΄ΑΏµ½ΞΝΔΚ&#).)'-1326>DQYYM@@DGGBGIIHHKPMMQRPXZWZ\[bhb`hkcaehnkafmpiirwpovursxzwwy}ƒ…€€‰‰‹‹‘““’•—•—΅Ά§­ ¬­ª§¬³³­²¶³·ΐΏµΊΒΒΔΛΖΗΟ./)6A0&<C;=?AJMGDIIFKHIQQMSQNSVWVVY_]\\egX_sk^cdgigehliitrisztqssuyxx}€|z€……‚}‡’†’‡“’‘—“•Ά΅§§¥©«¨¬³®«°΄³³ΉΊΉ»ΊΐΖΓΗΛΚΖ,-26858;>B;?I@CLC@HFKNKKOSOISVOUYY`b^ab]\hifjhbfjpjkg\wxjpswyxps}wy}y|‡‡„ƒ~‰„‘‹›“——£Ά™§±¦ª³®ª¬±µ΄®·Ό·ΈΐΎΌΔΝΘΗΝΡΡΝ%-53/+1=A53ED;GE=HJDLNBJZUEMXMT`\Yb`aaaipgamqglulitpnzwnu|vsz}{xu}€~€|ƒ‡‚ƒ†•–•”——–£ ›£¦¥¨§¥¨«®¬­΄®¬¶Ήµ΄·½ΒΏ½ΘΚΕΘΠÒΟΤ2:30;@;<?>@G?@MLFLPSQOW[TNUWSV^^Y`fgh^[igbnslkpmpttvzwsyxsz}~€zz‚€€‡‚‰††‘”’———™–¨§£®¥¤΄²¬®¬±»µ°¶ΌΈ»ΓΔ½ΏΔΖΟΟΖΟΫΣΤΨ5<NH>IL=:HMIMKINPMSYPO\YPZ`SS_``defgedmpbjzsnrrvxqw„}ruƒ€sxƒ‚…~‡„•—’™™™¥Ά―¥§§§¨®®«²³®µ¶²ΈΉΉΌΈΊΔΒΐΔΚΛΖΖΞÒΡΣΧΩέΩUXVcWCFSOJTRL[WIUXLT_VT`]Yil^drhfrtswoiungw{ml{v{‚z‚v}|x‚‚ƒƒ’‡““™”“£΅” ¥Ά¦¤¤°«§±­£³·¬―ΌΌ³΄¶ΊΕΓµΌΙΙΖΗΙΠΞΙΣΫΦΨήήέαNbe_QKKIHQZTJQUMSVNV\WYdd[enbaokjuy|€tivwotztp|u{…||„|„…‰‡‡‰‰††“’’‘™‘– £—§£¤¤¦¬§£¨««°―«®΄Έ΄°·ΏΌ΄µΒΕΌΑΚΖΒΘΜΠΠΛÒέΩΠΨκδΧ@PZVPICOPHNTMLMKPTTT]]X\c[[hf_ovns{|}zmat}ru‚xr{}wz}{||}…ƒ{‚‡‹ƒ…‘‘‡‹™•›’“Ά΅£¤¤«¤Ά¦¤©²―«ª®³µ³±΄»·ΉΐΈ΄»ΑΑΔΑΕΙΗΖΝÒÒΠΦΪΧήήά;DKCIQIMTSOTSPTWTV_^^ffamk\bplglopv|urrot{txƒ{t~‚~~xzƒ†€ƒ‡‰“‘‘™™•’™›™ ¥  ©©¤©¨©­­­²΄¬ªΉ»³΄ΌΈ¶ΎΒΒΎΌΓΙΗΓΘΞΛΜΡΣΣΤΥήίΪάηεΰ>CGEEKNOMMSVSPY\WUa_Zfibemjlnmfjoquuoszrq}|vzƒƒ…†ƒƒ…‚— –‹’”’’——¨§¥ª¥¥­―¬®°«―Έ·¶Ήµ΄ΐΏµΐΕ»ΑΛΔΓΚΙΙΝΟΛΞΦΤÒΨΧΧαέήιζαBCJMOSQMPUZ]\RVd`\je[hognuniornmrtz~vzƒ}xz}‚€~†‡†‰‡‘‘‘””“•—›΅¦ΆΆ§΅©µ¦¤²―§±»²¬ΊΉ±ΊΒ½ΑΑΈΏΚΓΎΘΞΗΘΞΝΠΠΛÒΫΡΠαΰΪγδέζπηILKJQTSSUZZY\_]]`cccdhkjklpupoyxqv{zy‚„zƒy‡€‚ƒ………‰‹£‹™”΅•¨™®¨¦«£©­¬―΄ª¥ΈΌ³¶»·ΉΈΊΕΓ»ΑΖΐΔΟΚΕΞΣΝÒΥΠΪγΧΤβίΪμξήηυηIIOQUVTYb_W^nh^hmjnifnlkloqw|xtzys|„€‘–x‰z‹€“•‹”›”•–›΅Ά›¦¬³¦²°¤¬ΈªªΎ»«µΐΈΊΏ»½ΒΑΓΗΌΏΡΜΏΚÒΜΚΧΣΝΪΩÒάήΩδηίενμιοσ<HdWHU`ZX^[`g]]ojiomimzuxƒ€~xsz|nu…€‡–ƒ„‡‡‘—›™‹—΅“Ά§ Ά«¥¤©¤¥µ³¤«Ί¶―ΈΈ΄ΌΏ·ΏΔΉ½ΙΖΏΕΗΓΖΛΘΛΟΠΜΠΤΧήΣΟεθΧάιηεμππχσDKTVSU[Z[]_hbQbyh_qr``lr†™€zkruq}‚“•‹†ƒ†‹‘—™’•΅©¦–™΅§›­¦Ά§«©¨ª­°±°¶Ή±µΐ¶―½Η»΄ΓΓΏΗΙΕΓΙΛΞΝΙΜΤΟΡΪΥΦήέΧαεγδεηιμνυϋπTKP[US_`__`ikbcooqroknuq……ƒ€ts}{y~y|‡…‚€‰‹™’‰——‹“³µ©›’›¦›¦›¥­¬£¤®®©―¶²―±¶·¶·Ή·Ύ½ΌΓΏΎΗΔΑΕΛΛΙΛΞΝΟΡÒΪΧΝΥΰέάΰΰήδθμννμοωχYTX\V[c\[hieedgkijqoip{yv–~sƒzqx}z‡…ƒ‡‰‰‰”•†–––«»¬—΅Ά£Ά¨§£¬―©¬±±―°·Ύ»±°ΒΙΈ¶ΖΔ½ΗΘΓΛΚΖΘΗΠÒΠÒΣΡΡΧΰάΤΫήΫζζέαιμκξυτςψφXMS[Xai]^jf^gni`fpkgmy{qo‚ƒv|ƒƒzpxƒƒ~ƒ„‰‹‘–”‹™‰›•™¥¤™™™£Ά£¦©¥ª¬°―¨©΄·΄²΄»·³ΏΏΊ½ΐΐΐΏΔΠΞΏΑΥÒΘΡΦΘΠέΤΡίΪΤΰβΪγλήέλοξτςοϋφYVUS[gc[in[]lhdmmesvil{xq{z|~{€zu}…‹‰‡‡•‡“™‹“™™°¥—Ά¤£§§³ª¤®°©±³―·Ό°±ΏΏ΄ΈΓΐΎΌΓΖΐΑΙΞΗΕΜΤΜΛΟΦΩΡΟήγΣΧηγάδηαδρλιωψξωϊUO\aV_jcfkgglkkxzjhyyw|vx‚zwƒ†||ƒ€‚‹‰‰•™›— ”£¨­ª¦¤›§¦§¬§«°¦©²±¬µ»°²Ύ»¶»ΊΌΏΐΓΔΎΏΜΝΑΖΥΛΒΤΦΗΞάΡΞΫΫΧάήέβααιηίκυμξόϋσόÿWQW^[_d_bgffjjktwpt~xr~~y}}x~‚~‚…‡‹“–”–“–›¥¦¥΄µ¤ Ά£¥¦¦ª§«¶¶ªªΉΉ³»Ό³µΐΎΊΌΑΑΑΒΔΚΞΕΒΛΣΡΛΠΣΤΦÒΤΨΧΨάαίΪβκθγεκνμρσος  ÿσώ SWdd\affeknijnosypouqtƒ}qzyx„†~‡‘”“’”—™•“–™—›¥©£¦¤ ª®ª©¬―²΄²µΉ²΄»½ΊΌ½ΌΐΕΔΒΕΕΖΙΞΝΠΣΞΟΣΦÒΠΪΰΤΠΰδΫάεβέηογθφμθφϋωόϊÿ ώ`ca]bgffikeenrortqrvv}ƒzw‚€‘†“‹‘•‘–••™΅ §¦£¨¨¥ªª¨―³――΄Έµ³ΉΌ·»ΎΎΐΐ½ΔΘΕΓΙΟΛΘΞΡΡÒΡΨΩΜΝίΫΠΩγήΫΰδδειηνξηοϋψφόόϊ ύ^__^`eefgdertlkw{tvy||z…†‚‘’–’‹––‘΅”‹΅’—¤“›£¦¦¥©«¦¦¦§¦ª®­ª®·Ή­΄ΐ»·ΉΊΊΗΕΈΓΙ½ΒΣΟΐΖΠΚΜΧΡΙΥΧΠΨήΧΦΫΪήδεΰηιγιπινϋκξÿχχÿ ώ  [`g^^ffbhoieppguzms€yy€†„ƒ‘™•‹…““‘“—”™”•΅Ά–ªΆ¬°¦£¦¨©©¬―°®³»¶±»½µΎΔ»»ΕΓΑΗΙΕΖΛΚΝΟΚΛΦΤΠΣΦΧΨΩΪάΫΪάΰΰγζδβκοθλςοσϊφό  ό  	  dclmggrrnmnr{vprz…{}‰‰€€‹‹‰“–”–¤΅¥¤ §ªª¬¤ª³­¬―­ª©°±¶ΈµµΈ·ΈΔΓ·ΑΘΎΐΚΛΖΘΙΛΡΡΜÒΩÒΠΪάΧΨάΰήΨΰκγάβικημνθνποφψςφόϊό    
+ kpptslqqirvquwpw‚}z~|†…‰‘…’—–—‘™™“–™—™ Ά¤ ¬«΅£®«¦―®«·µ®³³­¬ΊΊ°·Ή΄ΎΖ½ΎΕΔΖΙΔΑΘΟΜΚΞΠΟΣΣΡΤΨΨΦΧΩΰγαΪΩθλαγξοηθρφστχφφυό ÿÿ      hilnnijttmrzwr{ƒ€~€~…‰’•–™’‹•΅‘Ά§΅¤›£―¬¨ªª£©±§§±¬―Έ―¥®³°µΊ¶΄Ή»½ΑΏΐΖΖΊΓΠΘΔΡΜΗΛÒΣΠΠΟΥάΣΟβαΥάβγζβάλπΰβφταθωυπωχψϋυÿ ÿÿ   hlijqspotux{}~„‡€ƒ‡„‘‹–•’”–››¤¨§©¨©ª©¬±®«°³±²³±³΄µ΄ΉΌ»½ΎΌΑΘΒΔΙΕΓΛΟΘΚΣΡΚΟΩΧΡΦΫΫΧάΰΪάεγβζδζκθκμνπξρτφχχόώώ    
+  	 
+ hjhozvnnttsyy{…~€‰……††‹•‰‰•™–™›ΆΆ΅¨¦¥«¨¨³¶ΊΑΉ°°®±³΄΄¶Ή·΄ΊΏΏΒΑΏΔΖΒΕΛΙΗΚΡÒΟÒΣΣΤΤΧάΧΤίβΪήθηγδζζκπξηοτπτϊφυω   ό       hliryqrxqs}€xx‡‚}‹…‹‹–’‹‘““™–—ª£©«¤¨®ª³ΜΣΣΛµ­΄Ή΄¶Ό³µΒΑΎΒΒΏΔΛΚΕΓΙΠΝΘΞΥΝΙΫήΞΝΧήΫΧέβίέζνιΰζςμκσρκςυρϊότω   ω  ÿ   	  fikrmh{†zz‹›“„~~…†‰‰‘’‰–••–§™ §§  °²΅­°³ΜΩΣΚ½²―ΐΎ±ΈΔΌΈΑΑΏΘΚΒΖΟΕΕÒΠΛΡΣΞΣΪΡΣΰάΞάμίΩζζγλλεκςνμσολφύσχύόύ            iclvjhs}~‚ªµ§…}…y€„•’‰‹•“’•–‘“›—››¦¤¤¦§¬¬ª¬­±³½ΙΔΉ΄³³Έ¶µ·Ό»»ΎΒΔΒ½ΒΚΚΗΗΛΛΝÒΣΞΡΦΥÒΨΨΨαίΤήκαΫεζΨδψζΨνψζιϊσμυϋϊφώ ϋÿ 
+      jqnnswps„’­»Ώª‰€|†—•†‘‹“™’• © ›¨­§¤«®¦§·­¥½Δ®¨¶ΐ΄­ΌΑΊ·ΎΔΑΎΓΛΕΕΜΙΙΝΜΝΡΥÒΡΫΩΣΫαήέέάειααζθμιθλνξξσσορωχςϊÿϋύ         iu{ro{|w{®½·©’„‹‘…—’‹‘›‘‘›Ά¦ª­ «·ª¤±―£¶Η®΅ΎΔ²«Ίΐ·ΉΎΎ½ΏΘΙΒΎΖΝΙΙΣΠΛΣΦΙΡδάΟΨήάΨέηηίέζρηβπτηηοωϊκλ  κν	  φϊ
+  ÿ   
+     yx|~…ƒvz†‹¤°Ά‡„“–’”™”–¦—§”¤¥› ¥§¦ ¥®ª ­΄ªª²±®¶Ό¶µΑΕ»«¶ΚΏ²ΔΚΊ»ΚΚΒΘΟΕΗΤΝΘΦΩΝΠΩΪΫΫάΫΪδγγζβζκννξννπορφυςφύ ϋψ                 ynq~‚ss‹r}—~†›–„‰™———‘—΅›¨¦™ª§  ¥­­¦¥®¶³¬―Έ·΄³ΏΒ»·»ΐΎ»ΏΒΏΑΕΐΔΞΕΐΝΤΛΚΟΣÒÒΦΤΩΰΩΦγαΦήηβδηβγμνμννλπτοπϊϊτυό ώωύ  	 	   
+       ytv|}zƒ‚…†•‘—“•›——¦¦ΆªΆ¤­¬£ª―¨§°¶ª°Ί·¶²³Ί»ΈΎΎ»Ύ½ΊΐΗΑΎΔΙΔΒΡΝΎΘΪΣΚΜΥέΩΟΠδμΦΜξρΥΠρχΰΡν μΩη ϊγιόϊρφό    φϊ
+  ϋ  
+        $   ~rx„}}‰†’“–΅•ΆΆ£¨¦¤Ά§§§®°ª¦¬°¬­±²³²―µΈ¶Έ»½Ύ½ΌΊ»ΓΑ»ΒΖΕΕΓΗΞΚΖΜÒΟΜΥΦΠÒάΪΨήήΫβήΨημίήλοθηλοοξκυϊολϋ χφώ   ώώ              wz|zz}„€‰‹–”›Ά›•—£««¤¤¥£¥©©¬΄²¦§µ΄©¬Έ³­µΊ·®³ΓΐΊ½ΐΔΎ·ΑΗΏΎΚΘΓΗΚΙΝΞΚΟΦΤΡΥΥÒΪέΨάαΪέηλΰΪθλεκμλπλθρχρνςϋϋφφύ ÿψ       
+       #  nw‚€}|€‡‰‰…‹’“–“–›™™›—¨©£Ά¬¬¦¦―°­«­³Έ΄΄·ΉΈ³Ήΐ»½ΓΐΓΖΑΓΒΔΕΕΗΝΗΘΟΞΙΝΤΧÒΡΪΫΩΫΫέδέάθζβηκηζξπιοτξξςστττωϊψϋ   ϋÿ     	   
+      $    " {…~w†}’™  ¥¦΅΅¦¬­££¨­®«©·Έ­®Ό½―­½Β»ΊΒΗΖΒΌΕΗΐ½ΗΙΑΒΥΡΑΗΤΜΚΩΧΤΠΩΪΫΩίήαέέζζΰζιιλκμρροπυρρωόχχϋϊÿ
+ ÿϋ   
+ 
+          '    „u††‘”›––™›™£΅£ ¬«¤¨«©®±«¦―µ«¬΄··Έ²΄ΐ»ΉΎΊ¶ΘÒΖ½ΓΕΏΗΛΏΒΞΛΘΟΞΝΟΟÒΩΧΣΦΩΧΪήΪΫεαΨιιίιηδζοωηηϊςξυψψϊυω ÿϊ 	 όϋ             ! & & ! {}ƒ€†“‘–› ΆΆ¤««΅­―¬®―±±®³Ήµ²²¶ΌΏΐΏΐΏΌΒΘΑΘΣΗΌΐΓΕΘΖΓΙÒΝΖΜΤΠÒΣΞΣάΫΪΧΨέΰεγΫΪινεβμξκνχςκςφσψϋωόϊχ 	  ϊ              " % & &  ‚{x€~‚ƒ“”“–›¤£΅«®¨§²®©Ί³«¶Ή³¶³µ½½··ΏΌ¶ΊΘΚΓΙΓΌΕΖΕΜΖΑΒΣÒΛΞÒΠΞΞΦάάÒΣγίΣΤγκήίθβζκθξργδφψςοοτφσυό ϊφ     	            " +   z€~}†…„†„‘’–‘›Ά—¥Ά΅©¨¬ΐΏΕΡΊ°°°­«³µ³µΊµ²µ·ΏΒΉ³ΎΔΑΖΗ½ΑΒΏΚÒΪΐ°ΦίΠΝΞΡΧΩΧΦΪΫΨΨήΰίαβζεΰλκζμζκφνςτρσπψϊπ ÿυ ωÿ
+   σ  ς  
+     $ %  ! & ‹‡‰‹‹‘‘™›™™΅ΆΆ§¦Ά¦«¨©ΔΪΫΣΔΈ²«°΄°¶¶³ΌΊ³ΌΑΊΊ»ΕΔΔΘΖΔΗΔΒΞΡΘΘΟÒΠΜΦΨΠÒάίΦΨαέΦήηΰίκεγκελπθιστοςϊυυύφρÿ ϋύ       
+             % & ' & €‚†‹‡”•—›΅™›¨΅¥«°Ά£―µΤΦΛΎ¥«Ί―³¬΄»²³ΎΏΌΈ»ΒΕΕΔΖΗΒΔΝΘΑΘΝΜΠΣΞΞΤΤΞΨΰΧΨίήίγγβΰγθζλνμθθφτιπψφτωϊφωϊύϋÿ     	             # #   "  6 0 ‚“”“”–––—™§Άª©¥¦®°®²Ό½ΐΏ²―±°Έµ³Έ²·ΐΉΎΕΑΊΑΚΚΘΞΝΘΕΔΜÒΚΜΤΠΘΤήΡΝέΧÒΰιΩΩήκήγκήιθθξομπξσωξωύϊςό  ωχ 	                  &    % , 6 .  ‚ƒ…—”” ™›› £ ®«›©Ή΄³Έ¶®²ΉΊµ²±·ΊΈΈΉ΄»ΓΔΐ·ΌΓΔΝΙΕΞΟΗΖΙΞΤΟΙΤΤΠΧάΫΜΦιβΧάΰγδζηδδκιινπτπκπόϋσχώόόώύ          	             & $ ( . & + 3 , ‹–”—££΅£§¦¨¬¨ª³µΈ¶µ»»³Έ»·ΈΐΒ½ΉΓΕΐΔΒΌΓΚΕΚΤΡΘΚΜΛΞΤΡΞΣΥΥΩΫΨΫΪΫδδίαεζδλιδμςηεωψζρϊϋχσό ÿψύ  ώ                 #   ) ) $ , 2 1 5 1 ‰{‡™|¦’ª”Ά¬¥¥®­£©Ό²¨ΉΘΐΏΣδΠ·ΏΔ··ΓΒΈΏΗΕΊΑÒΚΐΞΫΠΒΕÒΟΗΝΣΟΠÒΥΪΦΠΩηίΦήκΰΨκλίζληκπνμορσυφυυόύόώώÿ    
+     
+           $ # " ( / - * 3 ; 4 –}¤“‡Ά—’§¥›©­΄²΅«½― ²ΙΘΦθεΝΌΜΏ«ΖΚΌ―ΒΥΒ΄ΖΦΤΟΥάΤΗΓΡΩΠΞΦΪΨÒΦέαάΨβζάεδέμξΰθυργλωοςώρλύ φυÿ ÿϋ     
+          #    '   #     ( / + + 8 5 * —†¦©΅—ªΆ–™¤¦Ά£°―¥±»³®―ΈΎΑΚετΩµΔΣΈ­ΚΡΊΉΙΝΙΑΛεβΠάήΗΖΫΟΓΩαΜΟδέÒήζήΨΰιδΪηπαΰρςλιοππχϋοιψ   ύωόύ  ÿώ  ό               ! $ % % , * - : : , |’¨}•―¶–ƒΆ¶ •Ά±³£°Ύ«™ΉΖ£¤ΞΡΌΗΣΙ²·ΒΐΐΘΕΐΓΒΝΣΕΙημΫΓΜβΣΏΝάΨΛΦλΫΚέείκοΤΠϊ ΧΚσ ηΖμ ωΗα   ΦÒ
+  ψμύ       	          #    -   
+  . :   ; A  , A 2 ƒ›’—–¬Ά“£®™ª²¦΅®¶°«±Γ½¦°Ι½°ΎΘΎΉΖΜΌΌΙΜΗΑΗΛΕΑΜΤΡΠΨγΥΗΜΦΫΨΣΟΤαγήγγΪΠΰύχήΪαπμσ θήμϋ πμ ϋκ   σφ      ό        ϋ 2 /      + 3 ( # " # 6 ? 3 / 9 > …‘‘¤΅¨©¥›¥―ª®¨©Ή©­»ΉΉµ¶¶·ΌΕΕΏΎΖΖΓΗΝΙΔΖΓΚΥΗΓΟΝΜΪθΣΌΨζΙΟίΫέίΧέηβεδβναθςνςδκύερϊούηο ϊ σΨ                  # 	  /    ! &  E 6 ϊ: H # 5 ? > 5 ‘“—›£¤΅²ΑΈ®¦¨¬°―«―µ±΄·ΏΉ±ΒΑ¶ΓΓΚΜΕΔΕΕΛΟΜΛΞÒΜΞΥΝΞΨΧΫΪÒΦΡΩαΤΩΦΨοβΫΨέόαέρεσοανϊξθςχσψϊυϊόϊ  ϋ 	     
+               #     % % * * * . 1 3 2 > F 9 3 ›“™¤¥¤±Εΐ°ª²±®°°±¶·³¶»»ΓΔΌΓΝΙΚΟΚΖΜΛΗΚΠΚΜΧΠΜΥΥΟΦίΰάΫήΨΩίήήΰδιδήθπθζμοοπχςμυχςϊϊφύÿψύ  ÿÿ                   #   % , ( ( - , * - , 3 ? ; 6 > C @ ›•™£¤Ά¥§­ΈΉ°ª°Ή΄³¶΄µΊΌΏ»½ΐΐΓΑ½ΏΕΘΖΕΛΝΙΝΠΛΞΨΤΜΤΫΤΦήίΩΨΫΧΦέίίίέαηζδθλελπννρςςφςςϋωπϊ ώϋ             	            & # " & ( ) * * . 1 0 6 8 6 ? C ? : —·Ώ΄©®―µΈΐ¶¬³µ―·ΎΌΉ¶ΉΎΙΚΉ±ΓΘΖΡΞΘΞΞΚΠβΩΒΟίΨΥΧΦέΰΦΤβάΨαββγβζνσείττεοϊχιμ  όσφξυ  μψ    
+                   "  ! ' !  , , ' . * & 4 4 1 6 = A ; @ A ›¦¨©ª«®­ª®·¶«·ΙΈ±»½·µΏΑΉΎΖΘΗΐΏΛΟΒΓÒΟΛΡΤΣΦΦΡΩΰΦΥαίΧΰζΰίέήδαβεμκελξλςπξφϋυςψωφύώωό          	           !   ! $     , ' # * 5 3   $ ; 8 - ) 7 F 9 ; D L J £¥¬²Ί΄©¬Έ΄­®·Έ΄ΎΏΉΏΙΐΌΖΜΗΕΙΘΗΛΗΔΝÒΘΘΣΡΠΦΞÒÒΠΰίΨΩέξλβαβΰέβμοεεξνξςτφσςσό ωσύ ϊψ  ύύ
+ 
+     
+           / -      ' + # ) 1 ! + 7 ) 0 3 4 2 6 @ : = L E ? I L  ¬―­΄¶¬¨®³³―·¶²»Ύ»ΑΖΐΓΟΗΐΜΟΖΘΡΟΚÒÒΝÒΥΜΟΪΪΨΨΩάάάήβθκβίαβζγβκμιλξοοοσχϊϋφχϋϊωψϊ ώω      
+                "   # & % " ( , + - - + 0 1 2 3 4 : = < @ H H H H ΅ £©«­±±©¦°µ±µ»¶ΊΎΎΓΓ½ΓΟΜΗΘΜΜΜΣΟΝΤΡΡΧΩΤΣΧΩέίήίγθαέππΰγγίεγζνιηκοπνμχϋςυωόωσψ ώωϋ  ό        	            %   ' * " & ' ' 8 3 # 0 8 1 2 < 7 9 ? C A F O F ››΅§¦§¬±­ª°µ²΄Έ¶ΈΎΌΌΏΎΉΏΘΖΓΗΚΜΟΛΗΝΡΙΟΦΧΥΤΨΫΫήέέηγδπσδίβγηθγδξργζψρερωχυχχψϊψω ÿφ   ώ   	 
+    
+           '   % . ) % + 2 . + / 1 4 3 3 : < ; @ F E D O K ¬ª£«―«²±«·Ί³²ΉΎΊΊΑΌ½Ζ½ΐΘΙΘΘΝΛΕΟΥΠΡΝΣΫίΫΟΤγβΪΨβκζαδζιαΫγλκεκπκμτυρτχυωϊωόώϊφώ       
+                & !    )   , - # ( 7 0 & 5 7 . 2 < = = B F @ B N M C ¤¨©¦¨°――΄²®²²³¶¶Έ¶ΊΎΉΌΐΑΖΙΖΘΙΘΘΞÒΡΡΦΥΤΩΪΥΨήήέέΰδδΰεξμζίβμοκθμξνρφσφϊςυύ  ύωόÿό        	                    % & $ & * * + / 0 2 4 1 / 4 = : : @ B D E I T M E ­©ª®ª¨―²°µΑΉ³Ύ½µΉ»»ΒΓΏΎΔΛΘΗΜΘΗΠΜΜΤΤΡΣÒΤΩάΪΦΫαέίδβκχσλγαζθηιλμξξοςφχσςϋϋϋ ϋχ  ύ     	                 "    $ %   % * % * / , . 2 0 2 5 3 5 : ; < A G C E R L D ΄¦¨µ·΄²ΌΊ¶ΑΐΏΐΊ½ΐΑΛΗΓΛΖΑΟΩΡΑΜήΜΓΤέΣΟΧΩΦΦΪήΪάίαββζυ ύπεδιιηλμρνιτϊσσϋύωό  ύώ     
+ 	  
+ 
+     
+           # "  & ,    - , % . 3 / ) 6 9 - 6 ? 8 8 A G G C G R O H ¬²ª®ΕΕΊΏΎΌΏΎΉ»ΑΓΎΒΡÒΚΙΙΞΡΠΝΛΝΣΟΚΦΫÒΝΨγάΡήζαάαζθβζϋύψκζιεγοσνιντυρςωψχÿώϋÿ  ÿ   
+   
+ 
+                  % )   , * & & , / * / 5 3 4 0 2 @ ; / = K > 6 F T K H Q –©Ύ΄²ΘÒΓ΄·Ύ½ΐΐ½ΕΖΔÒΟΚΞΞΛΝÒΣΞΚΟΣΦΧΨΨΧΦέήΧΫγβάίηζγιμλοθαδμνηηςσλξφψςσϊύϋϋώ    ÿ 	      	     	           $ )   4 3    = 5  # < ? . & 2 G F + ) H S : , J k L & ®ΓµµΝΝ»¶Ύ½ΔΛΏΌΘΑΏΝΛΌΓΡΛΙÒΟΛÒΦΣάγΧΧδΫΦιθΨΧγηαθλεελξνδβμρικρξπυφξπ   πω ÿω 
+  ϋ  
+   
+               " !   # 0 )  + : + & 9 3 + : : 3 > @ 7 > K B : K O E M Z V S ®Ώ³¬ΉΑ»»ΐΕΔΐΓΓΖΙΕΑΝΝΕΗΛΟΘΑΥΫΞΠΫβΫΣΦίδαάγλίΪμρδαεμνεθληηπςμνπρρψόψτυώ ύς
+  χυ          
+ 	          + *   1 4  " / 3 - * 4 6 3 2 5 ; > 5 7 D A @ L D = K S R S X M ¬΄©«ΏΒ΄³ΏΘΓΓΜΝΕΏΝΣΑΒΤΠΕΜΩΧΡΡΤέαβίΪάάήηιλνκκξλνξγδξμκζξπμμνρφϊφφψφό  ϋώ                      !   # )   . * " - 1 ) , 6 8 , - < 7 2 ; @ ; 8 > H H B I R L L W Y U µΉ΄ΏΎ®µΔΉ³ΔΘΎΒΝΖ»ΘΜΔΟΟΗÒΦÒΧΫήήααάΪβαήίγλβήμρθζιονξςυηΰοϊτγκ ώνυ όω  ÿ          
+            !    ( & $ ! $ 3 ) " 7 7 * ) 6 = 4 ; A - 9 H = @ H M ; 6 a ] C N P a \ H ¬΄ΘΖµ·ΐΐΕΕ½ΖΟΗΓΓΖΚΚΖΗΛΜΙΟΫΥΨζδΫάαίήΫΫδηααθηβενςψ  	   ηηφτκξφωχτψόόόό         	               "   ! %  " '  % / + ' 1 4 ' + : 2 0 < 5 1 < @ > A A ? I L H H S X P V Y ª¶½ΊΉ¶¶ΑΗΒΌΙΞΐΘΞΗΕΘΝΞΘΙΤΣΣΦΨίίάΰαβΫΧδζγζκθζθνποχ    μξσρρχόψρϋ ψω   ώ                    #    & (    3 1 % $ 2 ; . + : 4 2 = ; : ; 8 = C E C A O M E Q V O S ^ Z Y [ Έ°²ΌΎΏΌΌΏΎΔΞΛΑΔΚΜΚΛΡΞΜΡΡΤΫΫΦΧΫίβΪΧβδβαεινοκθξρνρ    ψθδσϋυχϋσφ   ϊώ    
+  	                 ' $    % * ) ' * , + / 5 5 4 3 6 6 9 : 5 ? I ? 7 @ I P O F G O U Y ] ] [ X ·¶ΉΏ»·»Ύ½ΏΗΚΗΛΚΙΙΗΖÒΪΟΛΣÒΧήήέΩΫβββέΫθθδσρδδντσσωυ   ρνψχυςσϋύώώύώÿ 
+     	               !   ! #   % $  * / # + / ( 0 6 3 2 6 7 0 6 B < ; > > E H @ B M M F N Z Y T V c a µµΈΊΌΏΓΓ½½ΙΞΕΕΜΝΚΛΝÒΠΛΟΣΣΡΥΰίΩαθήήλκεκνμιλοοσοπωωφωυςστχϊϊό  ύÿ    	                  "        ( )  # 0 1 + . 4 4 3 6 3 8 ; 8 8 B B ; A F D F L K E L T O P Y V Z c ] ·Ύ½ΉΎΒ½ΏΕΖΗΙΖΕΖΙΝΝΞΞΠΡΦΪΪΧΫαΫΦηκΪαξιθξμκξσνιυχνσύωυσψτπύύπω  ώ  ώ                     #   !   % % $ $ , , , / 0 - 6 ; . 1 < 8 6 = = > B @ A H G @ J R K K V Q K \ Z W d a Ί²ΐΕΌΊΒΗΔΐΔΙΙΖΛΡΞΚΣΩΣΨΩΡέδΧΪεδΰαζγειελρθθσςορνρψσςϋωςσωχω  ώψ  ύ   ÿ              "   % $   % + # # + * ( * 0 3 , 0 8 0 - > = 1 9 @ A ? ? @ @ J O A A Y R F S Z W X X Z i d ΎΌΐΈΎΜΔΎΗΞΕΓΠΦΟΡΨΥΨΥÒέαΧΥΰηδβαζκεγλςνιςπκσϊςπωωυψόόφφψψψω  ϊω 
+   
+                    # # ! ) ) " * 0 * ( 3 8 / - 8 ? 4 0 > A 6 7 F B 3 = T F 6 J W C E Z S K W _ X X e b ] Α»½ΕΙΘΗΙΙΛΝΔΛάΣΚΦάάηοσζΫΫαεήΧζλήαλλθμξρλθξππττσψωύωφφφτχÿ  ϊϋ    	   
+ 
+               %     ) %   ( + ( * 0 - ( 4 9 , / @ : 2 ; > > < = D F B E M O F F X Y H Q Y T V Z ` f c ^ ΓΓΘΡΟΚÒΨΟΞΣΝΟΩΩΤΦίγχ  φιεήγξβΰωςηορσομπψσοςϊωχώως  φψώÿώώÿ   	                       !  ! ( % " ( . - & . : ) " < C ) % E C , 5 F = 6 C G : B O E A R Y F @ [ c L G d g W _ l ` ΘΞΜΠέήΨΨÒΞΤΫΥΧΧΧΪΰγτ  τθξεαπϋχτυτποχψψτνφÿϊόόψϋώ  
+ όϋ   ÿ	 
+                   " &   ! $ " * + ) , + + 0 / / 2 7 7 ) 0 G : - : D = 5 @ M F ? A F N M H O W L L X W T _ a X [ m o c b ΖÒΥΦνυγΤΫέΣΦδήΨΪάεζδσώρΰδρρτ  ϊτςλξψρσύϋψωϋ    ύώ   
+   ÿ  ύ              "   "   * &  % , & # * - , 3 0 ) 1 9 * ( = ? 2 7 ; < > @ @ C C ; > K L C I Q I J [ Z N U Y Y ] _ _ d f d d o ΠΠÒΧζιίΣΣΨΩΦΪήΫέαήέαδγαίδιξω  σλξνυφπυωϊϋϋύύϊύ  όÿ       
+ 
+  	              $   % ( & ' & $ - / ( , / 2 0 2 8 2 1 9 7 5 < ? ; 7 : C D ? B H E D I K L M N R T R V V \ ` [ a f c g l q j ÒέÒΘΦΰΤΛΦέΤΨβήΨέΰαεδαδμλβκυπςφςτσνςωτυ  ÿϊϊÿÿϋύ       	                  !     (   % ' ) & & * * + 3 0 * . 5 3 1 7 ; 5 7 < : < A = > E C ? C J G E G N P N L Q Y Y T V ` ` \ ] f q p f k                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
