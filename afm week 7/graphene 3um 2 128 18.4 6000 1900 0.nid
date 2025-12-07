@@ -1,4332 +1,0 @@
-[DataSet]
-Version=2
-GroupCount=2
-Gr0-Name=Scan forward
-Gr0-ID=0
-Gr0-Count=8
-Gr1-Name=Scan backward
-Gr1-ID=0
-Gr1-Count=8
-Gr0-Ch0=DataSet-0:0
-Gr0-Ch1=DataSet-0:1
-Gr1-Ch0=DataSet-1:0
-Gr1-Ch1=DataSet-1:1
-SetInfos=DataSet-Info
-InfoSetCount=3
-InfoSet0=DataSetInfos
-InfoSet1=Calibration
-InfoSet2=Parameters
-
-[DataSet-Info]
--- Scan --=--------
-Image size=3Âµm
-Scan direction=Up
-Time/Line=1.99 s
-Points=128 
-Lines=128 
-X-Slope=0 Â°
-Y-Slope=0 Â°
-Rotation=45 Â°
-X-Pos=-2.33Âµm
-Y-Pos=10.2Âµm
-Z-Plane=0 m
-Line mode=Standard
-Date=13-11-2025
-Time=15:22:10
--- Feedback --=--------
-Setpoint=18.4nN
-P-Gain=6000 
-I-Gain=1900 
-D-Gain=0 
-P-Gain2=0 
-I-Gain2=0 
-D-Gain2=0 
-Tip voltage=0 V
-Feedback mode=Free
-Feedback algo.=Adaptive PID
-Error range=20 V
-Ampl. Ctrl. mode=Const. Drive
--- Global --=--------
-Measurement environment=Air
-Op. mode=Static Force
-Cantilever type=ContAl-G
-Head type=AFM
-Scan head=60-16-171.hed
-Laser working point=0.0%
-Deflection offset=0.0%
-Software ver.=3.10.0.39
-Firmware ver.=3.8.1.0
-Controller S/N=060-16-171
--- Module --=--------
-Controller Board=2
-AFM Basic Module=3
-AFM Dynamic Module=2
-AFM Extension Module=1
-USB Module=4
-
-[DataSet\DataSetInfos]
-SubSectionCount=4
-SubSection0=Scan
-SubSection1=Feedback
-SubSection2=Global
-SubSection3=Module
-
-[DataSet\DataSetInfos\Scan]
-SubSectionCount=0
-Image size=3Âµm
-Scan direction=Up
-Time/Line=1.99 s
-Points=128 
-Lines=128 
-X-Slope=0 Â°
-Y-Slope=0 Â°
-Rotation=45 Â°
-X-Pos=-2.33Âµm
-Y-Pos=10.2Âµm
-Z-Plane=0 m
-Line mode=Standard
-Date=13-11-2025
-Time=15:22:10
-
-[DataSet\DataSetInfos\Feedback]
-SubSectionCount=0
-Setpoint=18.4nN
-P-Gain=6000 
-I-Gain=1900 
-D-Gain=0 
-P-Gain2=0 
-I-Gain2=0 
-D-Gain2=0 
-Tip voltage=0 V
-Feedback mode=Free
-Feedback algo.=Adaptive PID
-Error range=20 V
-Ampl. Ctrl. mode=Const. Drive
-
-[DataSet\DataSetInfos\Global]
-SubSectionCount=0
-Measurement environment=Air
-Op. mode=Static Force
-Cantilever type=ContAl-G
-Head type=AFM
-Scan head=60-16-171.hed
-Laser working point=0.0%
-Deflection offset=0.0%
-Software ver.=3.10.0.39
-Firmware ver.=3.8.1.0
-Controller S/N=060-16-171
-
-[DataSet\DataSetInfos\Module]
-SubSectionCount=0
-Controller Board=2
-AFM Basic Module=3
-AFM Dynamic Module=2
-AFM Extension Module=1
-USB Module=4
-
-[DataSet\Calibration]
-SubSectionCount=2
-SubSection0=Scanhead
-SubSection1=Cantilever
-
-[DataSet\Calibration\Scanhead]
-SubSectionCount=0
-Version=6
-HeadTyp=AFM
-SerialNo=uncal_70u
-RevisionNo=2
-ScanFit=Pomfit
-CtrlInPol=Positiv
-Main1InPol=Positiv
-Main2InPol=Positiv
-SignalUserADC0Pol=Positiv
-SignalUserADC1Pol=Positiv
-SignalUserADC2Pol=Positiv
-AnalogOut2Pol=Negativ
-AnalogOut3Pol=Negativ
-XAxisPol=Positiv
-YAxisPol=Positiv
-ZAxisPol=Negativ
-ZAxisAnalogOut2Pol=Negativ
-ZAxisAnalogOut3Pol=Negativ
-Ch0Corr=None
-SetPointCheck=None
-InCount=24
-In0=0,Channel0,Deflection,V,10,0
-In1=1,Channel1,Z-Axis,m,7.1e-06,0
-In2=2,Channel2,Amplitude,V,5,0
-In3=3,Channel3,Not defined 1,V,10,0
-In4=4,Channel4,Tip current,A,0.0001,0
-In5=5,TipSignalDC,Deflection,m,5.76e-06,0
-In6=6,TipSignalAC,Amplitude,V,10,0
-In7=7,TipPhase,Phase,Â°,90,0
-In8=8,Lever Current,Tip current,A,0.0001,0
-In9=9,User Input0,User Signal,V,10,0
-In10=10,User Input1,User input 2,A,1e-07,0
-In11=11,HeadSig2,Not defined 1,V,10,0
-In12=12,Channel5,User Signal,V,10,0
-In13=13,Channel6,User input 2,A,1e-07,0
-In14=15,Dissipation,Dissipation,V,5,0
-In15=16,TipSignalDC1,Deflection,V,10,0
-In16=17,TipSignalDC2,Deflection,N,1,0
-In17=18,SensorSignal1,SensorSignal,W,0.005,0
-In18=19,SensorSignal2,SensorSignal,A,0.0005,0
-In19=20,Channel7,Z-Axis,m,7.1e-06,0
-In20=21,XAxisSensor,X-Axis Sensor,m,0.0001,0
-In21=22,YAxisSensor,Y-Axis Sensor,m,0.0001,0
-In22=23,ZAxisSensor,Z-Axis Sensor,m,1e-05,0
-In23=24,User Input2,User In A,V,10,0
-OutCount=9
-Out0=0,ScanAxis0,X-Axis,m,3.61e-05,0
-Out1=1,ScanAxis1,Y-Axis,m,3.6925e-05,0
-Out2=2,ScanAxis2,Z-Axis,m,7.1e-06,0
-Out3=4,AnalogOut0,Tip voltage,V,10,0
-Out4=5,AnalogOut1,Not defined,V,10,0
-Out5=6,AnalogOut2,User Output,V,10,0
-Out6=7,AnalogOut3,User Output 2,V,10,0
-Out7=8,DriveAmp,Drive Amplitude,V,5.3,0
-Out8=9,MixedOut4,User Output C,V,10,0
-ScanCorrCount=2
-ScanCorrA=-6.868e-07
-ScanCorrB=0
-ScanCorrC=0
-ScanCorrD=0
-ScanCorrE=-7.697e-06
-ScanCorrF=9.722e-07
-ScanCorrG=-7.082e-09
-ScanCorrH=-2.109e-08
-ScanCorrI=8.974e-09
-ScanCorrJ=7.435e-09
-ScanCorrK=4.005e-11
-ScanCorrL=1.523e-11
-ScanCorrM=1.321e-11
-ScanCorrN=-1.696e-11
-ScanCorrO=1.09e-11
-ScanCorrTableRot=0
-ScanCorrA1=-2.429e-06
-ScanCorrB1=0
-ScanCorrC1=0
-ScanCorrD1=0
-ScanCorrE1=-1.031e-05
-ScanCorrF1=7.746e-07
-ScanCorrG1=-6.563e-09
-ScanCorrH1=-6.258e-09
-ScanCorrI1=5.24e-09
-ScanCorrJ1=-2.666e-09
-ScanCorrK1=4.078e-11
-ScanCorrL1=3.559e-11
-ScanCorrM1=1.147e-10
-ScanCorrN1=3.558e-11
-ScanCorrO1=1.16e-10
-ScanCorrTableRot1=0.785398
-ScanCorrRotX=0.837758
-ScanCorrRotY=0.750492
-ScanScaleZ=3276
-ScanScaleXY=256
-ZRangeFit=None
-ZRangeCorrCount=1
-ZRangeCorrA=1
-ZRangeCorrB=0
-ZRangeCorrC=0
-ZRangeCorrD=0
-ApproachStartPos=0
-MaxApproachSpeed=1
-ManualMoveSpeed=1
-DefaultDynRefAmp=0.159856
-DefaultDynRefAmpLiquid=0.2
-DefaultDynRefAmpVacuum=0.005
-DefaultForceModRefAmp=1
-DetectorABGainAC=0.5
-CompDcSourceWithX=0
-CompDcWithX=0
-CompDcSourceWithY=0
-CompDcWithY=0
-CompDcSourceWithZ=0
-CompDcWithZ=0
-VideoSupport=1
-HasLaserOnOffCtrl=0
-XYCLPIDGainsX=1.000000;1.000000;1.000000
-XYCLPIDGainsY=1.000000;1.000000;1.000000
-XZeroVoltage=0
-YZeroVoltage=0
-ZZeroVoltage=0
-ScanAxis0FilterCoeff0=1.000000;0.000000;0.000000;0.000000;0.000000;1.000000
-ScanAxis0FilterCoeff1=1.000000;0.000000;0.000000;0.000000;0.000000;1.000000
-ScanAxis0FilterCoeff2=1.000000;0.000000;0.000000;0.000000;0.000000;1.000000
-ScanAxis0FilterCoeff3=1.000000;0.000000;0.000000;0.000000;0.000000;1.000000
-ScanAxis1FilterCoeff0=1.000000;0.000000;0.000000;0.000000;0.000000;1.000000
-ScanAxis1FilterCoeff1=1.000000;0.000000;0.000000;0.000000;0.000000;1.000000
-ScanAxis1FilterCoeff2=1.000000;0.000000;0.000000;0.000000;0.000000;1.000000
-ScanAxis1FilterCoeff3=1.000000;0.000000;0.000000;0.000000;0.000000;1.000000
-ScanAxis2FilterCoeff0=1.000000;0.000000;0.000000;0.000000;0.000000;1.000000
-ScanAxis2FilterCoeff1=1.000000;0.000000;0.000000;0.000000;0.000000;1.000000
-ScanAxis2FilterCoeff2=1.000000;0.000000;0.000000;0.000000;0.000000;1.000000
-ScanAxis2FilterCoeff3=1.000000;0.000000;0.000000;0.000000;0.000000;1.000000
-HasXPositionSensor=0
-XPositionSensorPol=Negativ
-HasYPositionSensor=0
-YPositionSensorPol=Negativ
-HasZPositionSensor=0
-ZPositionSensorPol=Negativ
-ApproachStatusMode=1
-ApproachStatusPol=Positiv
-ApproachStatusMeterRange=-1;-0.9;0.9;1
-SensorStatusMode=1
-SensorStatusPol=Negativ
-SensorStatusMeterRange=0.0866142;0.102362;0.102362;0.811024;0.811024;0.913386
-LaserWavelength=6.5e-07
-
-[DataSet\Calibration\Cantilever]
-SubSectionCount=0
-Version=2
-GUID={ED5A15E6-D3B0-4e64-8C50-809335D3E143}
-Name=ContAl-G
-Manufacturer=BudgetSensors
-PropCount=14
-Prop0=D[0.2]*[N/m]
-Prop1=D[13000]*[Hz]
-Prop2=D[0.00045]*[m]
-Prop3=D[5e-05]*[m]
-Prop4=D[50]*[]
-Prop5=D[4000]*[Hz]
-Prop6=D[5]*[]
-Prop7=D[0]*[]
-Prop8=D[10]*[Â°]
-Prop9=D[1e-08]*[m]
-Prop10=D[50]*[]
-Prop11=D[13000]*[Hz]
-Prop12=D[0.3]*[]
-Prop13=D[1]*[]
-
-[DataSet\Parameters]
-SubSectionCount=8
-SubSection0=Approach
-SubSection1=ZFeedback
-SubSection2=Lithography
-SubSection3=Imaging
-SubSection4=SignalIO
-SubSection5=Spectroscopy
-SubSection6=SPMSystem
-SubSection7=Stage
-
-[DataSet\Parameters\Approach]
-SubSectionCount=0
-ApproachSteps=L[65000]*[]
-WithdrawSteps=L[1000]*[]
-AutoPeriode=D[0.02]*[s]
-MovePeriode=D[0.02]*[s]
-StepSlope=L[6]*[]
-AutoStartScan=B[0]*[]
-ApproachSpeed=D[0.0801099]*[%]
-AFMApproachMode=L[0]*[]
-AFMMotorSource=L[0]*[]
-AFMStepByStepSpeed=D[1]*[]
-AFMStepByStepSlope=D[5e-06]*[m/s]
-AFMStepByStepFineStepSizePercentage=D[5]*[%]
-AFMStepByStepCoarseStepSizePercentage=D[90]*[%]
-AFMStepByStepMode=D[0]*[]
-
-[DataSet\Parameters\ZFeedback]
-SubSectionCount=0
-PGain=L[6000]*[]
-IGain=L[1900]*[]
-DGain=L[0]*[]
-PGain2=L[0]*[]
-IGain2=L[0]*[]
-DGain2=L[0]*[]
-SetPoint=D[1.84224e-08]*[N]
-SetPointForce=D[1.84224e-08]*[N]
-SetPointDC=D[1e-09]*[m]
-SetPointAmp=D[56]*[%]
-SetPointPhase=D[1]*[Â°]
-SetPointForceUnitMode=L[2]*[]
-SetPointForce_V=D[0.17365]*[]
-SetPointForce_m=D[1.00023e-07]*[]
-SetPointForce_N=D[1.84224e-08]*[]
-SetPointDeltaF_Hz=D[0]*[Hz]
-SetPointUserDefined=D[0]*[V]
-ChGainRegError=L[0]*[]
-FeedbackMode=L[0]*[]
-Algorithm=L[1]*[]
-RefFrq=D[14110.4]*[Hz]
-RefAmplitude=D[0.423942]*[V]
-RefPhase=D[206.769]*[Â°]
-CoarseSweepStartFrq=D[9100]*[Hz]
-CoarseSweepEndFrq=D[16900]*[Hz]
-CoarseSweepStepFrq=D[22.7405]*[Hz]
-FineSweepStartFrq=D[13402.9]*[Hz]
-FineSweepEndFrq=D[14813.8]*[Hz]
-FineSweepStepFrq=D[4.11322]*[Hz]
-ManualSweepStartFrq=D[13333]*[Hz]
-ManualSweepEndFrq=D[14736.4]*[Hz]
-ManualSweepStepFrq=D[4.09175]*[Hz]
-AutoCalFrqPeak=B[1]*[]
-AutoCalPhase=B[1]*[]
-DynamicAmp=D[0.0209052]*[V]
-CalRefPlotGraph=B[0]*[]
-ForceModFrq=D[20000]*[Hz]
-ForceModAmp=D[4.00003]*[V]
-AutoFrqSweepRange=B[1]*[]
-AmpCtrlMode=L[0]*[]
-FrqPeakReduceAir=D[20]*[%]
-FrqPeakUpperSideAir=B[1]*[]
-FrqPeakReduceLiquid=D[5]*[%]
-FrqPeakUpperSideLiquid=B[0]*[]
-FrqPeakReduceVacuum=D[20]*[%]
-FrqPeakUpperSideVacuum=B[1]*[]
-RegMoveMode=L[0]*[]
-DynamicMeasureBW=L[9]*[]
-RegOutputSel=L[0]*[]
-FrequencyLockRange=L[1]*[]
-PhaseCtrlPGain=D[0.3]*[]
-PhaseCtrlIGain=D[2.5]*[]
-AmplCtrlPGain=D[2.5]*[]
-AmplCtrlIGain=D[20]*[]
-UserOpModeInputSel=L[3]*[]
-UserOpModeInputPol=L[0]*[]
-UserOpModePIDGainCorr=D[1]*[]
-UserOpModeDCOffsetMode=L[0]*[]
-UserOpModeDCOffsetAutoGain=D[10000]*[]
-CantileverExcitationMode=L[0]*[]
-
-[DataSet\Parameters\Lithography]
-SubSectionCount=0
-ModuleLevel=L[0]*[]
-OpMode=L[2]*[]
-InactivePenMode=L[0]*[]
-AutoChartSettings=B[1]*[]
-AutoCapture=B[1]*[]
-XYMoveSpeed=D[1e-05]*[m/s]
-ZMoveSpeed=D[1e-06]*[m/s]
-LiftTipAbsZPos=D[0]*[m]
-
-[DataSet\Parameters\Imaging]
-SubSectionCount=0
-ModuleLevel=L[1]*[]
-ScanRange=V[3e-06,3e-06,0]*[m,m,m]
-ScanOffset=V[-2.32759e-06,1.01641e-05,0]*[m,m,m]
-ScanRotation=V[0,0,45]*[Â°,Â°,Â°]
-ScanTime=V[1.99492,1.99492,0]*[s,s,s]
-Datapoints=V[128,128,0]*[,,]
-ScanMode=L[0]*[]
-OverScanSize=D[0]*[%]
-FirstScanlineRep=L[1]*[]
-SyncOutMode=L[0]*[]
-LineScanning=L[0]*[]
-RelTipPos=D[3.27949e-07]*[m]
-ContourEnabled=B[0]*[]
-AutoReadjustProbeEnabled=B[0]*[]
-ReadjustLiftHeight=D[0]*[m]
-SndScanDynamicAmplitude=D[0]*[V]
-SndScanDynamicAmplitudeEnabled=B[0]*[]
-SndScanForceModulationAmplitude=D[0]*[V]
-SndScanForceModulationAmplitudeEnabled=B[0]*[]
-SndScanEnableDarkMode=B[0]*[]
-SndScanEnableKPFM=B[0]*[]
-SndScanSndLockInExcitationAmplitude=D[0]*[]
-SndScanSndLockInExcitationAmplitudeEnabled=B[0]*[]
-XYMoveSpeed=D[5e-05]*[m/s]
-AutoSlopeCorrection=B[0]*[]
-AutoDeleteBuffer=B[1]*[]
-AutoChartSettings=B[1]*[]
-AutoCapture=B[1]*[]
-SpikeGuardEnable=B[0]*[]
-PrescanSpeedup=L[0]*[]
-
-[DataSet\Parameters\SignalIO]
-SubSectionCount=0
-UserDAC0=D[0]*[V]
-UserDAC1=D[0]*[V]
-EnableUserADC0=B[0]*[]
-EnableUserADC1=B[0]*[]
-EnableUserADC2=B[0]*[]
-TipSignalMode=L[0]*[]
-ExcitationMode=L[0]*[]
-MonitorOut0=L[0]*[]
-MonitorOut1=L[0]*[]
-EnableUserADC1ZSensor=B[0]*[]
-User0CtrlMode=L[0]*[]
-User0InputPol=L[0]*[]
-User0OutputFlag=L[0]*[]
-User0SetPoint=D[0]*[V]
-User0IGain=L[1000]*[]
-
-[DataSet\Parameters\Spectroscopy]
-SubSectionCount=0
-ModuleLevel=L[0]*[]
-OutputType=L[0]*[]
-Repetition=L[1]*[]
-RepetitionMode=L[0]*[]
-FwModTime=D[1]*[s]
-BwModTime=D[1]*[s]
-ModRelValue=B[1]*[]
-FwModDatapoints=L[1024]*[]
-BwModDatapoints=L[1024]*[]
-SyncOutMode=L[0]*[]
-FeedbackActive=B[0]*[]
-AutoChartSettings=B[1]*[]
-AutoCapture=B[1]*[]
-SpecEndMode=L[1]*[]
-FwModRange=D[6.455e-07]*[m]
-BwModRange=D[-6.455e-07]*[m]
-XYMoveSpeed=D[2e-05]*[m/s]
-StartOffset=D[-5.72715e-07]*[m]
-StartOffsetMoveSpeed=D[1e-05]*[m/s]
-FwModMode=L[0]*[]
-BwModMode=L[0]*[]
-FwModStopValue=D[0]*[V]
-BwModStopValue=D[0]*[V]
-FwModStopMode=L[1]*[]
-BwModStopMode=L[1]*[]
-FwPauseTime=D[0]*[s]
-BwPauseTime=D[0]*[s]
-FwPauseDatapoints=L[0]*[]
-BwPauseDatapoints=L[0]*[]
-FwPauseMode=L[0]*[]
-BwPauseMode=L[0]*[]
-AutoRecalibrateProbeInterval=L[0]*[]
-PressurePulseValue=D[0]*[bar]
-PressurePulseDuration=D[0]*[s]
-PressurePulseRelative=B[0]*[]
-PressurePulseActive=B[0]*[]
-PressureActionId=L[0]*[]
-ModulationStopValueBandwidth=L[0]*[]
-
-[DataSet\Parameters\SPMSystem]
-SubSectionCount=0
-AOut0=D[0]*[V]
-AOut1=D[0]*[V]
-SPMMode=L[2]*[]
-VideoFPSControlValueMin=D[1.5]*[]
-VideoFPSControlWindowSize=L[5]*[]
-VideoTopLight=D[100]*[%]
-VideoSideLight=D[100]*[%]
-VideoTopBrightness=D[80]*[]
-VideoSideBrightness=D[80]*[]
-VideoTopContrast=D[70]*[]
-VideoSideContrast=D[70]*[]
-FlexVideoTopExpTime=L[60]*[]
-FlexVideoSideExpTime=L[60]*[]
-FlexVideoTopGain=L[12]*[]
-FlexVideoSideGain=L[8]*[]
-FlexVideoTopADCLevel=L[2]*[]
-FlexVideoSideADCLevel=L[2]*[]
-FlexVideoTopRatioR=D[1]*[]
-FlexVideoSideRatioR=D[1]*[]
-FlexVideoTopRatioG=D[1]*[]
-FlexVideoSideRatioG=D[1]*[]
-FlexVideoTopRatioB=D[1]*[]
-FlexVideoSideRatioB=D[1]*[]
-FlexVideoTopRatioGamma=D[1]*[]
-FlexVideoSideRatioGamma=D[1]*[]
-FlexVideoTopAutoLevels=B[1]*[]
-FlexVideoSideAutoLevels=B[1]*[]
-FlexVideoTopPositionMarkerX=D[0]*[]
-FlexVideoSidePositionMarkerX=D[0]*[]
-FlexVideoTopPositionMarkerY=D[0]*[]
-FlexVideoSidePositionMarkerY=D[0]*[]
-HighResVideoTopExpTime=L[60]*[]
-HighResVideoSideExpTime=L[60]*[]
-HighResVideoTopGain=L[30]*[]
-HighResVideoSideGain=L[8]*[]
-HighResVideoSideADCLevel=L[2]*[]
-HighResVideoTopRatioR=D[1]*[]
-HighResVideoSideRatioR=D[1]*[]
-HighResVideoTopRatioG=D[0.8]*[]
-HighResVideoSideRatioG=D[1]*[]
-HighResVideoTopRatioB=D[0.8]*[]
-HighResVideoSideRatioB=D[1]*[]
-HighResVideoTopRatioGamma=D[0.9]*[]
-HighResVideoSideRatioGamma=D[1]*[]
-HighResVideoTopAutoLevels=B[1]*[]
-HighResVideoSideAutoLevels=B[1]*[]
-HighResVideoTopADCLevel=L[2]*[]
-HighResVideoTopPositionMarkerX=D[0]*[]
-HighResVideoSidePositionMarkerX=D[0]*[]
-HighResVideoTopPositionMarkerY=D[0]*[]
-HighResVideoSidePositionMarkerY=D[0]*[]
-ImSoVideoTVConfiguration=S[<device_state libver="3.4" filemajor="1" fileminor="0">    <device>        <vcdpropertyitems>            <item guid="{284C0E06-010B-45BF-8291-09D90A459B28}" name="Brightness">                <element guid="{B57D3000-0AC6-4819-A609-272A33140ACA}" name="Value">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E03}" value="0" />                </element>            </item>            <item guid="{284C0E07-010B-45BF-8291-09D90A459B28}" name="Contrast">                <element guid="{B57D3000-0AC6-4819-A609-272A33140ACA}" name="Value">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E03}" value="0" />                </element>            </item>            <item guid="{284C0E08-010B-45BF-8291-09D90A459B28}" name="Hue">                <element guid="{B57D3000-0AC6-4819-A609-272A33140ACA}" name="Value">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E03}" value="0" />                </element>            </item>            <item guid="{284C0E09-010B-45BF-8291-09D90A459B28}" name="Saturation">                <element guid="{B57D3000-0AC6-4819-A609-272A33140ACA}" name="Value">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E03}" value="43" />                </element>            </item>            <item guid="{284C0E0A-010B-45BF-8291-09D90A459B28}" name="Sharpness">                <element guid="{B57D3000-0AC6-4819-A609-272A33140ACA}" name="Value">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E03}" value="2" />                </element>            </item>            <item guid="{284C0E0B-010B-45BF-8291-09D90A459B28}" name="Gamma">                <element guid="{B57D3000-0AC6-4819-A609-272A33140ACA}" name="Value">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E03}" value="100" />                </element>            </item>            <item guid="{284C0E0D-010B-45BF-8291-09D90A459B28}" name="WhiteBalance">                <element guid="{B57D3001-0AC6-4819-A609-272A33140ACA}" name="Auto">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E04}" value="1" />                </element>                <element guid="{AB98F78D-18A6-4EB2-A556-C11010EC9DF7}" name="WhiteBalance Mode">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E06}" value="0" />                </element>            </item>            <item guid="{284C0E0F-010B-45BF-8291-09D90A459B28}" name="Gain">                <element guid="{B57D3001-0AC6-4819-A609-272A33140ACA}" name="Auto">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E04}" value="0" />                </element>                <element guid="{B57D3000-0AC6-4819-A609-272A33140ACA}" name="Value">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E03}" value="12" />                </element>            </item>            <item guid="{90D5702E-E43B-4366-AAEB-7A7A10B448B4}" name="Exposure">                <element guid="{B57D3001-0AC6-4819-A609-272A33140ACA}" name="Auto">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E04}" value="0" />                </element>                <element guid="{B57D3000-0AC6-4819-A609-272A33140ACA}" name="Value">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E08}" value="3.11999999999999985678122982335e-02" />                </element>                <element guid="{65190390-1AD8-4E91-9021-66D64090CC85}" name="Auto">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E04}" value="1" />                </element>                <element guid="{6519038C-1AD8-4E91-9021-66D64090CC85}" name="Auto Reference">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E03}" value="128" />                </element>            </item>            <item guid="{90D57031-E43B-4366-AAEB-7A7A10B448B4}" name="Trigger">                <element guid="{B57D3000-0AC6-4819-A609-272A33140ACA}" name="Enable">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E04}" value="0" />                </element>            </item>            <item guid="{C3C9944A-E6F6-4E25-A0BE-53C066AB65D8}" name="Denoise">                <element guid="{B57D3000-0AC6-4819-A609-272A33140ACA}" name="Value">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E03}" value="0" />                </element>            </item>            <item guid="{86D89D69-9880-4618-9BF6-DED5E8383449}" name="GPIO">                <element guid="{7D006621-761D-4B88-9C5F-8B906857A501}" name="GP Out">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E03}" value="0" />                </element>            </item>            <item guid="{3A3A8F77-6440-46CC-940A-8752B02E6C29}" name="Color Enhancement">                <element guid="{B57D3000-0AC6-4819-A609-272A33140ACA}" name="Enable">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E04}" value="1" />                </element>            </item>            <item guid="{546541AD-C815-4D82-AFA9-9D59AF9F399E}" name="Highlight reduction">                <element guid="{B57D3000-0AC6-4819-A609-272A33140ACA}" name="Enable">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E04}" value="1" />                </element>            </item>            <item guid="{2CED6FD6-AB4D-4C74-904C-D682E53B9CC5}" name="Partial scan">                <element guid="{36EAA683-3321-44BE-9D73-E1FD4C3FDB87}" name="Auto-center">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E04}" value="1" />                </element>            </item>            <item guid="{DC320EDE-DF2E-4A90-B926-71417C71C57C}" name="Strobe">                <element guid="{B57D3000-0AC6-4819-A609-272A33140ACA}" name="Enable">                    <itf guid="{99B44940-BFE1-4083-ADA1-BE703F4B8E04}" value="0" />                </element>            </item>        </vcdpropertyitems>    </device></device_state>]*[]
-ImSoVideoSVConfiguration=S[]*[]
-ActiveSensorByGUID=S[{ED5A15E6-D3B0-4e64-8C50-809335D3E143}]*[]
-MeasEnv=L[0]*[]
-SystemStateIdleZAxisMode=L[0]*[]
-SystemStateIdleMixOut4Mode=L[3]*[]
-SystemStateIdleXYAxisMode=L[0]*[]
-SystemStateIdleZAxisValue=D[0]*[m]
-SndOpModeEnabled=B[0]*[]
-SndOpMode=L[0]*[]
-ZClosedLoopMode=L[0]*[]
-ZClosedLoopSpeed=D[1000]*[]
-XYClosedLoopEnabled=B[0]*[]
-XYClosedLoopSpeed=D[1000]*[]
-
-[DataSet\Parameters\Stage]
-SubSectionCount=0
-
-[DataSet-0:0]
-Version=2
-Points=128
-Lines=128
-Frame=Scan forward
-CurLine=127
-Dim0Name=X*
-Dim0Unit=m
-Dim0Range=3e-06
-Dim0Min=0
-Dim1Name=Y*
-Dim1Unit=m
-Dim1Range=3e-06
-Dim1Min=0
-Dim2Name=Deflection
-Dim2Unit=V
-Dim2Range=20
-Dim2Min=-10
-SaveMode=Binary
-SaveBits=16
-SaveSign=Signed
-SaveOrder=Intel
-
-[DataSet-0:1]
-Version=2
-Points=128
-Lines=128
-Frame=Scan forward
-CurLine=127
-Dim0Name=X*
-Dim0Unit=m
-Dim0Range=3e-06
-Dim0Min=0
-Dim1Name=Y*
-Dim1Unit=m
-Dim1Range=3e-06
-Dim1Min=0
-Dim2Name=Z-Axis
-Dim2Unit=m
-Dim2Range=1.42e-05
-Dim2Min=-7.1e-06
-SaveMode=Binary
-SaveBits=16
-SaveSign=Signed
-SaveOrder=Intel
-
-[DataSet-1:0]
-Version=2
-Points=128
-Lines=128
-Frame=Scan backward
-CurLine=127
-Dim0Unit=m
-Dim0Range=3e-06
-Dim0Min=0
-Dim1Unit=m
-Dim1Range=3e-06
-Dim1Min=0
-Dim2Name=Deflection
-Dim2Unit=V
-Dim2Range=20
-Dim2Min=-10
-SaveMode=Binary
-SaveBits=16
-SaveSign=Signed
-SaveOrder=Intel
-
-[DataSet-1:1]
-Version=2
-Points=128
-Lines=128
-Frame=Scan backward
-CurLine=127
-Dim0Unit=m
-Dim0Range=3e-06
-Dim0Min=0
-Dim1Unit=m
-Dim1Range=3e-06
-Dim1Min=0
-Dim2Name=Z-Axis
-Dim2Unit=m
-Dim2Range=1.42e-05
-Dim2Min=-7.1e-06
-SaveMode=Binary
-SaveBits=16
-SaveSign=Signed
-SaveOrder=Intel
-
-[SetView]
-ViewWidth=638
-ViewHeight=526
-ViewCount=4
-View0=SetView-View0
-View1=SetView-View1
-View2=SetView-View2
-View3=SetView-View3
-
-[SetView-View0]
-ViewTyp=1
-LineOp=2
-Channel=1
-Frame=0
-ViewSize=256
-ViewMode=0
-GraphMode=1
-AspectRatio=0
-AutoZRange=1
-ZRange=-23,45
-ParCount=6
-Par0=1,Shading,0
-Par1=1,DeltaGain,5
-Par2=1,Smooth,0
-Par3=1,DriverInstanceNo,0
-Par4=1,RangeMin,0
-Par5=1,RangeMax,95
-
-[SetView-View1]
-ViewTyp=0
-LineOp=2
-Channel=1
-Frame=0
-ViewSize=256
-ViewMode=0
-GraphMode=1
-AspectRatio=0
-AutoZRange=1
-ZRange=-34,59
-ParCount=3
-Par0=0,ReverseLine,1
-Par1=0,XAxisMin,0
-Par2=0,XAxisMax,3e-06
-
-[SetView-View2]
-ViewTyp=1
-LineOp=2
-Channel=0
-Frame=0
-ViewSize=256
-ViewMode=0
-GraphMode=1
-AspectRatio=0
-AutoZRange=1
-ZRange=-11,8
-ParCount=6
-Par0=1,Shading,0
-Par1=1,DeltaGain,5
-Par2=1,Smooth,0
-Par3=1,DriverInstanceNo,0
-Par4=1,RangeMin,0
-Par5=1,RangeMax,95
-
-[SetView-View3]
-ViewTyp=0
-LineOp=1
-Channel=0
-Frame=0
-ViewSize=256
-ViewMode=0
-GraphMode=1
-AspectRatio=0
-AutoZRange=1
-ZRange=-12,10
-ParCount=3
-Par0=0,ReverseLine,1
-Par1=0,XAxisMin,0
-Par2=0,XAxisMax,3e-06
-
-[ProcessorSet]
-ProcessorCount=0
-
-
-#!	
-
-
-
-
-
-
-
-	
-
-
-
-
-
-		
-	
-
-		
-
-
-
-
-
-
-
-
-
-			
-
-
-	
-	
-
-
-
-
-		
-	
-	
-	
-	
-	
-
-
-
-
-
-
-
-
-
-	
-		
-				
-
-
-
-
-
-
-
-
-
-			
-	
-
-	
-
-
-
-	
-		
-	
-		
-
-	
-
-
-		
-
-
-
-	
-
-	
-	
-
-
-
-	
-
-
-	
-
-
-		
-
-
-
-
-	
-	
-
-
-
-
-
-
-
-	
-
-
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	
-	
-
-	
-
-
-		
-
-	
-
-
-
-
-	
-	
-
-
-
-
-	
-		
-
-
-
-		
-
-
-
-
-
-	
-
-			
-
-
-		
-
-
-	
-	
-
-
-	
-
-		
-
-		
-
-
-
-	
-
-	
-
-		
-
-		
-
-	
-		
-
-				
-	
-
-
-
-
-
-			
-	
-
-
-
-		
-	
-
-	
-
-	
-		
-
-
-
-
-
-
-
-	
-	
-
-		
-
-	
-	
-	
-		
-	
-
-	
-
-
-
-
-	
-
-	
-
-
-	
-
-				
-	
-	
-
-	
-
-
-	
-
-				
-
-
-
-	
-	
-
-
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	
-
-
-	
-		
-
-
-
-
-
-
-
-
-
-
-	
-
-			
-
-				
-	
-	
-	
-	
-
-
-	
-	
-		
-
-
-
-
-
-
-
-
-
-
-	
-
-
-
-	
-
-
-
-
-	
-	
-
-
-
-
-
-
-
-
-	
-
-
-
-
-
-
-	
-
-
-
-
-
-
-	
-
-
-			
-
-
-		
-					
-				
-	
-
-
-	
-
-		
-	
-		
-
-
-	
-
-					
-	
-	
-
-
-		
-
-
-	
-
-
-
-	
-
-
-
-
-	
-
-
-
-		
-	
-			
-	
-
-
-
-		
-
-
-
-
-		
-			
-			
-
-
-
-
-
-
-	
-					
-
-
-
-
-
-
-
-
-
-
-	
-		
-		
-
-
-				
-
-
-
-
-
-	
-
-	 
-	
-		
-		
-	
-
-
-	
-
-		
-	
-		
-
-			
-							
-	
-			
-		
-	
-
-
-	
-	
-			
-			
-
-
-	
-
-	
-
-
-
-	
-	
-
-			
-	
-
-
-		
-				
-	
-		
-						
-
-	
-		
-
-
-	
-
-
-
-		
-
-
-
-
-	
-		
-
-
-
-
-
-
-
-	
-	
-	
-
-	
-	
-
-	
-
-
-		
-
-
-
-
-		
-
-
-	
-
-	
-					
-	
-		
-
-
-	
-	
-	
-
-	
-
-	
-
-
-	
-
-	
-
-
-	
-	
-
-
-
-
-
-	
-
-	
-
-	
-
-	
-
-
-
-		
-	
-		
-	
-
-		
-	
-	
-	
-	
-		
-	
-
-	
-	
-
-
-		
-	
-
-
-
-
-
-
-
-
-
-
-
-
-		
-		
-
-
-
-
-
-
-	
-
-
-			
-
-	
-
-
-
-
-		
-
-
-	
-		
-	
-
-		
-
-
-
-	
-
-	
-
-
-
-		
-
-
-
-
-	
-
-
-
-
-	
-				
-	
-
-		
-	
-			
-
-
-	
-
-	
-		
-	
-
-
-
-	
-
-	
-				
-
-
-	
-
-	
-
-			
-
-	 			
-		
-
-
-			
-
-
-
-			
-
-		
-
-
-	
-	
-
-		
-
-		
-
-		
-	
-
-
-
-	
-
-
-
-	
-
-
-	
-
-
-	
-
-
-
-		
-		
-
-
-	
-
-
-
-	
-
-
-			
-
-	
-
-		
-
-
-	
-
-
-	
-
-
-
-
-
-	
-
-
-
-	
-
-
-
-	
-
-
-
-
-	
-	
-
-		
-
-
-	
-
-	
-	
-
-	
-
-		
-		
-	
-
-	
-
-
-	
-
-	
-
-
-	
-	
-		
-					
-
-			
-
-
-				
-
-
-
-
-
-	
-
-
-	
-	
-
-
-
-
-	
-	
-		
-	
-	
-	
-
-
-			
-
-
-
-	
-
-
-
-	
-
-
-
-
-	
-		
-	
-
-		
-
-				
-	
-	
-
-
-
-
-
-
-
-	
-	
-		
-	
-				
-
-
-
-
-			
-
-
-
-	
-			
-
-	
-
-		
-
-
-
-		
-
-
-
-	
-
-	
-				
-	
-
-
-	
-
-
-
-
-		
-
-		
-	
-
-	
-	
-		
-	
-	
-
-	
-
-	
-
-		
-	
-
-
-			
-		
-
-		
-
-
-
-		
-
-
-
-
-
-
-
-
-		
-
-		
-	
-
-
-	
-
-
-
-
-			
-				
-
-	
-	
-	
-							
-
-	
-
-
-
-
-
-
-
-	
-
-
-			
-
-
-		
-
-
-
-	
-
-
-	
-		
-	
-
-	
-	
-
-
-
-
-			
-	
-	
-
-		
-			
-
-
-
-
-
-	
-	
-
-		
-
-
-
-
-
-
-		
-
-
-		
-	
-		
-
-
-
-	
-	
-				
-	
-
-
-	
-
-
-	
-	
-
-
-
-	
-	
-
-
-	
-		
-		
-
-	
-	
-
-
-
-		
-
-	
-
-
-
-
-	
-	
-		
-	
-	
-		
-
-		
-
-
-
-	
-
-
-
-	
-
-
-
-		
-
-
-		
-
-	
-
-
-
-
-
-
-
-	
-
-
-
-
-	
-
-
-		
-
-
-
-
-		
-
-	
-		
-
-
-
-
-
-
-
-	
-
-
-
-
-
-
-
-
-		
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-		
-
-
-	
-
-	
-
-	
-				
-
-
-
-	
-	
-		
-
-
-
-	
-	
-
-	
-
-
-
-
-
-
-	
-
-
-
-		
-
-
-	
-
-	
-
-
-
-
-	
-	
-						
-
-	
-			
-	
-
-
-
-
-
-
-
-
-				
-
-	
-		
-	
-						
-	
-	
-
-
-
-
-
-
-			
-
-	
-					
-
-			
-	
-
-
-	
-
-
-
-	
-
-
-
-
-
-	
-			
-
-		
-			
-
-	
-	
-
-	
-				
-					
-
-		
-
-
-		
-
-	
-
-
-	
-
-
-
-
-
-
-
-			
-
-
-
-		
-		
-		
-		
-	
-
-	
-
-
-
-	
-	
-
-
-	
-
-
-
-
-		
-
-
-	
-	
-
-		
-
-
-
-	
-	
-	
-
-
-
-
-
-
-
-	
-
-
-		
-	
-	
-	
-
-
-
-
-
-
-
-
-
-	
-
-
-
-
-
-			
-	
-		
-
-	
-
-
-	
-
-	
-
-	
-
-	
-	
-
-
-
-
-		
-
-
-
-	
-
-
-	
-	
-		
-
-
-	
-
-
-
-
-	
-
-
-
-
-
-		
-
-
-		
-	
-			
-
-	
-
- 
-	
-
-
-					
-
-	
-
-
-	
-
-		
-
-
-
-
-
-
-
-	
-
-
-	
-		
-	
-
-	
-	
-
-
-					
-
-	
-	
-
-
-
-
-
-		
-
-
-
-	
-
-
-
-
-		
-
-	
- 		
-	
-
-
-
-
-
-		
-
-	
-
-
-
-
-
-	
-
-
-
-
-
-
-	
-
-
-	
-	
-				
-
-
-
-
-	
-
-
-	
-
-
-
-
-
-			
-
-
-
-
-
-
-
-
-
-			
-
-		
-	
-
-
-
-	
-
-
-		
-
-	
-
-
-			
-
-
-		
-
-
-
-
-
-
-
-
-		
-
-
-	
-
-
-		
-
-	
-
-	
-
-	
-			
-
-
-
-	
-
-
-
-
-	
-
-	
-
-
-
-	
-	
-
-		
-	
-
-
-	
-
-
-	
-
-	
-
-
-	
-	
-
-
-
-
-
-
-
-
-					
-
-	
-
-			
-
-
-
-		
-
-		
-
-
-
-		
-
-
-
-	
-	
-
-	
-
-
-
-
-
-
-
-
-
-	
-
-
-
-
-
-
-^iseac\HMdjXQarm]but`btwlqyzxwy{€yu„‰s{……“ƒŠ‹—‡•““šš•›¥ •›§¢¡¨¤¢¨§©«©´¸°¶»¶·¼ÁÂ½»ÄÆÂÆÊÇÊÊÈÎÏÎÒÔÑÒØÚ××ŞÚÚßããäßäéåéğîíæîşòZ`epl`X[e`Q[je_gqlelrqtrqwzps}~qt†rŠ„‰˜“Œ’–““˜“™ ˜˜›™™¡¡™œ¦¤¡¢¦¨«¦¨¹Â·¯ºº¸·¼Å¾¸ÄÍÀ¼ÌÎÂÇÏÈËÓÎÍ×ÖÑÖÜÕÕÛÜİÚŞàæêàáìíééïöïíõúh`bXS[^Y]eddhiiilrspoty}‹}|{z€|„‰”’‘œŸ”“Œ—œ•˜™œª«¥œ›Ÿ¢£Ÿ¢¦©§¨­¬®²²¹Á¿·¹½¼¼ÁÆÁÀÆÉÅÉÌÉÊÍÍÏÒÑĞÓÚÕÒßß×ŞàÛàèàÛåíæäìğñííóöôööcRQYVR\bdd`gnchqgluiozpnšŒ€†€o~ˆxw‹‚}’‰”‘Œ–”¡§•—•œ¯« ¡ š— §¢¡£Ÿ£§ª¬¯ªª¸¼µ¹Ã¼³¼Ã¾ÃÇÃÆÆÅÉÎÑÊÉÏĞÑÓÕØÖÔÙàÜÖáäÚáêâİéíãçöíêøøïóú÷÷]RMQVU\cdhidhkkmpsomyvx‰••…€~€~†‡…’‹ŒŒ“‹—¡™– ›”¤¤–§Ÿ¡¨§£¥¥¨¨¦©®¯¬­·±¯¸½¹¹¿¼½ÄÀÄÊÅÀÍØÉÆÕÓÉÒİÚÑÖßÜÚÙŞæŞİææãéíèéğéêúôğıÿóñ  VWLOZXV[cchjijnnnstryyu{Š†€„…ƒ„‡‹Š†ƒŒ”Œ—“‹”–—™œš £™™¦¢œ¡¦¦¥¥«¬¦§«¬®¬«°³·´¸¼ººÃÃ¿ÄÉÇÆËÍÌĞÒÊÍÙÔÑÔØÚÙ×İŞÜİŞââãäçêèéïğñóõ÷ôøöõıTQMV_[[\`cjjjmnuxpnqz~tq}}wzƒ‚‚ƒ†‹ˆ†Š”‹“’– œ’™ £Ÿ›£«¡¢­¨¥¨©«®±°­´µ°´¸»ÀÀºÀÈÆÅÄÉÊÇÉÎÑĞÏÑÕÓÖ×ÖÙÛÚÚÚŞãâÜãéèæêííìëñ÷õìõ  öğş øQLSRSdsqlokejxxtxuptuwwvwxy~~{~„†„~ˆŒ……‹‰—’Œ–š”“—¢¢£¨­­¦¤¦¨¥§«¬«¯­­¶·¯¶»¹¸»ÀÃÁÁÃÄÆÉÉÈÉÌÏÏÑÖÔÑ×İØÓİİÖÜáİàæãâèëêéïğíğîğ÷ôôùûøJNJ\cf|‘‚ehmihpwpmyznwƒ|u}†~{ƒ†„ˆ‹‹ˆŒ“‹‰’•’›—–šœš £ ¥¥¤«§¤ª®«®¶¯ª¯³±²²±¶¾º´¿ÃÁÃÆÅÆÇÉÌÒĞÌÏÕÓÓÙÛ×Ô×ßãÛÚçéÙİïîàèñíîòïñ÷îîûüôúÿùù[SWUYz„}ukmpqrorxuw|~}z{‚€‚ŠŠ…Œ’˜››–“’–—˜ š¨ª¤¨«¦ª¨¦«¬£«¹¯¬¯³³µµ±³»¼¹½¼¾ÉÇÁÉËÆÌÏÎÍÑÓÑÔÜÖÔÜÜÚŞáãàäåèíèçïğîïô÷ôõóùıøúıúş  _UYXXqznjoooyxsswvv|‚}x|ƒ‰†„ƒ…†‹‹™©«§œ˜™–—Ÿ ›¡§£¡¥««§©¨£§®ª¯´³²³³·¹³·¾À¾À¿ÀÇÆÃÆÎÍÉËÎÑÕÓĞØØØØÙŞâàßŞãçæéêãéğîîîóóó÷ø÷ûı÷ı ıû \WW[]`bdljfpwstw{}yz||„‹„~†Œ‹Œ“—˜£ª¬¡™› ¢¤¤£¢Ÿ¤§¡¡¦¥©¬¥©µ²ª±µ®³½¶«¹¾´¹ÊÈÃÃÁÆÌÆÇÌÈÇĞÖĞÓÙÕÕÛ××ßáÜßææßãìèæìííîíğ÷ôñùÿöô   ÷ı ş  WWSac\epkimrqtwyz|yy€}x‡‚…‹ˆ…™•”–‘›•™¥Ÿ•ªÁ¹´³¯¥¤¦¥¦¦¦¬°®°±®­¯¹¼µ»¿¶·ÁËÑÔÚÍÊÌÎÍÏÎĞÔÕÒÖÛÜÛÙİŞÜÜåèæããèêëíñîîñôõõôøø÷úş  ıöş  ı   [_Z]b`fnmkmqsuz|€|~ˆ…x‰…~…‘‹•›—Œ™˜Œ—«­´Ä×Ë¥£´¬§«¤¤«±®¨¯´±ªµÂ´«º¾´½ÏŞàŞÒËÆÉÊÏÒÌËÓÖÕÖØÙÚÚÛàáââáæçåêéëîíïñòóóõúöôüü÷üşûş     	 YY\ie^jrmmrpxyu€…ƒ„Š‹~‚“ƒ›–‹›—Œ’›˜“”¥ÅÊÉÃ­Ÿ±·¤ ®­ ¨¸¯¨±³³º¸³·¼¶²»ÌÌÊÛÚÊÌÎËËÑÒÌÔãÖÊÙäİØÛáâßâçêææèîêêóöğíóúöòùÿùõÿ ÿø    ı   b\aebdmlkpqs}t{‚{~‹‡„Œ‘‰‰œ›‰™œ’Š’Ÿ––  ˜š­Áºª«°©š¥µ«¡­º´¦«¸º´´¹ºº¶¿É¿¼ÉÓÖÑÍÓÌËĞÏÓÖÒ×ÙÕ×İŞŞàßáààèéââííãíùíèüòìø ø÷ÿøü
-  ÷      
-   hgd[gymblvsq|‚yzƒ…†„‡ˆ—Š”Œ””–šššŸœ¤ª¦£ª¬¨¦«®¬¬³´°²µ´±³¼¼·ºÀÁÁÅÊÉËÙ×ÉÏÖËÊÒ×ÕÒÖÚÛÕ×àßÓØéäÚåìäàéîëíïîïóõô÷ûû÷ø     û  ş     `]X`gggmtslu|}{~„{‹‡…ŠŒ‹‰““”—”–˜šœ¡¡›¢ª£¢ªª¨®­¬°¬ª±¶±°º»±²¾Á¶·ÀÅ¿ÂÍÊËÕÓÃËÜÔÌÏÚÚÑÔààÚ×Şæäáäìéäçòïèîñìòùóîóÿøñü      ş  
-    
-  b_]cinjgrrrz{~†ƒ‚„ˆ‹‡…‰ŒŒ’‘‰– ‘–¢¢œ¤¦¥¡œ²´¤¨±®¬°±°°²±¶½¸´¿Â¸»½ÀÈÄ»ÃĞÍÆÍÒÍÍÏÔ×ÕÓ×ßÚ×àåààäçéêëíğëíôòîöûğğûÿüúú  û  	  ÿ   ÿ  b^akfjpotxw}€„™¤‹‰‹‚€’˜ŒŒ˜—–  ––¡¤œŸ¤¢¢¡¢¦©«¥¤¬­«±±«²´­²º¹··¼½½¾ÃÆÁ¼ÉÏÄÅÑÏÉÉÒÜ×ËÕãÛÒÜèßÓâïåãçèíîéìğöğéôû÷øüüıüü   ı  	 	      kecdlsmeoyv~Œª­œŠŠˆ‹’—•–™—–Ÿ—¡¤›£¨Ÿ¦­¨¤©¬©¬±­­µº³³·¸º¹ºÅÃ»¼ÈÆ½ÉÜÒÌÕÓÓÙÕÕÛØÖáäÜàãáäêæãëîæëòîïõôñöúùùışü         
- 	     	   ghgplfs{x{ywƒ“¢¨¦›‘”““˜œŸ——Ÿ¤¥¡¢¦¨©¨¥¨¬­®®°±±±·½»·¶¶µ¹ÁÃ½ÁÅ¾¼ÁÉËÕáßÏÑÔÙÚÔÕÕÖÜåâŞÜÛáëíæâèèæñõííòïóıÿùöûùı
-  û         
-     pjijotzytw‚†‡˜”–—”””••™Ÿš›œš›£Ÿœ§ÂÊÆ¼³¬©¯±¯´¶³±µ¸Á»¹¿½¸»ÂÈ¾·ÄÇÃÅÉÄÃßìèÜŞØÔÚŞŞááßââãêìæèêêïõòğôôğ÷ı÷ş ÷÷         
-           rnken{ztz€ƒƒ‡‹ˆ‰•—––•••˜¤£š—Ÿ¥Ÿ™££³ÍÌÌÇ·ª«¯¯®±³¯´´®·¾¼¼¼¹¾ÀÂÄÇÅÇÉËÄÄÏİãæÙĞØİÛØÙáãßáæçæäéëåëğíïññòñóúı÷øÿşúş  û    
-           msiitzx|~~ƒŠŒˆˆˆ˜›››˜  Ÿ¢¡Ÿ¢¢¤¨¨´ÆÊÊ¼²¯·¾¾³µÀ¿µ¶½¼¸¸¼¿¾½»ÂÍÊ¿ÁÈÍËÈËÔÙÛİÚÚÚÜßÛßãßáçèéçèîïïîìóùòï÷ûúüü   üş 	    
-  	             uqpuusy†xƒ‰‡‡‹‹™œ–—šŸšŸœœ¡Ÿ¢¥£©§­´®«¬´º±°¹¾µ°½Ç»³ÀÂ¿ÄÄÀÄÏÍÃÊÖÍÇÑÕÏÓÛÕÕİÜ×ÜâŞàéæŞéòğççîïòõïíùùóó   úû       
-    
-             ttvvv~‚‡}ŠŠ‡‘‘‡“¢™•¤œ›®¦– ª¥£¢ª´§¡¯¶¬ª¶¾¶²´ºÁ½µ¾ÍÃ¼ÈÍÌÉËÇËÎÊÉÑĞÇĞ×Í×á×ÙŞİÜâæäâéëíîëî÷ïì÷öõøøúüûıÿ    	   	   
-                nj|Šqr˜‘o‚¡‹z“œ‹—•š• œ™›Ÿ¡¥©¨¤¤¢¬·­©º»µ¹·®³¾½³·Å¿¹ÁÉÃ¹ÇÒÃÀĞÏÇĞÔÌÍÓÕÑÚçßØÜáİŞæåçççèíîêëöñéôûõ÷şüûü        
- 
- 
- 
-            #   " "  zqz}|ƒƒ…‡‰•›™›˜››–˜¥¥¥©©¦ ¥¬¨¤­±«¤²¿º²ººµµ¶½Á¾¾ÃÇÇÃÂÈÈÅÉÊÍĞÌÏÕÖÏËÔÙÖÜååÜÖáíãÙäòğåâïöëêø÷îòÿıöı ıı   ø         	      !    ! "   & % }xw{ƒ‡}Š’~‘š•˜•‘”Ÿ —š ºÇ¾¯±©¨³­¦¤®³ª®µ²´¾½µºÁ½ÀÆÇÃÂÆÎÊÉËÏËÄÎØÖÒØÖĞÖÚ×ØŞßáæâßççäëíìíñîğõôõò÷ş÷õû  ûø       
-               ! ) #  $ x{zz†ˆ†‰†‡•—‰Ÿš’— ¢¯ÃÈÄ°«¯®¬¨ª°°±¶±°¹¹µ¶º¼¸¿ÆÅÂÄÆÍÌÂÍØÌ½ÎÓÊÎÖÖÌÏØÖÕØŞáßİâåãäçèçêìêìñïïôö÷öõö   şş     
-    
- 
-         !        ! ( $ ~{z{„‡Š‡‹“š•˜šœœ¢¢¡¬½¿²¦¯±ª­±®«®»¿¼º¼¼¼ÂÇÃ¾ÀÂÁÅÌÈÇĞÏÊÏÍÈÎÌÉÑÒÌËÖ×ÌÖßÜİŞØäîßßìèáï÷èèôñïöóõÿúó   ÿ            
-         %    #   ( ' }„ƒ‡‡‡†œ’” ›œ¤ œ§­¯±¤¤®­©¬­²³®²¼Å»°¼Æ¹¶ÂËÆ¼¿ÅËÈ½ËßÎÄÒÚÍÍÒÔÖÒĞÚã×Óáéİ×èíäáèñóäçúõêòüôğûÿù  şü	  û  ÿ                   #   " ' & ! " wŒ§“{‘œ‹ƒ•™‘‹£¶•…µºŸÁ¬“®´¦±²¥¯º³¯·»¸µ²ÄÎº°ÍÒ¼»ÔÎ¾ÍÜÔÍÍÒÕÕÑÎÒÕÖØÙÖÕİØÙäàâêåãìöéßöÿáê øàù ÷è   ÿı ı             
-  '    # !   '    / !  “…¡Ÿ–˜’™–˜œœ¥¦’¢µ–±´œ¸µ¢®º³¯µ¸º¶«±ÄÀ³»ÉÉÂÄÅÅÊÆÄÍÏËĞÓÍÑŞ×ÄÓçİÏØçæ×ÒçôßÔï÷åäîòóòèî üÛ÷ öä     üş
-  øÿ  ó                  * "  % 7 #  €–Œ‰˜˜‰‡›¡™“•§£œ¨§—š§Ÿ¡³®˜¦»­©¸¸«±¾º·¸¸¾Â½ÂËÅÁÅÈÄËÑÉÊÓĞÍÔËĞãİÏØâßÒÖåŞÓàëìäâööæåõõííïôúñï  ú÷  ÿ 	           
-            ! % ' # ( . ' ‹z‰‰ƒ‘‘’’Ÿ·³±®£¡¥¦¥¨ª£§³­§°±§°»°®µº¹¶¶½Â¿ºÊÊÀÇĞÍÂÈÌÍĞËÌÓÏÈÕÜÖÑÜÛÌÙãØÚáàäéæâìğçéôõéòúîñıø÷ù  ÷ÿ  ÿ  	                   " #  # ) ! # - + # ˆ†~‚‹‡‡–—™²ÁÂ¹¦¤¡¥©ª©©®®­¬«¬°°®´²¯·¿½»»¼ÂÈ»ÃİÔÎËÊÆÊÕÈÊĞÑÎÒÙÓÕà×ÕßŞÛİŞÜãéèëìæë÷ìéüøèóùô÷ıøø  ú 
-     
-      
-           '   , '  ) -  % 3 ‚‚ˆˆŒ—Ÿ•©ÄÂ®¦¬¨œ¨º±§¬´³¦ª¹¹±±·¾»°½ÊÁ²ÃØÌ¾ÏáÜÔÏÏÑËÁÕŞËÏŞ×ÏÓÚÙØÜÕ×ãİÕåìãéğæèñğïõôéô  òòşùú şù 	    
-  
-   
-        "   !   % #  # (    0 + % 1 + ŒŠƒ†‘“š™œ£¦¯­£¤¬°°¦­º±¢³Á¬¦ÄË±µĞÃ³¿ÆÄ¼ÀÇÆÃÍ×ØÈÅĞÓÒÒÒÚŞÔËÚŞÕÕÛÖØßŞŞääãìóìè÷öëòøõöõöÿ  ıû  ú      
-              & "  # &  % ( $ ' + ' ) . / 0 ‰††Šˆ…š’’š›œ¤¦¡¥ª¥¤¯¯¨¯¯«³²²º¹¶¼Ã¿¶ÃË¾ÁËÆÀÆÊËÉÈÓÕËÊÓÕÓØÛÔÖååÛßáÛââŞáæèôóğôñìîøùñõùöüÿùû ÿş      	  
-                 ! ) "  ' . $ $ 3 1 " ( 8 ‚{Œ‹‹•”‘ —‘«¨˜¡«¢¡°¬¢«´¬«´·²´·¼¼±·ÊÄ³ÅĞ¿¸ÂÊÊÃÆÌÖÎÂÑÖÇÌ×ÓĞ×ÚÚàâÙŞâßàãêíöøğğğğõğëùıöù üñı   ş     
-   	             ! '   $ )  " . '  , 2 % ) 6 1 ‰†‰ˆ¢ ˜™¢§ ¢«¤¡­¯§ª®«¯²°¶´­´¿¶±¾Âµ¸ÇÃÅÊÃÅÎÌÌÏÔÔÕÖÑÓİØÎÚÛ×Şß×ŞãÜŞåçàãûüîèğüóñüşøö  ÿış  ş    
-  	    	            !  ! # ! # ( + ) + + + . 2 1 2 “ˆˆ‹‘°¥—£¨¡ §ª©¨«²­¬¶º°´¿º¹Ã»¸Á½º¼ÃÂ¾ÅËÇÅÅÊÒÎÌçğßÔÚÖÙá×ÏØääÛŞáßäçååäíùòçïööõ÷óù ÿøş    ş   	  	            % !    " ,   ' ( % , 3 ) # 6 : - 1 ‡Œ”“¢«¦ ¤§©ª¬®©§²µ¨ª·µ¯µ»¹½¾¾½½¼»¿ÆÈËÊÇÊÇÉĞÑÃÌíôğîÜÔ×ÛÕØãÛÕâäÜâãâéíäáöıëêùöó÷ıú÷ş ÿû  şÿ                  !      # . $  0 2  & 9 0 $ 5 8 . 4 8 †Œ’šœœ›–§§¦®µ¥¡±¿·­­³¶´²¾Æ»³ºº»ÄÚíëÏÂĞÒÇÈĞÊËÖßìôâÍÔŞÙÙÛÕÕæêØßìáâòééüùíõıôù ùú  ÿû 
-                       !   & %  * . % " * / , 1 3 * / 9 4 8 > 8 ’‰‘’•š  ›¨±¦¤®®¬¬«´¼±¨¸À²°ÃÄ¶ÀÂ²»ÑãêïÜÈÎÌÅÈÌÌÑÎÊØàÓÆÛâĞÔáàİÜäêäßçëææ  úñÿùóü  üùú  ş 	 	                     "    $ ) ( $ * - & . 6 . - 4 / / = < 6 6 ƒ•›“œ «© §³­¡¯·­²¹µ¹¾¶ºÂº¾ÈÂºÂÄ¼ÙñäÍÕÕÊĞĞÉÍÔĞÒÙÔËÙâÕÖåà×ãåçïêåìçåù
-    ûúùÿúó  ú         
- 
-                 !   , . " ! / 1 . / 2 / 2 3 0 8 > 4 6 D ‘‹“œ’“¢¬«¥®¬¥­¹¼±µµ³¿Á¸¸¼·¾Ä¿¾Ä¿ÄÏĞÊÑÛÓÏÖÑËÔÖÒÜİØŞáŞâãŞåíææìêæíğèíò÷ş  ÷ñû ıøü      	  
-  
-               ! $ $ ! & ) ) ( 0 2 ) / 4 / 1 < 6 0 9 < : = C > š–˜–¤˜¥¬£©²¨®¸µ´½·µ¾¾µ¹Á¾¹ÁÃ½ÊÇ¾ÌÏÆÍÖÑÊÎÑÎÍÓÔÖáàØİßÛáãäééìíêééîòìíûşúúúøıÿÿş          	         !   #   #  ! ' # % * ) ( . 3 / ) 1 3 1 9 6 3 = ? 4 ; G @ = š™“”šœ§£¡¦«¬®³³´¹·¹½¼¹º¼¾ÄÂ½ÃÊÆÇÍÏÇÍÔÏÒÕÌÍÚÔÌÚåàŞâãââæäæéäìğåæòğğìî  ÿ÷  öş
-  ş    	               $   " # ! $ $   ( 1 $ $ 5 0 ) 1 4 0 3 5 8 < = 8 ; C @ ; F “š›¦¡˜¨¯©¨¯´µ²³º¼··½¿¸»ÆÂ¾ÈÍÈËËÍÑÌËÓÏÍÑÑÏİãØÔŞãÜàéÜİèäæïåàêìéñòíó    
-  òş         
-            "    !   "   % (  ! 1 .  , 6 - . 2 0 6 9 0 5 > 8 6 ? B @ B A Ÿ™¥š”¥©©¥¤²¾°¡¹Ëµ¤¼Ç·³ÁÀº¿ÃÊÅ½ÃÉÍÏËÅÅÓÕÂÇÚØÓÜÛÜäãŞäèİÜíğãæğìèèêóóéïüøûÿşøøÿ         	      
-         #   $ # ' )  $ / + ) . + - 1 5 2 4 7 / 4 A < 4 ? C ; C G > §œ­´¨¨±´²²¸ºº½¿¾½ÁÄ¼¼ËÊÃÆÍÄÁĞÓÉÑÛÎÆÒÜ×ÖÖ×ååÚåîİßîêàåçïôåàñûêáùşåë  ìî  îö#  å ,  ò ! ı %  	     $     ( )    ( 6 *  / 8 * - 7 3 5 6 4 : ; 2 7 D C 9 < H E > E G G ¦˜Ÿ¨©¬­­­¯³²¹À¶·Ç¿¹ÈÁ¶ÈÑ½¿İÏ´ÓßÃÇßĞÄÙàĞÖääàåæßéëáìõàáöğãèòóìë÷õíùıíó   ô  üø  ı	    
-    	  #   " *   ) ( " $ # & ) # - 5 ) ' 4 8 / 2 @ . ) G B $ 7 O A 7 D J E E I G H œ›§¨¦©´´®°ÂÂ²±ÈÊ¶¼ÓÊ¹ÇÓÌÆÇÍÖÆÁÕÜÏÏİÕËâîçìğêæâäóğÛæşíŞöıãæıùè÷ÿïïüşöø    	 
-      
-          #     % $ # $ & ) ) ) + 0 . , 2 2 3 : 7 0 9 A 9 6 A B @ ? D E D I D I R E ¨™¤ª¥¦¦±Á­£ÉÎ¯·×Ğº¹ÍÌÁÅÑÓÃÁ×àÇÆİàÓ×İÛŞãäìöôŞÛóïÛâöğßğ òåù ïíûÿóïûÿôô   û          #    "   ! &   " ' % $ " ) ( & . 0 * 0 A 2  > H - , H F 2 < E > D F B I L > H T M D ¤£¡¬­¯³³°¹ÂÇÉÇÊÉÁ»ÉÑÀ¼ÔÖÁÇÙÛÌÈÙàÕÑØãâ×İäæíåßèéãçêêğöóìóıóòşûóúıúıùú	                     "    ! ! # ' $ $ $ - 1 ( ' , 5 < 0 + : : 2 ; D ; 7 ? E D B D B G J H K M E K T ¯ ¡§©ª¹´¬¶¾¾ËÎÄÆÎÉÇËÍËÊÊÊÑÕÉÏİÔÔåŞÕŞßÜàâßàççâéìëñğêó÷êìø÷ôş  ùü ÿş ş 
- 
-      	               " (   * 3    1 2 ( ( / 3 1 1 0 6 ? 7 3 C < 3 G J 9 > I F F H I H L J E T [ ¥¥¥¦«°µµµ´¶ÀÌÁ»ÆÆÃĞÑËÎÎĞÖÕÖ×ÕÔÔÛáàßİÚßéäáêåŞãèññëìõ÷îõ ÷îı    şûşüÿ      
-           # !  # $  $ - '  + . ' , / - / . * 3 6 / 5 = 8 4 9 @ ? ? D B @ G G H N K H R O I T [ O ­®¬¦ª³º´³»½¼ÄÍËÇÊÓÍÂÊÓÎÍ××ØİÕÕßŞÛÜŞáİßæéçáàççàêëë÷öçìøõğùü÷ı üÿ şş                 $    % # ' + " & 5 ) # 5 6 & . = 1 * : 7 . > ; 2 C F ; ? L G = I J C O T K J S R Q W R Q ª¬ª²´°²¶¹»Á¼¿ÍËÅÌĞÏÌÍÌÊÓÒÓÚÖÖÛÛÏÛáİÜßİàçßáêäİëïéî÷êëşõêüùèû
- ûñ  ı                  "   - '  & +  # 0 ( + 4 ( & 9 4 * 6 > 0 0 A ? 1 : B D F C @ J H ? K V N H P M P Y U O X ²®²²ª¶¾²²¿¾½ÁÆÇÊËÈÎ×ÎËÙÚ××ÕÕØßÜÓßæİŞßâèåâëìáæğïìóöğñóñõüôô  úñş üş $ - 0          "   "    # &  " - ' " / / & - 1 + 1 8 1 2 6 4 7 ; 8 9 @ @ ; ? K F A K F F O O J O P L U X V U W ®©±®«»¹­¼È¾¸ÆÊÃÄÊÎĞÑÛş	 øâá×ÒàŞ×ÜãÜÜéæàèèáéîêîğêî÷òğûÿõó şõ  ú  ş 	  , &          !   ' "  & ' $ ) , * ) , - . 3 2 1 1 2 3 : : 5 : ? = > B D B A F J I F J O P K N Y R K ] ] R W ] °­¬±·Å¼µÇÉ¿ÃÅÇÑÏÍÏÔÔı   ôíäŞÛÛæéáâïîäæííòòíîôóğøøñû ÷úÿ  ş  ş 	  ÿ 
-  	           &   " %   ( ,  & 1 ( ' 1 , ) 5 4 . 5 5 , 4 D ; 2 A D 6 @ L E A D E K N H F M P M P X U Q T W ] ] W »²³¶¼ÀºÀÆÅÍÓÌËÓÑÌÕÔÏú    ßÙáâÚãìââèäçòíëòğëñùóíõúóùıùúùÿ şù 	   
- 	         $   !   " #   & "  ' 2 - # ( . . 9 3 # 5 D / 1 D A 4 : F A > C D D G B E O M H L Q S U L N _ ] O Q ^ ^ V ³¶§´Å¹°»ÄÊÎÎÌËÎÎÕÖÉÑì  
- ìÚâáÛâæàßçãÚçîãçñêëöóô şğöı÷øş ş  ÿ   	 ü  
- 	              (    & " " . ( " - 3 ' + 4 2 / ; 6 + 4 = 9 9 @ < ; @ D E F E C G L L L O K L X V Q W V W Z V T b °³¯µ¹¾È¾½ÒÍÆÙ×ÁÆŞÚËÎÚãññŞÜŞİãæÛÚêêİßîğãâóõììû óæş öğ  øş	  ı 
-            !     ! # $  # * ' ' + % ) 4 - ' 7 = 0 , = B 6 7 > @ ; < > D E A F J E H N L L M M Q T X V T Y V T c b T V ¯«·½´»ËÁÂÎÍÈÔÑÇØİĞÖßÑÒãáĞŞëàÖâèæåáäîæŞìïìëîíğöõğøûõû  ÿş ÿ                 $    "  # ) % ! ( . ( % / 8 . $ = < . 8 ? : ; = = = > B E F C C K M H K K J L N O T T P Y _ U T [ [ _ \ \ µ·Àµ³ÄÃÂÊÉÁĞÜÔĞáŞÙß×ÙèäØâïåáìñëçëéëğëîøğëòöõóóôúıøÿ ş       
-                  ( "  * ( ! , - ( * 1 1 / 4 : 7 : ? = = @ < ; C @ D G F B G N N H K O M P O S U V S \ ^ V ] a ] \ \ ^ ¸·¹ºÀÂ¾ÇËÁÈØÒÒØÕÚáãÚÕéäÛêğèèí÷öêéìíò÷şûííøöõ÷ò   ù    	 	      
-             #   $ ( " % ' # * 0 + + 2 . . 7 : 4 6 ; : ; < : < F ? 8 H N @ C M I M M E N V M O T U V U [ ] Y _ ] [ g d X ¼¼»¿ÇÆÃÇÉÈÎÑÏÕÙÑÓàáÓÙèâİäëëèçòöëéøòêş òíöùúüüÿ          
-  
-  	         "   ! )    $ ( $ " * , ( , 3 1 * 0 < 4 - 9 @ 4 9 B = ? D A @ G G F H J F J R I G Q M J V [ R U [ W Z a ^ \ _ c a ] ¶²ºÁºÅË¾ÂÏÕÍÏÛÚÑ×ÚİáÛÖáåÛàñåØêõçæóîéøúòøúô÷    úü    	   ö           "   " (   2 &  # 2 ) % * - 1 , & 6 8 . / ; = 1 9 B = > = = B D > C N C C N N M N P N M U X U U W [ \ Y _ c X V i f T b q ¸±¹ÍÄ½ÇÌÉÏÍÎØÙÓØãİØàçİÛäæèéèêïëèóıîçùüôú øôÿ ıõÿ                  -   # '   ( '  " ) 0 -   # : 4 # . A 9 - 6 > 8 : ? 9 : F B 7 A J A A I I H K M J Q Y O I \ Z O W Z [ _ [ Y a c c ^ c i d ÀºÀÁ¿ÌÈ¿ÔÙÉÍÜÜÙàßÛâìéãèğíííêçëñğêòıøòüıôô  ïô
-  ôş  ÷   ÿ    "    1 !  % ,    % + ) & * - + . 2 ' / : - . @ < . 5 @ ; 4 @ D 8 < B A I I ? K P F F S W K J W Y Q Q W ^ ^ Y Z e a \ h j ` b l k d ¿Â¿Ã¿ÉÓÈÒîÛÉßçÖÖïìÓÛôôáåöóèéø÷èêùûúûû   ú   û                   + -   + .   , 0 $ # . 3 , - / 0 3 4 6 < : 6 6 = ? 9 = F D ; B H G G J J L J N U O M O T X U V U Y a [ ] g _ [ j k Z a p g _ À·ÃÍÅ¿ÌÔÖÜÙØÚØÛáŞââŞåëäåîîëìòîğòîğüûôöÿ            
-   	                $   $ ( ( * ( ' / / . 0 4 3 2 9 : 1 8 > 7 8 > = ? A B C D G G M J I N R M O W U P U Z Z Z ] ] ^ \ a d b d e e i j g g ÈÁÂÅÉÆÉÑÔÕÓÙâÛÙàèäãäçéìğğííğïñòôöõøòğû	    3 .    
-    
-     	         #   " ( % # ) ( # ( 0 0 . + . 6 3 1 8 9 7 8 7 8 @ C > ; E G E I I @ F Q O G J U Z V R O T ^ Z R ` e ] ] ^ c l f b j l h j u s ÌÉÀÀĞÒÈÍ×ÖÚÜÜáãâääçãçîêíññğíòşûòûıöù ÿ   0 6 .   
-                    # ( $ # % & - + ' + / 5 3 + 1 8 5 5 9 ; < ; : @ A @ @ E G F F I K K M L K S V N S ] U S ^ _ W Z g b Y f l d h k e j o n m n t ÑÉÉÈÎÎÏÜÖĞİßÕŞèæãèííìèïøğçõÿóñúû÷øı      ) .        	 	             ) ( ! # . * # / 0 ) - 3 2 . 2 8 3 4 ; 6 < C : < F @ ; G J D C K M I K L M R T P R X V V Z [ \ Z \ \ a g ` ] g j c l o e m t m o w r ĞÉÌÉÏÖÑÔŞŞİÜáåŞîûğêöõïöôïóùòìøÿöô  ı     	             "            ) - * + , + ' / 3 - 1 3 1 9 8 / 3 = = 8 < B E B A G D F I H L F L R G N [ P O X Y Z V \ [ \ a _ Z k n ] a m l g o r m p z n q  x l ÊÃÈÕÕÕÙÙÚŞáÜİèêëôøîğ÷ùöñõøùöõúÿú÷ş        
-                  ! ' ( & 1 / ( / 0 - 4 4 5 6 5 9 9 8 ; = ? B = D K D C J I H I M M M Q Q O R R T Y \ W X a [ \ b _ c f c f g l l i m n p u q n y { s s w ËÇÍÔÏÔÖÓÜàÛİâäæäçììíğîïôõúûö÷ÿ üü ÿş       #                 *  # 6 * * - * 1 / 2 8 / 5 8 5 : 8 7 > A ? ? C D D K J D H M L J P R O R P O X [ V X X Z _ ` a _ c h a d o i f k o l m o t x s s z z v u ×ÇÊÏÏÒØØÜßÙáéææéììïõôïññòøûõùú÷ş  ş    	    2 5 2 % !             $ % . 1 & - 5 , - 3 1 2 5 : : 8 7 : = = = @ E C = E H F H J I N O N O Q S U R U W X \ [ [ b c ` e e f g g l i g l r q l k x w q w  y u | ÓÒÍÒØ×ŞãŞ×àéäÛì÷îîîôüõñııóù üòş üú
- 	  	 	  
- , 9 : @ 4               ) 6 5 , . - ( / 5 4 2 4 8 9 8 8 > B 7 ; G A B D B B G L K G N O N S Q Q X T Q U \ [ [ b ` Z ` h g e h c g r o h m r t n p x v u z z y y ÕØÓÙİÙÚààßßéíåèïîìïñğò÷ûöñùıùúşÿÿ    
-     + 7 7 $          # "   $ % + : F D 6 - / 5 3 . 2 9 5 1 8 = ; < = = A F C C G C C I O M I K O O R M M Z [ R R \ a [ ] c ^ b l d a n m e m t q m r w q m x  z v v {  áÜÖÙÚÚÜßâååéñííô÷ô÷øô÷øûùôûÿı                     %   " %    ) % ( ; > 5 < : 5 < : 7 : ? > < E G ; C N D B M J K L M L Q Q L S [ S P Z X V ^ a [ b d ^ f k g e k l k j q r o t s q y x s v z } ~  € € € € äÜÕØÚØÚİàåéçêñïïù÷ñóöùùıû÷  ùú        	             #  " #   " % ( & ( / 1 6 7 2 4 < 7 5 : 8 8 A D ; < E G A E H F H K G K S N L U R P S W Y U W [ _ a Z ] i h ^ g l g i n k m q s s p v x s w z y { }   { € âÙÚÜßŞÜßáàäêïíëô÷òøûş  úü ÿ  ÿÿ 
-                    "     ) ' $ & ( . 3 2 6 : 6 5 8 = < 6 < C ? @ C D H J F F M M J J O P N N P S V S Q U X W \ a ^ \ ` f j f e g l p k m v s n w t r z { v v z ƒ  ~ ‚   äÔİß×Ûâäãàèíğñğôû÷ù            	    	         ! !            & & % / * $ 7 = 7 8 7 3 8 > @ 8 : E E A > @ K L @ F R N H N R R P Q S W Y V U \ \ V a f _ a c c i h f j l l o m q s s q o s z x y } x z „ † € ‚ … İÓÚÙÜâäáçîìğôóòõúûş                         " #   !        % ' ' $ ( . - + 5 : 9 ; ; : > @ < < A E C E G E F L P J K K L U U O P V Y U V W \ Z [ Z c f a _ g e d k l k m o o n t t s v v s w | y } ~ } ƒ „ ‚ † ˆ åİÚÖÜäÛäñæåöøíó÷øøÿ    	                          (   ( $ % ' & - , $ , : 9 4 8 ; 0 ; K 7 3 B E A D C ? I M D G V S C L ^ T I Q [ Z T T \ d [ U c j e ^ b o g d t n l p o s v u r u x } { v y     … ƒ ‚ Š † ÙØÌßæÙØèïêéïíóıõõ ûø  ù                       ' "  % 3 * $ / , % 9 : $ * : 8 2 4 8 ; > ; 7 @ G = < P K 9 E S I D L W U L O U S S Y \ V U ] d ^ \ f k d ` d j i l o i i s p r y s o x } w u | ‚ |  … † „ ˆ Š ‚ … á×Úßßâçãêóñïòú	  û  ú             	           ! (   ( / "  . / ( + 0 6 / - < > = ? @ > @ C C C G H D F J H M V P F Q [ W P V ^ W U _ ] [ c f _ d g e g l k g j q r k o w x r r |  w x   y } ‡ ‡  ~   „ Š   Œ âÙÛâáİìôæçõùóù  ü  ûú 	   
-   
-          '    '    # (    # ' % & ( * 0 . - + 7 C ; 8 E G : 8 C K ? ? O J = J T I G R T M R Z T S [ Y U X ] _ \ Y f i a _ h k d f u p b o } s j v ~ t p } ~ w { †  y … ‰ „ ƒ Œ   } ” à×Şáâçëçæîõğõû    ÿ  øı                #   ! * ( ' ( $ , / # $ / +  & 9 5 % ( 9 ; 2 5 F L B ; F I @ E J G H M J K Q Q L R Y R O T [ W X V Z b [ U e g [ a j g _ f n j j r p n p p w ~ r o  ƒ x y „ ƒ |  … ‰  ‡ ƒ ’  ~ Œ ÚÜÖŞíééôûôóüıûû                 #    $    % (   # 2   5 ; ! " : 7 ) 0 4 6 9 7 ? K M D @ F K E B I O N H F R S L P T T W W X \ Z ] \ ^ b ^ _ h c _ i g a i q j c m v q l q v x u x € € { € †  € Œ ‰ ‚ ‰ ‹ ‰ ‹     åãåÙßñöøüııúøüÿ                           ) #   ' * ( , / - 0 3 0 5 7 0 4 ? > @ N E ? K J C H N L F L T P R R N X ^ P T a ] V W ] [ Z c h a ` g k e c j q j f u y s p r w x u {  } | { ƒ ‡ „ ƒ † † Š  Œ ˆ  ‘   “ èâìëèêîú  ôü ıø          ø
-               $    * -   2 4 % & 1 > 6 ( 2 D ? 5 8 J P ? A O H E L I I O Q L N P M L X ^ W X V R ` j Y Q f m Z Z u z V Q } ‡ ^ T ƒ ‹ [ d ’ € ] t  } y ƒ } | ‰ ‹ | ‚ — Š z †   › } ~ § ¦ z äãŞîöìîûûôø ş  ı 
- 	 	  	   	      &   " $   (   0 $  + ; "   ? /  ; D / 4 D > 6 @ B / 6 a U : E Z O A K V Q I T U M V ^ Z Y Z ] a ` b ` ` i i a e n o k h m l k o v u t t t { } w y     † ‰ † ƒ … Œ  ‡ Š ˜ ’ ‰ › œ ‰ ’   İéãèíö÷óöùş             $  ÿ #     !   - <   . 8 !  5 6  + : . + B A " % F G - + G W O Q L Q P D F T Q J R ] Q C ` l O J g k R U q h L ] z m Y c y n Y h € w ] g ƒ ~ e s “ ‚ \ q œ  q u   v „ ¢ ‹ q † £ š „ Œ – Œ Œ Ÿ ¢ ëëèçèõóñûûù      
-             1    "   / 4 % " , ( + . ' + 2 . / : C > 6 8 < 9 8 = = B O W W K J L N Q P O R S O R V U S Y ` ] X _ d b a a e h f h k g h l o p o m q q r ~ } w { | z } „ … „ ‚ ‚ „ ‰  ‹ ˆ   Š “ š ’  – œ ’ çæêëçğöóø ıÿ   , *     
-       " / ( ' + ) / 1 ) " $ ' & + 2 ) , 2 ) * ; 7 + 4 8 / 9 E > ; A I N Z _ O H Q T R W X V Y V Q \ d d ^ Z ] _ f m f a f f g p r j i l q q q s v w r t €  y } ~ z „ ‡ ƒ  … Œ Š   Š Š –  ˆ – ™ ‘ ” š ™ ™ ïæîìëó÷øş ı    / +            ) 1 & $ 0 , , 4 2 - - . . 0 6 : 1 2 7 < : 6 : ? = 9 @ F @ ? B A G M E E P S M M U Q R Z X V W [ ] [ ] ` ^ ` d d ` b k n e e o n i p t p m u v t { } { { ~ z ~ † ‚ { † Œ ƒ †  ‘ Œ Œ ‘ “ “ “ ’ — › – – £ ëñçéóôöş                  " * "  ! " ! " $ %  % 2 . ) 0 5 7 3 2 6 < @ : 9 A A 8 ; F C = < B L K A J Q L I Q Y S L T W W \ Y W _ Z X c e c ` a g i h k h j o k l s r r r r z { x y } } ~ ~ € €  „ ‡ ƒ ‰  Š Œ “ “   — œ ” “ š œ ™ úñïí÷ùôü     	              ! ! #   % & " $ + 0 1 , 1 ; 9 3 - / 6 9 8 ; F G ? ; B A = D C 8 B N H E M R K L U Q K S \ T T Y ^ ` ] ] f f ] d m h i k l j l t o n v u o u | | y y ~ ƒ    ‚ ‰ ‡ … ‹  ‘  ˆ “ ™ “  •  ™  ™ £ š ™ ñóìôşõ÷  ı                      % #   ' + ) ) , - 8 > ; 4 3 5 0 8 ? : > E C F L N J C ? F H H J P V L I Y Z Q U Y Y Z Z ^ ` _ b c c i j e f m r m e n x o h t | w t w y | € € € ƒ ƒ  ˆ ‡ € †  Š Š Œ  ’ “ ” ” ” ˜ š ™ ™ ›   ¢   òíòïı    	     #          "      ! ! $ ) & ) 0 ( % , 3 8 ; ; < 9 7 = > = @ F G G I L O P O M M Q Y ` \ U X W X [ ] Y Z ] ] ^ ` _ b e c d f j h j m i j r q m t u q x x w } } z }   ~ ‚ … ‚ … ˆ † Š  ˆ  ”  Œ — ™ • – ˜ š  œ › œ ¢ £  ÷ôóó÷ı         
-        % #     ( & ' ' $ ) * & * 3 8 6 5 ? J B = ? @ E E E H E ? B F J L J ^ s u p f e e b c d f i h d f j i j o n o q q s t u w u {     ~ ‚  „ ‰ ‡ € ˆ  ˆ … ˆ  ‘ Œ  ” ˜ • ’ œ ¡ — — £ ¢  ¢ ¥ ¢ ¢ ¤ ª « ª ¨ © ÷óõøø  ÷           #   - )  # / + , / * ) . / , , 2 5 9 = 4 7 ? : 8 < @ B H E @ I P B @ I L J _ v v t e X Y a _ ] ` a i a Y g i p o ` h o o u l n t k m { € v o {  z }   ƒ  | €    ‡ Œ ‡  ‘    — ” ” š š   œ ˜ ¤ ¡ › £ « ¤  § ûõüûøı ÿ             % . &   " & " % * * . & % 1 0 * , 2 6 4 6 = 9 7 ; 9 < C F L R J F N Q O R a n u p a \ e i ] a m g e h c i t m g p w s r v z u s u |  { w  ƒ ~ ~ ‚ ‡ † ƒ ƒ … ‰ Œ † ˆ “    “ ™ š – ˜  ›  ¤   Ÿ   ¤ ¦ £ ¬ ° ¥ ¡ ® 
- ôş  ı   	            &   ' + !   * + . - + . + - 2 . 1 1 0 9 8 6 ; 7 1 A R I > E J E H P K K T N Q d ` N M ` k Z S d f ] _ e i g b h l o o g r y m n x w x x y v y ‚ v x  ƒ v ‚ Š „ „ ‹ ˆ ‡   ‹ ” ” Š  £  Œ š § – “ £ ª ¥  Ÿ ª « £ ¨   øó               " ! % ( % # ' + + ) - , * - 5 4 ) ) 4 9 * + A A 1 5 B E : ; D L F : C O M @ G T R P [ c \ T R \ ^ ^ a \ a c Z \ m l a b o n h k w y i k v z r q   o v … ‚ y € Š „ € ƒ Š Š Š Š ‰  “  ’ ” –  ’ –   œ ˜  ¢   ¥ ¥ ¤ ­ ¦ û  ÷ÿ                , (   . / ' % ' . 1 * . < 2 + 6 > 9 4 ; @ 8 A K E = > Q V B : U b I @ \ ^ B H h \ T b \ O Z j i ^ Y a n l c b p m c s | o h u { ~ y n v ‹ „ n v  Œ s ~ ” „ |  Š ˆ   ‰    › ‹ ”   š  ¡ š œ ¡ Ÿ ¤ ª ¤ £ ¦ ¬ « © ° 
-    ü  	      ! !   "  " "   & $ " % * + & + 2 + / > 7 % 7 J ; 2 = D > ; ? J E ? ? I M ? C ^ W H Y b Q L ` h Q S k d V _ f b g g b g g g j m p p p s s w x u w y y z { ~ … ‚ | … ‰ † ‚ ˆ Š ‡ †     “  ” ›  œ – ˜  ¡ ¥ £  ¦ ¦ ¡ § ° ® © ¥ ­  û      	       $     %   ) % # ( ( # ) . - ) 2 @ 5 0 C A 0 6 ? : : F E ; @ P O C K R C G S P P Q U V S V [ b a [ ] b c e l g b f h r r e j x v k n € ~ r } y p † ˆ € | ~ ƒ  ‹ – y ƒ › ‡ € ™ ˜ ‚ „ £ œ ‡ —   › œ —  ¤ £ ¡ £ « £   ¯ ­ ¦ ³ ¶ ­ úüú 	   
-      "   * $ % )    1 / % % + * ) = U S P H = : 9 0 4 A ; = H B < A E F I L K H J L O U P E P ] Z [ ^ X \ b b ] a i d ` g g g m i j r n o x v o q { { w v z ƒ „  z ƒ ‹ ƒ € ‰ Š ‰ ˆ  ”  ƒ Œ ™ •  “ š – ˜ ¡  — ¢ « Ÿ › ¦ © ¨ § ¤ ª ²            &   % : 6 * , 3 + " + 1 0 1 ' ' / F Y f g T A 6 ? E ? 9 = F F B D H F R Z P N ] \ P M ] _ N Q h i ] a f f [ _ p n a f i g n u p k r t o ~ ‡ o g † Š s v  Š s y ’ ‹ z … ’ ‰ ‚  – Š ‡ ” –  •   ” ¨  “ › ¨ ¤ › ¤ ¦  ª ± ¥ ¥ ¯ ± ® «         	   %   D L ; ) ) . ) # ( 1 / + 0 6 3 : Y g ] U M F G L U \ ^ Q F O Q C : P X ? B d ] E L _ [ J T r q d i j b c p r b i } o d v } r p u y | y w } „ { r „ “ } t Š  ‡ ‰ Œ ‹   ’ — •  Œ —  ™ • • —   ¤ ˜ › ¥ Ÿ œ ¨ ª ¡ ¡ « ® § ¬ ² ¯ ® ²            ! ) 5 B = F @ )  2 6 $ + > 4 - @ C / : K B < H G ; O l k ] T R Q M K C F N O M R [ Y H Q m c F S r m Z ] p w c W g | x b e u s n u u s { | y } € x u …  „ z ƒ Œ  ‰ ‡  ”  Œ ˜ ™   › ˜ “ Ÿ ¤ ˜ ˜ ¤ ¢  ¦ §   ¥ ª ª ¨ © « ¬ ² ¶ ® ¯ ¶       % !   ( $ # / : ; < 8 - , < 7 1 = : 0 3 > C = 9 = C B < @ O W Y ^ b Z O Q U P K P W S T U R X ] Y X ] [ Y c h h e h o k c i t t k l z u j w ‚ z x z }   }  ‰ † ‚ ˆ  ‹ ‡ ‹ Š  š “ Œ ˜ ™  •  ™ ™    œ   ¦ £ ¥ ¥ ¢ ª ¯ § © ± « « · ¹ µ ´ ¹ ·     . - / '   &   % / + ' , 1 . * 1 6 1 6 6 4 7 8 : @ ? ; D E A B J K F K P K N U L O X R S ` ^ W [ _ ] Z b d a e h h l m l n r p q t p q v u v v z y v  „ | € ‚ € ‰ ‰ ‚ Š  ˆ Š   Œ  “ “ • š ” –  • “ ¤ ¥ ™ ˜ ¥ ¬ ¥   ¦ ® « ª § ª ³ ± ± ¸ · ³ ¸ ¹ ¼    7 A I ? !  %   ' 2 $ $ + - + + 0 5 4 7 7 ; < 7 4 < > : A @ ? G H ? @ M R G F R T Q Q W a c X Y _ _ ] ^ d i d b m p h l s r o n t v u v v w } } y  ~ z ƒ ‚  † † „ † ‹  ‡ ‹ — ‘ † ‘ › ’ “ š Ÿ – –     ¢   ¡ ¤ ¤ ª ¬ © ª ® ­ ¬ ³ ± « ° ¹ · ´ ¸ ¸ · ¾ $  $ > E B ? 5 #  ) 6 '  . 8 ) % 6 = 0 . 2 8 < 6 2 < > < < 9 @ E = @ H K I E H P O L P U Z O M ^ ` W Z a b a a b e e c f j q m j p r r q p u { v u z ~ } ~  ~ ~ ƒ ‰ ‡ ‚ ˆ Œ Š   Œ ‰  ˜ ’  ˜ — – › ˜ ™ ¢ œ ›   ¤ ¢ ¢ ¦ ¨ ¤ § ³ ¬ § ¯ ± ° µ » º ¶ ¹ » » ¿     % : : , , 3 1 3 9 9 9 7 = @ 7 ; < 2 = A : 3 6 ; A @ ? @ @ D J N L B D P P A Q Z N L W Z Q Q \ ` U X i i a g m i d n w j l w r m x | v q { ƒ z { ƒ   ‡ … † … ‡ ‰ ‹ Š  ’ ‘   — ” ’ ˜ › “ ˜ £ Ÿ ™ › ¡     ¤ ¦ ¡ ¥ ª © ¬ ® ® ¬ ­ ² µ µ µ ¶ µ » ¾ » ¼ Â ¼ &        $ * ) / : : 7 ? D A K K E G C = A F C ? B K J G M L K O O H N N I J T X R R W V Q V ^ ` [ Y d n i j n j b f s p f m y p o { w o t ~ € | |  … ‚ € ‰ ‰ … † Œ  ‰ ‹  ‘ — –  – œ ˜ – š   œ   ¤   ¡ £ ¦ © ¦ « ² ¬ ¨ ± ² ­ ¯ ¶ µ ± ¶ ¹ ¶ ¹ ¾ » ¿ ¿ »         # % ( , - 0 4 6 8 @ A ; : > ; > B A > A D F G M R P W U L R W S T W S S Y ^ X Q ] j h b b d e a f m j g m p m q w s r { y r z ‚ x v ƒ † ~  ‰ ‡  Š  ‰ ˆ   Œ  ‘ ’ ” – • ™ ™ ˜ ™ œ    ¢ ¢ Ÿ ¥ © ¤ ¥ « « ª ¬ ® ® ® ´ µ ° ³ » ¹ ¸ º ½ À ¿ Á Å Á        " $ ' ) 0 - . 6 6 < B < 7 9 < = C H > < G H ? H S J J P O N R O N T U S V Z \ \ b m n g d d f i i l k m s x r x | x u y ~ | } ‚ €  † ƒ ƒ Š ‰ „ ‰   Œ Œ “   – ™ š ˜ — › Ÿ  ™  £ ¢    © ¦ ¦ ª © ­ ® © ® µ ° ¯ ³ µ · · » ¿ ¼ ¸ ¾ Á Â ¿ Ä Í Æ 
-	
-
-
-	
-	
-
-			
-			
-		
-	
-			
-
-
-	
-
-
-
-	
-
-
-	
-
-
-
-
-	
-
-
-
-	
-		
-	
-
-	
-		
-	
-
-	
-	
-
-
-	
-
-			
-		
-
-	
-
-		
-	
-
-	
-
-
-	
-
-
-
-
-
-
-
-
-			
-				
-
-
-
-
-
-
-
-
-
-	
-			
-	
-
-	
-			
-
-				
-
-
-				
-
-
-
-	
-
-	
-		
-
-
-
-
-	
-
-
-
-
-
-
-
-					
-
-
-		
-	
-				
-	
-
-
-
-		
-
-
-
-
-
-
-
-
-
-
-
-
-
-			
-
-
-			
-
-
-				
-
-
-	
-	
-
-
-
-
-
-
-
-
-	
-		
-	
-
-
-	
-	
-	
-	
-
-
-
-		
-
-
-				
-
-
-
-
-
-				
-
-
-
-	
-
-
-	
-	
-
-	
-
-
-
-
-	
-
-
-			
-	
-	
-	
-
-	
-
-
-
-		
-									
-	
-
-				
-
-
-
-		
-
-
-		
-	
-	
-
-
- 	
-
-
-	
-
-		
-
-
-
-
-
-
-	
-		
-
-
-
-
-
-	
-		
-
-
-
-		
-		
-	
-
-	
-	
-		
-		
-	
-
-
-
-	
-	
-
-
-		
-
-	
-
-
-
-
-
-
-
-
-
-
-
-	
-
-
-
-
-
-
-	
-
-	
-	
-
-				
-
-
-	
-
-
-
-		
-
-	
-
-
-
-
-		
-	
-	
-
-	
-
-
-
-
-
-
-	
-
-
-
-
-
-
-
-
-
-
-	
-
-
-
-
-
-
-
-
-	
-
-	
-
-
-	
-	
-	
-
-	
-
-
-
-
-	
-
-			
-
-
-
-
-		
-
-			
-
-
-
-
-
-
-
-		
-
-					
-
-
-
-		
-
-
-
-				
-	
-
-
-	
-
-	
-
-	
-
-	
-
-					
-
-
-
-	
-					
-
-
-
-		
-	
-
-
-		
-
-
-		
-
-	
-					
-
-			
-			
-	
-
-
-
-	
-
-
-	
-		
-	
-
-
-
-	
-
-
-
-
-
-
-
-	
-
-	
-		
-
-
-	
-
-	
-
-
-	
-
-			
-	
-		
-		
-	
-
-			
-		
-	
-
-
-
-
-
-
-	
-
-
-
-
-
-		
-
-
-		
-
-	
-	
-
-
-	
-
-	
-
-	
-
-
-	
-	
-	
-
-
-	
-	
-		
-
-
-
-	
-
-	
-
-				
-	
-
-			
-	
-
-				
-
-		
-
-
-	
-	
-			
-
-		
-	
-	
-
-	
-
-	
-	
-
-
-			
-
-
-
-	
-		
-		
-			
-
-			
-
-	
-
-	
-	
-
-
-
-
-
-
-			
-
-	
-	
-
-
-			
-
-
-
-		
-	
-		
-	
-
-
-		
-				
-
-
-			
-
-
-	
-
-
-
-		
-
-
-
-	
-					
-
-
-
-
-
-
-
-
-
-		
-
-
-
-
-	
-	
-
-
-			
-
-
-		
-
-
-
-
-
-
-
-
-
-
-	
-
-
-
-
-
-
-
-	
-
-
-
-			
-
-	
-	
-
-
-
-	
-
-			
-
-
-
-
-	
-
-
-
-	
-
-
-
-		
-
-	
-
-	
-	
-	
-
-
-	
-		
-
-			
-	
-
-
-		
-
-
-	
-
-
-		
-	
-					
-
-
-	
-	
-		
-		
-	
-
-
-
-
-	
-		
-	
-
-
-
-
-
-
-
-	
-
-	
-
-
-	
-		
-
-	
-
-
-	
-	
-
-		
-
-
-					
-
-
-
-	
-	
-	
-		
-
-
-		
-		
-			
-
-			
-
-	
-
-
-
-
-				
-
-
-
-	
-
-	
-	
-
-
-
-
-
-
-
-	
-
-	
-			
-		
-
-			
-
-			
-	
-				
-
-
-		
-	
-	
-
-		
-	
-
-
-		
-							
-
-
-	
-
-			
-
-
-
-
-
-
-	
-		
-
-
-
-
-
-		
-
-		
-
-
-
-				
-		
-
-
-
-
-
-
-
-	
-
-	
-
-		
-		
-
-
-		
-	
-		
-
-		
-
-
-
-			
-
-
-		
-
-
-	
-
-
-	
-	
-
-
-
-
-
-
-			
-
-				
-
-
-	
-
-
-			
-
-
-	
-
-
-
-	
-
-		
-	
-
-
-
-
-
-	
-				
-	
-
-
-
-
-
-
-
-
-
-		
-	
-	
-
-	
-
-			
-	
-
-
-
-	
-		
-		
-		
-	
-
-	
-
-	
-	
-
-	
-
-
-		
-
-
-
-	
-
-
-
-
-
-
-
-
-	
-
-	
-
-
-	
-
-
-
-
-
-
-
-
-	
-
-
-
-		
-
-		
-	
-
-	
-
-
-	
-
-	
-
-
-	
-	
-		
-			
-
-	
-
-	
-	
-					
-
-		
-	
-
-
-
-
-		
-
-
-		
-	
-
-	
-
-
-
-	
-
-
-
-	
-			
-
-		
-
-
-
-
-		
-		
-		
-
-		
-	
-
-			
-
-
-			
-
-
-
-			
-					
-	
-		
-	
-
-
-
-		
-
-
-
-
-	
-	
-	
-
-
-
-
-
-		
-
-		
-
-				
-
-	
-	
-
-		
-	
-
-		
-
-
-
-
-
-	
-		
-		
-
-
-
-		
-
-							
-	
-
-
-
-
-	
-		
-					
-
-				
-	
-
-
-
-
-			
-
-	
-		
-
-	
-
-				
-
-		
-
-
-
-
-
-	
-	
-	
-
-	
-		
-						
-
-
-
-
-
-
-		
-	
-
-
-
-
-	
-
-	
-
-
-
-
-	
-	
-
-
-		
-	
-
-
-					
-
-
-
-
-
-		
-			
-
-
-
-
-
-	
-
-
-	
-
-
-		
-	
-			
-
-		
-
-
-		
-		
-					
-
-
-
-
-				
-
-
-
-	
-
-
-
-		
-
-			
-
-
-	
-
-
-	
-
-
-	
-
-
-			
-
-		
-
-	
-
-	
-
-
-	
-	
-				
-
-
-	
-	
-
-	
-
-
-	
-	
-			
-	
-
-	
-		
-
-
-
-
-
-	
-
-	
-	
-
-
-
-	
-	
-
-
-
-	
-
-	
-
-
-	
-		
-
-		
-	
-
-
-		
-
-
-
-	
-
-	
-	
-
-		
-
-	
-		
-
-
-
-	
-
-
-
-	
-
-
-	
-
-	
-
-	
-
-	
-
-
-
-	
-
-
-
-
-
-	
-
-
-	
-		
-	
-
-	
-
-
-
-	
-
-	
-
-		
-
-	
-				
-	
-	
-
-		
-
-
-
-
-	
-
-
-
-	
-		
-
-
-
-	
-
-
-	
-
-
-
-	
-	
-
-	
-
-	
-
-
-	
-
-
-
-
-	
-	
-
-				
-	
-
-
-	
-
-	
-
-	
-							
-
-	
-	
-			
-
-
-	
-
-
-	
-
-
-	
-
-	
-	
-			
-		
-	
-	
-
-
-	
-
-		
-		
-	
-
-		
-		
-
-	
-
-
-
-
-
-
-
-
-	
-
-
-
-
-		
-
-
-
-	
-
-
-
-	
-	
-
-
-		
-
-	
-	
-
-
-	
-
-					
-	
-
-
-
-	
-
-
-	
-
-	
-	
-			
-		
-
-
-
-	
-
-
-
-	
-		
-	
-
-	
-
-
-
-		
-
-
-
-	
-
-	
-
-		
-
-
-	
-
-
-
-
-
-	
-		
-
-
-
-
-
-	
-	
-
-
-		
-	
-	 ÿ
-
-
-
-	
-	
-
-			
-
-
-
-	
-
-	
-	
-	
-	
-
-			
-
-
-		
-
-		
-	
-	
-
-		
-
-
-
-
-
-		
-
-
-
-
-
-	
-
-
-
-
-	
-	
-	
-		
-
-
-
-
-
-
-	
-
-		
-		
-
-
-	
-
-	
-	
-
-
-		
-
-
-
-	
-
-
-	
-
-	
-
-
-
-
-	
-
-	
-
-
-						
-
-
-
-
-
-
-		
-
-
-
-
-
-
-
-
-		
-
-
-	
-
-				
-			
-		
-
-
-
-	
-
-
-
-		
-	
-
-	
-
-
-
-
-		
-
-	
-
-
-	
-	
-
-
-
-
-	
-
-
-
-
-
-
-	
-
-	
-
-
-
-	
-
-
-
-
-
-	
-		
-
-
-
-	
-
-	
-
-
-
-				
-	
-
-		
-
-	
-
-
-	
-	
-
-	
-
-		
-	
-
-
-
-		
-
-
-
-
-		
-	
-
-	
-	
-
-
-		
-
-		
-
-
-
-
-
-
-
-
-
-	
-			
-	
-				
-		
-
-
-
-
-						
-
-
-
-	
-
-
-
-			
-
-
-
-
-
-
-			
-	
-
-
-		
-
-
-
-
-
-	
-
-
-	
-
-			
-	
-
-
-	
-			
-			
-
-	
-			
-
-
-
-
-			
-
-
-
-		
-
-					
-	
-
-	
-
-
-
-
-	
-			
-	
-
-
-		
-
-
-
-
-		
-
-
-	
-
-
-
-
-
-
-
-	
-
-	
-
-	
-
-
-
-
-	
-	
-
-
-
-
-
-	
-
-
-	
-		
-
-
-
-	
-	
-
-
-
-
-
-		
-
-
-
-
-
-
-
-
-	
-	
-		
-
-	
-		
-
-
-
-
-		
-		
-
-
-
-	
-
-
-	
-	
-
-
-	
-
-		
-
-	
-
-	
-
-	
-
-
-
-	
-
-
-	
-
-	
-
-
-	
-	
-	
-	
-	
-
-	
-
-
-		
-
-	
-
-	
-
-	
-
-
-	
-	
-	
-
-		
-
-
-	
-		
-
-
-
-
-				
-			
-	
-
-	
-	
-
-
-	
-
-	
-	
-
-
-	
-
-
-
-
-
-
-
-	
-		
-	
-			
-
-
-
-
-
-
-
-
-
-			
-	
-
-		
-
-
-	
-
-
-
-
-
-
-
-		
-
-
-		
-		
-
-
-		j€zZN_aTW`f`Q`ueUj{aUt~cbz€piv„{o{Š|s„‹‡„‡‹…†‰Š‹”‘“‘’˜˜—œŸ¡¡šŸ©¥£­¤Ÿ±·¦§°°®³·¹¶±³¾À»º¾ÁÃÀ¾ÈÇ¿ÅÎÊÇÎÑÌÍÒÖÚÓÍÚãÚÙäåßßéğïìë÷ùëxzrc`bYV_ccbaggcgpmffvymp{xwwx~‚|z…‰…‡”™‘‘”‘“•–™™–˜›œ œ›¢›§¥¤¨§¡¨°¬¦¬®±¸¹¯¯±®¬·¹µ¿Á¶´¾ÇÇÁ¼½ÈÈÄÍĞÉÅÈÑÛÔÊÑÙÒÎÛâÔÓäŞÚìæàîòééõúôòmkb]aefb_dc[cqjnnbnzz|z~|pu€}ux}zz‰•Œ‡™¡—“”’“”“›¡¡£¤¤ œ› Ÿ›¡§¨§¦«­­°±³µ¶¾Á´®±²³¶·»¼º»¾ÂÁÁÅÄÃÈÊËÈÆÌÍÎÒ×ÓÇÍİÛÕ×ÛÜÛàáåèáâîòíñùøôö]_b```glgcciignnlrzvtŒ‰}{y{~~‚ƒ…Š‹‹—›•’“˜™˜™“›œ¦®¯¥œ™Ÿ¡ ¤§Ÿ©§¥®±­°·¸»Ä½¬®´¸»¹¸º¾Â¼½ÄÅÆÃÇËËÉÉĞÒÊÏ×ÕÓÔ×ÔÚá×ØáİØçíàâèëğôòóø÷ùúYWV\[`hfefhjlmilonrxvw‹š’}zw{~~ˆŠ‰‘“Š’—“š¥Ÿ¢œ¢ª¤¢¤Ÿ¡£¢¢«ªŸ¤®ªª²¸®¯»»º²°¹¸³¹½»¼ÀÄ½»ÉÆÀÅÍÉÆÆÏÕÒÑĞÓÔÒÕÜÙÖÙÙİßŞâäääåéğ÷òìõ ıóşTZ^]\_ilejmlikqjisxvszˆŒŒƒ„‚ƒˆ„†‹‹ŠŒ’“‹’–Š•‘  —›¢£œœ¢¤£¡ª§¦¥¬°¤£²¹¬¨¹º²´¹µ³¹»¸ÁÄ¹¿ÇÇÅÇÌÅÅÒÊÂÑÒÍÑÑÏÓ×ÖÙØÔÛááßàáßäîëåí÷ññıÿöøÿVYZY\a]^fhafklnmlnrsuvvzzy{}ƒ†‡†„‹‹‹Œ––‘š–š§¢¤¢£¦¤¥©«§§­ª¬±°²®°¶´»¸°¹·µ½»Á¾½ÂÀÅÄÂËÈÆÊËÔÌÊÔĞÑÖÍÖÜÑÔ×àŞÛßßäçâçíëèğôô÷ûûûşù^aWbqeamkabv{jjqqpjororxpu„qx‹~{‡‰†Š†’˜œ ”—¤ – ¨¢©¥£¢¢¨ª¥¨®®¬¬´±®·¸°®¶º¶¶¿¼·¿Ä¼¼ÆÈÅÈÎÉÅÑÒËĞÖÑÎÓ×ÖÓÕ×ÚãßØãçááëìåèóöññúşıõWVdw‚„{llcestgnrprstutv||~†€Š„Œ‰Œ‘—›—“•¤¢¡§§¥©§ª¦¥¬±¨­²®«³³®´¶¹º´²¶¼»¿¿»½ÄÃÁÇÉÆÊÍËÎÒÍÏÕÕÓÚØÔÜà×ØåàÙåéßâíéæìíèôóîùÿùÿÿ^_iz‰“‡oloptrpsqtzyv~{€‰††‰Š”’’’˜•“™•’–§£¥¬ª¦¨«©©««««®²¶²«°¹µ³·¸¹º¹·¸¼¼»ÁÀÁÅÁÃËËÆÌÑÏÍÒÕÒÖ×ÓÚİÙÜßÜÜßâåçæåéïêçñöğğùûüÿ      ]^flyukmopnopopwxz|x{€}ƒˆ†ƒ—’—©«˜˜““—–šŸ ¤¤£¤«¬¥©«§«©¨°µ´²°²»¸³·¼¹¹¼¼²·Á¿»¿ÄÂÄÄÆÌÎÉÇÎÒÒÕÔÎÕİÙÙŞÚÙŞãæàŞäééæêóñæîù÷÷øöÿ ÿ  [ekcglmjlqsimyxtz{|{‚‚…†}ƒ†…“¤±¬›––œœ¡¥¥¥§²¦Ÿ®³©©±®¬¬±·µ¶½½·³¸¿ÀÀ¿¾ÀÂ¼¸¾ÃÃÂÂÈËÉÄËÔÓÉÏÙĞÌÙİÙ×Úáãİßçåßßèëçìíæëğîòôô÷ııú 	   abbcjhkoffw{rzsu†uƒ‡v€–Œƒ‘™••˜›™ ª«ŸŸ¯ª¥±§›¨¬¡¢¦œ¤¶­¥³º®ª¶¹³¿Á¹¹½¼ÀÉÍÒÑÄ¿¿ÂÆÇÄÀÉÒÆÃÓÖĞÏÌÒİÛÒÕââÚÙâããáäêèãèóíèğöîïøûöúüö   	   eogbosmipuqrt{z{~yxƒ~{‰‚€•¢š‘›‘‡“¡•¹Å¿Ã¹ª¥©¬¤¡ªª¥®²«°²®°¶¸¼ºº¶´ÂÍÈİêÜÁ¹ÂÅ¿ÂÆÇÈÈÈÍÏÑÓÏÎÕÖÒØÚİÛØÚİãæãáåäéëçéïğíïòûùñø  üÿ     digimhnzncrwq‚ˆ{u„ˆ}~†‰ƒ‡””—•‰‘š‘¢¡™³ÑÑË»§£°² ¢­§¦°±ª¯³®¯²´·¹³¬¹ÎÇÂãëÑ¾ÆËÂ¿ÊÌÄÆÎÏÍÍÒÒÓÔÒÓÙáàÙÔÚéæÛŞëëááóöççï÷õñôûöñû         llefqtjgtxruwv|}y}Š{‘‹Œ’–”‘—‘ˆ“Ÿ—–™ªÀÂÆ¹£˜«¶Ÿ˜³·Ÿ ¹¾ª¦¹À°®¿Ã¹³ºÈÍËÏØÕÁ±¿ÖÈ¶¿ÔÑ¿ÌŞÏÉÏÖŞÓÏÛáÖÕéäÔâêæåìéãïïåóùíñøôñüÿúş    	  	 gkfgmrndm|xr{~wt~ƒƒŒŒ„‡•ƒŒŠŠ•›•—¤§¢²°£¤©©¦©°«¦µ·«°¶²¯´¸···»ÃÉÇÆÑ×ÓÎÊÄ¾ÄÊÄÈÎÌËÖÑÈÒÜÖÑÔÛİØÚâäÚÚèëßßñìÛèøîéôøğöúòø  õı 	     _irgfrvrlrtt‡r~‡…‰x“šxŠ˜ˆ•——Ÿ˜¦¡œ §¦¢¥ª¨¥§°¯­³°¯µ¹º·»½¼Á¿¿ÇÆÄÉÒ×ÊÃÈÄÅÉËÆËÚÏÇÛ×ÏÒÙßÖ×àßÜßáåçááèíêæéïñêêùÿïêÿ  îù  ÷      khkoogtyrj€s{„€€€‚…‰‡‰ŒŒ‹Œ‘“™œš™œœ££¥ª¦§ª¬ª««©©´³§³¼²²½¿¸¶ºÀÄº»ÌÈ½ÉÓÄ½ÁÅĞÏÄÆÔÔÉÏÛ×ÑÒÙãÛÕãæİÙæíåŞæíìèêğìëòôòúûôøşışÿ        tnlnoot}u}„‰˜”€…€€‰ŒˆŠ‹Œ”•—˜•–Ÿ£¡ Ÿ¥©¤ ¥¨§­¬¯³±°¶µ³·º¼¶µ½ÂÁººÇÄ½ÉÒÄÂÌÇÁÉÍËÌÍÍÎÔ×ÑÔ×ÖŞŞÚàãİàèæáèîçäìííóîêô÷ôöùıüüış 	    
-    jnqqvvsx|y|“ª© ’Œ†ƒ†ˆˆ‰Œ‘’”——›œŸœ¢ŸŸ¤££¥§«©©¬¨§«±·µ¯¶»¶¶ÀÄ½¶ÂÈÁÀÇÊÆÆËÏÉÉÇÅÊÑÏÊÍÖÚÏĞİßÕÚßÜÛäéãŞæéãéîìëêëõ÷ğğûüòø şøı          rqlnz}tx}}ƒ’¨®§š‹“”“–™˜––– §Ÿ¤¤£§«¬¨ª¬«¯±®²²±¹½º··¸·¹ÀÃÀÄÄÃÄÆÈĞÖ×ÕËÊÌÍÍÎËÎÓÕÙÕÑÛÜÛİŞâßÜåççéçæîìë÷õëïûøóùıùüşû  ı         oqsszzyz}…Š˜¢Š™™‰Œ›™“•–—š—šš™Ÿ¨«­¶µ®¬«­µµ­­µ°¯»¿»¸·¿À½¾ÁÃ¾½ÄËÉÀ¾ÌÚßåçÑÊÊÍÒÏÌÕÜÕÔÚİ×ØãàÜáŞãìæåìíêìñõóïòøüøõÿ  úı     
-   	       rvtv}yzƒƒ‹Šˆ“”•’’••™š—š šš¡ ¾ÏËÅ¹­§®µ®¯µ²±¹¶¶ÀÅ»·ÀÅÂÁÆÇÉÊÄÇËÈÇĞíñáÍÌĞĞÎÓÛÕÏÔßâŞÛáãŞßèèæäæèìîïïòòïòøúùÿúú ÿş  ÿÿ  	        ywv€ƒx~‰‚~„‡‰Œ‘“–Ÿœ–—–™¡¡Ÿ¡Ÿ›™¥© ¢ÁØÖÈºµ±µ¹´µ¹¸¸¼º±µÄÀ¶º¾¼ÀÅÃÈÈÅÉÌËÏÖŞßÛÖÍÈÖÚÏĞØÙØÚİŞàßáåçãáëìêììîòñô÷÷öóôş ıú  ÿ 	             yvy€~y‚„……ŠŒŒŒ•œ––œ™–˜—™¦Ÿš£©¦©¾Â·¯®±½¸«²½¸²¹À¾¶¹ÀÃÄ¾¿ÊÎÆÃÈÌÎĞĞÏÒÛ×ÎÖÔËÓÙØ×ÙØáàßãæääææâìñèäìòğëğùùñõûúùıÿ                  # # {‚|ƒŠ{ˆ‡‡‰ŒŒ‹’œ˜–™“–™•œ¨¨ ¢¬¨¤§³µ¨¯½¹´»º¶¹¿¾ºÁÄÂÇÇÂÈÊËËÆÌ×ÌÃÓßÒËÙâÚÒØÙ××Ö×àáÜáçåâãèêèëëíóòóõğõı÷öııüıÿÿ    ÿ              '  y„ˆŠ‹ƒˆŒ‰‰“‘‘—™’• š–£Ÿ®­ ¤®ª¦«®®³´±µ·¶³º¾¹ºÂ¿¿¿ÁÉÇÃÉÉÄÊÏÏËÏÑÌÓÚÔØàÛÖÜÙÕÜßÙÚåçßäéçèìèéñïïôôõ÷ùûùûûù   ú      	           % "  & $ {{Š}‡ƒ„˜˜‚Œ¤™‚‘¨›¢¦—¨›¤³ œª¦¥±±¨ª»¾¶²³¸ÃÀ·ÅÏ¾¼ÏË·ºÚÖ´ÂÛÒÅËÖÓÊÔÜÓÙæßÖØÖÓÛàÜÛãæİâìäàìëäëòğîïòôøû÷ğôş  ø      	        
-     # ' !  {v†‰‡‰…†‹Œ‘–šˆš’—¡ œ¦´¯ª§¤¨§£¥¬­©¬°°¶¸³´¹º¹¾ÆÇ¾ÂÊÅÇÇÆÎÏÌÍÏÑÔÒÕÕÒÓØÛİÜİÚÕÔÛÛÚáßŞææãâèîèåîğòôîôşõôûùöü  üû      	   	           " $ ' ( ' …‚„ˆ‚Œ„ŠŒ–’–•“›Ÿ¨ÂÆ¶¥¬«¤­¨¡°²§°¾´²·´¶¼¹ºÃÂ¿ÄËÂÄÏËÄÍËÉÓĞÍÔÔÑÕØÍÌÛŞÙÚØÕÛßÖÚáßàäãäèåäïóæéóñîôùñ÷ıõú şøÿ   ş 
- ÿ            ! ! ( &  ‹‚y‹‘ƒ„‘‘“›” œ”ª²»Ä¿¬¦©­°§¤³´±µ¹¹ºº»¼¿¿ÀÉÈ¾ÄÍÆÌÓÊÊÒÍÄÌĞÊÏÕÏÏÙÕÑÛÜ×Ùà×Õİßİßàåèãáçëêêïïíïïôøôöûù÷ÿÿûıÿ    	                ! $ ) ' $ †•‡ƒ„ƒ”—‡¥š†˜­›Œ¥°›£º­›§®­¬ª©¶´­·»±´¾·ºÅÃ¹ÉÅ±ÀÙÈ¼ÕÙÈÈÕÙÑÉÑÕÒÖ×××ÖİààÙÒßè×ÕëåĞäôãÜîòåãôõñòôüşõö    ûúü  ÿù 
- ÿ               - '  - 1 ¢–’‹’‘Œ‘–—ŸŸ—™ª¤—¢®¦¤­©¤¬¬ª¶´©±Áº³¼À¾¶¾ÍÈ¾ÃÉÆÅËËÌØÖÊĞÖÏÒÔÒÓÔÙÕÕŞÛÜßŞßßãŞÕâíäØãüæĞñıéáñÿïèö  şøí 
- éö    ú 
-   ü "          #     ; '  2 9 •¤ª˜ƒŒ™Š‡˜ƒ§Œš«›˜¬¦Ÿ®®™£¾µ ¦¶µ³±«´Á¸°ÀÍ¾´ÃÎÂ¸ÌÖÅÉÛ×ÂËäßÅËßØÓÚİÔ×ãß×ßæÜÔàêßŞééÜåúéØñúäèøúğîı òéı øå  ñö 	 ÷                 0 %  5 . šŸ•Š‘–”—–™¢œ™¦˜¡¥¢£§©®²¬­·°ª¼¶¬º¾·½ÍÄµÅÈ·¾ÌÃÂÓÍÇÓĞÉÎ×ÔÔàâÔ×ŞİáÜİâàÜßæãäåßêîæêííîòõíòşôòüùúııùÿ ü             
-         & ( ) + , ' “Œ•’ŒŸ¤ ¡§©Ÿš § ”§°¥ªª¬ª©°·«§·¹±´¸¶¹Áº¾ÎÅºÆÉÊÅÆÒÍÄÆÏÔÈÇŞÙÌÙŞÖÖßØÕæâÚåßÙãìëÜçóßéğéíğîïîúúô÷ûşşı ÿ    ø  ÿú   	          $ )   # ) / 2 , ‰’‘ŠŒ—™˜œ®½½­£§ŸŸ§­¯§¥­«¥¤«²«¨±µ¸¾¹ºÆÂ¹ÅĞÄ¿ËÑÌÃÂËÒÉ¾ÏÛÂÁÜŞÌĞßÜÕÖÜàİÖİìæÖİäãçåäëèäñòåêôñïõüóôıùû ûü  ü          
-            , "  3 3 # , ‰Š“’˜¤²¸¼´Ÿ›¡¤¤¬¯¨ª®§¦®³¯©®¶µ²º¾½¼ÀÃÁÇÍÊĞŞÖÇÊÍËÏÓÏÒÓÒÖ××ØŞØÒßá×İçââçèàßèèçèííîíêîôïğóøúó÷ ûø  ûı  ü
-     
-             %   / * $ 6 6 # ‰‰•‘“˜Ÿ²²©§¢£©§¯±©¬²¬¨²¸®²Á¾´À½³¾Ç¾ÀÏÍÇĞÛÚÓÍËÑÑÎÑ×ÛØÔÑÖØÓÕŞÚÔ×ÜŞàäããæåßéèâíîãìòëíöôğõøû ıòû	 ıú 
- ı  	              # #   . ( & 1 1 + 1 5 €Œ”––˜™¢— ¨—«¤³©±©­¨µ¾¶»Æ¾·ÁÆÀÄÉÃÂÍÎÌÒÓÎÔÒÊÒØÓÙİ×ÕÛİÜÜÙÓİäÙÛèàæõğäçêääìêëğííõğïûùì÷ ù÷  ü   ÿ                   # #  # . '  5 9 ' 1 ‡•™‘’’’šš•š¡Ÿš£¦¡¬¥¦¬¦«´¬¬¼¸­¸Âº´ÆÇ¶¿ÊÁÄÉÄËÍÉÎÑÌÇÍÖÒĞ×ÖÙâŞÚààÕÛçäâçìúøæàìêàãíëëñğòñíóùööúûùû  ış  û               !    % !  * 5 # ' 9 5 ) ŒŠ–—˜£•š™££œ¡§£¥¬¨£§««²°ªµ¹¯µÄÂ¾ÃÀ»ÃÇÃÉÎÉÉÕÙÓÔÎÌÚÛÒÙŞÔØäŞÚŞİİåëÜßüüìêêäéìéğòèìúûğ÷şõ÷ şú üÿ
-  ı      	                 * , ' & 4 7 . 3 : •”’š§¦£¢¤¡› ¨¤¨­£¤²°©²¸­²½°³Ã½¶¾Â¾¿ÉÈÂÇËËÑÒË×ãßÜÕÏÚßĞÍİäÖ×äáßáßâëãåöòçïïßæúñãóşñïùööÿö÷  û  ü                 !   ! )   $ $ ' 1 - ) 5 6 5 9 ‘–™§¯¥ §œª¤¢·²œ§º¬­Áº£­ÍÁ¶ÄÁ´ºÀ½ÂÉÈÁÇÒËÄËÑÎÏßõôİ×İÓÑÛàİÕÒàäÜáèãàßéöíâæîòèëøõğô÷ûıõöşûùü                            %  " 0 '   - 7 . 2 = 9 7 ‘¢ –Ÿ§šš¦§¡¦¬ª«±°²±©°»º´¼º²¸»µ´ÀÏÙ×ÎÅÆËÈÇÊÊĞÚãïóå×ÔÒÔÖÛŞİÚİŞàâéëãâììéññéêóóïòø÷õõüÿùù şõ  üÿ     	 	              "   & . % # + * * : : 3 8 ? : –“š™œ¤š¢«¤Ÿ©¨¥±³ª°³®±¿½µ»¾¸²¹ÁÉàğçÑÇÉÆÆËÇÆÎÓÛââÙÕ×ÚÕÚàØ×äãÚäìâŞìööùóéëëêñóëîøøòõ÷ıúõ÷ÿ ş 	       
-             !    # $ % ) ) + 4 + & 8 D ; 5 7 ™Ÿ™™¤¡¬±¥¤¬¦©®«°·²³¹µ±ºÂº¾ËÁ¹ÀÄÏëïä×ÎÊÎÓÏÊÑÕÑÖÚÕØÚÓ×ãßİâäççæëîçäñûş	  íè÷óëùúòõùùşşûû   ÿ                        ( "  + ,  & 2 1 . / 4 : C @ 5 : •› ¢§¢¨±§£±¯¦¯¹¯®½¹µ½»´ÀÄºÂÍÀ¹ÈÒØàßÖÓÚĞÍÖĞÍÛÚÔÛİØßäÜáçäãîêãîîáğöä÷  õöóëôûğóÿôô şø  ı 	  	  	                  # ( # # $ " ' - 0 . / . 0 > > > D ? 5 •š¥ œ£©¥¨­¥£°³«¶¾°²¸µ¸»»¶¹¿¹¾ËÄÆÑÏÏÖÔÏÕÓÊÒÕÎÔãàÚßäßãçâçñéçîèæñòêî÷ğø ôêöôëùşó÷ıùş şÿ      	                 !   ! ' ' " + . " , 8 - 0 ; 6 6 C E < C D ›››¡Ÿ¡«© ¡¨«²¹´­¯¸¼·µ·¼½»ÄÊÀ¼ÊËÂÇÏÏÎÎĞÕÕÍÊÔŞÖØçâÛããáåâåëìéçéëíñğìôıû  úíïúõõıúú  û   ÿû 	 ÿ     
-           ! $   , $  , ) " / 1 ' / : 2 0 ? A 7 > E @ F ŸŸ£«¤¤§¥©³°«°´³º¼µµµ¸Á¼¶ÆÉ»ÅÑÆÂÓÓÀÆİĞÁØŞÊÒäáÚÜåàÕàìêááêëæïñæîôèí
-    òòöó÷úùûøø  ù 	                      & !  ) )   % 1 ) $ 0 4 % 1 A 0 4 E = < H F = §  ­ª¨°­¯²«®¶¶¸¶²µ¼¼·½ÇÁºÅÍÉËËÉËËÍĞÏÏÑÕÔÕÛŞßŞááàäããåäïğèåêñïèæ÷ùïó   ñøùóöşÿşşü 	        
-    
-     #    "    ! % " & $ # + / * + , - 2 1 , 3 > 6 7 D C 9 D Q D ©¤¯¹ª¤·¹­¯¶³ºÀ´³ÆÂ¯¾Ó¾´ÊÎÆÇÄ¿ÎÖÈÃÚØ¾ÍèÚÉÚîèØçìåëïàâòñìêîğçæìğôğêöşõù õğşüöø  ıı	                      & !  $ ' ) (   ( 8 , # 4 8 , / : ; ; : ; = N M @ G P ­°°¼´£¬Àµ¤»Ç±¶Ç¿ºÄ¿¼ÉÉ½ÇÑÉ¿ÉÔÍÌÓÓĞÓØÙİáááèêèìêçïïêêêêğòïììòöîîûúñõ  ûøş  øöÿ       
-  
- 	 
-                ! & "   ( ) " * 3 , $ & 6 6 & 3 C 2 0 @ @ @ C C F G J Q Q ›¨¼­¥¶º°´´¶¿¹±ÀÆ¹µÉÊ½ÅÍÆÇÍÊËÌÇÍÛÑÌÚŞÛäôğãèäáìêãğòâãğğìëíôõïóıõíı ïø ıò  ô 	   ÿ	 
-             !     %     % ) # " . + " . 3 , ( 0 8 1 0 : 4 * 9 K ; 5 K M > B X X C ¥¬±«°»²ªºÃ¶·Å½´ÀÂ¹ÃÍ½½ÍÄÁÖÕÇÇÔÖÑÑÕàãÚê óİíïÙáöîãîòìôüíëøöòûöóüùôş û  úü    	  û              %   % "    '   ( , " , 5 ' % 5 9 1 + 2 = < / . F K 1 4 P J ? H P P S M ­¥¨·»¨¯Â½¶ÂÄÄÈ½·ÍË¶¿ÒËÁÊÒÍÑÕÎÕÜĞÏŞêàØßğğãëóáÖë÷ëíøğîıôêû ğò şğò ş÷   ÷ı  ÷ÿ  ô                 !  " & # ( , $ " . 2 ( ( 4 4 0 6 7 3 9 ; 6 A D 6 B V H 9 Q \ J J ¥·µª¹½²·¾ÀÇÌÆ¾ÄÇÃÁÀÅÌÉÆÊÏÊËÕÑÑ×ÖÖŞáŞŞááãëêáéòéëñïôúñîóöù   ÷ôùú   øö
- 
- üı 	    
-                   "    " ! " , + # , 1 " * 9 4 3 7 3 5 = < 7 = D < 9 E J F I J S U K Q °®¬·¾¶³¹¾Ã¿ÁÈÅ¿ÅÌÇÇÉÌÑÓÒÓÖÚÔÔßßİŞŞààÜäåßåêæèïñğìï÷øôö÷ûû   ûû  şü             
-   	            " " " $ ! # + '   * 1 & * 4 0 0 3 3 4 9 : 7 < ? 7 : G C = E G G P Q N W ] Q ¶±­´·µ·¼¾Á½¼ÅËÄÄÊÈÄÈÑÓÒÒÔØ×ĞÒŞßØÚÛÙÜáååâŞáçéíğğîóóíóúõ÷ıı  ş  ş           
-  	  
-                # '  $ * $ ' + & % 2 2 . . 0 . 4 @ : 0 = A 5 = C < D H ? B P M M V T N Y _ ¯²³´¸¹º¼»»ÁÅÆÈËÇÅÄÇÌÎÌĞÜÚÔ×ÛİÜØÚÜİİŞêéØŞïèßäêîîòõñîôõúÿüøû  ş 
-  
-                     !    & !  ! " % ) , + + ) ( * 2 2 . 4 3 / 8 ; < D A 5 : D H F E D H N P J T c U M ^ °½¶°»¿·¸ÁÀ¾ÅÄÅĞÈºÉÖÌÊĞÒÓÑĞÔÜÚÓŞäÖØèåâåääéèãèòïğòîî÷õğûıóö  ıù    ) , &                    !    # # % ! ' , $ ) / + * / 2 / 2 3 2 4 ; > 5 8 C A : ? H G D E J J L T Q M [ _ ] Z °¹¾º»ÃÁ¼ÂÆÄÇÆÄĞÑÇÑéèŞçèÓÎÚßŞàßâáÛâğìáæêéìğíğ÷õîöıóóúüıûû    ü      2 / #   	           %    (   # $ ' "  - 2 % $ 2 / ' 2 < / - 9 9 3 9 D : 7 B C A > A P L > I T R O P [ ^ [ \ ] ¶³ÂÅ»ÄÌ¿ÀÇÅÅÈÊËÌÔİú  ıíßÛŞÛÙäåàãæåçæâæòïçïõîğøúûûöú ÿôı	   ı 	   	   %                !   # ! " %   % + ( & * . , , 2 2 2 7 3 4 > ; 2 ; A > A B A F B B J P K F M S T U X Y _ ^ U ¼¸¿Âº½ÆÃ¾ÅÌÄÆÌÂÆØÚù   ñİÖÖÛßÙİéæÛŞéíæãîîçïõîìôùùûùöúû÷ü ú÷  ı	 	      	 	    
-               $ # ! ( * & & , ) * 5 2 ( 4 < 3 3 : 9 6 : = @ > > E J F B J Q L J O T W ^ Y W f ] ½Á¸»½»ÀÏÉÅÍÌÅÏÎÌÒÔê  şêàÔÔéçÖãîÜİîèáêíïôëë  ïæÿ ïì  şúù	  üû   ÿ       
-          &     ( !   * . %  * 7 + ' / 2 1 0 3 3 5 9 ; 5 8 B E 5 5 K L 7 6 R T B @ J W V L P a d T S e ·Ã»»Æ¿»ĞÔÊÎËÅÏÑÌÍÖÛò øÜŞçÙØéæáŞİæëâåîóëèùúòõõõ   õ÷ ÿù                               $ %  # 0 $  1 1 # ( 3 3 , . 4 7 5 0 5 @ ; 6 : > @ A C F D A D I O M J P T Q Q \ a Y \ h d ²¿¿ºÊÑÂÂÎÎÈĞÎÍÕØÔÕÜÜâäÜÙàßÚáåàáåãåïèâëîéòõğöõîõıøùÿ  û                         &   "    $ # $ & ' % - 2 , ) 1 3 0 3 8 6 8 9 7 : = A B C ? > D H A @ I K E L U S L N X a Z X c g c ·¾ÄÁÄÌË½ÆÓÊÍÔÑÚäÔÌßáÛàäİàéèåëèáëğèéêçğôìóùññş ÷ù ş 	  û 
- ş                        $ #    ( + ' + + ( 2 3 , 6 6 + 3 : 5 6 : 6 ; A = = C B : C K C E N K J P P P W T V ^ ` ^ b h g ÃÄÅÉÅÉËÃÇØÔÍÎÒØÚÔÓßâÙäöïâîùíêíïïíî÷÷ïïúõî÷ıùü üõ  û                          #     *    ( 0 *  ) 6 , # 3 ; 0 - 4 ; : 5 6 ; > < ; > D B = B H H I D F R K G T U Q T V a b Z ^ h o a »ËË¿ÄÑÎÁÇÖÒÉÍÕİÕÑØŞáØÛíñáèùïíğééúşï÷ òäı õõ 	   ü  	      
-                 #   %   % +  " 2 ( " . 0 + 0 1 - 2 < 2 + ? D 4 3 > E ? 9 = K F < F H G M Q A C Z Z D L ` U K a j ^ Z e q h ÂÈÇÈÅÂÍÔÉÈÕÖÑØÕÌÛßÑØèÜ×ìïáäïêæêêî÷óïöùñûüó÷   ûş      
-                      ,     + , % # * / . ( - 8 0 - 6 6 3 < 8 1 B C 5 > G D > ? K M B > K S J I Z S E [ c N V k ` Y l s c d ÂÆÍÄÂÌĞËÆËÚÙÉĞŞİØÕØßãÛÔéôâßõøæäğóíéîışíò  ÷ş ü         
-                  $ #   ' "  " ' ) , * ) - + ) 7 7 + . < 6 4 ; > 8 : B B < @ F E A D O N ? H Z R I S X S P [ d _ Z b k s n b ÌÉ¾ËÚÉ¾ÖŞÇÎâÙÕÜàäããèêçæîëæğ÷èè  şìô÷ñû şøúşÿ ÿş
-        
-        " #         ) &  # ' " & ' & + 0 / / 1 / 2 7 8 / 4 < 9 9 9 9 B C > A D B F J G D F P O M P Q S U U Z [ Y ` b ` b j k m t j ¾ÆÏËÍÍÑŞÖËÚà×ÒØåæââèïîçëôêçñôïñõúıüøøşıû                     ) '       "    ' &   # * ( ' + - * . 2 1 2 4 4 3 7 8 8 8 ; ; < B A @ F C B L K D G K K N R O N U Z R W ] V _ i _ ^ k o m p j ÃÊÒÎËÑØßÜÑÑÜÜÖÙçãÛáêëéíïïìíğöóëğ  ôúÿÿ    ış          	               $   " +  ! * # $ / , ' - 1 / / 3 1 4 ; 3 / A F 1 2 G G ; < F H D E K N L E H R O O V T S X V W ] ^ ^ ^ ` h j i h q p ÓÎÇËÕ×ÙÚÙÚÕÛäŞÜçåãéêèíôğíîóïñöóõûöü   , )                     #   "     !    " ( ( $ ( ) + / , 1 2 0 6 6 4 6 5 8 < : 9 = > > @ C F E C F H I K L P S H J Y W P T \ ] [ \ ^ a f g a f n k p ~ u j ĞÇÉ×ÎÍÜÕĞİßÛâæİÛéëâåîòóğèïüôğüıôõş   & 2 3 &   	                !   $     "     ' $ ! % ( * * - 1 - + 4 6 2 6 3 1 > D 1 1 I F 4 < J H @ C J F H M M R R J Q Z Q Q Z \ _ \ Y b h c c f i h n w v n t ÔÊÌİØÏÙÙÓÙàŞŞçêåáäéêììéğóîô÷òõıùôş ı ) - - (                   ! #       !   % & " ' * & & 1 - ' 0 6 0 7 8 2 5 : 8 9 > B < < A E F F @ I P G J V P K O X X P V \ W Y ^ [ e f ] e n g h t u q y z n ÕÑÓÚØ×ÜßÚÛâàßëğæçôíéñíêğõóğğöõõıı   
-      	   
-         "   $   ) &  % #  ! ' & ( / $ ( 8 -   6 9 + - = ; . = I . 0 E F < ; D G E D D J P G F R Y O L V U N Z Z [ _ \ Y ] c e c c j p k e v } s u „ z ÖÚÒÕÙÚÛÛİŞßâáëøïéîñöôéğû÷ğõşûõı ş 	 	 	  
-  	  
- 	                % * ( ) ) & $ $ ) + ( ( - / . 2 2 2 6 9 7 7 ; @ > > @ A A @ C H J F G L G J R L L R S R X Y T T \ [ Y _ c ` ^ _ g h f j l k p u q t  } x y ĞÑÜÙÕÛÛØŞŞÜŞàëïëééïòñõôóôùúøúüúû                      "   ! & & ) ( ! ! ' $ # * + - / + , 3 6 2 2 8 ; 2 5 B D = ; ? F E A F J H E L P M I Q S P T T V [ [ Y \ ` _ ] b b a e f d c i l o t r r y |   z ÑÕßÙÖİİİäçáßìñæèïíğğëôû÷÷ùöøÿùû  ÿ      + + / %          "    " $ ( * + , #  & + & % , 1 + ) 5 2 / / 3 6 ; ; 5 < B < ; F G @ B I F G N K J P M N U Q R X W V ] ] X [ d d ] ^ d e j e c h j n t t v z ~ } |  ÒÕßßİààÛŞåèáæíêçíğñïîóöôöøùûùü     
-  
-  0 ; 9 3 (            " ! # . 2 - # ! % & $ & ( - , * / 3 , . : 6 3 8 ; ; < > = @ C ? B K I @ H P F G M N Q N N W Y T R X ` \ T \ b _ a e ` b e h j o n j u  x t € ~ w ÙÜâãããææããçéíìîòïíôöôõ÷ùøö÷ø     
-   	    ( = ? 9 &      "    ! " # ( - 2 6 D B + ! + ' $ , + , + + 7 6 * 0 < ; 6 8 = @ > < > @ I G A F I J K H J R N I Q Y W R Y ` U W c c [ _ b a g i i h i k m m r t v | w | ‚ € ~ äáİáâßçèàæîèéïîïôôíóıôñúùøúşş      	     $ , &       $ #    " # # ) 1 7 B ; ' * 1 & ' 1 . , 2 7 4 4 : 8 ; ? < ; D C < D F @ C H H M Q N L O T R S Y X T [ ^ _ ` \ ] g e _ c k m h k o k k p o t u t | ƒ  € † ˆ † ÜãßÚÜßéìãâéõóìôøòóøõ÷ûùı  ış        	            (    $ $  ) 0 ( ' 6 5 4 8 . ' . 2 ) * 5 6 / 6 ; 4 7 > : = A > ? D F B C H G F L L I O Q L S U R V Z X X [ b ` Z b e e b ` i q j h m l l q r s u t }  ‚ ‚ ‚ † ‡ èâàääàáäéçèïïéğõôøûø÷ışüı ÿÿ  	 
-     
-               &    $ ( % % ' + , . 3 0 ) * ) , 1 . - 2 5 7 8 7 8 8 8 > A A @ A F F ? G K G J M J J M O P S U V X \ [ \ b \ X d g a b h i g l r m h o p r v s z € { } † ˆ ‡ „ àçêéçèéæèííòğòûöú	    ıÿ    ÿ   	   	 	          # "     !  # % & $ " * , ) * . 1 5 7 2 , * - 0 0 1 3 4 9 9 7 8 : = B A @ A C I D C K I E K N O O N O S V W Y Y Y [ ^ b ` [ b d d e e j j i m i k p p p t u z ~ ~ „ † ˆ † ƒ æÛàêìãßëôñëêğûôğş             ÿ             #   $     $ # ) * * ) + ' + 8 = 7 2 0 , 1 3 6 6 5 0 : ? > : : B B < C J E H G H N L J P S Q M Q Z Y T X ] ] Z [ e h ` _ g l g f i m l p n m r r p v z x | ~  † ‡ ‡ ˆ ˆ ááâèêèéëïñòïï÷ö÷ûû                
-    	       % !    ' ( ! ( 1 ( ) 1 / / 5 5 2 0 , / 7 7 2 6 : 7 7 > ? 8 < D @ A H K I E J N H K Q N O R U T P X ` Z W _ ] \ d g ` ^ i j e l q e m x l h y y k s  | x „ ‡ ‚   ‚ ááèéèåìôòìêïøú÷üşøÿ
-    	                      " ( ' & , , & - . * 2 3 ) * 8 6 . 2 3 . 1 7 9 6 < < 7 A B > @ C G H J M I G O R I H R T P L S Z T S _ b Z Y a c _ e i b c j l l l m r o m r v w w q { † ‚  … ˆ Œ  ‹ ããæçéîòñíó÷ôú û÷üşış           	          # " ! % ) . + ' * - / / . 4 8 0 / : = 9 3 3 2 4 9 : 5 ; A 9 : G E = F J E F P O I M R O Q W X T T X ] \ X c h ` ^ f j c d l j g j l o t o k v } r s ~ € z y … ‡ … ‰  Š  –  åçãàëñíèì÷ùô 	 ıùşşúú  û                   %   ! $ # " # ' ) + ) & 0 4 , 0 ? B = / 5 = 2 - 8 ? : ; : > @ G D 9 E Y K 7 H a S 8 D f \ @ M f ] S R [ e _ Z ^ e o f X e | p W b ‰ { T j  x a s ˆ  o q  ’ | z  ˜ ˆ … ˜ àëçåóñéêø÷ò÷
-  ûû  ÿûû 
-       	            % ) ! ! "   , +   . -  ' @ 4  . A 0 . B @ 4 7 7 1 5 ? ; 2 ; A = @ C E E A G N N L M N H L U X I N ` Z O Y _ Z X ] ` ] c k i e e d i o m p p l w w m w ‚ y v  „ € ƒ  ‘ ‹ Œ  • Ÿ ãìóôôô÷õø÷óù şú     	 
-      	             '   # % "  ' * ) + - / 3 2 4 @ 9 1 = H F B > ; 2 8 B ; < A @ A D B C O L D J Y W H K ^ X L T a ^ Q R i k V P c q i V ] y u X c  r \ p … o h „ ~ k } ˆ u v Œ ‰ v „   z ‘ ¢ – Œ éï÷óğ  
-   üıó÷       
- 	           
-       " " # $ # # % ) - , . 2 1 / 5 8 4 3 = ? < D N I 9 7 = = @ = ; ? A C F D E H I Q R J J T [ Q G V ^ T P ] ` ` ^ \ ` e c c g j i f l l k s o m { w o z  y z ~  } € ‹ … ƒ   Œ “ – • “ ôëî  öğ
-  óö üò    ı      	             "    $ $  % * + / . ) . 5 5 4 5 9 7 6 A F G A < A C 5 7 F A < D F B D H I J P L E Q [ W U R I W b Y Y ` \ O [ r e O ` u e Z o z l ^ d } ‚ p j w  ~ x x € ‡ } p ‰ ¡ | h  ³ } t ª ´  ò÷óò÷üûû
-  îú  òü  ı                  +     ( ( ( ) ( ( * 1 5 2 4 2 : = 7 = C ; ; F K ? 4 7 @ D A > = E G F H L E H U R M U Y Q J ` f Q U i ` V f j ^ a g d e o p a k | q g v | w x   w  † ƒ € ‡  Š …  œ —  ’    – › óó÷÷ü õğÿ	  ÿú  ø               "  " &   - ,   " 0 * # / 4 / / 1 5 4 5 < ? 6 4 > F Q W P : 0 @ M : 4 I H : B O I C J V J D T \ V P M U [ ] _ Z ] d c [ c j g a h p j m u n m y } r q z z x € „ z x ‚ ‚ ‡  … ‚  • Œ      ‘ íöôôùøõ     ÿ   
-  	           % !     ) , ' " ) / & % 2 / + + , 2 7 0 4 @ 7 0 : @ : ? Q Z X S B ; ? D = B J D B F E G L M K K T R P Y [ O S a Z U Z a c \ ^ f c a g f i m o s l m w v u v v z z |  | ~   „ ˆ ˆ Œ  ‹  ˜ • ›   “ ëñøòõşûú  ş     
-          # + )    * 0 ( ( * % & . ) * / * 0 3 . / 7 5 0 7 = : 6 C I A I _ ] O A C E D E H M L I I P S N Q W Y W T V a ` W Z f b [ b j g ^ d h i l h l s o l w y u u { z x ~  { } ˆ ƒ  … ‰ ‹ Œ ˆ ‹ “ – – – › ¡ ¢ › ôöóóûûı      & &           # - 0 ) % - 5 2 / 0 / ) , 8 6 3 6 7 5 4 9 A = 7 : A C ? A G E > H T O F B C K H B J P N G L V Q K [ ] Q V _ ] ] _ [ Y c h a b h e e k j j m l l q r r w z w u | ~ | { ~ {  ˆ „ „ ‹ ‹ ˆ †  – ‘ ’ – ™   ¡ š ¢ ôîúû÷ş	  ÿ  
-  !           ! & " " ' ' ! ' ) $ ' ) % + 6 4 2 8 < 5 3 = A 9 3 6 ; @ ? ; C A = C K J A < E D B J J E I N J I P V P P X \ Z Y [ \ ^ ] \ b b c g e e l j j o m j r u r r x w o y ‚ w | ‰ € } †  ˆ „ ‹  ‰  –   ™  › ¡ ¤  ùûù  ı
-   ı               " '   $ %  " ( ' * . 1 6 A : - 5 9 3 9 ? = @ ? 8 : C D B A > > H O ? 9 K I : G R J D K Q P L P W Z W P V d c ] ] \ a g e c d d i k j k l p q j r } s p { ~ w x } ‚  ~ ‚ ‡ Œ … ‚  ’ ‰ Š  – • ’ — ¢ £ ¡ ¡ 
- õï ş 	 ış                 #   # ' $ # + 0 ' * : A 9 2 3 8 8 6 = D @ = ? H J ? ? F A < A I J D D E H F E K Q K L R R P U Z W X X X ^ _ _ b ` a b e h g g k i j r p o v s r z | y x } € | ~ …  ˆ ‹ … ˆ    “ “ ” “ “ ™ Ÿ ¢ Ÿ Ÿ ¨ ¥  üø    
- 
-                     & $ " % $ + . + 4 < < ; < = 6 5 = B B C A @ J M F G L H E N T M A A J M J K N K I M W W T T U Y [ Z ` c \ ` b _ b e f k f d m p r q l p u w w v x z z }  ~  ‚ € † ˆ ˆ ‰ ˆ    ‘ – – – › œ ¡ ¤ £ © ¦   ÿş   
-                    $ # # ( ) ) * * / 3 4 7 ; > = 8 < B ? ? D B ? @ D H D D P T R \ l r f R N P T W S T [ W U _ a Z [ b g f a f n k f h p p k q w o p z w v } } y } € | ~ ƒ „ „ … ƒ …  Œ ˆ  – ‘  — — • ˜ ™ ˜ Ÿ £ Ÿ ¡ « ® « ± ° ûş ÿÿ 	   
-            "    % ' $ + - $ ' + , . 1 9 = 9 9 : > B 9 4 A E D H K E A G K G N [ h q { r T G J O S M L V V S U U X [ ` ^ X b i ^ ` i d _ i k j k m r q q u s u y y u x  € | z  …  ‡ ‹ „ … Œ    ” “  ”  – š   œ ¥ ¬ ¨ « ¯  ÷ü
-  ÿ   ñ	 6  ñ .  ÿ% 9   % -   # / "  , / ' ( / / , / 8 ; 1 3 ; 7 5 : H G A M O C G V Z \ f v { o T J K Y _ P O ^ b R Q h i V ] n i a f o l f f s r l r w u t t y | x z z {  ‚  } ‚ ˆ ˆ … Œ  ˆ Œ ’ • – ‘ ‘ ¡   ˜ ¤ ¢ ¤ ¡ ¡ ¬ ¯ ¬ ­ ²  öø  õ +   ü( &   '    / '  + 2    / 1 + - / + - 8 * ' ; = 0 4 > A 4 < K : : T L < O P 9 I h T : T p [ O Z \ K I Q \ X N [ c O P d d Z c h d d h i k o h m t k j } w h w  n q „ y n { ƒ y   ƒ v Š • † ‰ — – ‰ † – ¤ “ … – ¦ › ’ £ ² ¥ œ ¬ µ ­ 	 	          û )    -    # '   ) ( '  " 4 *  ( : 0 % 2 @ 5 / : < 9 E A 7 F E ; > L K @ B O T L K Y X F F Q S L P Z S S _ Z Q _ c \ a i b ^ j i b n s a b x x j l x x h w ‰ s m  ˆ z z ˆ { z   ‚ ˆ  ‹ ‰ — ˜  ‘  “    œ –  § ¥ ¨ ² ¯ £   	   
-        !    &   # (   ! & 2 ,   + 4 * , 9 : + 4 K E 7 < A C I G @ E Q G A P R L I L R P M W \ R F P c V F X c U Y h ] O _ i d g e a m t f h u l g s y r u w r  … w v  | y Œ ‡ x Š   Œ ™ Œ ‡ › — ƒ ˜ ­  ‡ ¥ § ” Ÿ ¬ Ÿ Ÿ ­ ´ ° ¬ ¯       	   
-      !     $ "  ( 0 & % - 1 4 7 7 4 2 7 : @ H < 6 E G > G N B = H P J O Y Q L X [ V T W X T T U U T U \ ^ \ [ ` ` \ d j c b n q i l q k m r r w | s q € ‚ w } ‚ { ~ ‡ ƒ € ƒ Š Š ‰  ‡ ˆ š • ˆ — œ  –   › ”  ¦   ª ® « ¦ ­ ¼ »  	        
-     %      "  % (  ! 0 -   ) 5 . , 5 2 3 8 6 7 > A > 8 8 G O J E H P J A Q ] J E V _ V S X Y O I V a \ T W _ ] Z f f ` b b e l j e j o m j m q n q } z n u ‚ z p } Š € t }  † € … Œ  ‡ Œ •  ‰ ” — — ™  ™ ˜ ¡ ¥ ¡ ¢ ¦ ª ­ ² ¹ · ¬              !   !     $ & + ) " + 3 4 D L = 2 2 4 5 3 1 9 < ; < > @ C K O E C P K G R P J J U W Q X X O O R T \ [ Q Y a X Y a b ^ a h j e d n r j e p s i i ~ z n u  x u {   | { { ‰   ~  ‹ ƒ  “ ‰ ‰ – ˜   ˜   œ ” š ¯ « — § µ « ª ²             & , - ) * ) & , + , - ) - 7 4 ? ] e R C A = 2 5 E A : D P N @ @ V Y L I U V R P W ] Y T W ] ] V S Z X S Z ] Z a ` ^ c c b h i g h n r q p t s q u u x  x x €  } y ƒ Š … ‚ † † … Š      • ‘  š › ” ‘ ¡ ¤ – ™ ª §  ¦ ® ¬ ® ´ µ ®           " , 8 = 5 2 2 & $ - 3 1 - . 7 5 1 P k h _ N C C A C Q Q G A G R E : H V P G L W W O Q Z Y P Q a m _ N W ` Z Z _ b a _ ` d e k k d i m m q u m m v y r s | y v ƒ … v ~ ‹ † € ‡  ‰ ƒ  “ ‹ Š • •  ‹    ’ ¤ Ÿ “ œ ¥    ¨ ® § § ¶ ¹ ° ³ ¸         "     / E E 7 . 5 +  ) 2 . / 6 6 5 9 @ Q Z P ? E Q K O g j ] N H H L M L M P Q S Z V U _ Z P X _ b h c Y W ] c _ ] c a ^ i j e i m k k q s r t u t u z y x  | | ‡ ‚ } ‡ Š … ‰ Œ  Š  ‘ ‹  – ” “ – • ™ › š  Ÿ œ   ¤   ¤ ¦ ¥ § ­ ´ µ ² · ¹ ¶            ' , : E ; . * ' * 5 6 + 3 A : - < B 4 8 C ; 9 H I M ` m ^ H M M J N J N X P J T _ X T ^ ^ S V e e \ [ _ ] ] ] d f a ` h h g n m j l r s s y v p z ‚ v u  ‚   | ƒ ‹ ‡ ‚ †   †  • ‹ ‹ — — “ – ™ œ ™ ˜   ¢    ¡ ¥ © ­ ª « · ¸ ² ½ Á ¶  # %   & $    ! ( ) % , / ' $ ( ( ) 3 4 , 0 7 3 6 A B ; < A = ? J N M Q I D R Q E H Q Q Q W W R X \ X W _ a \ a e ^ b d _ ^ c i h c f i m q l m n l s | s n v { y x | } € ƒ ƒ ‚ € † ˆ ‡ Œ ˆ Œ “ ‹  “  “ — • – ˜ ˜ œ Ÿ   ›   « ¤ Ÿ ¨ ¦ £ ³ ± © ´ À ¹ ¸ ½ ¾ % / D K ? $   % $  ! / * # * / ( * 0 1 5 4 3 3 5 < : ? E < < D G F B E L K K O P N N K Q X W U V Y [ Y \ a a _ a g j e _ ] e e d f l j h k l n s r m r { x t t x ~ z v ‚ Š  ~ ƒ † † … ‰ Š   ‰  — ’  ” š – ‘ —  › › ¢ ¡ ¥ ª ¥ Ÿ ¨ ¯ ª ¨ ³ · ¯ ³ Â À ¹ À * = M P D 0 # ! & #   ( . ) ) , . 4 5 0 0 8 7 2 5 C ? 4 ; C @ B A @ G I G H L M K R S L O Y _ Y T [ a a ] ^ b ` c f h g a c g g b g j k j i o s k p y q q { ~ v t € ‚ v  ‰ ƒ € ‚ ‡  † …  ’ Œ ‡  – “  ” ™ ™ ˜ ’ – ¥ £ —  ª ¨ ¡ ¥ ¯ ª £ © ¶ ¹ µ ³ · ¾ ¾ Á Á ' * D K 4 ) . & % 0 . , . / / 9 ; 0 / : ; . 3 ; 8 ; > > B C C J J E G K H H H O R O T T V X V X ^ \ \ d c ` a f j j l k b g n d d o l e p w p m u x v y ~ y |  z } ‚ ƒ ƒ † ˆ „ … ‹    Œ ‹  ˜ ”  ” ™ œ ” “ ¤ £ “ š ¥ ¤   © ª £ § ° « ¬ ´ ° ° » ¾ µ ¼ É Ä º ' % & + ' ( - - / 0 5 9 4 8 B > < = ; > = = = < ? K I A D J L J D L N J M P R U S U Y U R X ] \ Z ^ f c b f h f h i i i h h g f j n i m s p n v | u q ~ ƒ u x ‡ ~ x ‚ ƒ ‚ ƒ ˆ ‰ † ‹  Œ   ‘ – ’ ‘ — • — ¡ › —   ¡   £ § ¦   © ¯ ¦ § ² ® ¨ ° ¹ ¶ · º » ¿ Å Ç À    !   # & ' ) - . / 4 = : 6 7 9 @ = : B E @ F H G B J T L F I E C O R O S X V W Z [ ` c ` _ c e ` e i ^ b l e f k f a f n f e o o j l s s v z t w ~ z {  ƒ ~ |  † ƒ „ ‰ ‡ Š  ‹ Œ  Œ ‘ ’ ” – • “ ˜  Ÿ š  £ ¡   ¥ ¨ ¥ ¥ ¨ « « ¬ ° ³ ´ ¶ · º Â Á Â È Â # &    # & & & ) - 3 - ( : C : 5 8 : ; < = = ? A > C K H I R J E K L M O K K T W X Y a c e n q f d l g f k i g r p h l q o j l l m v t l y  u r }   ƒ } } † ‰  ƒ  ‡  ’ • Œ  ” • ” ‘  — ¤ ¢ ˜ –  ¢ ¡ ¤ ¦ ¨ ª £ ¦ ® « © ° ± ° µ º ¸ ³ ¶ ¼ À Ã Â Ä Í Ï Ä 
